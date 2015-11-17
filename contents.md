@@ -10,6 +10,10 @@ Translation: false
 
 Here we list the high level structure of the Handbook. Although this is presented in a linear, "book-like" way, there is no specific order in which the material in the Handbook should be used. The web site and printed editions can take a completely different approach to presenting the content. You can use search to quickly jump to a topic of relevance.
 
+![A top-down visual of the OGD Handbook](/images/splash-2015-11-04.png)
+
+To get started, click on an area of interest in the image above, in the list below, or start with [an overview](handbook/Home).
+
 ### About this Handbook
 
 - [Concept and introduction](readme)
