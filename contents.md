@@ -2,7 +2,7 @@ Title: Topics index
 Category: Handbook
 Tags:
 Date: 2015-1-1
-Slug: index
+Slug: contents
 Authors:
 Summary: High level overview
 Lang: en
