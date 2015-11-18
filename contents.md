@@ -1,4 +1,4 @@
-Title: Topics index
+Title: OGD in practice
 Category: Handbook
 Tags:
 Date: 2015-1-1
@@ -6,56 +6,48 @@ Slug: contents
 Authors:
 Summary: High level overview
 Lang: en
-Translation: false
 
-Here we list the high level structure of the Handbook. Although this is presented in a linear, "book-like" way, there is no specific order in which the material in the Handbook should be used. The web site and printed editions can take a completely different approach to presenting the content. You can use search to quickly jump to a topic of relevance.
+The Swiss OGD Handbook is presented in a linear, "book-like" way, but there is no specific order in which the material in the Handbook should be used. You can use the search function above to quickly jump to a topic of relevance, click on an area of interest in the graphic or in the list below, or get started quickly with [an overview](intro).
 
 ![A top-down visual of the OGD Handbook](/images/splash-2015-11-04.png)
 
-To get started, click on an area of interest in the image above, in the list below, or start with [an overview](handbook/Home).
+## ``C``hoose the datasets
 
-### About this Handbook
+1. [What data does my organisation have](inventory)
+2. [Which datasets are good candidates] (criteria)
+3. [The five barriers to data release] (barriers)
 
-- [Concept and introduction](readme)
-- [How to use the OGD Handbook](help)
-- [Contributing to the Handbook](contributing)
-- [Development concept](development)
-- [Acknowledgements](thanks)
+## Establish ``L``egal bases
 
-### [OGD in a Swiss context](introduction)
+1. [Existing legal frameworks for data] (legal)
+2. [Considering possible copyright issues] (copyright)
+3. [Applying correct terms of use to data](terms)
+4. [How to correctly attribute a source] (attribution)
 
-Fundamental definitions, an introduction to the landscape of Open Government Data (OGD) publishers and portals, guides to getting started with publishing and finding OGD in Switzerland.
+## More ``A``ccessible data
 
-- [Open Government Data defined](definition)
-- [Guide to the Swiss OGD Portal](ch-ogd)
-- [Overview of the OGD landscape](landscape)
-- [Index of Swiss OGD sites](ch-portals)
+1. [Hosting data on the web] (hosting)
+2. [What is metadata and how to write it](metadata)
+3. [Converting to and from data formats](formats)
+4. [Measures to ensure data protection](privacy)
+5. [When data is downloadable in bulk] (bulk)
 
-### [Preparing to publish data](preparing)
+## Boosting ``D``iscovery
 
-Basics of data sharing and publishing with open standards, the data lifecycle, steps involved in extracting value from information in the long term.
+1. [Publishing on the Swiss OGD portal](ch-ogd)
+2. [Using other open data portals](ogd-portals)
+3. [Encouraging internal use cases] (use-cases)
+5. [Measuring interest in your data] (analytics)
+6. [Supporting and engaging with users](support)
 
-- [Creating a data inventory](inventory)
-- [Preserving data privacy](privacy)
-- [Working with open data formats](formats)
-- [Applying open terms of use](terms)
-- [Metadata standards of quality](metadata)
-- [Data conversion and archival](archival)
-
-### [Managing data online](publishing)
-
-Guides to using Internet government data portals and other ways of publishing data more widely, as well as deploying processes to ensure published data is up-to-date and well supported.
-
-- [Getting data discovered and used](users)
-- [Ensuring data availability](availability)
-- [Improving data accessibility](accessibility)
-- [Setting up a publishing workflow](workflow)
-- [Managing costs of publishing data](costs)
-- [Handling questions and support requests](support)
-
-### [Glossary and library](glossary)
-
-Usage of central terms and key references shared throughout the Handbook.
+# Additional resources
 
 - [Glossary of terms and technologies](glossary)
-- [Resources for further reading](references)
+- [Reference library for further reading](library/references)
+
+# About this Handbook
+
+- [Introduction] (intro)
+- [How to use this] (help)
+- [How to contribute] (contributing)
+- [Acknowledgements] (thanks)
