@@ -4,7 +4,7 @@ Tags:
 Date: 2015-1-1
 Slug: support
 Authors:
-Summary: All about the uses and users of OGD data
+Summary: 
 Lang: en
 
 > This is an early draft topic in the [Swiss Open Government Data Handbook](chapters) and it needs more input. Please consider taking some time to [contribute](contribute) your expertise on this subject.

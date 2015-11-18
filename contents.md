@@ -4,7 +4,7 @@ Tags:
 Date: 2015-1-1
 Slug: contents
 Authors:
-Summary: High level overview
+Summary: 
 Lang: en
 
 The Swiss OGD Handbook is presented in a linear, "book-like" way, but there is no specific order in which the material in the Handbook should be used. You can use the search function above to quickly jump to a topic of relevance, click on an area of interest in the graphic or in the list below, or get started quickly with [an overview](intro).
