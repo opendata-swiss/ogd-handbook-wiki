@@ -6,14 +6,11 @@ Slug: privacy
 Authors:
 Summary:
 Lang: en
-
-> This is an early draft topic in the [Swiss Open Government Data Handbook](chapters) and it needs more input. Please consider taking some time to [contribute](contribute) your expertise on this subject.
+Draft: yes
 
 ## Data protection
 
-Commonly known as anonymising or preserving privacy, data protection is often an important step in releasing certain types of data to the public. For instance, statistical surveys commonly take into the account the name, address and birth date of the person surveyed.
-
-As a minimum, personal names should be taken out, and addresses reduced to a more basic quantifier (e.g. locality, neighbourhood or postcode). In other cases it is less clear what parts of the dataset can lead to privacy concerns.
+Commonly known as anonymising or preserving privacy, data protection is often an important step in releasing certain types of data to the public. For instance, statistical surveys commonly take into the account the name, address and birth date of the person surveyed. As a minimum, personal names should be taken out, and addresses reduced to a more basic quantifier (e.g. locality, neighbourhood or postcode). In other cases it is less clear what parts of the dataset can lead to privacy concerns.
 
 The Sunlight Foundation in the USA has made useful remarks in the [Open Data Guidelines](http://sunlightfoundation.com/opendataguidelines/#sensitive-information) pertaining to the use of sensitive data:
 

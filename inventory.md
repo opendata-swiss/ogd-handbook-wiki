@@ -1,13 +1,12 @@
 Title: What data does my organisation have
 Category: Handbook
-Tags:
+Tags: Draft
 Date: 2015-1-1
 Slug: inventory
 Authors:
 Summary:
 Lang: en
-
-> This is an early draft topic in the [Swiss Open Government Data Handbook](chapters) and it needs more input. Please consider taking some time to [contribute](contribute) your expertise on this subject.
+Draft: yes
 
 ## Data inventories
 

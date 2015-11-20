@@ -6,8 +6,7 @@ Slug: metadata
 Authors:
 Summary:
 Lang: en
-
-> This is an early draft topic in the [Swiss Open Government Data Handbook](chapters) and it needs more input. Please consider taking some time to [contribute](contribute) your expertise on this subject.
+Draft: yes
 
 ## What is metadata?
 

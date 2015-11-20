@@ -4,10 +4,9 @@ Tags:
 Date: 2015-1-1
 Slug: support
 Authors:
-Summary: 
+Summary:
 Lang: en
-
-> This is an early draft topic in the [Swiss Open Government Data Handbook](chapters) and it needs more input. Please consider taking some time to [contribute](contribute) your expertise on this subject.
+Draft: yes
 
 This page is an exploration of the uses and users of Open Government Data (OGD). A key element to a successful OGD strategy is continuously accounting for the diverse interests and needs of the user base. In this page you will learn about useful approaches and metrics.
 

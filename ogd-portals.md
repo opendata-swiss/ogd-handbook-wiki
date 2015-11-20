@@ -6,8 +6,7 @@ Slug: ogd-portals
 Authors:
 Summary:
 Lang: en
-
-> This is an early draft topic in the [Swiss Open Government Data Handbook](chapters) and it needs more input. Please consider taking some time to [contribute](contribute) your expertise on this subject.
+Draft: yes
 
 Here we link to web sites in Switzerland which are accessible online and feature Open Government Data.
 
@@ -25,3 +24,7 @@ Here we link to web sites in Switzerland which are accessible online and feature
 ### Communes
 
 - [City of Zurich](http://data.stadt-zuerich.ch/content/portal/de/index/ogd.html) (stadt-zuerich.ch)
+
+### Community
+
+- [Opendata.ch wiki](http://make.opendata.ch/wiki/data:ch)
