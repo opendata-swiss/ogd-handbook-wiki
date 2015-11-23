@@ -14,19 +14,19 @@ The Swiss OGD Handbook is presented in a linear, "book-like" way, but there is n
 ## ``C``ollecting datasets
 
 1. [What data does my organisation have](inventory)
-2. [Which datasets are good candidates] (criteria)
+2. [Which datasets are good OGD candidates](criteria)
 3. [The five barriers to data release] (barriers)
 
 ## Establishing ``L``egal basis
 
-1. [Existing legal frameworks for data] (legal)
-2. [Considering possible copyright issues] (copyright)
+1. [Existing legal frameworks for data](legal)
+2. [Considering possible copyright issues](copyright)
 3. [Applying correct terms of use to data](terms)
-4. [How to correctly attribute a source] (attribution)
+4. [How to correctly attribute a source](attribution)
 
 ## Providing ``A``ccessible data
 
-1. [Hosting data on the web] (hosting)
+1. [Hosting data on the web](hosting)
 2. [What is metadata and how to write it](metadata)
 3. [Converting to and from data formats](formats)
 4. [Measures to ensure data protection](privacy)
@@ -36,9 +36,9 @@ The Swiss OGD Handbook is presented in a linear, "book-like" way, but there is n
 
 1. [Publishing on the Swiss OGD portal](ch-ogd)
 2. [About open data portals](ogd-portals)
-3. [Encouraging internal use cases] (use-cases)
+3. [Supporting and engaging with users](support)
+4. [Encouraging internal use cases] (use-cases)
 5. [Measuring interest in your data] (analytics)
-6. [Supporting and engaging with users](support)
 
 # Extra resources
 

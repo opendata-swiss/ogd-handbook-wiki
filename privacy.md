@@ -10,7 +10,7 @@ Draft: yes
 
 Commonly known as anonymising or preserving privacy, data protection is often an important step in releasing certain types of data to the public. For instance, statistical surveys commonly take into the account the name, address and birth date of the person surveyed. As a minimum, personal names should be taken out, and addresses reduced to a more basic quantifier (e.g. locality, neighbourhood or postcode). In other cases it is less clear what parts of the dataset can lead to privacy concerns.
 
-## Swiss references
+## References
 
 - [M7 Worksheet for government authorities](/ref-m7-recht-arbeitshilfe-en)
 
