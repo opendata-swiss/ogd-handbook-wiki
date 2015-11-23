@@ -14,6 +14,6 @@ In this part of the Handbook we will place reference to the official recommendat
 
 ## References
 
-- [M1 Konzept zu den rechtliche Rahmenbedingungen](/ref-m1-rechtliche-rahmen-de)
+- [M7 Worksheet for government authorities](/ref-m7-recht-arbeitshilfe-en)
 - [M1 Entscheidungsgrundlagen bezüglich Rechtsgrundlagen](/ref-m1-entscheid-rechtsgrundlagen-de)
-- [M7 Arbeitshilfe für Behörden zur Publikation von Daten als OGD](/ref-m7-recht-arbeitshilfe-de) [DE](/ref-m7-recht-arbeitshilfe-de) | [EN](/ref-m7-recht-arbeitshilfe-en)
+- [M1 Konzept zu den rechtliche Rahmenbedingungen](/ref-m1-rechtliche-rahmen-de)

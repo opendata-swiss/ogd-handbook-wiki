@@ -8,7 +8,7 @@ Summary:
 Lang: en
 Draft: yes
 
-This page is an exploration of the uses and users of Open Government Data (OGD). A key element to a successful OGD strategy is continuously accounting for the diverse interests and needs of the user base. In this page you will learn about useful approaches and metrics.
+This page is an exploration of common users of Open Government Data (OGD), and how they are best supported with reference to the Swiss OGD strategy. One key is continuously accounting for the diverse interests and needs of the user base, here you will learn about useful approaches and metrics.
 
 ## Understanding the audience
 
