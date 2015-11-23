@@ -15,7 +15,7 @@ The Swiss OGD Handbook is presented in a linear, "book-like" way, but there is n
 
 1. [What data does my organisation have](inventory)
 2. [Which datasets are good OGD candidates](criteria)
-3. [The five barriers to data release] (barriers)
+3. [Overcoming barriers to data release](barriers)
 
 ## Establishing ``L``egal basis
 
@@ -30,7 +30,7 @@ The Swiss OGD Handbook is presented in a linear, "book-like" way, but there is n
 2. [What is metadata and how to write it](metadata)
 3. [Converting to and from data formats](formats)
 4. [Measures to ensure data protection](privacy)
-5. [When data is downloadable in bulk] (bulk)
+5. [When data is downloadable in bulk](bulk)
 
 ## Paths to ``D``iscovery
 
