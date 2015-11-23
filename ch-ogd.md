@@ -7,12 +7,22 @@ Summary:
 Lang: en
 Draft: yes
 
-In pilot since 2013, the [Swiss OGD Portal](http://opendata.admin.ch) is a platform for curating data catalogues. This page explains the basics of OGD portals and has usage notes, especially for government users who would like to know how to publish data on a national level. See [OGD portals in Switzerland](ch-ogd) for links to projects on other levels of government.
+[In pilot](http://opendata.admin.ch) since 2013, the Swiss Federal OGD Portal, [opendata.swiss](http://opendata.swiss) is a curated data catalogue based on [CKAN](http://ckan.org). This chapter contains usage notes which will be of use especially to government users who would like to know how to publish data at a national level, and links to other web sites in Switzerland which are accessible online and feature Open Government Data.
 
-### How data is cataloged and provided through portals
+### Swiss OGD landscape
 
-### Overview of steps in adding new datasets to a CKAN portal
+Select open datasets from these websites are already available on the federal OGD portal:
 
-### Harvesting updates with agents and scripts
+**Federal government**
 
-### Federation between portals, architectural overview
+- [geo.admin.ch](http://www.geo.admin.ch/) is the federal portal for geodata
+- [Federal Statistics Office](http://www.bfs.admin.ch/bfs/portal/de/index/infothek/index.html) (BFS) offers access to a wide range of topics and databases
+
+**Cantons**
+
+- [Canton of Zurich](http://opendata.zh.ch/) (opendata.zh.ch, via Federal OGD portal)
+- [Canton of Geneva](http://ge.ch/sitg/donnees) (ge.ch, provided by [SITG](http://ge.ch/sitg))
+
+**Communes**
+
+- [City of Zurich](http://data.stadt-zuerich.ch/content/portal/de/index/ogd.html) (stadt-zuerich.ch)

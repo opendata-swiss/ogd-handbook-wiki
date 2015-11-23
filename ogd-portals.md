@@ -1,4 +1,4 @@
-Title: Index of Swiss OGD sites
+Title: About open data portals
 Category: Handbook
 Tags:
 Date: 2015-1-1
@@ -8,23 +8,18 @@ Summary:
 Lang: en
 Draft: yes
 
-Here we link to web sites in Switzerland which are accessible online and feature Open Government Data.
+This page explains the basics of data portals, and discusses how open data can be shared using them around the world.
 
-### Federal portals
+### How data is cataloged and provided through portals
 
-- The [Swiss OGD Portal](http://opendata.admin.ch) is currently in pilot. For more details, see (Using the Swiss OGD portal)[ch-ogd].
-- [geo.admin.ch](http://www.geo.admin.ch/) is the federal geoportal
-- [Federal Statistics Office](http://www.bfs.admin.ch/bfs/portal/de/index/infothek/index.html) (BFS) offers access to a wide range of topics and databases
+A data portal is a database of links to resources, not unlike a document management system. Information is often collected there by the data owners - though not always, see for example, the crowdsourced portal [Datahub.io](http://datahub.io)
 
-### Cantonal portals
+Such portals are designed to put together datasets from across many sources in one place, presenting information about them consistently, and including features like search, tagging and preview that assist end users in discovering the datasets they need. They also play an important role in connecting the data publisher and end user, for instance allowing people to more easily keep track of updates and changes to datasets they are using.
 
-- [Canton of Zurich](http://opendata.zh.ch/) (opendata.zh.ch, via Federal OGD portal)
-- [Canton of Geneva](http://ge.ch/sitg/donnees) (ge.ch, provided by [SITG](http://ge.ch/sitg))
+Most data portals combine datasets which are directly distributed on site, and remote datasets which are linked from the portal. Sometimes larger sized files and special requirements like geodata services are hosted externally, but in the the best case the user does not have to be aware of such details and just use the data.
 
-### Communes
+### Overview of steps involved in managing datasets
 
-- [City of Zurich](http://data.stadt-zuerich.ch/content/portal/de/index/ogd.html) (stadt-zuerich.ch)
+### Harvesting updates with agents and scripts
 
-### Community
-
-- [Opendata.ch wiki](http://make.opendata.ch/wiki/data:ch)
+### Federation between portals, architectural overview

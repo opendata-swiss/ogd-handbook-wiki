@@ -35,7 +35,7 @@ The Swiss OGD Handbook is presented in a linear, "book-like" way, but there is n
 ## Paths to ``D``iscovery
 
 1. [Publishing on the Swiss OGD portal](ch-ogd)
-2. [Using other open data portals](ogd-portals)
+2. [About open data portals](ogd-portals)
 3. [Encouraging internal use cases] (use-cases)
 5. [Measuring interest in your data] (analytics)
 6. [Supporting and engaging with users](support)
