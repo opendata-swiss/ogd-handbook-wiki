@@ -11,6 +11,13 @@ The Swiss OGD Handbook is presented in a linear, "book-like" way, but there is n
 
 ![A top-down visual of the OGD Handbook](/images/splash-2015-11-04.png)
 
+## Introduction
+
+- [About the OGD Handbook](about)
+- [How to use this site] (help)
+- [How to contribute] (contributing)
+- [Acknowledgements] (thanks)
+
 ## ``C``ollecting datasets
 
 1. [What data does my organisation have](inventory)
@@ -40,14 +47,7 @@ The Swiss OGD Handbook is presented in a linear, "book-like" way, but there is n
 4. [Encouraging internal use cases] (use-cases)
 5. [Measuring interest in your data] (analytics)
 
-# Extra resources
+## Extra resources
 
 - [Glossary of terms and technologies](glossary)
 - [Reference library for further reading](library/references)
-
-# About this Handbook
-
-- [Introduction] (intro)
-- [How to use this] (help)
-- [How to contribute] (contributing)
-- [Acknowledgements] (thanks)
