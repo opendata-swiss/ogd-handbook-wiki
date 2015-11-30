@@ -15,7 +15,7 @@ The Swiss OGD Handbook is presented in a linear, "book-like" way, but there is n
 
 - [About the OGD Handbook](about)
 - [How to use this site] (help)
-- [How to contribute] (contributing)
+- [How to contribute](pages/howto)
 - [Acknowledgements] (thanks)
 
 ## ``C``ollecting datasets
