@@ -4,7 +4,7 @@ Tags:
 Date: 2015-1-1
 Slug: metadata
 Authors:
-Summary:
+Summary: How context of data can be set and packaged, providing crucial support for users to be able to interpret and reuse the data itself.
 Lang: en
 Draft: yes
 

@@ -4,7 +4,7 @@ Tags:
 Date: 2015-1-1
 Slug: bulk
 Authors:
-Summary:
+Summary: On the benefits and challenges of providing bulk datasets and direct access to databases in an OGD portal.
 Lang: en
 Draft: yes
 
