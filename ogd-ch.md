@@ -1,8 +1,8 @@
 Title: Publishing on the Swiss OGD portal
-Category: Discover
+Category: Publish
 Tags:
 Date: 2015-1-1
-Slug: ch-ogd
+Slug: ogd-ch
 Summary: Usage notes which will be of use especially to government users who would like to know how to publish data at a national level.
 Lang: en
 Draft: yes

@@ -1,4 +1,4 @@
-Title: What data does my organisation have
+Title: What data does my organization have
 Category: Collect
 Tags: Draft
 Date: 2015-1-1

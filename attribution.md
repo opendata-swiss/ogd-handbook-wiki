@@ -1,4 +1,4 @@
-Title: How to correctly attribute a source
+Title: How to correctly attribute sources
 Category: Legal
 Tags:
 Date: 2015-1-1
