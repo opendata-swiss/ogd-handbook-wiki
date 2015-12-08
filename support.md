@@ -4,11 +4,12 @@ Tags:
 Date: 2015-1-1
 Slug: support
 Authors:
-Summary:
+Summary: An exploration of common users of Open Government Data (OGD), and how they are best supported with reference to the Swiss OGD strategy.
 Lang: en
 Draft: yes
 
-This page is an exploration of common users of Open Government Data (OGD), and how they are best supported with reference to the Swiss OGD strategy. One key is continuously accounting for the diverse interests and needs of the user base, here you will learn about useful approaches and metrics.
+
+One key is continuously accounting for the diverse interests and needs of the user base, here you will learn about useful approaches and metrics.
 
 ## Understanding the audience
 

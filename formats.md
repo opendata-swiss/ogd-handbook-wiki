@@ -4,11 +4,12 @@ Tags:
 Date: 2015-1-1
 Slug: formats
 Authors:
-Summary: Data can take on many different formats and historically many different methods and software has been used for handling them. A relatively small number of open formats is accessible on all platforms.
+Summary: Data can take on many different formats and historically many different methods and software has been used for handling them.
 Lang: en
 Draft: yes
 
-There are many *data formats* in use, as data can take on many different formats and historically many different methods and software has been used for handling them. A relatively small number of open formats is accessible on all platforms, without the restrictions of proprietary standards.
+
+A number of open data formats are available that are accessible on all platforms, without the restrictions of proprietary standards. Learn about them here.
 
 ## Recommendations
 

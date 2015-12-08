@@ -4,11 +4,10 @@ Tags:
 Date: 2015-1-1
 Slug: ogd-portals
 Authors:
-Summary:
+Summary: Basics of data portals, and discusses how open data can be shared using them around the world.
 Lang: en
 Draft: yes
 
-This page explains the basics of data portals, and discusses how open data can be shared using them around the world.
 
 ### How data is cataloged and provided through portals
 

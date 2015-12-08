@@ -3,11 +3,12 @@ Category: Discover
 Tags:
 Date: 2015-1-1
 Slug: ch-ogd
-Summary:
+Summary: Usage notes which will be of use especially to government users who would like to know how to publish data at a national level.
 Lang: en
 Draft: yes
 
-[In pilot](http://opendata.admin.ch) since 2013, the Swiss Federal OGD Portal, [opendata.swiss](http://opendata.swiss) is a curated data catalogue based on [CKAN](http://ckan.org). This chapter contains usage notes which will be of use especially to government users who would like to know how to publish data at a national level, and links to other web sites in Switzerland which are accessible online and feature Open Government Data.
+
+[In pilot](http://opendata.admin.ch) since 2013, the Swiss Federal OGD Portal, [opendata.swiss](http://opendata.swiss) is a curated data catalogue based on [CKAN](http://ckan.org).
 
 ### Swiss OGD landscape
 

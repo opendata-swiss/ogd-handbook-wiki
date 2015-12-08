@@ -4,11 +4,12 @@ Tags: Draft
 Date: 2015-1-1
 Slug: inventory
 Authors:
-Summary:
+Summary: In this section we discuss ways to research and track datasets that a large organization produces.
 Lang: en
 Draft: yes
 
-It is easy to start keeping track of datasets in a table or spreadsheet, but less effective in a larger organization where multiple people collaborate on this task. Open Data Portals could be considered a type of *data inventory*, and the software systems behind them could be used both to maintain a data inventory as well as to publish data. In this section we discuss ways to research and track datasets that a large organization produces.
+
+It is easy to start keeping track of datasets in a table or spreadsheet, but less effective in a larger organization where multiple people collaborate on this task. Open Data Portals could be considered a type of *data inventory*, and the software systems behind them could be used both to maintain a data inventory as well as to publish data.
 
 ## Data inventories
 

@@ -4,11 +4,12 @@ Tags:
 Date: 2015-1-1
 Slug: privacy
 Authors:
-Summary:
+Summary: Guidelines for an important step in releasing certain types of data to the public.
 Lang: en
 Draft: yes
 
-Commonly known as anonymising or preserving privacy, data protection is often an important step in releasing certain types of data to the public. For instance, statistical surveys commonly take into the account the name, address and birth date of the person surveyed. As a minimum, personal names should be taken out, and addresses reduced to a more basic quantifier (e.g. locality, neighbourhood or postcode). In other cases it is less clear what parts of the dataset can lead to privacy concerns.
+
+Data protection is often referred to as *anonymising data* or preserving privacy. For instance, statistical surveys commonly take into the account the name, address and birth date of the person surveyed. As a minimum, personal names should be taken out, and addresses reduced to a more basic quantifier (e.g. locality, neighbourhood or postcode). In other cases it is less clear what parts of the dataset can lead to privacy concerns.
 
 ## References
 

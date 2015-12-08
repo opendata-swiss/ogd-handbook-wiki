@@ -8,7 +8,6 @@ Summary: How context of data can be set and packaged, providing crucial support 
 Lang: en
 Draft: yes
 
-This chapter covers modern ways that the context of the data can be set and packaged, providing crucial support for users to be able to interpret and reuse the data itself:
 
 > There are two "metadata types;" *structural metadata*, about the design and specification of data structures or "data about the containers of data"; and *descriptive metadata* about individual instances of application data or the data content.
 

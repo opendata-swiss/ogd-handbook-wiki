@@ -8,6 +8,7 @@ Summary:
 Lang: en
 Draft: yes
 
+
 This page briefly explains the main terminology used throughout this Handbook, with links to more complete references. The starting point for this Glossary is the one contained in the [Open Data Handbook](http://opendatahandbook.org/en/glossary.html).
 
 #### Advanced Programming Interface (API)

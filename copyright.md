@@ -4,11 +4,10 @@ Tags:
 Date: 2015-1-1
 Slug: copyright
 Authors:
-Summary:
+Summary: Authors rights in regards to data are a common source of confusion. In this chapter we address some of the common question surrounding data use.
 Lang: en
 Draft: yes
 
-Authors rights in regards to data are a common source of confusion. In this chapter we address some of the common question surrounding data use, with reference to the legal frameworks explored in the OGD Switzerland project.
 
 ## References
 

@@ -8,7 +8,7 @@ Summary: On the benefits and challenges of providing bulk datasets and direct ac
 Lang: en
 Draft: yes
 
-In this chapter we talk about some of the benefits and challenges of providing bulk datasets in an OGD portal. This is especially relevant to publishers of larger datasets, where most end-users would use an API endpoint or web application to query a subset of the entire database.
+This is especially relevant to publishers of larger datasets, where most end-users would use an API endpoint or web application to query a subset of the entire database.
 
 ### Why open data in bulk?
 
