@@ -1,5 +1,5 @@
 Title: How to correctly attribute a source
-Category: Handbook
+Category: Legal
 Tags:
 Date: 2015-1-1
 Slug: attribution

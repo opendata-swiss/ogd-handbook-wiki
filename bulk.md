@@ -1,5 +1,5 @@
 Title: When data is downloadable in bulk
-Category: Handbook
+Category: Publish
 Tags:
 Date: 2015-1-1
 Slug: bulk

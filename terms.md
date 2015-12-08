@@ -1,5 +1,5 @@
 Title: Applying correct terms of use to data
-Category: Handbook
+Category: Legal
 Tags:
 Date: 2015-1-1
 Slug: terms

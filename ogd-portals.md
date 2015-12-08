@@ -1,5 +1,5 @@
 Title: About open data portals
-Category: Handbook
+Category: Discover
 Tags:
 Date: 2015-1-1
 Slug: ogd-portals

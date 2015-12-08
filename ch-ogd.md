@@ -1,5 +1,5 @@
 Title: Publishing on the Swiss OGD portal
-Category: Handbook
+Category: Discover
 Tags:
 Date: 2015-1-1
 Slug: ch-ogd

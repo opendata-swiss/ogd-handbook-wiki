@@ -1,5 +1,5 @@
 Title: What is metadata and how to write it
-Category: Handbook
+Category: Publish
 Tags:
 Date: 2015-1-1
 Slug: metadata

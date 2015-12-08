@@ -1,5 +1,5 @@
 Title: Which datasets are good candidates for OGD
-Category: Handbook
+Category: Collect
 Tags: Draft
 Date: 2015-1-1
 Slug: criteria

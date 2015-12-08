@@ -1,5 +1,5 @@
 Title: Open data formats
-Category: Handbook
+Category: Publish
 Tags:
 Date: 2015-1-1
 Slug: formats

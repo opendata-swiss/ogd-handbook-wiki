@@ -1,5 +1,5 @@
 Title: Considering possible copyright issues
-Category: Handbook
+Category: Legal
 Tags:
 Date: 2015-1-1
 Slug: copyright

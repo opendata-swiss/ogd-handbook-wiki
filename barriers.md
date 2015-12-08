@@ -1,5 +1,5 @@
 Title: Overcoming barriers to data release
-Category: Handbook
+Category: Collect
 Tags:
 Date: 2015-1-1
 Slug: barriers

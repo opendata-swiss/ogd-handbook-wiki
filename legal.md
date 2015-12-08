@@ -1,5 +1,5 @@
 Title: Existing legal frameworks for data
-Category: Handbook
+Category: Legal
 Tags:
 Date: 2015-1-1
 Slug: legal

@@ -1,5 +1,5 @@
 Title: Supporting and engaging with users
-Category: Handbook
+Category: Discover
 Tags:
 Date: 2015-1-1
 Slug: support

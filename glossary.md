@@ -1,5 +1,5 @@
 Title: Glossary of terms and technologies
-Category: Handbook
+Category: Library
 Tags:
 Date: 2015-1-1
 Slug: glossary
