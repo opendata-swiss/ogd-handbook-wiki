@@ -1,5 +1,5 @@
 Title: Role of open data portals
-Category: Promote
+Category: Support
 Handbook: yes
 Tags:
 Date: 2015-1-1

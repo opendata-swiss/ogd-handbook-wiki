@@ -5,7 +5,7 @@ Tags:
 Date: 2015-1-1
 Slug: attribution
 Authors:
-Summary: Many datasets derive from others, and legal requirements sometimes explicitly demand attributing the source of the data. Here we explore implications for data publishers with references from the OGD Switzerland project.
+Summary: Many datasets derive from others, and legal requirements sometimes explicitly demand attributing the source of the data. Here we explore implications for data publishers.
 Lang: en
 Draft: yes
 

@@ -1,5 +1,5 @@
 Title: Supporting and engaging with users
-Category: Promote
+Category: Support
 Handbook: yes
 Tags:
 Date: 2015-1-1
