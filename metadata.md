@@ -1,10 +1,10 @@
-Title: What is metadata and how to write it
+Title: How to manage metadata
 Category: Publish
 Tags:
 Date: 2015-1-1
 Slug: metadata
 Authors:
-Summary: How context of data can be set and packaged, providing crucial support for users to be able to interpret and reuse the data itself.
+Summary: Metadata sets context that provides crucial support for users to be able to interpret and reuse the data itself.
 Lang: en
 Draft: yes
 

@@ -1,5 +1,5 @@
-Title: What data does my organization have
-Category: Collect
+Title: What datasets does my organisation have?
+Category: Identify
 Tags: Draft
 Date: 2015-1-1
 Slug: inventory

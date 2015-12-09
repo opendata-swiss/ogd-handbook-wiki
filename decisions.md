@@ -1,10 +1,10 @@
-Title: Measures to ensure data protection
-Category: Legal
+Title: Essential decisions for data publication
+Category: Identify
 Tags:
 Date: 2015-1-1
-Slug: privacy
+Slug: decisions
 Authors:
-Summary: Guidelines for an important step in releasing certain types of data to the public.
+Summary: Common steps to prepare for releasing data in the form of OGD is recounted in this chapter, along with critical decision points.
 Lang: en
 Draft: yes
 

@@ -1,4 +1,4 @@
-Title: Applying correct terms of use to data
+Title: Applying correct terms of use
 Category: Legal
 Tags:
 Date: 2015-1-1

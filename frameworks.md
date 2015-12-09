@@ -1,8 +1,8 @@
-Title: Legal decision points for data
+Title: Check existing legal frameworks
 Category: Legal
 Tags:
 Date: 2015-1-1
-Slug: decisions
+Slug: frameworks
 Authors:
 Summary: An overview of law frameworks developed in the OGD Switzerland project.
 Lang: en

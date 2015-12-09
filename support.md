@@ -1,5 +1,5 @@
 Title: Supporting and engaging with users
-Category: Discover
+Category: Promote
 Tags:
 Date: 2015-1-1
 Slug: support

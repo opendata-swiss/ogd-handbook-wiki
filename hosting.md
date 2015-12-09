@@ -1,5 +1,5 @@
-Title: Hosting data on the web
-Category: Discover
+Title: Hosting data on the World Wide Web
+Category: Publish
 Tags:
 Date: 2015-1-1
 Slug: hosting

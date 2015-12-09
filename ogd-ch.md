@@ -1,4 +1,4 @@
-Title: Publishing on the Swiss OGD portal
+Title: Publish on opendata.swiss
 Category: Publish
 Tags:
 Date: 2015-1-1
@@ -8,7 +8,7 @@ Lang: en
 Draft: yes
 
 
-## Informative table
+## An informative table
 
 | Protocol       | Web address                                          |
 |:-------------- |:-----------------------------------------------------|

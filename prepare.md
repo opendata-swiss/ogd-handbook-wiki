@@ -1,8 +1,8 @@
-Title: Open data formats
+Title: Prepare data for publication
 Category: Publish
 Tags:
 Date: 2015-1-1
-Slug: formats
+Slug: prepare
 Authors:
 Summary: Data can take on many different formats and historically many different methods and software has been used for handling them.
 Lang: en

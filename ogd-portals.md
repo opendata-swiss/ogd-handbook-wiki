@@ -1,10 +1,10 @@
-Title: About open data portals
-Category: Discover
+Title: Role of open data portals
+Category: Promote
 Tags:
 Date: 2015-1-1
 Slug: ogd-portals
 Authors:
-Summary: Basics of data portals, and discusses how open data can be shared using them around the world.
+Summary: Foundations of how data is shared using open data portals around the world.
 Lang: en
 Draft: yes
 
