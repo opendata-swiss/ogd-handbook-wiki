@@ -1,5 +1,6 @@
 Title: Check existing legal frameworks
 Category: Legal
+Handbook: yes
 Tags:
 Date: 2015-1-1
 Slug: frameworks

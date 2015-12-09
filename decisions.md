@@ -1,5 +1,6 @@
 Title: Essential decisions for data publication
 Category: Identify
+Handbook: yes
 Tags:
 Date: 2015-1-1
 Slug: decisions

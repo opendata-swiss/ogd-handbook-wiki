@@ -1,5 +1,6 @@
 Title: What datasets does my organisation have?
 Category: Identify
+Handbook: yes
 Tags: Draft
 Date: 2015-1-1
 Slug: inventory

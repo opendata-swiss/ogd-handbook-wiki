@@ -1,5 +1,6 @@
 Title: Role of open data portals
 Category: Promote
+Handbook: yes
 Tags:
 Date: 2015-1-1
 Slug: ogd-portals

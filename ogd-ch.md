@@ -1,5 +1,6 @@
 Title: Publish on opendata.swiss
 Category: Publish
+Handbook: yes
 Tags:
 Date: 2015-1-1
 Slug: ogd-ch

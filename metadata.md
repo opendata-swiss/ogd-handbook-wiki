@@ -1,5 +1,6 @@
 Title: How to manage metadata
 Category: Publish
+Handbook: yes
 Tags:
 Date: 2015-1-1
 Slug: metadata

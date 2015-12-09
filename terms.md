@@ -1,5 +1,6 @@
 Title: Applying correct terms of use
 Category: Legal
+Handbook: yes
 Tags:
 Date: 2015-1-1
 Slug: terms
