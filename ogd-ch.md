@@ -8,22 +8,18 @@ Lang: en
 Draft: yes
 
 
-[In pilot](http://opendata.admin.ch) since 2013, the Swiss Federal OGD Portal, [opendata.swiss](http://opendata.swiss) is a curated data catalogue based on [CKAN](http://ckan.org).
+## Informative table
 
-### Swiss OGD landscape
+| Protocol       | Web address                                          |
+|:-------------- |:-----------------------------------------------------|
+| jabber/xmpp    | [XMPP Foundation](http://xmpp.org/)                  |
+| email          | [Google Mail](http://gmail.com/)                     |
+| IRC            | [Freenode](https://freenode.net/)                    |
 
-Select open datasets from these websites are already available on the federal OGD portal:
+## Simple table
 
-**Federal government**
+| Header One | Header Two |
+| :-- | :-- |
+| Item One | Item Two |
 
-- [geo.admin.ch](http://www.geo.admin.ch/) is the federal portal for geodata
-- [Federal Statistics Office](http://www.bfs.admin.ch/bfs/portal/de/index/infothek/index.html) (BFS) offers access to a wide range of topics and databases
-
-**Cantons**
-
-- [Canton of Zurich](http://opendata.zh.ch/) (opendata.zh.ch, via Federal OGD portal)
-- [Canton of Geneva](http://ge.ch/sitg/donnees) (ge.ch, provided by [SITG](http://ge.ch/sitg))
-
-**Communes**
-
-- [City of Zurich](http://data.stadt-zuerich.ch/content/portal/de/index/ogd.html) (stadt-zuerich.ch)
+(I.e. you do not need to pad the cells with spaces..)
