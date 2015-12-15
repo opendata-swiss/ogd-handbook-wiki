@@ -1,5 +1,5 @@
 Title: Check existing legal frameworks
-Category: Legal
+Category: Establish
 Handbook: yes
 Tags:
 Date: 2015-1-1

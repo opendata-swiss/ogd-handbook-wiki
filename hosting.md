@@ -5,6 +5,6 @@ Tags:
 Date: 2015-1-1
 Slug: hosting
 Authors:
-Summary: Ways that different kinds of government data are published on the Web, with guidelines for initial steps towards opening data, as well as ensuring high availability in the long run.
+Summary: First steps and guidelines in opening government data on the Web and ensuring high availability
 Lang: en
 Draft: yes

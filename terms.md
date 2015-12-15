@@ -1,5 +1,5 @@
 Title: Applying correct terms of use
-Category: Legal
+Category: Establish
 Handbook: yes
 Tags:
 Date: 2015-1-1
