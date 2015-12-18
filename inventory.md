@@ -22,3 +22,5 @@ A *data inventory* is a listing of internal datasets created, maintained or even
 - where it is stored
 - what are conditions of use
 - at what URL it has been published
+
+NB: mention M4 inventory

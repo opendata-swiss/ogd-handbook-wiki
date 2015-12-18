@@ -9,6 +9,14 @@ Summary: Many datasets derive from others, and legal requirements sometimes expl
 Lang: en
 Draft: yes
 
+> **Quellenangabe** Falls eine gesetzliche Pflicht zur Quellenangabe besteht, ist dies beim jeweiligen Datensatz als Nutzungsbestimmung vermerkt. In allen anderen Fällen wird im Hinblick auf die Nachverfolgbarkeit von Änderungen eine Quellenangabe empfohlen.
+
+Rechtliche Grundlagen OGD (Disclaimer)
+
+> **1.8 Darf der Datensatz ohne Quellenangabe verwendet werden?**
+Falls eine gesetzliche Grundlage eine Quellenangabe für die weitere Nutzung des entsprechenden Datensatzes eine vorschreibt, müssen die Behörden diese verlangen. Bei allen anderen Datensätzen können die Behörden die Quellenangabe nicht verlangen. Auf dem Portal wird den Nutzern aber standardmässig bei jedem Datensatz empfohlen, die Quelle anzugeben.
+
+Arbeitshilfe für Behörden zur Publikation von Daten als OGD
 
 ## References
 
