@@ -1,4 +1,4 @@
-Title: What datasets does my organisation have?
+Title: What datasets does my organization have?
 Category: Identify
 Handbook: yes
 Tags: Draft
