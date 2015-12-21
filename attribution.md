@@ -20,6 +20,6 @@ Arbeitshilfe für Behörden zur Publikation von Daten als OGD
 
 ## References
 
-- [M7 Worksheet for government authorities](/ref-m7-recht-arbeitshilfe-en)
-- [M1 Entscheidungsgrundlagen bezüglich Rechtsgrundlagen](/ref-m1-entscheid-rechtsgrundlagen-de)
-- [M1 Konzept zu den rechtliche Rahmenbedingungen](/ref-m1-rechtliche-rahmen-de)
+- [M7 Worksheet for government authorities](/m7-recht-arbeitshilfe-en)
+- [M1 Entscheidungsgrundlagen bezüglich Rechtsgrundlagen](/m1-entscheid-rechtsgrundlagen-de)
+- [M1 Konzept zu den rechtliche Rahmenbedingungen](/m1-rechtliche-rahmen-de)

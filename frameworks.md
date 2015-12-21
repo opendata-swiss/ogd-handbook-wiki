@@ -14,5 +14,5 @@ What are the main legal frameworks that data publishers in Switzerland need to b
 
 ## References
 
-- [M7 Worksheet for government authorities](/ref-m7-recht-arbeitshilfe-en)
-- [M1 Konzept zu den rechtliche Rahmenbedingungen](/ref-m1-rechtliche-rahmen-de)
+- [M7 Worksheet for government authorities](/m7-recht-arbeitshilfe-en)
+- [M1 Konzept zu den rechtliche Rahmenbedingungen](/m1-rechtliche-rahmen-de)
