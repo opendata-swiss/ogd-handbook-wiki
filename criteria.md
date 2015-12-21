@@ -10,11 +10,23 @@ Lang: en
 Draft: yes
 
 
-Also see: [making an inventory](inventory).
+As soon as one starts [making an inventory](inventory) of datasets within an organisation, you may soon get a picture of the potential restrictions (technical, legal, costs). It is worthwhile to map good candidates for OGD publication, especially if they have an active interest group of users, and after a positive evaluation of the Cost Basis and Ease of Release.
 
-In the future we will present use cases where it has been more or less difficult to publish data as OGD.
+>> [Worksheet for government authorities](/library/ref-m7-recht-arbeitshilfe)
+Anne Wiedmer
 
-## References
+In the [Worksheet](/library/ref-m7-recht-arbeitshilfe) you will find a criteria to help with this process. These steps include:
 
-- [M7 Worksheet for government authorities](/ref-m7-recht-arbeitshilfe-en)
-- Abgrenzung zwischen OGD und kundenspezifischen individuellen Leistungen
+1. Is there a legal basis for the publication of the data set?
+1. Can people be identified from attributes in the data, or do any records contain personal information?
+1. Are these sensitive personal data?
+1. Is there a legal precedent for the publication of such personal data?
+1. Does a formal enactment exist for the publication of sensitive personal data?
+1. Are the data to be published copyrighted?
+1. Were the copyrights of third parties or employees of the Federal Administration assigned to the federal government, and was waived on privacy rights?
+1. Can the records be published and made available for free?
+1. Can the records be as well as non-commercially used both commercially?
+1. Can the data be used, unless otherwise specified?
+
+>> [Boundaries between OGD and custom individual services](/de/library/ref-m5-abgrenzung-leistungen)
+Adelheid Bürgi-Schmelz
