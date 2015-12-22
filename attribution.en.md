@@ -9,17 +9,22 @@ Summary: Many datasets derive from others, and legal requirements sometimes expl
 Lang: en
 Draft: yes
 
-> **Quellenangabe** Falls eine gesetzliche Pflicht zur Quellenangabe besteht, ist dies beim jeweiligen Datensatz als Nutzungsbestimmung vermerkt. In allen anderen Fällen wird im Hinblick auf die Nachverfolgbarkeit von Änderungen eine Quellenangabe empfohlen.
 
-Rechtliche Grundlagen OGD (Disclaimer)
+Attribution is a requirement of many licences, both the publishers and users should be sure they are correctly attributing the upstream sources of data.
 
-> **1.8 Darf der Datensatz ohne Quellenangabe verwendet werden?**
-Falls eine gesetzliche Grundlage eine Quellenangabe für die weitere Nutzung des entsprechenden Datensatzes eine vorschreibt, müssen die Behörden diese verlangen. Bei allen anderen Datensätzen können die Behörden die Quellenangabe nicht verlangen. Auf dem Portal wird den Nutzern aber standardmässig bei jedem Datensatz empfohlen, die Quelle anzugeben.
+"Acknowledging sources not only helps credit the work of data publishers, it also helps to identify widely-used, high-quality datasets." ([5 ways to be a better open data reuser](http://theodi.org/blog/5-ways-better-open-data-reuse) by Leigh Dodds) Citing sources should be a community norm, not just a provision in a licence - similar to the best practice of scientific papers, where each has a list of references.
 
-Arbeitshilfe für Behörden zur Publikation von Daten als OGD
+#### Citation
 
-## References
+> If there is a legal obligation to the source, this is stated as of use in each record. In all other cases, an indication of the source is recommended with regard to the traceability of changes.
 
-- [M7 Worksheet for government authorities](/m7-recht-arbeitshilfe-en)
-- [M1 Entscheidungsgrundlagen bezüglich Rechtsgrundlagen](/m1-entscheid-rechtsgrundlagen-de)
-- [M1 Konzept zu den rechtliche Rahmenbedingungen](/m1-rechtliche-rahmen-de)
+[Rechtliche Grundlagen OGD](/de/library/m1-entscheid-rechtsgrundlagen)
+
+#### Fair use
+
+> **1.8 Can the data be used, unless otherwise specified?**
+If a legal basis providing a reference for the further use of the corresponding record prescribes that authorities must demand this. For all other records, the authorities may not require the source is acknowledged. On the portal is recommended but the users default for each data set, specify the source.
+
+[M7 Worksheet for government authorities](/library/m7-recht-arbeitshilfe)
+
+[M1 Konzept zu den rechtliche Rahmenbedingungen](/library/m1-rechtliche-rahmen)
