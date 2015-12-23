@@ -2,7 +2,7 @@ Title: Which datasets are good OGD candidates
 Category: Identify
 Handbook: yes
 Tags: Draft
-Date: 2015-1-1
+Date: 2016-01-01
 Slug: criteria
 Authors:
 Summary: Useful guidelines for making decisions about publication when exploring data in your organization.

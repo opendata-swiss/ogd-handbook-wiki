@@ -2,7 +2,7 @@ Title: Publish on opendata.swiss
 Category: Publish
 Handbook: yes
 Tags:
-Date: 2016-1-1
+Date: 2016-01-01
 Slug: opendata-swiss
 Summary: Usage notes which will be of use especially to government users who would like to know how to publish data at a national level.
 Lang: en

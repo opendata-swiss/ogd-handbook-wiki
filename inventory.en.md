@@ -2,7 +2,7 @@ Title: What datasets does my organization have?
 Category: Identify
 Handbook: yes
 Tags: Draft
-Date: 2015-1-1
+Date: 2016-01-01
 Slug: inventory
 Authors:
 Summary: In this section we discuss ways to research and track datasets that a large organization produces.

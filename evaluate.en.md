@@ -2,7 +2,7 @@ Title: Evaluating usage of your data
 Category: Support
 Handbook: yes
 Tags:
-Date: 2015-1-1
+Date: 2016-01-01
 Slug: evaluate
 Authors:
 Summary: Active use of metrics to judge relative interest and optimise uptake of OGD.

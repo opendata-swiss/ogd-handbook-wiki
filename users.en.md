@@ -2,7 +2,7 @@ Title: Supporting and engaging with users
 Category: Support
 Handbook: yes
 Tags:
-Date: 2015-1-1
+Date: 2016-01-01
 Slug: users
 Authors:
 Summary: An exploration of common users of Open Government Data (OGD), and how they are best supported with reference to the Swiss OGD strategy.

@@ -2,7 +2,7 @@ Title: Prepare data for publication
 Category: Publish
 Handbook: yes
 Tags:
-Date: 2015-1-1
+Date: 2016-01-01
 Slug: prepare
 Authors:
 Summary: Data can take on many different formats and historically many different methods and software has been used for handling them.

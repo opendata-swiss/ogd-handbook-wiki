@@ -2,7 +2,7 @@ Title: Check existing legal frameworks
 Category: Establish
 Handbook: yes
 Tags:
-Date: 2015-1-1
+Date: 2016-01-01
 Slug: frameworks
 Authors:
 Summary: An overview of law frameworks developed in the OGD Switzerland project.

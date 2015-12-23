@@ -2,7 +2,7 @@ Title: How to correctly attribute sources
 Category: Establish
 Handbook: yes
 Tags:
-Date: 2015-1-1
+Date: 2016-01-01
 Slug: attribution
 Authors:
 Summary: Many datasets derive from others, and legal requirements sometimes explicitly demand attributing the source of the data. Here we explore implications for data publishers.

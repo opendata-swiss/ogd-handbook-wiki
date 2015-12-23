@@ -2,7 +2,7 @@ Title: Applying correct terms of use
 Category: Establish
 Handbook: yes
 Tags:
-Date: 2015-1-1
+Date: 2016-01-01
 Slug: terms
 Authors:
 Summary: Options for data licenses and terms of use from the legal perspective in Switzerland.

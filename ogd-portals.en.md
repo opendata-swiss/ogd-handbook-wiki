@@ -2,7 +2,7 @@ Title: Role of open data portals
 Category: Support
 Handbook: yes
 Tags:
-Date: 2015-1-1
+Date: 2016-01-01
 Slug: ogd-portals
 Authors:
 Summary: Foundations of how data is shared using open data portals around the world.

@@ -2,7 +2,7 @@ Title: How to manage metadata
 Category: Publish
 Handbook: yes
 Tags:
-Date: 2015-1-1
+Date: 2016-01-01
 Slug: metadata
 Authors:
 Summary: Metadata sets context that provides crucial support for users to be able to interpret and reuse the data itself.
