@@ -10,9 +10,11 @@ Lang: en
 Draft: yes
 
 
-Attribution is a requirement of many licences, both the publishers and users should be sure they are correctly attributing the upstream sources of data.
+Attribution is a requirement of many licences, both the publishers and users should be sure they are correctly attributing the upstream sources of data. Citing sources should be a community norm, not just a provision in a license - similar to the best practice of scientific papers, where each has a list of references.
 
-"Acknowledging sources not only helps credit the work of data publishers, it also helps to identify widely-used, high-quality datasets." ([5 ways to be a better open data reuser](http://theodi.org/blog/5-ways-better-open-data-reuse) by Leigh Dodds) Citing sources should be a community norm, not just a provision in a licence - similar to the best practice of scientific papers, where each has a list of references.
+> "Acknowledging sources not only helps credit the work of data publishers, it also helps to identify widely-used, high-quality datasets."
+
+[5 ways to be a better open data reuser](http://theodi.org/blog/5-ways-better-open-data-reuse) by Leigh Dodds
 
 #### Citation
 
