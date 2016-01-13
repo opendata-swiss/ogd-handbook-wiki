@@ -6,6 +6,6 @@ Date: 2016-01-01
 
 Welcome to the Swiss Open Government Data (OGD) Handbook.
 
-This project is under development - see http://ogdhandbook.ch for details.
+For more information, see http://handbook.opendata.swiss
 
-TODO: link to the live Contributor's Guide.
+If you wish to contribute, please visit [ogd-handbook-site](https://github.com/opendata-swiss/ogd-handbook-site)
