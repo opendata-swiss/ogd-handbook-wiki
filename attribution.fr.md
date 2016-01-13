@@ -1,5 +1,5 @@
 Title: Attribution des sources
-Category: Établir
+Category: Establish
 Handbook: yes
 Tags:
 Date: 2016-01-01

@@ -1,5 +1,5 @@
 Title: Sorgente corretta
-Category: Stabilire
+Category: Establish
 Handbook: yes
 Tags:
 Date: 2016-01-01
