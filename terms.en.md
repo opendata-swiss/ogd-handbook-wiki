@@ -12,7 +12,7 @@ Draft: yes
 
 In this section we illustrate some of the ways that the licensing process can help assure long term usefulness of the data for a variety of end-users.
 
-In this part of the Handbook we will place reference to the official recommendations from the OGD Switzerland project, and provide some illustrative examples for data owners who need to understand the implications of decisions in this area.
+In this part of the Handbook we will place reference to the official recommendations from Open Government Data Switzerland, and provide some illustrative examples for data owners who need to understand the implications of decisions in this area.
 
 ## References
 

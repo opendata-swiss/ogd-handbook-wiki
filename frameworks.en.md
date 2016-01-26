@@ -5,7 +5,7 @@ Tags:
 Date: 2016-01-01
 Slug: frameworks
 Authors:
-Summary: An overview of law frameworks developed in the OGD Switzerland project.
+Summary: An overview of law frameworks developed in Open Government Data Switzerland.
 Lang: en
 Draft: yes
 
