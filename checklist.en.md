@@ -40,7 +40,7 @@ This checklist can help to quickly ascertain how ready a particular data source 
 
 ## Further references
 
-As soon as one starts [making an inventory](/identify/inventory) of datasets within an organization, a picture of the potential restrictions (technical, legal, costs) may start to emerge. It is worthwhile to have rules by which to map good candidates for OGD publication - especially if they have an active interest group of users, and after positive evaluation of *Cost Basis* and the *Ease of Release*.
+As soon as one starts [making an inventory](/identify/inventory) of datasets within an organization, a picture starts to emerge of technology, legal status, and process. It can be useful to apply rules to such a list and map out top candidates for OGD publication.
 
 The report on [Boundaries between OGD and custom individual services](/library/m5-abgrenzung-leistungen) defines in more detail the concept of OGD, explains economic fundamentals of the production and use of open data in government, and provides a decision tree for use in evaluating publication criteria.
 

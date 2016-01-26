@@ -11,3 +11,5 @@ Draft: yes
 
 
 <em>Übersetzungen sind nicht überall vorhanden: lassen Sie uns wissen, wenn Sie diese Inhalte in Ihrer Sprache benötigen.</em>
+
+Dieser Artikel ist in [englischer Sprache verfügbar](/en/handbook/attribution).
