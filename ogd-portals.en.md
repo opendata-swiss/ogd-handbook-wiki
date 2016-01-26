@@ -39,18 +39,12 @@ Important steps in the process of uploading and managing a dataset include:
 - validating license details and contact information
 - testing the ability to preview the data (if possible)
 
-For larger organizations with their own infrastructure, it often becomes inconvenient and costly to upload datasets one at a time, so software programs called **harvesters** are used to collect details on each dataset and publish a selection of metadata to the data portal. These programs can also be run automatically to ensure that updates are propagated.
-
-For more information, see [publishing on opendata.swiss](/publish/opendata-swiss).
+For larger organizations with their own infrastructure, it often becomes inconvenient and costly to upload datasets one at a time, so software programs called **harvesters** are used to collect details on each dataset and publish a selection of metadata to the data portal. These programs can also be run automatically to ensure that updates are propagated. For more information, see [publishing on opendata.swiss](/publish/opendata-swiss).
 
 <a name="links"></a>
 ### Links to open data portals
 
-**Swiss Confederation**
-
-- [opendata.swiss](http://opendata.swiss) is the federal Open Government Data portal.
-- [geo.admin.ch](http://www.geo.admin.ch/) is the federal geodata portal run by Swisstopo.
-- [bfs.admin.ch](http://www.bfs.admin.ch/bfs/portal/de/index/infothek/index.html) where the Federal Statistics Office (BFS) offers access to a wide range of topics and databases.
+**[opendata.swiss](http://opendata.swiss)** is the official Open Government Data portal of the Swiss Confederation.
 
 **Swiss Cantons**
 
