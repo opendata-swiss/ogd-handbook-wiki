@@ -10,15 +10,17 @@ Lang: en
 Draft: yes
 
 
-A data portal (see examples in [links](#links)) is a database of links to resources, not unlike a document management system, which often provides the ability to download structured data. These datasets are often collected with involvement of the maintainers of the portal - though not always, as in the case of crowdsourced portals like [Datahub.io](http://datahub.io) and linked databases like [Wikidata](https://www.wikidata.org/).
+A *data portal* (see examples below in [Links](#links)) is an online collection of links to resources, in some ways similar to a Document Management System, which often provides the ability to directly download and/or query structured data. These datasets are often collected with involvement of the maintainers of the data portal - though not always, as in the case of crowdsourced portals like [Datahub.io](http://datahub.io) and linked databases like [Wikidata](https://www.wikidata.org/).
 
-Data portals are designed to put together datasets from across many sources in one place, presenting information about them consistently, and including features that assist end users in **discovering** the datasets they need. They also play an important role in connecting the data publisher and end user, for instance allowing people to more easily keep track of **updates and changes** to datasets they are using.
+### What are data portals for?
 
-Most data portals combine datasets which are directly distributed on site, and remote datasets which are linked from the portal. Sometimes larger sized files and special requirements like geodata services are **hosted** externally, but in the the best case the user does not have to be aware of such details - and just use the data.
+Data portals are designed to put together datasets from across many sources in one place, presenting information about them consistently, and including features that assist end users in *discovering* the datasets they need. They also play an important role in connecting the data publisher and end user, for instance allowing people to more easily keep track of *updates and changes* to datasets they are using.
 
-As data portals proliferate, by some counts there are already thousands in the world, the question arises of what happens when datasets are published in multiple locations. **Federation** between portals is a kind of software contract that allows content to be shared between them.
+Most data portals combine datasets which are directly distributed on site, and remote datasets which are linked from the portal. Sometimes larger sized files and special requirements like geodata services are *hosted* externally, but in the the best case the user does not have to be aware of such details - and just use the data.
 
-An **open data** portal is one that has a focus on providing datasets which are licensed under open conditions. See [criteria for OGD](/identify/criteria) for more background.
+As data portals proliferate, by some counts there are already thousands in the world, the question arises of what happens when datasets are published in multiple locations. *Federation* between portals is a kind of software contract that allows content to be shared between them.
+
+An *open data portal* is one that has a focus on providing datasets which are licensed under open conditions. See [criteria for OGD](/identify/criteria) for more background.
 
 In summary, data portals are for:
 
@@ -42,21 +44,29 @@ Important steps in the process of uploading and managing a dataset include:
 For larger organizations with their own infrastructure, it often becomes inconvenient and costly to upload datasets one at a time, so software programs called **harvesters** are used to collect details on each dataset and publish a selection of metadata to the data portal. These programs can also be run automatically to ensure that updates are propagated. For more information, see [publishing on opendata.swiss](/publish/opendata-swiss).
 
 <a name="links"></a>
-### Links to open data portals
+### Links to open government data portals
 
 **[opendata.swiss](http://opendata.swiss)** is the official Open Government Data portal of the Swiss Confederation.
 
-**Swiss Cantons**
+Several Swiss Cantons and Communes have already started federating their collections with **opendata.swiss**, some also run their own data portals:
 
-- [Canton of Zurich](http://opendata.zh.ch/) (opendata.zh.ch, hosted on opendata.swiss)
-- [Canton of Geneva](http://ge.ch/sitg/donnees) (ge.ch, provided by [SITG](http://ge.ch/sitg))
+- [Canton of Zürich](http://opendata.zh.ch/) (opendata.zh.ch)
+- [City of Zürich](http://data.stadt-zuerich.ch/) (data.stadt-zuerich.ch)
+- [Canton of Geneva](http://ge.ch/sitg/donnees) (ge.ch)
 
-**Swiss Communes**
-
-- [data.stadt-zuerich.ch](http://data.stadt-zuerich.ch/) is the Open Government Data project of the City of Zurich.
-
-**Worldwide**
+**Worldwide - directories**
 
 - [Dataportals.org](http://dataportals.org/) is a comprehensive directory of data portals.
-- [OpenDataSoft](https://www.opendatasoft.com/a-comprehensive-list-of-all-open-data-portals-around-the-world/) also maintains a list of open data portals and sites around the world.
+- The [European Union Open Data portal](http://open-data.europa.eu/en/data/) offers a site for any type of information held by the Commission and other EU institutions and bodies.
+- [OpenDataSoft](https://www.opendatasoft.com/a-comprehensive-list-of-all-open-data-portals-around-the-world/) maintains a list of open data portals and sites around the world.
 - [Datahub.io](http://datahub.io) is a crowdsourced data portal run by Open Knowledge.
+
+**Worldwide - examples**
+
+- France: [data.gouv.fr](http://www.data.gouv.fr/fr/), [ParisData](http://opendata.paris.fr/page/home/)
+- Italy: [dati.gov.it](http://www.dati.gov.it/)
+- Germany: [govdata.de](https://www.govdata.de/)
+- Austria: [data.gv.at](https://www.data.gv.at/)
+- The Netherlands: [data.overheid.nl](https://data.overheid.nl/)
+- UK: [data.gov.uk](https://data.gov.uk/)
+- USA: [Data.gov](https://www.data.gov/open-gov/)
