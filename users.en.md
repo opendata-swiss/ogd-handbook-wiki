@@ -5,18 +5,14 @@ Tags:
 Date: 2016-01-01
 Slug: users
 Authors:
-Summary: An exploration of common users of Open Government Data (OGD), and how they are best supported with reference to the Swiss OGD strategy.
+Summary: An exploration of common users of Open Government Data, and how they are best supported.
 Lang: en
 Draft: yes
 
 
-One key is continuously accounting for the diverse interests and needs of the user base, here you will learn about useful approaches and metrics.
+What we understand by data in the context of OGD is often the kind of specialised and detailed information that preoccupies teams of experts in statistics departments, university and corporate research labs. While expert users continue to be the focus and often the motivators of data collection, today's "data users" represent only a small part of the global interest potential.
 
-## Understanding the audience
-
-What we understand by data in the context of OGD is often the kind of specialised and detailed information that preoccupies teams of experts in statistics departments, university and corporate research labs. While expert users continue to be the focus and often the motivators of data collection, today's "data users" represent only a small part of the global interest potential. Here we try to address common beliefs and formulate an approach to capturing the wider perspective.
-
-Topics we would suggest to explore here:
+Topics we would like to explore here:
 
 **Most common applications**
 

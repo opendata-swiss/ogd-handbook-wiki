@@ -57,13 +57,13 @@ Several Swiss Cantons and Communes have already started federating their collect
 **Worldwide - directories**
 
 - [Dataportals.org](http://dataportals.org/) is a comprehensive directory of data portals.
-- The [European Union Open Data portal](http://open-data.europa.eu/en/data/) offers a site for any type of information held by the Commission and other EU institutions and bodies.
 - [OpenDataSoft](https://www.opendatasoft.com/a-comprehensive-list-of-all-open-data-portals-around-the-world/) maintains a list of open data portals and sites around the world.
 - [Datahub.io](http://datahub.io) is a crowdsourced data portal run by Open Knowledge.
 
 **Worldwide - examples**
 
-- France: [data.gouv.fr](http://www.data.gouv.fr/fr/), [ParisData](http://opendata.paris.fr/page/home/)
+- European Union: [open-data.europa.eu](http://open-data.europa.eu/en/data/)
+- France: [data.gouv.fr](http://www.data.gouv.fr/fr/)
 - Italy: [dati.gov.it](http://www.dati.gov.it/)
 - Germany: [govdata.de](https://www.govdata.de/)
 - Austria: [data.gv.at](https://www.data.gv.at/)
