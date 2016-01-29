@@ -10,7 +10,7 @@ Lang: en
 Draft: yes
 
 
-A *data portal* (see examples below in [Links](#links)) is an online collection of links to resources, in some ways similar to a Document Management System, which often provides the ability to directly download and/or query structured data. These datasets are often collected with involvement of the maintainers of the data portal - though not always, as in the case of crowdsourced portals like [Datahub.io](http://datahub.io) and linked databases like [Wikidata](https://www.wikidata.org/).
+A *data portal* (see examples below in [Links](#links)) is an online collection of links to resources, in some ways similar to a Document Management System, which often provides the ability to directly download and/or query structured data. These datasets are often collected with involvement of the maintainers of the data portal - though not always, as in the case of crowd-sourced portals like [Datahub.io](http://datahub.io), or linked data portals like [Wikidata](https://www.wikidata.org/).
 
 ### What are data portals for?
 
@@ -18,9 +18,9 @@ Data portals are designed to put together datasets from across many sources in o
 
 Most data portals combine datasets which are directly distributed on site, and remote datasets which are linked from the portal. Sometimes larger sized files and special requirements like geodata services are *hosted* externally, but in the the best case the user does not have to be aware of such details - and just use the data.
 
-As data portals proliferate, by some counts there are already thousands in the world, the question arises of what happens when datasets are published in multiple locations. *Federation* between portals is a kind of software contract that allows content to be shared between them.
+As data portals proliferate (there are several thousand portal projects worldwide), the question arises of what happens when datasets are published in multiple locations. *Federation* between portals is a kind of software contract that allows content to be shared between them.
 
-An *open data portal* is one that has a focus on providing datasets which are licensed under open conditions. See [criteria for OGD](/identify/criteria) for more background.
+An *open data portal* is one that has a focus on providing datasets which are licensed under open conditions. See [criteria for OGD](/identify/criteria) for more background. Open data portals provide access to data mainly from government offices ([opendata.swiss](/publish/opendata-swiss)), science and academia ([openresearchdata.ch](http://openresearchdata.ch)), maps and Geographic Information Systems ([geo.admin.ch](http://geo.admin.ch)), and so on.
 
 In summary, data portals are for:
 

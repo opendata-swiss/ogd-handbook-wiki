@@ -10,6 +10,10 @@ Lang: en
 Draft: yes
 
 
+- Global Open Data Index
+- WWW Foundation Barometer
+- M13	 Evaluation of the impact of OGD (JP)
+
 ## Metrics use
 
 Active **use of metrics** can be used to judge the relative interest in different datasets, or evaluate approaches taken in disseminating the content. Metrics data (web, server, repos, social) should back any major strategic decisions in the evolution of the data.

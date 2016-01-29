@@ -10,6 +10,10 @@ Lang: en
 Draft: yes
 
 
+- M12	 Dialogue with OGD users
+- shorten current
+- put in some references
+
 What we understand by data in the context of OGD is often the kind of specialised and detailed information that preoccupies teams of experts in statistics departments, university and corporate research labs. While expert users continue to be the focus and often the motivators of data collection, today's "data users" represent only a small part of the global interest potential.
 
 Topics we would like to explore here:
