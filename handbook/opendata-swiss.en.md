@@ -10,8 +10,16 @@ Draft: yes
 
 
 ## Table of Contents
-
-1. [Introduction](#introduction)
+- [Introduction](#introduction)
+- [How can I publish my data on opendata.swiss?](#how-can-i-publish-my-data-on-opendataswiss)
+- [How can I test if I am ready?](#how-can-i-test-if-i-am-ready)
+- [What is the DCAT-AP for Switzerland format?](#what-is-the-dcat-ap-for-switzerland-format)
+ - [Namespaces](#namespaces)
+ - [Internationalisation](#internationalisation)
+ - [DCAT-AP reference documentation](#dcat-ap-reference-documentation)
+  - [Definition of dcat:Dataset](#definition-of-dcatdataset)
+  - [Definition of Distribution](#definition-of-distribution)
+  - [Common fields](#common-fields)
 
 
 ## Introduction
