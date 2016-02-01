@@ -9,4 +9,6 @@ Lang: fr
 Draft: yes
 
 
-Texte français.
+<em>Les traductions ne sont pas encore disponibles partout: laissez-nous savoir si vous avez besoin de ce contenu dans votre langue.</em>
+
+Cet article est [disponible en anglais](/en/handbook/opendata-swiss).
