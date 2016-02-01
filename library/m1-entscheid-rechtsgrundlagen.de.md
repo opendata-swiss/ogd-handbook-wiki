@@ -8,7 +8,7 @@ Authors: Anne Wiedmer, Corinna Seiberth
 Summary: OGD Schweiz, Bericht
 Lang: de
 
-<em>Translations are not available everywhere yet: let us know if you need this content in your language.</em>
+<em>Translations are not yet available everywhere: let us know if you need this content in your language.</em>
 
 > ### Ausgangslage
 

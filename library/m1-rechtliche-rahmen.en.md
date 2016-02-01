@@ -9,6 +9,6 @@ Summary:
 Lang: en
 
 
-<em>Translations are not available everywhere yet: let us know if you need this content in your language.</em>
+<em>Translations are not yet available everywhere: let us know if you need this content in your language.</em>
 
 This document is [available in German](/de/library/m1-rechtliche-rahmen).

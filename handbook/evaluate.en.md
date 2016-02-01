@@ -1,18 +1,22 @@
-Title: Evaluating usage of your data
+Title: Evaluate usage of open data
 Category: Support
 Handbook: yes
 Tags:
 Date: 2016-01-01
 Slug: evaluate
 Authors:
-Summary: Active use of metrics to judge relative interest and optimise uptake of OGD.
+Summary: Metrics and indicators of use in comparing and optimizing interest and uptake of OGD.
 Lang: en
 Draft: yes
 
 
-- Global Open Data Index
-- WWW Foundation Barometer
-- M13	 Evaluation of the impact of OGD (JP)
+* [Evaluation of the impact of OGD]
+
+## Global indicators
+
+Dataset usage is even an important measure on an international level, with the [Global Open Data Index](http://index.okfn.org) initiative providing a good high level overview of OGD availability around the world.
+
+The [Open Data Barometer](http://www.opendatabarometer.org/)
 
 ## Metrics use
 

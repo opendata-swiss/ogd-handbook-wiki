@@ -8,6 +8,6 @@ Authors: Adelheid Bürgi-Schmelz
 Summary: Report on databases of the Confederation - basis for an inventory
 Lang: en
 
-<em>Translations are not available everywhere yet: let us know if you need this content in your language.</em>
+<em>Translations are not yet available everywhere: let us know if you need this content in your language.</em>
 
 This document is [available in German](/de/library/m4-datenbestaende-bund).

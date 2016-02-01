@@ -1,4 +1,4 @@
-Title: Applying correct terms of use
+Title: Apply correct terms of use
 Category: Establish
 Handbook: yes
 Tags:

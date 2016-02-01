@@ -1,4 +1,4 @@
-Title: Promoting use and publication in your organization
+Title: Use and promote OGD in the organization
 Category: Support
 Handbook: yes
 Tags:

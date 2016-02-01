@@ -1,4 +1,4 @@
-Title: Hosting data on the World Wide Web
+Title: Host data on the World Wide Web
 Category: Publish
 Handbook: yes
 Tags:

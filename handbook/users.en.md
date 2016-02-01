@@ -1,4 +1,4 @@
-Title: Supporting and engaging with users
+Title: Support and engage with users
 Category: Support
 Handbook: yes
 Tags:
