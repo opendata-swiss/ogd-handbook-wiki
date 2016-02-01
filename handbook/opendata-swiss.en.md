@@ -43,7 +43,7 @@ For publishers, opendata.swiss offers the following ways to add their data to th
 
 ## How can I test if I am ready?
 
-1. Get the [example XML file](https://github.com/ogdch/dcat-ap-docs/blob/master/ogdch_dcatap_import.rdf).
+1. Get the [example XML file](https://github.com/opendata-swiss/ogd-handbook-wiki/blob/master/ogdch_dcatap_import.rdf).
 2. Fill the XML file for your metadata following the documentation of the [DCAT-AP for Switzerland format](#dcat-ap-reference-documentation).
 3. Send your XML-file for validation to the portal team: <opendata@bar.admin.ch> 
 4. The portal team gets back to you with feedback.
@@ -181,7 +181,7 @@ Example:
 Example:
 ```xml
 <dct:publisher> 
-  <rdf:Description rdf:about="Reference to TERMDAT-Entry">
+  <rdf:Description rdf:about="Reference of publisher">
     <rdfs:label>Bundesamt für Landestopografie swisstopo</rdfs:label>
   </rdf:Description>
 </dct:publisher>
