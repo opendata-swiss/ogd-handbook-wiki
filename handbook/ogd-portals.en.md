@@ -20,30 +20,13 @@ Most data portals combine datasets which are directly distributed on site, and r
 
 As data portals proliferate (there are several thousand portal projects worldwide), the question arises of what happens when datasets are published in multiple locations. *Federation* between portals is a kind of software contract that allows content to be shared between them.
 
-An *open data portal* is one that has a focus on providing datasets which are licensed under open conditions. See [criteria for OGD](/identify/criteria) for more background. Open data portals provide access to data mainly from government offices ([opendata.swiss](/publish/opendata-swiss)), science and academia ([openresearchdata.ch](http://openresearchdata.ch)), maps and Geographic Information Systems ([geo.admin.ch](http://geo.admin.ch)), and so on.
+### Portals for open data
 
-In summary, data portals are for:
+An *open data portal* is one that has a focus on providing datasets which are licensed under open conditions. See [criteria for OGD](/identify/criteria) for more background. Open data portals provide access to data mainly from government offices ([opendata.swiss](/publish/opendata-swiss)), science and academia ([openresearchdata.ch](http://openresearchdata.ch)), maps and Geographic Information Systems ([geo.admin.ch](http://geo.admin.ch)), and so on. The [Open Data Handbook](http://opendatahandbook.org/guide/en/how-to-open-up-data/#for-government) has more background on how open data portals work and their benefits to the user community.
 
-> - Providing an avenue to allow the private and community sectors to add their data. It may be worthwhile to think of the catalog as the region’s catalog, rather than the regional government’s.
-- Facilitating improvement of the data by allowing derivatives of datasets to be cataloged. For example, someone may geocode addresses and may wish to share those results with everybody. If you only allow single versions of datasets, these improvements remain hidden.
-- Be tolerant of your data appearing elsewhere. That is, content is likely to be duplicated to communities of interest. If you have river level monitoring data available, then your data may appear in a catalog for hydrologists.
-- Ensure that access is equitable. Try to avoid creating a privileged level of access for officials or tenured researchers as this will undermine community participation and engagement.
+For more information and to learn how data is published on open data portals, see the [Publish topics](/category/publish/) in this Handbook.
 
-> [Open Data Handbook](http://opendatahandbook.org/guide/en/how-to-open-up-data/#for-government)
-
-### Publishing to portals
-
-Important steps in the process of uploading and managing a dataset include:
-
-- ensuring the latest versions of content is available
-- appropriate taxonometry and categorisation
-- correct and complete labels and tagging (see [applying metadata](/publish/metadata))
-- validating license details and contact information
-- testing the ability to preview the data (if possible)
-
-For larger organizations with their own infrastructure, it often becomes inconvenient and costly to upload datasets one at a time, so software programs called **harvesters** are used to collect details on each dataset and publish a selection of metadata to the data portal. These programs can also be run automatically to ensure that updates are propagated. For more information, see [publishing on opendata.swiss](/publish/opendata-swiss).
-
-### Links to open government data portals
+### Links to Open Government Data portals
 
 **[opendata.swiss](http://opendata.swiss)** is the official Open Government Data portal of the Swiss Confederation.
 
@@ -68,4 +51,5 @@ Several Swiss Cantons and Communes have already started federating their collect
 - Austria: [data.gv.at](https://www.data.gv.at/)
 - The Netherlands: [data.overheid.nl](https://data.overheid.nl/)
 - UK: [data.gov.uk](https://data.gov.uk/)
+- Canada: [open.canada.ca](http://open.canada.ca/en/open-data)
 - USA: [Data.gov](https://www.data.gov/open-gov/)
