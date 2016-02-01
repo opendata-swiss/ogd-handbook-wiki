@@ -9,6 +9,11 @@ Lang: en
 Draft: yes
 
 
+## Table of Contents
+
+1. [Introduction](#introduction)
+
+
 ## Introduction
 If you would like to add data to opendata.swiss and your agency or organisation is not yet publishing on opendata.swiss, please continue reading and contact <opendata@bar.admin.ch> for assistance.
 
@@ -150,15 +155,14 @@ The multi-lingual elements have to contain the `xml:lang` attribute, as the foll
 | Mandatory   | yes         |             |                
 | Cardinality | 1..n        |             |
 | Description | The publishers of the dataset. `rdf:about` is an optional attribute that may contain a TERMDAT reference. |             |
-| Example     | 
-```
-<dct:publisher>
+Example:
+```xml
+<dct:publisher> 
   <rdf:Description rdf:about="Reference to TERMDAT-Entry">
     <rdfs:label>Bundesamt für Landestopografie swisstopo</rdfs:label>
   </rdf:Description>
 </dct:publisher>
 ``` 
-|             |
 
 `dct:contactPoint`
 
@@ -187,7 +191,7 @@ The multi-lingual elements have to contain the `xml:lang` attribute, as the foll
 ``` 
 |             |
 
-`dct:theme`
+##### `dct:theme`
 
 |             |             |             |
 |-------------|-------------|-------------|
