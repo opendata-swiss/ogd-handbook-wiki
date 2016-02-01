@@ -1,7 +1,7 @@
-Title: README
-Status: draft
-Date: 2016-01-01
-
 # OGD Handbook wiki
 
-Please see http://handbook.opendata.swiss and visit the [Contributor's Guide](pages/contribute.en.md) for information.
+This repository contains the contents of the Swiss Open Government Data Handbook, available at http://handbook.opendata.swiss
+
+Visit the [Contributor's Guide](pages/contribute.en.md) for information on how to contribute.
+
+This content is deployed within the web application project [ogd-handbook-site](https://github.com/opendata-swiss/ogd-handbook-site).
