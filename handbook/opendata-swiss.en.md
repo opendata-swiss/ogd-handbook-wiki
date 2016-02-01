@@ -31,7 +31,7 @@ For publishers, opendata.swiss offers the following ways to add their data to th
 
 ## How can I test if I am ready?
 
-1. Get the [example XML file](../samples/ogdch_dcatap_import.rdf).
+1. Get the [example XML file](/samples/ogdch_dcatap_import.rdf).
 2. Fill the XML file for your metadata following the documentation of the [DCAT-AP for Switzerland format](#dcat-ap-reference-documentation).
 3. Send your XML-file for validation to the portal team: <opendata@bar.admin.ch>
 4. The portal team gets back to you with feedback.
@@ -40,7 +40,7 @@ For publishers, opendata.swiss offers the following ways to add their data to th
 The ‹Open Government Data› project organisation have worked out a joint solution; see all documents [M8 - Selection and definition of the OGD standards](http://www.egovernment.ch/umsetzung/00881/00883/01112/index.html?lang=en). The portal opendata.swiss implements these standards.
 
 Have a look at the following example for a quick start:
-(Full dataset RDF example: [ogdch_dcatap_import.rdf](../samples/ogdch_dcatap_import.rdf))
+(Full dataset RDF example: [ogdch_dcatap_import.rdf](/samples/ogdch_dcatap_import.rdf))
 
 ### Namespaces
 ```xml
