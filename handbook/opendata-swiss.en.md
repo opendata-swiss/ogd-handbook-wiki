@@ -52,7 +52,7 @@ For publishers, opendata.swiss offers the following ways to add their data to th
 The ‹Open Government Data› project organisation have worked out a joint solution; see all documents [M8 - Selection and definition of the OGD standards](http://www.egovernment.ch/umsetzung/00881/00883/01112/index.html?lang=en). The portal opendata.swiss implements these standards.
 
 Have a look at the following example for a quick start:
-(Full dataset RDF example: [ogdch_dcatap_import.rdf](https://github.com/ogdch/dcat-ap-docs/blob/master/ogdch_dcatap_import.rdf))
+(Full dataset RDF example: [ogdch_dcatap_import.rdf](https://github.com/opendata-swiss/ogd-handbook-wiki/blob/master/ogdch_dcatap_import.rdf))
 
 ### Namespaces
 ```xml
