@@ -16,7 +16,7 @@ When we say ‹data›, we mean ‹datasets› and ‹resources›. By **metadat
 
 ## Publishing metadata on opendata.swiss
 
-You need to publish standardised information about your data, so-called metadata.  For publishers, opendata.swiss [offers different ways](/handbook/opendata-swiss) to add their data to the metadata catalogue. The ‹Open Government Data› project organisation have worked out a joint solution (see [M8 - Selection and definition of the OGD standards](/category/library)). The portal opendata.swiss implements these standards, and provides further documentation in the [DCAT-AP Switzerland](http://dcat-ap-switzerland.readthedocs.org/en/latest/) manual.
+You need to publish standardised information about your data, so-called metadata.  For publishers, opendata.swiss [offers different ways](/publish/opendata-swiss) to add their data to the metadata catalogue. The ‹Open Government Data› project organisation have worked out a joint solution (see [M8 - Selection and definition of the OGD standards](/category/library)). The portal opendata.swiss implements these standards, and provides further documentation in the [DCAT-AP Switzerland](http://dcat-ap-switzerland.readthedocs.org/en/latest/) manual.
 
 ### Readiness test
 

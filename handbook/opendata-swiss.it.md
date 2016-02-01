@@ -11,4 +11,4 @@ Draft: yes
 
 <em>Le traduzioni non sono disponibili ovunque ancora: fateci sapere se avete bisogno di questo contenuto nella tua lingua.</em>
 
-Questo articolo è [disponibile in inglese](/en/handbook/opendata-swiss).
+Questo articolo è [disponibile in inglese](/en/publish/opendata-swiss).
