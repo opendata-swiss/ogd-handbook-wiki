@@ -7,19 +7,7 @@ Slug: opendata-swiss
 Summary: Authorities from the Confederation, cantons and communes as well as third parties that perform tasks on behalf of the state can publish their Open Data on the opendata.swiss portal. Learn how to get your Open Data on opendata.swiss.
 Lang: en
 Draft: yes
-
-
-## Table of Contents
-* [Introduction](#introduction)
-* [How can I publish my data on opendata.swiss?](#how-can-i-publish-my-data-on-opendataswiss)
-* [How can I test if I am ready?](#how-can-i-test-if-i-am-ready)
-* [What is the DCAT-AP for Switzerland format?](#what-is-the-dcat-ap-for-switzerland-format)
-  * [Namespaces](#namespaces)
-  * [Internationalisation](#internationalisation)
-  * [DCAT-AP reference documentation](#dcat-ap-reference-documentation)
-    * [Definition of dcat:Dataset](#definition-of-dcatdataset)
-    * [Definition of Distribution](#definition-of-distribution)
-    * [Common fields](#common-fields)
+toc_run: true
 
 
 ## Introduction
@@ -27,7 +15,7 @@ If you would like to add data to opendata.swiss and your agency or organisation 
 
 [opendata.swiss](https://opendata.swiss) is the production portal, which replaced the pilot portal ‹opendata.admin.ch› by February 2, 2016, implementing the decisions taken by the ‹Open Government Data› project organisation under the leadership of the [Swiss Federal Archives SFA](http://www.bar.admin.ch/themen/01648/01968/index.html?lang=en) in the pilot phase.
 
-opendata.swiss does not host data directly, but rather aggregates metadata about open data resources in one centralised location. 
+opendata.swiss does not host data directly, but rather aggregates metadata about open data resources in one centralised location.
 
 ## How can I publish my data on opendata.swiss?
 You need to publish standardised information about your data, so-called metadata. When we say ‹data›, we mean [‹datasets› and ‹resources›](http://docs.ckan.org/en/ckan-1.8/domain-model.html#overview).
@@ -36,23 +24,23 @@ For publishers, opendata.swiss offers the following ways to add their data to th
 
 | Use case          | Solution          | Get ready        |
 |-------------------|-------------------|------------------|
-| _I want to publish certain datasets, which are updated at rare intervals._ | I manually submit my metadata through a web page on opendata.swiss. | For assistance, please contact <opendata@bar.admin.ch> | 
+| _I want to publish certain datasets, which are updated at rare intervals._ | I manually submit my metadata through a web page on opendata.swiss. | For assistance, please contact <opendata@bar.admin.ch> |
 | _I want to publish several data and/or data which are updated regularly._ | I manually import my metadata by uploading an XML file – in the DCAT-AP for Switzerland format (documentation see below) – on opendata.swiss. | For assistance, please contact <opendata@bar.admin.ch> |
 | _I want to publish a large number of datasets and/or datasets which are updated frequently._ | I automatically import my metadata running a metadata harvester. | For assistance, please contact <opendata@bar.admin.ch> |
-| _I have open geodata, already published or intended to be published via [geo.admin.ch / Federal Spatial Data Infrastructure FSDI](http://www.geo.admin.ch/internet/geoportal/en/home/geoadmin/mission/bgdi.html)_ | I configure corresponding metadata entries in [www.geocat.ch](http://www.geocat.ch/geonetwork/srv/ger/geocat), so it will be published automatically on opendata.swiss. | For www.geocat.ch support, please contact <geocat@swisstopo.ch> | 
+| _I have open geodata, already published or intended to be published via [geo.admin.ch / Federal Spatial Data Infrastructure FSDI](http://www.geo.admin.ch/internet/geoportal/en/home/geoadmin/mission/bgdi.html)_ | I configure corresponding metadata entries in [www.geocat.ch](http://www.geocat.ch/geonetwork/srv/ger/geocat), so it will be published automatically on opendata.swiss. | For www.geocat.ch support, please contact <geocat@swisstopo.ch> |
 
 ## How can I test if I am ready?
 
-1. Get the [example XML file](https://github.com/opendata-swiss/ogd-handbook-wiki/blob/master/ogdch_dcatap_import.rdf).
+1. Get the [example XML file](../samples/ogdch_dcatap_import.rdf).
 2. Fill the XML file for your metadata following the documentation of the [DCAT-AP for Switzerland format](#dcat-ap-reference-documentation).
-3. Send your XML-file for validation to the portal team: <opendata@bar.admin.ch> 
+3. Send your XML-file for validation to the portal team: <opendata@bar.admin.ch>
 4. The portal team gets back to you with feedback.
 
 ## What is the DCAT-AP for Switzerland format?
 The ‹Open Government Data› project organisation have worked out a joint solution; see all documents [M8 - Selection and definition of the OGD standards](http://www.egovernment.ch/umsetzung/00881/00883/01112/index.html?lang=en). The portal opendata.swiss implements these standards.
 
 Have a look at the following example for a quick start:
-(Full dataset RDF example: [ogdch_dcatap_import.rdf](https://github.com/opendata-swiss/ogd-handbook-wiki/blob/master/ogdch_dcatap_import.rdf))
+(Full dataset RDF example: [ogdch_dcatap_import.rdf](../samples/ogdch_dcatap_import.rdf))
 
 ### Namespaces
 ```xml
@@ -91,15 +79,15 @@ The multi-lingual elements have to contain the `xml:lang` attribute, as the foll
 ##### `dct:identifier`
 
 | Attributes  |             |
-|-------------|-------------| 
-| Type        | `rdfs:Literal` http://www.w3.org/TR/rdf-schema/#ch_literal | 
-| Mandatory   | yes         | 
-| Cardinality | 1..1        | 
-| Description | Unique identifier of the dataset across all publishers. A good way to make sure this identifier is unique is to link the source system ID with the ID of the publisher: `<Source-Dataset-ID>@<Source-Organisation-ID>` | 
+|-------------|-------------|
+| Type        | `rdfs:Literal` http://www.w3.org/TR/rdf-schema/#ch_literal |
+| Mandatory   | yes         |
+| Cardinality | 1..1        |
+| Description | Unique identifier of the dataset across all publishers. A good way to make sure this identifier is unique is to link the source system ID with the ID of the publisher: `<Source-Dataset-ID>@<Source-Organisation-ID>` |
 Example:
 ```xml
 <dct:identifier>325@swisstopo</dct:identifier>
-``` 
+```
 
 ##### `dct:title`
 
@@ -140,10 +128,10 @@ Example:
 |             |             |             |
 |-------------|-------------|-------------|
 | Type        | Date and time in [ISO-8601](https://en.wikipedia.org/wiki/ISO_8601) format |             |
-| Mandatory   | Can be left out if there is no [distribution](#definition-of-distribution) |             |                
+| Mandatory   | Can be left out if there is no [distribution](#definition-of-distribution) |             |
 | Cardinality | 0..1        |             |
 | Attributes  | Name        | `rdf:datatype` |
-|             | Content     | http://www.w3.org/2001/XMLSchema#dateTime | 
+|             | Content     | http://www.w3.org/2001/XMLSchema#dateTime |
 |             | Description | Type of the field |
 |             | Mandatory   | yes         |
 | Description | Date of the first publication of this dataset. If this date is unknown, the date of the first publication on opendata.swiss can be used. If that date is in the future, the dataset is not displayed. |             |
@@ -157,10 +145,10 @@ Example:
 |             |             |             |
 |-------------|-------------|-------------|
 | Type        | Date and time in [ISO-8601](https://en.wikipedia.org/wiki/ISO_8601) format |             |
-| Mandatory   | Only when the dataset has changed since the first publication |             |                
+| Mandatory   | Only when the dataset has changed since the first publication |             |
 | Cardinality | 0..1        |             |
 | Attributes  | Name        | `rdf:datatype` |
-|             | Content     | http://www.w3.org/2001/XMLSchema#dateTime | 
+|             | Content     | http://www.w3.org/2001/XMLSchema#dateTime |
 |             | Description | Type of the field |
 |             | Mandatory   | yes         |
 | Description | Date of the last change (since the first publication on opendata.swiss) |             |
@@ -175,17 +163,17 @@ Example:
 |-------------|-------------|-------------|
 | Elements    | `rdf:Description` |             |
 | Type        | Nested element |             |
-| Mandatory   | yes         |             |                
+| Mandatory   | yes         |             |
 | Cardinality | 1..n        |             |
 | Description | The publishers of the dataset. `rdf:about` is an optional attribute. |             |
 Example:
 ```xml
-<dct:publisher> 
+<dct:publisher>
   <rdf:Description rdf:about="Reference of publisher">
     <rdfs:label>Bundesamt für Landestopografie swisstopo</rdfs:label>
   </rdf:Description>
 </dct:publisher>
-``` 
+```
 
 ##### `dct:contactPoint`
 
@@ -193,7 +181,7 @@ Example:
 |-------------|-------------|-------------|
 | Elements    | `vcard:Organization` |             |
 | Type        | `vcard:Kind` |             |
-| Mandatory   | yes         |             |                
+| Mandatory   | yes         |             |
 | Cardinality | 1..n        |             |
 | Description | One or more contact email addresses for this dataset `vcard:fn`. Description of the point of contact `vcard:hasEmail` has an attribute `rdf:resource` which contains the email of the point of contact (including mailto:) |             |
 Example:
@@ -211,14 +199,14 @@ Example:
     <vcard:hasEmail rdf:resource="mailto:sekretariat@bafu.admin.ch"/>
   </vcard:Individual>
 </dcat:contactPoint>
-``` 
+```
 
 ##### `dct:theme`
 
 |             |             |             |
 |-------------|-------------|-------------|
 | Type        | `skos:Concept` http://www.w3.org/2009/08/skos-reference/skos.html#Concept |             |
-| Mandatory   | yes         |             |                
+| Mandatory   | yes         |             |
 | Cardinality | 1..n        |             |
 | Attributes  | Name        | `rdf:resource` |
 |             | Description | URI to the category |
@@ -250,37 +238,37 @@ Example:
 |-------------|-------------|-------------|
 | Elements    | `rdf:Description` |             |
 | Type        | Nested element |             |
-| Mandatory   | no          |             |                
+| Mandatory   | no          |             |
 | Cardinality | 0..n        |             |
 | Description | A relation to a document. The `rdf:about` must link to a related document. |             |
-Example: 
+Example:
 ```xml
 <dct:relation>
   <rdf:Description rdf:about="http://www.bafu.admin.ch/laerm/index.html?lang=de">
     <rdfs:label>Webseite des BAFU</rdfs:label>
   </rdf:Description>
 </dct:relation>
-``` 
+```
 
 ##### `dcat:keyword`
 
 |             |             |             |
 |-------------|-------------|-------------|
 | Type        | `rdfs:Literal` http://www.w3.org/TR/rdf-schema/#ch_literal |             |
-| Mandatory   | no          |             |                
+| Mandatory   | no          |             |
 | Cardinality | 0..n        |             |
 | Attributes  | Name        | `xml:lang` |
-|             | Content     | `en` `de` `fr` `it` | 
+|             | Content     | `en` `de` `fr` `it` |
 |             | Description | Language of the element |
 |             | Mandatory   | yes         |
 | Description | Keyword who describes this dataset |             |
-Example: 
+Example:
 ```xml
 <dcat:keyword xml:lang="de">Nacht</dcat:keyword>
 <dcat:keyword xml:lang="fr">Nuit</dcat:keyword>
 <dcat:keyword xml:lang="it">Noche</dcat:keyword>
 <dcat:keyword xml:lang="en">Night</dcat:keyword>
-``` 
+```
 
 ##### `dcat:landingPage`
 
@@ -315,11 +303,11 @@ Example:
 |             |             |             |
 |-------------|-------------|-------------|
 | Type        | `ct:PeriodOfTime` http://dublincore.org/documents/2012/06/14/dcmi-terms/?v=terms#terms-PeriodOfTime |             |
-| Mandatory   | no          |             |                
+| Mandatory   | no          |             |
 | Cardinality | 0..n        |             |
 | Attributes  |             |             |
 | Description | One or more time period(s) that cover the dataset. `<schema:startDate>` contains the start date, `<schema:endDate>` contains the end date format for dates: http://www.w3.org/2001/XMLSchema#date |             |
-Example: 
+Example:
 ```xml
 <dct:temporal>
   <dct:PeriodOfTime>
@@ -333,7 +321,7 @@ Example:
 
 |             |             |             |
 |-------------|-------------|-------------|
-| Mandatory   | no          |             |                
+| Mandatory   | no          |             |
 | Cardinality | 0..n        |             |
 | Attributes  | Name        | `rdf:resource` |
 |             | Type        | `dct:Frequency` |
@@ -348,7 +336,7 @@ Example:
 
 |             |             |             |
 |-------------|-------------|-------------|
-| Type        | `rdfs:Literal` http://www.w3.org/TR/rdf-schema/#ch_literal |             |                
+| Type        | `rdfs:Literal` http://www.w3.org/TR/rdf-schema/#ch_literal |             |
 | Mandatory   | no          |             |
 | Cardinality | 0..n        |             |
 | Attributes  |             |             |
@@ -373,12 +361,12 @@ Example:
 ##### `dcat:identifier`
 
 |             |             |
-|-------------|-------------| 
-| Type        | `rdfs:Literal` http://www.w3.org/TR/rdf-schema/#ch_literal | 
-| Mandatory   | no          | 
-| Cardinality | 0..1        | 
+|-------------|-------------|
+| Type        | `rdfs:Literal` http://www.w3.org/TR/rdf-schema/#ch_literal |
+| Mandatory   | no          |
+| Cardinality | 0..1        |
 | Attributes  |             |
-| Description | Identifier of the distribution in the source system | 
+| Description | Identifier of the distribution in the source system |
 Example:
 ```xml
 <dct:identifier>ch.bafu.laerm-bahnlaerm_nacht</dct:identifier>

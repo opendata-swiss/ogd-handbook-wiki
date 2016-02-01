@@ -10,7 +10,7 @@ Lang: en
 Draft: yes
 
 
-A *data portal* (see examples below in [Links](#links)) is an online collection of links to resources, in some ways similar to a Document Management System, which often provides the ability to directly download and/or query structured data. These datasets are often collected with involvement of the maintainers of the data portal - though not always, as in the case of crowd-sourced portals like [Datahub.io](http://datahub.io), or linked data portals like [Wikidata](https://www.wikidata.org/).
+A *data portal* is an online collection of links to resources - scroll down in this topic for some examples. This has similarities to a Document Management System, which often provides the ability to directly download and/or query structured data. These datasets are often collected with involvement of the maintainers of the data portal - though not always, as in the case of crowd-sourced portals like [Datahub.io](http://datahub.io), or linked data portals like [Wikidata](https://www.wikidata.org/).
 
 ### What are data portals for?
 
@@ -43,7 +43,6 @@ Important steps in the process of uploading and managing a dataset include:
 
 For larger organizations with their own infrastructure, it often becomes inconvenient and costly to upload datasets one at a time, so software programs called **harvesters** are used to collect details on each dataset and publish a selection of metadata to the data portal. These programs can also be run automatically to ensure that updates are propagated. For more information, see [publishing on opendata.swiss](/publish/opendata-swiss).
 
-<a name="links"></a>
 ### Links to open government data portals
 
 **[opendata.swiss](http://opendata.swiss)** is the official Open Government Data portal of the Swiss Confederation.
