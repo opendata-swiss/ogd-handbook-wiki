@@ -9,6 +9,11 @@ Lang: en
 Draft: yes
 
 
+## Table of Contents
+
+1. [Introduction](#introduction)
+
+
 ## Introduction
 If you would like to add data to opendata.swiss and your agency or organisation is not yet publishing on opendata.swiss, please continue reading and contact <opendata@bar.admin.ch> for assistance.
 
