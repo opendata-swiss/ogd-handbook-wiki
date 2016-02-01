@@ -8,13 +8,14 @@ Authors:
 Summary: An exploration of common users of Open Government Data, and how they are best supported.
 Lang: en
 Draft: yes
+toc_run: true
+TODO1: M12 Dialogue with OGD users
+TODO2: shorten / additional references
 
-
-- M12	 Dialogue with OGD users
-- shorten current
-- put in some references
 
 What we understand by data in the context of OGD is often the kind of specialised and detailed information that preoccupies teams of experts in statistics departments, university and corporate research labs. While expert users continue to be the focus and often the motivators of data collection, today's "data users" represent only a small part of the global interest potential.
+
+### Aims for this page
 
 Topics we would like to explore here:
 
