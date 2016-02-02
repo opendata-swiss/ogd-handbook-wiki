@@ -8,3 +8,4 @@ Authors:
 Summary: Discusses ways of promoting OGD publication and reuse in government agencies and other organizations.
 Lang: en
 Draft: yes
+Hidden: yes

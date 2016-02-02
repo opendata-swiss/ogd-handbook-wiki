@@ -7,6 +7,7 @@ Slug: ogd-portals
 Authors:
 Summary: An overview of how data portals work, how to publish data to them, and where to find them.
 Lang: en
+toc_run: true
 Draft: yes
 
 
