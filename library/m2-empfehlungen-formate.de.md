@@ -7,6 +7,7 @@ Slug: m2-empfehlungen-formate
 Authors:
 Summary:
 Lang: de
+Hidden: yes
 
 
 Um das Potential von offenen Behördendaten nutzen zu können, müssen
