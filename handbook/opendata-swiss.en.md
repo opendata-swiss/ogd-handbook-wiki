@@ -88,7 +88,7 @@ Example:
 ```xml
 <dct:identifier>325@swisstopo</dct:identifier>
 ```
-
+---
 ##### `dct:title`
 
 |             |             |             |
@@ -97,7 +97,7 @@ Example:
 | Mandatory   | yes         |             |
 | Cardinality | 1..n (one for each language) |             |
 | Attributes  | Name        | `xml:lang`  |
-|             | Content     | `en` `de` `fr` `it` |
+|             | Content     | `en`, `de`, `fr`, `it` |
 |             | Description | Language of the element |
 |             | Mandatory   | yes         |
 | Description | Title of the dataset in the language defined by the `xml:lang` attribute |             |
@@ -105,7 +105,7 @@ Example:
 ```xml
 <dct:title xml:lang="de">Eisenbahnlärm Nacht</dct:title>
 ```
-
+---
 ##### `dct:description`
 
 |             |             |             |
@@ -114,7 +114,7 @@ Example:
 | Mandatory   | yes - in all the languages in which [distributions](#definition-of-distribution) are available |             |
 | Cardinality | 1..n (one for each language) |             |
 | Attributes  | Name        | `xml:lang`     |
-|             | Content     | `en` `de` `fr` `it` |
+|             | Content     | `en`, `de`, `fr`, `it` |
 |             | Description | Language of the element |
 |             | Mandatory   | yes         |
 | Description | Description of the dataset in the language defined by the `xml:lang` attribute |             |
@@ -122,7 +122,7 @@ Example:
 ```xml
 <dct:description xml:lang="de">Die Karte zeigt, welcher Lärmbelastung die Bevölkerung durch den Schienenverkehr ausgesetzt ist.</dct:description>
 ```
-
+---
 ##### `dct:issued`
 
 |             |             |             |
@@ -139,7 +139,7 @@ Example:
 ```xml
 <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"> 2013-04-26T01:00:00Z</dct:issued>
 ```
-
+---
 ##### `dct:modified`
 
 |             |             |             |
@@ -156,16 +156,16 @@ Example:
 ```xml
 <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"> 2013-04-26T01:00:00Z</dct:modified>
 ```
-
+---
 ##### `dct:publisher`
 
-|             |             |             |
-|-------------|-------------|-------------|
-| Elements    | `rdf:Description` |             |
-| Type        | Nested element |             |
-| Mandatory   | yes         |             |
-| Cardinality | 1..n        |             |
-| Description | The publishers of the dataset. `rdf:about` is an optional attribute. |             |
+|             |             |
+|-------------|-------------|
+| Elements    | `rdf:Description` |
+| Type        | Nested element |
+| Mandatory   | yes         |
+| Cardinality | 1..n        |
+| Description | The publishers of the dataset. `rdf:about` is an optional attribute. |
 Example:
 ```xml
 <dct:publisher>
@@ -174,16 +174,16 @@ Example:
   </rdf:Description>
 </dct:publisher>
 ```
-
+---
 ##### `dct:contactPoint`
 
-|             |             |             |
-|-------------|-------------|-------------|
-| Elements    | `vcard:Organization` |             |
-| Type        | `vcard:Kind` |             |
-| Mandatory   | yes         |             |
-| Cardinality | 1..n        |             |
-| Description | One or more contact email addresses for this dataset `vcard:fn`. Description of the point of contact `vcard:hasEmail` has an attribute `rdf:resource` which contains the email of the point of contact (including mailto:) |             |
+|             |             |
+|-------------|-------------|
+| Elements    | `vcard:Organization` |
+| Type        | `vcard:Kind` |
+| Mandatory   | yes         |
+| Cardinality | 1..n        |
+| Description | One or more contact email addresses for this dataset `vcard:fn`. Description of the point of contact `vcard:hasEmail` has an attribute `rdf:resource` which contains the email of the point of contact (including mailto:) |
 Example:
 ```xml
 <dcat:contactPoint>
@@ -200,7 +200,7 @@ Example:
   </vcard:Individual>
 </dcat:contactPoint>
 ```
-
+---
 ##### `dct:theme`
 
 |             |             |             |
@@ -216,31 +216,31 @@ Example:
 ```xml
 <dcat:theme rdf:resource="http://opendata.swiss/themes/population"/>
 ```
-
+---
 ##### `dct:language`
 
-|             |             |             |
-|-------------|-------------|-------------|
-| Type        | `rdfs:Literal` ISO 639-1 two-letter code |             |
-| Content     | `en` `de` `fr` `it` |             |
-| Mandatory   | no          |             |
-| Cardinality | 0..n (for each language) |             |
-| Attributes  |             |             |
-| Description | Should contain all languages for which a [distribution](#definition-of-distribution) is available. This field is not validated and is used for display purposes. If all distributions are language-independant, this field can be left out. |             |
+|             |             |
+|-------------|-------------|
+| Type        | `rdfs:Literal` ISO 639-1 two-letter code |
+| Content     | `en`, `de`, `fr`, `it` |
+| Mandatory   | no          |
+| Cardinality | 0..n (for each language) |
+| Attributes  |             |
+| Description | Should contain all languages for which a [distribution](#definition-of-distribution) is available. This field is not validated and is used for display purposes. If all distributions are language-independant, this field can be left out. |
 Example:
 ```xml
 <dct:language>de</dct:language>
 ```
-
+---
 ##### `dct:relation`
 
-|             |             |             |
-|-------------|-------------|-------------|
-| Elements    | `rdf:Description` |             |
-| Type        | Nested element |             |
-| Mandatory   | no          |             |
-| Cardinality | 0..n        |             |
-| Description | A relation to a document. The `rdf:about` must link to a related document. |             |
+|             |             |
+|-------------|-------------|
+| Elements    | `rdf:Description` |
+| Type        | Nested element |
+| Mandatory   | no          |
+| Cardinality | 0..n        |
+| Description | A relation to a document. The `rdf:about` must link to a related document. |
 Example:
 ```xml
 <dct:relation>
@@ -249,7 +249,7 @@ Example:
   </rdf:Description>
 </dct:relation>
 ```
-
+---
 ##### `dcat:keyword`
 
 |             |             |             |
@@ -258,7 +258,7 @@ Example:
 | Mandatory   | no          |             |
 | Cardinality | 0..n        |             |
 | Attributes  | Name        | `xml:lang` |
-|             | Content     | `en` `de` `fr` `it` |
+|             | Content     | `en`, `de`, `fr`, `it` |
 |             | Description | Language of the element |
 |             | Mandatory   | yes         |
 | Description | Keyword who describes this dataset |             |
@@ -269,44 +269,44 @@ Example:
 <dcat:keyword xml:lang="it">Noche</dcat:keyword>
 <dcat:keyword xml:lang="en">Night</dcat:keyword>
 ```
-
+---
 ##### `dcat:landingPage`
 
-|             |             |             |
-|-------------|-------------|-------------|
-| Type        | `foaf:Document` http://xmlns.com/foaf/spec/#term_Document |             |
-| Mandatory   | no          |             |
-| Cardinality | 0..1        |             |
-| Attributes  |             |             |
-| Description | Website of the dataset with related information |             |
+|             |             |
+|-------------|-------------|
+| Type        | `foaf:Document` http://xmlns.com/foaf/spec/#term_Document |
+| Mandatory   | no          |
+| Cardinality | 0..1        |
+| Attributes  |             |
+| Description | Website of the dataset with related information |
 Example:
 ```xml
 <dcat:landingPage>http://www.bafu.admin.ch/laerm/index.html?lang=de</dcat:landingPage>
 ```
-
+---
 ##### `dcat:spatial`
 
-|             |             |             |
-|-------------|-------------|-------------|
-| Type        | `dct:Location` http://dublincore.org/documents/2012/06/14/dcmi-terms/?v=terms#Location |             |
-| Mandatory   | no          |             |
-| Cardinality | 0..n        |             |
-| Attributes  |             |             |
-| Description | Geographical classification of the dataset. Can be a description, coordinates or a bounding-box. |             |
+|             |             |
+|-------------|-------------|
+| Type        | `dct:Location` http://dublincore.org/documents/2012/06/14/dcmi-terms/?v=terms#Location |
+| Mandatory   | no          |
+| Cardinality | 0..n        |
+| Attributes  |             |
+| Description | Geographical classification of the dataset. Can be a description, coordinates or a bounding-box. |
 Example:
 ```xml
 <dct:spatial rdf:resource="http://publications.europa.eu/mdr/authority/country/ZWE"/>
 ```
-
+---
 ##### `dcat:temporal`
 
-|             |             |             |
-|-------------|-------------|-------------|
-| Type        | `ct:PeriodOfTime` http://dublincore.org/documents/2012/06/14/dcmi-terms/?v=terms#terms-PeriodOfTime |             |
-| Mandatory   | no          |             |
-| Cardinality | 0..n        |             |
-| Attributes  |             |             |
-| Description | One or more time period(s) that cover the dataset. `<schema:startDate>` contains the start date, `<schema:endDate>` contains the end date format for dates: http://www.w3.org/2001/XMLSchema#date |             |
+|             |             |
+|-------------|-------------|
+| Type        | `ct:PeriodOfTime` http://dublincore.org/documents/2012/06/14/dcmi-terms/?v=terms#terms-PeriodOfTime |
+| Mandatory   | no          |
+| Cardinality | 0..n        |
+| Attributes  |             |
+| Description | One or more time period(s) that cover the dataset. `<schema:startDate>` contains the start date, `<schema:endDate>` contains the end date format for dates: http://www.w3.org/2001/XMLSchema#date |
 Example:
 ```xml
 <dct:temporal>
@@ -316,7 +316,7 @@ Example:
   </dct:PeriodOfTime>
 </dct:temporal>
 ```
-
+---
 ##### `dct:accrualPeriodicity`
 
 |             |             |             |
@@ -331,30 +331,30 @@ Example:
 ```xml
 <dct:accrualPeriodicity rdf:resource="http://purl.org/cld/freq/daily"/>
 ```
-
+---
 ##### `rdfs:seeAlso`
 
-|             |             |             |
-|-------------|-------------|-------------|
-| Type        | `rdfs:Literal` http://www.w3.org/TR/rdf-schema/#ch_literal |             |
-| Mandatory   | no          |             |
-| Cardinality | 0..n        |             |
-| Attributes  |             |             |
-| Description | Link to related datasets. Contains the identifier of the linked dataset. |             |
+|             |             |
+|-------------|-------------|
+| Type        | `rdfs:Literal` http://www.w3.org/TR/rdf-schema/#ch_literal |
+| Mandatory   | no          |
+| Cardinality | 0..n        |
+| Attributes  |             |
+| Description | Link to related datasets. Contains the identifier of the linked dataset. |
 Example:
 ```xml
 <rdfs:seeAlso>326@swisstopo</rdfs:seeAlso>
 ```
-
+---
 ##### `dcat:distribution`
 
-|             |             |             |
-|-------------|-------------|-------------|
-| Type        | Nested elements. See [Definition of Distribution](#definition-of-distribution). |             |
-| Mandatory   | no          |             |
-| Cardinality | 0..n        |             |
-| Attributes  |             |             |
-| Description | Distribution of the datasets |             |
+|             |             |
+|-------------|-------------|
+| Type        | Nested elements. See [Definition of Distribution](#definition-of-distribution). |
+| Mandatory   | no          |
+| Cardinality | 0..n        |
+| Attributes  |             |
+| Description | Distribution of the datasets |
 
 #### Definition of Distribution
 
@@ -371,7 +371,7 @@ Example:
 ```xml
 <dct:identifier>ch.bafu.laerm-bahnlaerm_nacht</dct:identifier>
 ```
-
+---
 ##### `dcat:title`
 
 |             |             |             |
@@ -380,7 +380,7 @@ Example:
 | Mandatory   | no - except if the distribution does not contain all the content of the dataset. |             |
 | Cardinality | 0..n (one for each language) |             |
 | Attributes  | Name        | `xml:lang`  |
-|             | Content     | `en` `de` `fr` `it` |
+|             | Content     | `en`, `de`, `fr`, `it` |
 |             | Description | Language of the element |
 |             | Mandatory   | yes         |
 | Description | The title of the distribution in the language defined by the `xml:lang?` attribute. If this element is left out, the `dct:title` of the dataset is used instead. |             |
@@ -388,7 +388,7 @@ Example:
 ```xml
 <dct:title xml:lang="de">WMS (ch.bafu.laerm-bahnlaerm_nacht)</dct:title>
 ```
-
+---
 ##### `dct:description`
 
 |             |             |             |
@@ -397,7 +397,7 @@ Example:
 | Mandatory   | no - except if the distribution does not contain all the content of the dataset. |             |
 | Cardinality | 0..n (one for each language) |             |
 | Attributes  | Name        | `xml:lang`  |
-|             | Content     | `en` `de` `fr` `it` |
+|             | Content     | `en`, `de`, `fr`, `it` |
 |             | Description | Language of the element |
 |             | Mandatory   | yes         |
 | Description | Description of the distribution in the language defined by the `xml:lang` attribute |             |
@@ -405,7 +405,7 @@ Example:
 ```xml
 <dct:title xml:lang="de">WMS (ch.bafu.laerm-bahnlaerm_nacht)</dct:title>
 ```
-
+---
 ##### `dct:issued`
 
 |             |             |             |
@@ -422,7 +422,7 @@ Example:
 ```xml
 <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"> 2013-05-11T00:00:00Z</dct:issued>
 ```
-
+---
 ##### `dct:modified`
 
 |             |             |             |
@@ -439,13 +439,13 @@ Example:
 ```xml
 <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"> 2015-04-26T00:00:00Z</dct:modified>
 ```
-
+---
 ##### `dct:language`
 
 |             |             |             |
 |-------------|-------------|-------------|
 | Type        | `rdfs:Literal` ISO 639-1 two-letter code |             |
-| Content     | `en` `de` `fr` `it` |             |
+| Content     | `en`, `de`, `fr`, `it` |             |
 | Mandatory   | no          |             |
 | Cardinality | 0..n (for each language) |             |
 | Attributes  |             |             |
@@ -454,7 +454,7 @@ Example:
 ```xml
 <dct:language>de</dct:language>
 ```
-
+---
 ##### `dcat:accessURL`
 
 |             |             |             |
@@ -471,7 +471,7 @@ Example:
 ```xml
 <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"> http://wms.geo.admin.ch/</dcat:accessURL>
 ```
-
+---
 ##### `dct:downloadURL`
 
 |             |             |             |
@@ -488,7 +488,7 @@ Example:
 ```xml
 <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"> http://data.geo.admin.ch.s3.amazonaws.com/ch.fill/data.zip</dcat:downloadURL>
 ```
-
+---
 ##### `dct:rights`
 
 |             |             |             |
@@ -508,7 +508,7 @@ Example:
   </odrs:dataLicence>
 </dct:rights>
 ```
-
+---
 ##### `dct:license`
 
 |             |             |
@@ -522,7 +522,7 @@ Example:
 ```xml
 <dct:license/>
 ```
-
+---
 ##### `dct:byteSize`
 
 |             |             |
@@ -536,7 +536,7 @@ Example:
 ```xml
 <dcat:byteSize>1024</dcat:byteSize>
 ```
-
+---
 ##### `dct:mediaType`
 
 |             |             |
@@ -550,7 +550,7 @@ Example:
 ```xml
 <dcat:mediaType>text/html</dcat:mediaType>
 ```
-
+---
 ##### `dct:format`
 
 |             |             |
@@ -564,7 +564,7 @@ Example:
 ```xml
 <dct:format/>
 ```
-
+---
 ##### `dct:coverage`
 
 |             |             |
