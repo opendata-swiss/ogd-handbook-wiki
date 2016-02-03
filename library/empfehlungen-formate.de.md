@@ -9,7 +9,7 @@ Summary:
 Lang: de
 Hidden: yes
 toc_run: true
-Link_PDF: https://bar-files.opendata.swiss/owncloud/index.php/s/8gexg7qtjhiLlZd
+Link_PDF: https://bar-files.opendata.swiss/owncloud/index.php/s/aS8LsxUtTe7cIAz
 Link_DOC: https://bar-files.opendata.swiss/owncloud/index.php/s/9D3VHdnkS2pm1JJ
 
 
@@ -116,9 +116,9 @@ Mit dieser Definition ist beispielsweise eine Textdatei erst dann maschinenlesba
 
 Um einen passenden Algorithmus zur Verarbeitung der strukturierten Daten programmieren zu können, ist das maschinenlesbare Format noch nicht ausreichend. Die Daten müssen zusätzlich "verständlich und zweckmässig beschrieben" sein. Falls die Struktur der Daten einem Standard folgt, genügt die Angabe des betreffenden Standards (z.B. schema.org). Andernfalls muss die Beschreibung der Datenstruktur in die Metadaten integriert werden.
 
-#### (2) Offenheit[^4]
+#### (2) Offenheit
 
-| <font color="red">**Offenheit**</font> | Die Spezifikation des Formats ist offen gelegt und öffentlich zugänglich. |
+| <font color="red">**Offenheit**</font>[^4] | Die Spezifikation des Formats ist offen gelegt und öffentlich zugänglich. |
 |---------------|-------------------|
 
 "Offen ist ein Dateiformat, das plattformunabhängig ist und der Öffentlichkeit ohne Einschränkungen, die der Weiterverwendung von Dokumenten hinderlich wären, zugänglich gemacht wird"[^5].
