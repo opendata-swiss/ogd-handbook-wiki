@@ -8,6 +8,7 @@ Authors:
 Summary: Options for data licenses and terms of use from the legal perspective in Switzerland.
 Lang: en
 Draft: yes
+Hidden: yes
 
 
 In this section we illustrate some of the ways that the licensing process can help assure long term usefulness of the data for a variety of end-users.

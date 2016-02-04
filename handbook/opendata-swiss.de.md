@@ -9,6 +9,6 @@ Lang: de
 Draft: yes
 
 
-<em>Übersetzungen sind nicht überall vorhanden: lassen Sie uns wissen, wenn Sie diese Inhalte in Ihrer Sprache benötigen.</em>
+<em>Übersetzungen sind noch nicht überall verfügbar - geben Sie uns Bescheid, falls Sie diesen Inhalt in Ihrer Sprache benötigen.</em>
 
-Dieser Artikel ist in [englischer Sprache verfügbar](/en/publish/opendata-swiss).
+Diese Seite ist in [englischer Sprache verfügbar](/en/publish/opendata-swiss).
