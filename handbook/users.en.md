@@ -5,7 +5,7 @@ Tags:
 Date: 2016-01-01
 Slug: users
 Authors:
-Summary: An exploration of common users of Open Government Data, and how they are best supported.
+Summary: An exploration of the landscape of users of Open Government Data, and how they are best supported.
 Lang: en
 Draft: yes
 toc_run: true
