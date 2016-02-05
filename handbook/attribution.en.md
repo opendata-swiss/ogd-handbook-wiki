@@ -10,19 +10,11 @@ Lang: en
 Draft: yes
 
 
-Correctly attributing data sources is a requirement on several levels of the [Conditions of use on opendata.swiss](https://opendata.swiss/de/terms-of-use/), where users are required to correctly state the author, title and link of the original dataset.
-
-Both publishers and users should be sure they are correctly attributing the upstream sources of data. Citing sources should be a community norm, not just a provision in an agreement: similar to the best practice of scientific papers, where each paper has a list of references.
-
-> "Acknowledging sources not only helps credit the work of data publishers, it also helps to identify widely-used, high-quality datasets."
-
-> [5 ways to be a better open data reuser](http://theodi.org/blog/5-ways-better-open-data-reuse) by Leigh Dodds
-
-Upstream data sources could be listed in various metadata provided, such as directly within the field descriptions, and in the description attached to the data - such as the one provided on an open data portal.
+Correctly attributing data sources is a requirement on several levels of the [conditions of use on opendata.swiss](https://opendata.swiss/de/terms-of-use/), where users are required to correctly state the author, title and link of the original dataset.
 
 #### Guidance for data publishers
 
-Visit the following articles in our library for further information on correct attribution and fair use requirements:
+Visit the following articles in our library for further information:
 
 > If there is a legal obligation to the source, this is stated as of use in each record. In all other cases, an indication of the source is recommended with regard to the traceability of changes.
 
@@ -33,6 +25,6 @@ If a legal basis providing a reference for the further use of the corresponding 
 
 [Worksheet for government authorities](/de/library/m7-recht-arbeitshilfe)
 
-See also:
+> Arbeitshilfe für Behörden, die Datensätze auf OGD publizieren möchten
 
 [Concept: legal framework for the publication of data as Open Government Data](/library/m1-rechtliche-rahmen)

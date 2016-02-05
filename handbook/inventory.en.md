@@ -1,7 +1,7 @@
 Title: What datasets does my organization have?
 Category: Identify
 Handbook: yes
-Tags: Draft
+Tags:
 Date: 2016-01-01
 Slug: inventory
 Authors:
@@ -11,15 +11,6 @@ Draft: yes
 
 
 It is easy to start keeping track of datasets in a table or spreadsheet, but in a larger organization multiple people and departments collaborate on this task. One of the most important processes behind the creation of the data portals, essential to data services in a large organization, is to create a *data inventory*.
-
-This is a listing of internal datasets created, maintained or even just stored within an organization or organizational unit. At its most basic, it is a list of data sources. A sophisticated inventory contains additional information about each dataset, such as:
-
-- what format the data is in
-- whether it is linked to databases
-- does it contain private or sensitive information
-- where it is stored
-- what are conditions of use
-- at what URL it has been published
 
 ### Guidelines for Swiss publishers of OGD
 

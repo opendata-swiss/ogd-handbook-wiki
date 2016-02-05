@@ -9,32 +9,15 @@ Summary: An exploration of the landscape of users of Open Government Data, and h
 Lang: en
 Draft: yes
 toc_run: true
-TODO1: M12 Dialogue with OGD users
-TODO2: shorten / additional references
 
 
-What we understand by data in the context of OGD is often the kind of specialised and detailed information that preoccupies teams of experts in statistics departments, university and corporate research labs. While expert users continue to be the focus and often the motivators of data collection, today's "data users" represent only a small part of the global interest potential.
-
-| Common applications | Where to find examples | How to get started |
-|---------------------|------------------------|--------------------|
-| policy monitoring | OGD landscape | finding ideas in data |
-| citizen engagement | app showcases | building prototypes |
-| innovative re-uses | around the world | hackathons, events |
-| cost/time saving | open data community | open source projects |
-
-### Data for government
-
-Government data is generally created or mandated by government agencies, in the service of their own or another department. Sometimes the efforts undertaken to collect data are massive, take for example the large departments involved with environmental or economic data collection.
-
-What happens once the original purpose of the data has been served? If another department wishes to take on the role of continuing to keep the information updated, would it be possible to transfer the competencies and methods? Can we afford to throw away and re-start efforts to create high quality data? By opening data within government, a major goal is to address these problems through models of sustainability similar to those being applied in society in response to economic and environmental crises.
+What we understand by data in the context of OGD is often the kind of specialized and detailed information that preoccupies teams of experts in statistics departments, university and corporate research labs. While expert users continue to be the focus and often the motivators of data collection, today's "data users" represent only a small part of the global interest potential.
 
 ### Data reuse
 
-Along with all the information relevant to its use and maintenance, data becomes an asset whose value is dramatically increased when proper standards are set to ensure its long-term applicability, and the conditions for its use are simplified.
+Along with all the information relevant to its use and maintenance, data becomes an asset whose value is dramatically increased when proper standards are set to ensure its long-term applicability, and the conditions for its use are simplified. To make good on this vision, more acceptance is needed on portability and transparency of processes throughout government organizations. It should be commonplace for one department to reuse the work of another without having to wait for weeks for permission or budget approval. Lightweight projects requiring a minimum of expenditure in IT will become possible when the necessary policy and technology standards become widespread.
 
-To make good on this vision, more acceptance is needed on portability and transparency of processes throughout government organizations. It should be commonplace for one department to reuse the work of another without having to wait for weeks for permission or budget approval. Lightweight projects requiring a minimum of expenditure in IT will become possible when the necessary policy and technology standards become widespread.
-
-### Data for expertise
+### Supporting understanding
 
 For the overwhelming majority of users of data, applications and publications (websites, reports) are the gateway to data. The average user is a person who will rarely be interested in the raw data itself - rather than the way it can be used and visualized. The value of investing into improvements in data quality and availability seem difficult to justify only for the sake of an expert minority. So who are we opening data for? In order to find an answer to this question we need to understand how data is used.
 
@@ -50,7 +33,14 @@ The value of opening up government data stores to the public will be most clearl
 
 ### A remixing of roles
 
-To use data effectively many roles are involved. It could be the same person, or an entire organisation. Here are some of the 'needs' of data:
+| Common applications | Where to find examples | How to get started |
+|---------------------|------------------------|--------------------|
+| policy monitoring | OGD landscape | finding ideas in data |
+| citizen engagement | app showcases | building prototypes |
+| innovative re-uses | around the world | hackathons, events |
+| cost/time saving | open data community | open source projects |
+
+The table above shows some examples of OGD put into practice by various actors. To use data effectively many roles are involved. It could be the same person, or an entire organization. Here are some of the typical 'needs' of data:
 
 - While being created, its consistency, completeness and accuracy needs to be ensured.
 - When collected and recorded, appropriate meta-data needs to explain and identify it.

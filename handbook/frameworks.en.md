@@ -12,7 +12,10 @@ Draft: yes
 
 What are the main legal frameworks that data publishers in Switzerland need to be aware of? What aspects and decision points do we need to be aware of when supporting Open Government Data? These resources will help you make sense and tackle grey area in regards to your organization's needs.
 
-## References
+#### Guidance for data publishers
 
-- [M7 Worksheet for government authorities](/m7-recht-arbeitshilfe-en)
-- [M1 Konzept zu den rechtliche Rahmenbedingungen](/m1-rechtliche-rahmen-de)
+This document produced within the Open Government Data Switzerland project, has legal recommendations for data publishers:
+[Concept: legal framework for the publication of data as Open Government Data](/m1-rechtliche-rahmen-de)
+
+The worksheet is intended to serve as an aid agencies for publication of records, showing test steps to be carried out by the authorities before a dataset under OGD is published:
+[Worksheet for government authorities](/m7-recht-arbeitshilfe-en)
