@@ -1,7 +1,7 @@
-Title: Prêt à publier les données?
+Title: Prêt à publier des données ouvertes ?
 Date: 2016-01-01
 Slug: index
 Template: front
-Summary: Ceci est une ressource pour toutes les personnes impliquées dans la préparation, la publication et l'utilisation des données pour un gouvernement ouvert, développé dans le cadre d'un projet visant à créer un portail national pour les ensembles de données ouvertes en Suisse. Promouvoir et soutenir la publication sur **[opendata.swiss](http://opendata.swiss)** est la mission première de ce manuel.
+Summary: Voici un manuel d'apprentissage pour toutes les personnes impliquées dans la préparation, la publication et l'utilisation des données ouvertes du gouvernement (Open Government Data, ou OGD). Développé principalement pour soutenir la publication sur opendata.swiss, ce ressource est actuellement en version bêta. Nous vous remercions pour toutes vos suggestions et contributions.
 URL:
 Lang: fr
