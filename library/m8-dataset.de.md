@@ -6,6 +6,8 @@ Date: 2015-05-29
 Slug: m8-dataset
 Summary: Beschreibung eine einzelne, thematisch geschlossene Datensammlung
 Lang: de
+Link_PDF: http://www.egovernment.ch/umsetzung/00881/00883/01112/index.html?lang=de&download=NHzLpZeg7t,lnp6I0NTU042l2Z6ln1acy4Zn4Z2qZpnO2Yuq2Z6gpJCDdnt2fWym162epYbg2c_JjKbNoKSn6A--
+
 
 > Ein Metadaten-Record der Klasse dcat:Dataset (Dataset-Metadaten-Record) beschreibt eine einzelne,
 thematisch geschlossene Datensammlung. Die für den Inhalt verantwortliche Stelle (Institution, Per-
@@ -27,5 +29,3 @@ ermöglicht die Verlinkung von Dataset-Metadaten-Records und damit die Vernetzun
 Datensätze (linked data). Auf diese Weise können NutzerInnen des Katalogs die thematisch verknüpf-
 ten Datensätze rasch finden und Zusammenhänge zwischen den Daten entdecken. Das Schweizer
 DCAT Profil umfasst deshalb zusätzliche Elemente, die im Standard nicht vorgesehen sind.
-
-Weiter lesen: [Download PDF](http://www.egovernment.ch/umsetzung/00881/00883/01112/index.html?lang=de&download=NHzLpZeg7t,lnp6I0NTU042l2Z6ln1acy4Zn4Z2qZpnO2Yuq2Z6gpJCDdnt2fWym162epYbg2c_JjKbNoKSn6A--) (egovernment.ch)
