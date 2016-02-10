@@ -6,6 +6,8 @@ Date: 2015-10-8
 Slug: m8-distribution
 Summary: Beschreibung der Publikationsform des betreffenden Datensatzes
 Lang: de
+Link_PDF: http://www.egovernment.ch/umsetzung/00881/00883/01112/index.html?lang=de&download=NHzLpZeg7t,lnp6I0NTU042l2Z6ln1acy4Zn4Z2qZpnO2Yuq2Z6gpJCDdnt2fmym162epYbg2c_JjKbNoKSn6A--
+
 
 > Ein Metadaten-Record der Klasse dcat:Distribution (Distribution-Metadaten-Record) beschreibt eine
 Publikationsform des betreffenden Datensatzes. Die beschriebene Publikationsform des Datensatzes
@@ -21,5 +23,3 @@ taset-Metadaten-Record bereits auf jene Webseite verweist.
 In den erwähnten Ausnahmefällen (z.B. für die Inventarisierung), in der im Katalog Dataset-Metada-
 ten-Records geführt werden, die noch nicht veröffentlichte Datensätze beschreiben, gibt es keinen
 Distribution-Metadaten-Record.
-
-Weiter lesen: [Download PDF](http://www.egovernment.ch/umsetzung/00881/00883/01112/index.html?lang=de&download=NHzLpZeg7t,lnp6I0NTU042l2Z6ln1acy4Zn4Z2qZpnO2Yuq2Z6gpJCDdnt2fmym162epYbg2c_JjKbNoKSn6A--) (egovernment.ch)
