@@ -9,4 +9,4 @@ Template: library
 save_as: category/library/index.html
 
 
-Bibliothèque références sont étiquetés selon les quatre étapes de la publication. A cette époque, tous les contenus ne sont pas disponibles dans toutes les langues: visitez [la bibliothèque en allemand](/de/category/library) pour une liste plus complète des références.
+Les références de la bibliothèque sont étiquetées selon les quatre étapes de la publication. En ce moment, tous les contenus ne sont pas disponibles dans toutes les langues. Veuillez visiter [la bibliothèque en allemand](/de/category/library) pour obtenir une liste plus complète des références.

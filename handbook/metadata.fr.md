@@ -5,7 +5,7 @@ Tags:
 Date: 2016-01-01
 Slug: metadata
 Authors:
-Summary: Les métadonnées définissent le contexte qui offre un appui crucial pour que les utilisateurs soient en mesure d'interpréter et de réutiliser les données elles-mêmes.
+Summary: Les métadonnées définissent et décrivent le contexte qui permet d'interpréter et de réutiliser les données. Elles offrent un appui crucial aux utilisateurs.
 Lang: fr
 Draft: yes
 

@@ -20,7 +20,7 @@ The process of adapting data so that individuals cannot be identified from it.
 
 #### Attribution License
 
-A licence that requires that the original source of the licensed material is cited (attributed).
+A license that requires that the original source of the licensed material is cited (attributed).
 
 #### Cloud computing
 
@@ -71,7 +71,7 @@ A license may be granted by a party ("licensor") to another party ("licensee") a
 
 #### Machine-readable
 
-Formats that are machine readable are ones which are able to have their data extracted by computer programs easily. PDF documents are not machine readable. Computers can display the text nicely, but have great difficulty understanding the context that surrounds the text.
+Formats that are machine readable are ones which are able to have their data extracted by computer programs easily. On the contrary, [PDF files](https://en.wikipedia.org/wiki/Portable_Document_Format) are an example format that is not considered to be machine readable, because while software programs can display the text and layout correctly, they have difficulty understanding the context that surrounds the text, and extracting structured data.
 
 #### Metadata
 
@@ -86,7 +86,7 @@ Open data are able to be used for any purpose. More details can be read at [open
 
 #### Open Government Data (OGD)
 
-Data provided by government agencies under the Open Definition, see [Detailed defition of OGD](definition)
+Data provided by government agencies under the Open Definition, see [Detailed definition of OGD](definition)
 
 #### Platform
 
@@ -100,9 +100,9 @@ No copyright exists over the work.
 
 Use of content outside of its original intention.
 
-#### Share-alike Licence
+#### Share-alike License
 
-A licence that requires users of a work to provide the content under the same or similar conditions as the original.
+A license that requires users of a work to provide the content under the same or similar conditions as the original.
 
 #### Server
 

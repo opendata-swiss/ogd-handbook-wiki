@@ -1,11 +1,11 @@
-Title: Quels ensembles de données a mon organisation ?
+Title: Quels jeux de données mon organisation a-t-elle ?
 Category: Identify
 Handbook: yes
 Tags: Draft
 Date: 2016-01-01
 Slug: inventory
 Authors:
-Summary: Dans cette section, nous discutons des moyens pour rechercher et suivre les ensembles de données qu'une grande organisation produit.
+Summary: Dans cette section nous discutons des manières de rechercher et suivre les jeux de données qu’une grande organisation produit.
 Lang: fr
 Draft: yes
 

@@ -5,7 +5,7 @@ Tags:
 Date: 2016-01-01
 Slug: frameworks
 Authors:
-Summary: Un aperçu des cadres de lois développés en Données ouvertes du gouvernement de la Suisse.
+Summary: Aperçu des cadres de lois développés en Open Government Data en Suisse
 Lang: fr
 Draft: yes
 

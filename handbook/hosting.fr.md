@@ -1,4 +1,4 @@
-Title: Héberger des données sur le World Wide Web
+Title: Héberger des données sur le Web
 Category: Publish
 Handbook: yes
 Tags:

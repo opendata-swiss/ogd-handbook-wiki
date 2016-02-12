@@ -5,7 +5,7 @@ Tags:
 Date: 2016-01-01
 Slug: checklist
 Authors:
-Summary: Des mesures communes pour se préparer à la publication de données sous la forme de OGD sont racontées dans ce chapitre, ainsi que des points de décision critiques.
+Summary: Mesures communes à suivre pour se préparer à la publication de données sous la forme OGD, ainsi que quelques points de décision critiques.
 Lang: fr
 Draft: yes
 
