@@ -1,4 +1,4 @@
-Title: Konzept - Rechtliche Rahmenbedingungen zur Publikation von Daten als Open Government Data (OGD)
+Title: Konzept: Rechtliche Rahmenbedingungen zur Publikation von Daten als Open Government Data (OGD)
 Category: Library
 Template: document
 Tags: establish
