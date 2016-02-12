@@ -13,10 +13,10 @@ The ‹Open Government Data› project organisation have worked out a joint solu
 
 Additional documents on the selection and definition of OGD standards for metadata is available in the Library:
 
-- [DCAT Application Profile](/en/library/m8-dcat-application)
-- [DCAT: Catalog](/en/library/m8-catalog)
-- [DCAT: Dataset](/en/library/m8-dataset)
-- [DCAT: Distribution](/en/library/m8-distribution)
+- [DCAT Application Profile](/en/library/dcat-application)
+- [DCAT: Catalog](/en/library/dcat-catalog)
+- [DCAT: Dataset](/en/library/dcat-dataset)
+- [DCAT: Distribution](/en/library/dcat-distribution)
 
 Have a look at the following file for a quick start:
 [full dataset example](/samples/ogdch_dcatap_import.rdf) (RDF)

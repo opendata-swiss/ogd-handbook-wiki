@@ -14,6 +14,6 @@ As soon as one starts [making an inventory](/identify/inventory) of datasets wit
 
 #### Guidance for data publishers
 
-In the [Worksheet for government authorities](/library/m7-recht-arbeitshilfe), you will find a more complete description of various criteria.
+In the [Worksheet for government authorities](/library/arbeitshilfe-publikation), you will find a more complete description of various criteria.
 
-The report on [Boundaries between OGD and custom individual services](/library/m5-abgrenzung-leistungen) defines in more detail the concept of OGD, explains economic fundamentals of the production and use of open data in government, and provides a decision tree for use in evaluating publication criteria.
+The report on [Boundaries between OGD and custom individual services](/library/bericht-abgrenzung-leistungen) defines in more detail the concept of OGD, explains economic fundamentals of the production and use of open data in government, and provides a decision tree for use in evaluating publication criteria.

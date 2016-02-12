@@ -6,12 +6,8 @@ Date: 2014-05-08
 Slug: ch-ogd-strategie
 Summary: Vom Bundesrat am 16. April 2014 genehmigt
 Lang: de
+Link_PDF: https://bar-files.opendata.swiss/owncloud/index.php/s/twA1uu08TgRvp9Y
 
-> ## Zweck des Dokuments
-
-> Der Bundesrat will den Zugang zu Behördendaten ausbauen und setzt sich dafür ein,
-dass das Potenzial von «Open Government Data» (OGD) in der Schweiz realisiert
-wird.
 
 > Die OGD-Strategie Schweiz 2014–2018 schafft ein gemeinsames Verständnis des
 Nutzens von OGD, hält die Ziele, welche mit der Bereitstellung von OGD erreicht
@@ -33,4 +29,4 @@ Leitbild staatlichen Handelns mit den Konzepten «Open Data» und «Government
 Data». Letztere stellen bestimmte Merkmale der Datenbereitstellung in den Vorder-
 grund.
 
-Weiter lesen: [Download PDF](#) (egovernment.ch)
+[Weiter lesen auf egovernment.ch](https://www.egovernment.ch/umsetzung/00881/00883/index.html?lang=de)

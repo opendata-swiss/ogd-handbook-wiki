@@ -1,13 +1,14 @@
-Title: Decision basis: guidelines in respect to legal foundations for the publication of data as OGD
+Title: Concept - legal framework for the publication of data as Open Government Data (OGD)
 Category: Library
 Template: document
 Tags: establish
 Date: 2015-03-13
-Slug: m1-entscheid-rechtsgrundlagen
+Slug: konzept-rechtliche-rahmen
 Authors: Anne Wiedmer, Corinna Seiberth
 Summary:
 Lang: en
 
+
 <em>Translations are not yet available everywhere: let us know if you need this content in your language.</em>
 
-This document is [available in German](/de/library/m1-entscheid-rechtsgrundlagen).
+This document is [available in German](/de/library/konzept-rechtliche-rahmen).

@@ -3,10 +3,10 @@ Category: Library
 Template: document
 Tags: publish
 Date: 2015-05-29
-Slug: m8-dataset
+Slug: dcat-dataset
 Summary: Beschreibung eine einzelne, thematisch geschlossene Datensammlung
 Lang: de
-Link_PDF: http://www.egovernment.ch/umsetzung/00881/00883/01112/index.html?lang=de&download=NHzLpZeg7t,lnp6I0NTU042l2Z6ln1acy4Zn4Z2qZpnO2Yuq2Z6gpJCDdnt2fWym162epYbg2c_JjKbNoKSn6A--
+Link_PDF: https://bar-files.opendata.swiss/owncloud/index.php/s/DWZg94zmSFnNGfH
 
 
 > Ein Metadaten-Record der Klasse dcat:Dataset (Dataset-Metadaten-Record) beschreibt eine einzelne,

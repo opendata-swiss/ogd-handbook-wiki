@@ -26,16 +26,16 @@ Visit the following articles in our library for further information on correct a
 
 > If there is a legal obligation to the source, this is stated as of use in each record. In all other cases, an indication of the source is recommended with regard to the traceability of changes.
 
-[Decision basis: guidelines in respect to legal foundations for the publication of data as OGD](/library/m1-entscheid-rechtsgrundlagen)
+[Decision basis: guidelines in respect to legal foundations for the publication of data as OGD](/library/entscheid-rechtsgrundlagen)
 
 > **1.8 Can the data be used, unless otherwise specified?**
 If a legal basis providing a reference for the further use of the corresponding record prescribes that authorities must demand this. For all other records, the authorities may not require the source is acknowledged. On the portal is recommended but the users default for each data set, specify the source.
 
-[Worksheet for government authorities](/de/library/m7-recht-arbeitshilfe)
+[Worksheet for government authorities](/de/library/arbeitshilfe-publikation)
 
 See also:
 
-[Concept: legal framework for the publication of data as Open Government Data](/library/m1-rechtliche-rahmen)
+[Concept: legal framework for the publication of data as Open Government Data](/library/konzept-rechtliche-rahmen)
 
 ---
 
@@ -68,7 +68,7 @@ This checklist can help to quickly ascertain how ready a particular data source 
 
 #### Guidance for data publishers
 
-In the [Worksheet for government authorities](/library/m7-recht-arbeitshilfe), you will find a more complete description of the criteria on which the checklist here is based, including:
+In the [Worksheet for government authorities](/library/arbeitshilfe-publikation), you will find a more complete description of the criteria on which the checklist here is based, including:
 
 > 1. Is there a legal basis for the publication of the data set?
 2. Can people be identified from attributes in the data, or do any records contain personal information?
@@ -80,7 +80,7 @@ In the [Worksheet for government authorities](/library/m7-recht-arbeitshilfe), y
 8. May the records be published and made available for free?
 9. May the records be used both non-commercially and commercially?
 
-The report on [Boundaries between OGD and custom individual services](/library/m5-abgrenzung-leistungen) defines in more detail the concept of OGD, explains economic fundamentals of the production and use of open data in government, and provides a decision tree for use in evaluating publication criteria.
+The report on [Boundaries between OGD and custom individual services](/library/bericht-abgrenzung-leistungen) defines in more detail the concept of OGD, explains economic fundamentals of the production and use of open data in government, and provides a decision tree for use in evaluating publication criteria.
 
 ---
 
@@ -110,11 +110,11 @@ What are the main legal frameworks that data publishers in Switzerland need to b
 
 #### Guidance for data publishers
 
-[Concept: legal framework for the publication of data as Open Government Data](/m1-rechtliche-rahmen-de)
+[Concept: legal framework for the publication of data as Open Government Data](/konzept-rechtliche-rahmen-de)
 
 This document produced within the Open Government Data Switzerland project, has legal recommendations for data publishers.
 
-[Worksheet for government authorities](/m7-recht-arbeitshilfe-en)
+[Worksheet for government authorities](/arbeitshilfe-publikation-en)
 
 The worksheet is intended to serve as an aid agencies for publication of records, showing test steps to be carried out by the authorities before a dataset under OGD is published.
 
@@ -336,9 +336,9 @@ In this part of the Handbook we will place reference to the official recommendat
 
 ## References
 
-- [M7 Worksheet for government authorities](/m7-recht-arbeitshilfe-en)
-- [M1 Entscheidungsgrundlagen bezüglich Rechtsgrundlagen](/m1-entscheid-rechtsgrundlagen-de)
-- [M1 Konzept zu den rechtliche Rahmenbedingungen](/m1-rechtliche-rahmen-de)
+- [M7 Worksheet for government authorities](/arbeitshilfe-publikation-en)
+- [M1 Entscheidungsgrundlagen bezüglich Rechtsgrundlagen](/entscheid-rechtsgrundlagen-de)
+- [M1 Konzept zu den rechtliche Rahmenbedingungen](/konzept-rechtliche-rahmen-de)
 
 ---
 

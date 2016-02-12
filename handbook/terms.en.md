@@ -15,10 +15,10 @@ In this section we illustrate some of the ways that the licensing process can he
 #### Guidance for data publishers
 
 The worksheet is intended to serve as an aid agencies for publication of records, showing test steps to be carried out by the authorities before a dataset under OGD is published:
-[Worksheet for government authorities](/m7-recht-arbeitshilfe-en)
+[Worksheet for government authorities](/arbeitshilfe-publikation-en)
 
 > Die OGD-Strategie sieht vor, dass die rechtlichen Rahmenbedingungen dort angepasst werden sollen, wo sie eine Publikation von an sich geeigneten Daten als OGD verhindern. Die Strategie lässt jedoch offen, wie diese Anpassungen erfolgen sollen. Folgende zwei Dimensionen sind für die Anpassungen wichtig: Erstens kann die Anpassung entweder zentral oder dezentral erfolgen. Zweitens besteht einerseits die Möglichkeit, ein einheitliches Gesetz zu schaffen sowie andererseits, die einzelnen Spezialgesetze anzupassen.
-[Decision basis: guidelines in respect to legal foundations for the publication of data as OGD](/m1-entscheid-rechtsgrundlagen-de)
+[Decision basis: guidelines in respect to legal foundations for the publication of data as OGD](/entscheid-rechtsgrundlagen-de)
 
 This document produced within the Open Government Data Switzerland project, has legal recommendations for data publishers:
-[Concept: legal framework for the publication of data as Open Government Data](/m1-rechtliche-rahmen-de)
+[Concept: legal framework for the publication of data as Open Government Data](/konzept-rechtliche-rahmen-de)

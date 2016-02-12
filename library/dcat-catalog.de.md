@@ -3,10 +3,10 @@ Category: Library
 Template: document
 Tags: publish
 Date: 2015-05-29
-Slug: m8-catalog
+Slug: dcat-catalog
 Summary: Kuratierte Sammlung von Metadaten-Records über offene Daten
 Lang: de
-Link_PDF: http://www.egovernment.ch/umsetzung/00881/00883/01112/index.html?lang=de&download=NHzLpZeg7t,lnp6I0NTU042l2Z6ln1acy4Zn4Z2qZpnO2Yuq2Z6gpJCDdnt2fGym162epYbg2c_JjKbNoKSn6A--
+Link_PDF: https://bar-files.opendata.swiss/owncloud/index.php/s/HJY3eHBErjVxgTB
 
 > Ein Katalog, der dem DCAT Application Profile for Swiss data portals entspricht, ist eine kuratierte Sammlung von Metadaten-Records über offene Daten.
 
