@@ -5,7 +5,7 @@ Tags:
 Date: 2016-01-01
 Slug: evaluate
 Authors:
-Summary: Nutzungsmessgrößen und -indikatoren beim Vergleich und in der Optimierung von Bedeutung und Aufnahme von OGD.
+Summary: Nutzungsmessgrössen und -indikatoren beim Vergleich und in der Optimierung von Bedeutung und Aufnahme von Open Government Data.
 Lang: de
 Draft: yes
 

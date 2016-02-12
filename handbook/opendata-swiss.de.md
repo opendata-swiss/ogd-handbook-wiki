@@ -1,10 +1,10 @@
-Title: opendata.swiss Benutzerhandbuch
+Title: Auf opendata.swiss veröffentlichen
 Category: Publish
 Handbook: yes
 Tags:
 Date: 2016-01-01
 Slug: opendata-swiss
-Summary: Hinweise zur Verwendung, die ihnen nützlich vor allem für Anwender, die Regierung gerne wissen, wie die Daten auf nationaler Ebene veröffentlichen, würde sein wird.
+Summary: Behörden der Eidgenossenschaft, der Kantone und der Gemeinden ebenso wie Dritte, die im Auftrag des Staates Aufgaben ausführen, können ihre Daten auf dem Portal opendata.swiss veröffentlichen. Erfahren Sie, wie Sie Ihre Open Data auf opendata.swiss bringen.
 Lang: de
 Draft: yes
 

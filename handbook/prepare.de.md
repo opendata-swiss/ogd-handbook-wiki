@@ -5,7 +5,7 @@ Tags:
 Date: 2016-01-01
 Slug: prepare
 Authors:
-Summary: Daten können viele verschiedene Formate annehmen und im Lauf der Zeit wurden viele verschiedene Methoden und Computerprogramme verwendet, um sie zu bearbeiten.
+Summary: Daten können in verschiedenen Formaten vorliegen: im Lauf der Zeit wurden viele verschiedene Methoden verwendet, um sie zu bearbeiten.
 Lang: de
 Draft: yes
 

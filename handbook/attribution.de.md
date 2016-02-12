@@ -1,11 +1,11 @@
-Title: Korrekte Quellenangabe
+Title: Wie Sie Quellen richtig angeben
 Category: Establish
 Handbook: yes
 Tags:
 Date: 2016-01-01
 Slug: attribution
 Authors:
-Summary: Viele Datensätze stammen aus anderen und gesetzlichen Anforderungen manchmal explizit verlangen zuschreibt die Quelle der Daten. Hier erkunden wir Auswirkungen auf die Daten Verlage.
+Summary: Viele Datensätze leiten sich aus anderen ab und rechtliche Anforderungen verlangen bisweilen explizit die Angabe der Quelle der Daten. Hier untersuchen wir Auswirkungen für Herausgeber von Daten.
 Lang: de
 Draft: yes
 

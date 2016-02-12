@@ -5,7 +5,7 @@ Tags: Draft
 Date: 2016-01-01
 Slug: inventory
 Authors:
-Summary: In diesem Abschnitt erörtern wir Wege, um von einer großen Organisation produzierte Datensätze zu erforschen und zu verfolgen.
+Summary: In diesem Abschnitt erörtern wir Wege, um von einer grossen Organisation produzierte Datensätze zu aufzufinden und zu verfolgen.
 Lang: de
 Draft: yes
 
