@@ -5,17 +5,35 @@ Summary: Information on contributing to the OGD Handbook
 URL:
 Lang: en
 
+
 Here you will find an overview of ways to contribute to the OGD Handbook. Notably here we will explain the editorial workflow that we have put in place to keep a high overall standard of quality. We warmly welcome comments, corrections and additions, as well as suggestions for additional topics to explore.
 
 <i class="fa fa-github" style="font-size: 300%; float: right;"></i>
 
 Please check the public issue tracker first if you find a bug or have an improvement request: **[OGD Handbook Issues](https://github.com/opendata-swiss/ogd-handbook-wiki/issues)**
 
-Read the section below if you would like to find out how to edit and contribute new contents to the OGD Handbook.
+Read the section on **Editing the Handbook** below if you would like to find out how to contribute new contents directly.
 
-Write to [opendata@bar.admin.ch](mailto:opendata@bar.admin.ch) with any immediate questions or concerns, and we will endeavor to respond as quickly as possible.
+Write to us with any immediate questions or concerns, and we will endeavor to respond as quickly as possible:
 
-## Direct contributions
+<a><i class="fa fa-envelope"></i></a>&nbsp;<script type="text/javascript">
+//<![CDATA[
+<!--
+var x="function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
+"=48){try{x+=x;l+=l;}catch(e){}}for(i=l-1;i>=0;i--){o+=x.charAt(i);}return o" +
+".substr(0,ol);}f(\")011,\\\"QYSND[500\\\\L^r\\\\t\\\\>3030\\\\|?4<310\\\\it" +
+"t\\\\v710\\\\o4<;'9li620\\\\\\\"\\\\'($!*\\\"\\\\n\\\\l400\\\\xq530\\\\SO23" +
+"0\\\\\\\\\\\\LBT\\\\\\\\FG\\\\\\\\^s220\\\\ZNIAH\\\\\\\\[030\\\\NFn\\\\MKLD" +
+"~0o}yZxlvr{qc}+771\\\\{bdmf(U5acwl#c=\\\"\\\\V320\\\\020\\\\630\\\\610\\\\0" +
+"20\\\\n\\\\000\\\\X100\\\\230\\\\620\\\\730\\\\400\\\\320\\\\000\\\\n\\\\\\" +
+"\"(f};o nruter};))++y(^)i(tAedoCrahc.x(edoCrahCmorf.gnirtS=+o;721=%y{)++i;l" +
+"<i;0=i(rof;htgnel.x=l,\\\"\\\"=o,i rav{)y,x(f noitcnuf\")"                   ;
+while(x=eval(x));
+//-->
+//]]>
+</script>
+
+## Editing the Handbook
 
 The source of the OGD Handbook is in a central [Git repository](https://github.com/opendata-swiss/ogd-handbook-wiki) that you can also access with a Web browser. We use the issue tracker there to collect bug reports, requests and ideas from our users.
 

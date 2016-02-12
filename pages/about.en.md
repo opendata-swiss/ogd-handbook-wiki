@@ -21,4 +21,4 @@ We have interviewed a number of people involved in the use and publication of OG
 | Portal Manager                    | Pierre Dumas      | Swiss Federal Archives          |
 | Handbook Coordinator/Developer    | Oleg Lavrovsky    | Datalets.ch & Opendata.ch       |
 
-Contact the project team via [issues](/en/pages/contribute) or [e-mail](opendata@bar.admin.ch?subject=OGD-Handbook)
+Contact the project team via the [Contribute page](/en/pages/contribute).

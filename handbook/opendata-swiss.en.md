@@ -10,7 +10,7 @@ Draft: yes
 toc_run: true
 
 
-If you would like to add data to opendata.swiss and your agency or organisation is not yet [publishing on opendata.swiss](https://opendata.swiss/de/organization), please continue reading and contact <opendata@bar.admin.ch> for assistance.
+If you would like to add data to opendata.swiss and your agency or organisation is not yet [publishing on opendata.swiss](https://opendata.swiss/de/organization), please continue reading and [contact us for assistance](/en/pages/contribute).
 
 [opendata.swiss](https://opendata.swiss) is the production portal, which replaced the pilot portal ‹opendata.admin.ch› by February 2, 2016, implementing the decisions taken by the ‹Open Government Data› project organisation under the leadership of the [Swiss Federal Archives SFA](http://www.bar.admin.ch/themen/01648/01968/index.html?lang=en) in the pilot phase.
 
@@ -23,16 +23,16 @@ For publishers, opendata.swiss offers the following ways to add their data to th
 
 | Use case          | Solution          | Get ready        |
 |-------------------|-------------------|------------------|
-| _I want to publish certain datasets, which are updated at rare intervals._ | I manually submit my metadata through a web page on opendata.swiss. | For assistance, please contact <opendata@bar.admin.ch> |
-| _I want to publish several data and/or data which are updated regularly._ | I manually import my metadata by uploading an XML file – in the DCAT-AP for Switzerland format (documentation see below) – on opendata.swiss. | For assistance, please contact <opendata@bar.admin.ch> |
-| _I want to publish a large number of datasets and/or datasets which are updated frequently._ | I automatically import my metadata running a metadata harvester. | For assistance, please contact <opendata@bar.admin.ch> |
+| _I want to publish certain datasets, which are updated at rare intervals._ | I manually submit my metadata through a web page on opendata.swiss. | For assistance, please [contact us](/en/pages/contribute) |
+| _I want to publish several data and/or data which are updated regularly._ | I manually import my metadata by uploading an XML file – in the DCAT-AP for Switzerland format (documentation see below) – on opendata.swiss. | For assistance, please [contact us](/en/pages/contribute) |
+| _I want to publish a large number of datasets and/or datasets which are updated frequently._ | I automatically import my metadata running a metadata harvester. | For assistance, please [contact us](/en/pages/contribute) |
 | _I have open geodata, already published or intended to be published via [geo.admin.ch / Federal Spatial Data Infrastructure FSDI](http://www.geo.admin.ch/internet/geoportal/en/home/geoadmin/mission/bgdi.html)_ | I configure corresponding metadata entries in [www.geocat.ch](http://www.geocat.ch/geonetwork/srv/ger/geocat), so it will be published automatically on opendata.swiss. | For www.geocat.ch support, please contact <geocat@swisstopo.ch> |
 
 ## How can I test if I am ready?
 
 1. Get the [example XML file](/samples/ogdch_dcatap_import.rdf).
 2. Fill the XML file for your metadata following the documentation of the [DCAT-AP for Switzerland format](#dcat-ap-reference-documentation).
-3. Send your XML-file for validation to the portal team: <opendata@bar.admin.ch>
+3. Send your XML-file for validation to the portal team: [contact us](/en/pages/contribute)
 4. The portal team gets back to you with feedback.
 
 ## What is the DCAT-AP for Switzerland format?
