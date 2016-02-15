@@ -1,4 +1,4 @@
-# OGD Handbook wiki
+# Swiss OGD Handbook wiki
 
 This repository contains the contents of the Swiss Open Government Data Handbook, available at http://handbook.opendata.swiss
 
