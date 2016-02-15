@@ -4,4 +4,4 @@ This repository contains the contents of the Swiss Open Government Data Handbook
 
 Please visit the [Contributor's Guide](pages/contribute.en.md) for information on working with this repository.
 
-This content is deployed within the web application project [ogd-handbook-site](https://github.com/opendata-swiss/ogd-handbook-site).
+This content is deployed within the project [ogd-handbook-site](https://github.com/opendata-swiss/ogd-handbook-site).
