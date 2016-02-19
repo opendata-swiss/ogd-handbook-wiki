@@ -15,13 +15,13 @@ Die auf opendata.swiss verwendeten Nutzungsbedingungen sind
 Haftung
 -------
 
-Obwohl die am Portal opendata.swiss beteiligten Behörden die
+Obwohl die am handbook.opendata.swiss beteiligten Behörden die
 veröffentlichten Informationen mit aller Sorgfalt prüfen, kann für die
 inhaltliche Richtigkeit, Genauigkeit, Aktualität, Zuverlässigkeit und
 Vollständigkeit dieser Informationen keine Gewährleistung übernommen
 werden.
 
-Die am Portal opendata.swiss beteiligten Behörden behalten sich
+Die am handbook.opendata.swiss beteiligten Behörden behalten sich
 ausdrücklich vor, jederzeit Inhalte ohne Ankündigung ganz oder teilweise
 zu ändern, zu löschen oder zeitweise nicht zu veröffentlichen.
 
@@ -35,7 +35,7 @@ Verweise und Links
 ------------------
 
 Verweise und Links auf Webseiten Dritter liegen ausserhalb des
-Verantwortungsbereichs der am Portal opendata.swiss beteiligten
+Verantwortungsbereichs der am handbook.opendata.swiss beteiligten
 Behörden. Der Zugriff und die Nutzung solcher Webseiten erfolgen auf
 eigene Gefahr des Nutzers oder der Nutzerin. Die am Portal
 opendata.swiss beteiligten Behörden erklären ausdrücklich, dass sie
@@ -51,8 +51,8 @@ Datenschutz
 Gestützt auf Artikel 13 der schweizerischen Bundesverfassung und die
 Datenschutzgesetze hat jede Person Anspruch auf Schutz ihrer
 Privatsphäre sowie auf Schutz vor Missbrauch ihrer persönlichen Daten.
-Die am Portal opendata.swiss beteiligten Behörden halten diese
-Bestimmungen ein. Persönliche Daten werden beim Portal opendata.swiss
+Die am handbook.opendata.swiss beteiligten Behörden halten diese
+Bestimmungen ein. Persönliche Daten werden beim handbook.opendata.swiss
 streng vertraulich behandelt und weder an Dritte verkauft noch weiter
 gegeben.
 
@@ -94,25 +94,12 @@ Einstellung Ihrer Browser-Software verhindern; mit dieser Einstellung
 können gegebenenfalls nicht sämtliche Funktionen dieser Website genutzt
 werden.
 
-Urheberrecht
-------------
-
-Die auf opendata.swiss veröffentlichten Daten sind in der Regel
-urheberrechtlich nicht geschützt. Urheberrechtlich ebenfalls nicht
-geschützt sind unter anderem amtliche Erlasse sowie
-nicht-verwaltungsinterne Entscheidungen, Protokolle und Berichte. Bei
-solchen Dokumenten überwiegt das Interesse an einer ungehinderten
-Verbreitung gegenüber den Schutzinteressen des Urhebers. Die auf
-opendata.swiss enthaltenen Informationen werden der Öffentlichkeit
-zugänglich gemacht.
-
 Quellcode
 ---------
 
-Das Portal opendata.swiss nutzt [CKAN](http://ckan.org/), eine
-Daten-Managementlösung, die von vielen Behörden und Organisationen für
-die Verwaltung von Open Data verwendet wird. CKAN und alle seine
-Komponenten sind [Open Source Software](https://github.com/okfn/ckan).
+Das handbook.opendata.swiss nutzt [Pelican](http://ckan.org/), eine
+statische Website-Generator. Pelican und alle seine
+Komponenten sind [Open Source Software](https://github.com/getpelican/pelican).
 Gemäss der Affero GNU GPL v3.0 Lizenz sind die für diese Plattform
 entwickelten Erweiterungen ebenfalls [frei
-verfügbar](https://github.com/ogdch).
+verfügbar](https://github.com/opendata-swiss/ogd-handbook-site).

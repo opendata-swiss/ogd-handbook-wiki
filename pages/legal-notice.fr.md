@@ -34,9 +34,9 @@ Renvois et liens
 ----------------
 
 Les renvois et liens vers d’autres sites Internet ne sont pas de la
-responsabilité des autorités participant au portail *opendata.swiss*.
+responsabilité des autorités participant au handbook.opendata.swiss.
 L’accès à ces sites et leur utilisation se font aux risques des
-utilisateurs. Les autorités participant au portail *opendata.swiss*
+utilisateurs. Les autorités participant au handbook.opendata.swiss
 déclarent expressément qu’elles n’ont aucune influence sur la forme, le
 contenu et les offres des sites auxquels elles renvoient. Les
 informations et services offerts par ces sites sont entièrement de la
@@ -50,9 +50,9 @@ L’art. 13 de la Constitution fédérale et les dispositions légales de la
 Confédération suisse sur la protection des données disposent que toute
 personne a droit à la protection de sa sphère privée ainsi qu’à la
 protection contre l’emploi abusif des données qui la concernent. Les
-autorités participant au portail *opendata.swiss* respectent ces
+autorités participant au handbook.opendata.swiss respectent ces
 dispositions. Les données personnelles sont traitées de façon totalement
-confidentielle sur le portail *opendata.swiss* et ne sont ni vendues, ni
+confidentielle sur le handbook.opendata.swiss et ne sont ni vendues, ni
 transmises à des tiers.
 
 Nous nous efforçons, en collaboration étroite avec nos hébergeurs, de
@@ -91,24 +91,11 @@ L’utilisateur peut refuser l’enregistrement des cookies en configurant
 son navigateur; il est possible que certaines fonctionnalités du site
 Internet ne soient pas disponibles si les cookies sont désactivés.
 
-Droit d’auteur
---------------
-
-En principe, les données publiées sur *opendata.swiss* ne sont pas
-soumises au droit d’auteur. Il en va de même pour les documents
-officiels et les décisions, procès-verbaux et rapports qui ne sont pas
-internes à l’administration. Pour ce type de documents, l’intérêt d’une
-distribution sans entrave prime les intérêts de protection de l’auteur.
-Les informations publiées sur *opendata.swiss* sont mises à la
-disposition du public.
-
 Code source
 -----------
 
-Le portail *opendata.swiss* utilise [CKAN](http://ckan.org/), une
-solution de gestion des données utilisée par de nombreuses autorités et
-organisations pour gérer leurs données ouvertes. CKAN et toutes ses
-composantes sont des [logiciels open
-source](https://github.com/ckan/ckan). Conformément à la licence Affero
+Le handbook.opendata.swiss utilise [Pelican](http://getpelican.com), un générateur de site web statique.
+Pelican et toutes ses composantes sont des [logiciels open
+source](https://github.com/getpelican/pelican). Conformément à la licence Affero
 GNU GPL v3.0, les extensions développées pour la présente plateforme
-sont également [en libre accès](https://github.com/ogdch).
+sont également [en libre accès](https://github.com/opendata-swiss/ogd-handbook-site).

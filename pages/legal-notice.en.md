@@ -16,11 +16,11 @@ Limitation of liability
 -----------------------
 
 Although every care has been taken by the authorities involved in the
-opendata.swiss portal to review the information published, no warranty
+handbook.opendata.swiss to review the information published, no warranty
 can be given in respect of the correctness, accuracy, up-to-dateness,
 reliability or completeness of this information.
 
-The authorities involved in the opendata.swiss portal expressly reserve
+The authorities involved in the handbook.opendata.swiss expressly reserve
 the right to amend, delete or suspend publication of content, either in
 whole or in part, at any time without prior notice.
 
@@ -33,9 +33,9 @@ References and links
 --------------------
 
 References and links to third party websites lie outside the scope of
-responsibility of the authorities involved in the opendata.swiss portal.
+responsibility of the authorities involved in the handbook.opendata.swiss.
 Access and use of such websites occurs entirely at the user’s own risk.
-The authorities involved in the opendata.swiss portal expressly state
+The authorities involved in the handbook.opendata.swiss expressly state
 that they have no influence whatsoever over the design, content or
 offering of any linked site. Responsibility for information and services
 of linked sites rests entirely with the relevant third party. No
@@ -47,9 +47,9 @@ Data protection
 Based on Article 13 of the Swiss Federal Constitution and the provisions
 of Swiss data protection legislation, everyone has the right to the
 protection of privacy, as well as to protection from misuse of their
-personal details. The authorities involved in the opendata.swiss portal
+personal details. The authorities involved in the handbook.opendata.swiss
 comply with these provisions. Personal data is treated as strictly
-confidential on the opendata.swiss portal and is neither passed on nor
+confidential on the handbook.opendata.swiss and is neither passed on nor
 sold to third parties.
 
 In close cooperation with our hosting providers, we make every effort to
@@ -85,22 +85,10 @@ You can prevent cookies being stored by changing your browser settings
 accordingly; however, this may mean that not all the functions of the
 website can be used.
 
-Copyright
----------
-
-The information published on opendata.swiss is not normally subject to
-copyright. The same applies to official decrees and non-internal
-administrative decisions, minutes and reports. Where such documents are
-concerned, the interest in unimpeded dissemination outweighs the
-originator’s interests in respect of protection. The information
-contained in opendata.swiss is made available to the public.
-
 Source code
 -----------
 
-The opendata.swiss portal uses [CKAN](http://ckan.org/), a data
-management solution that is employed to manage open data by many
-authorities and organisations. CKAN and all its components are
-[open-source software](https://github.com/okfn/ckan). Under the Affero
-GNU GPL v3.0 license, the extensions developed for this platform are
-also [freely available](https://github.com/ogdch).
+The handbook.opendata.swiss uses [Pelican](http://getpelican.com), a static web site generator.
+Pelican and all its components are [open-source software](https://github.com/getpelican/pelican).
+Under the Affero GNU GPL v3.0 license, the extensions developed for this platform are
+also [freely available](https://github.com/opendata-swiss/ogd-handbook-site).

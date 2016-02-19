@@ -16,11 +16,11 @@ Responsabilità
 --------------
 
 Nonostante esaminino con grande attenzione le informazioni pubblicate,
-le autorità che partecipano al portale opendata.swiss declinano ogni
+le autorità che partecipano al handbook.opendata.swiss declinano ogni
 responsabilità per la fedeltà, l’esattezza, l’attualità, l’affidabilità
 e la completezza del loro contenuto.
 
-Le autorità che partecipano al portale opendata.swiss si riservano
+Le autorità che partecipano al handbook.opendata.swiss si riservano
 esplicitamente il diritto di modificare parzialmente o completamente i
 contenuti del sito, di cancellarli o di sospenderne temporaneamente la
 pubblicazione in qualsiasi momento e senza preavviso.
@@ -34,7 +34,7 @@ Rimandi e collegamenti
 ----------------------
 
 Rimandi e collegamenti a siti web di terzi non rientrano nella sfera di
-responsabilità delle autorità che partecipano al portale opendata.swiss.
+responsabilità delle autorità che partecipano al handbook.opendata.swiss.
 L’utente consulta e utilizza queste pagine web a proprio rischio. Le
 autorità che alimentano il portale dichiarano esplicitamente di non
 avere nessuna influenza sulla forma, il contenuto e le offerte delle
@@ -48,7 +48,7 @@ Protezione dei dati
 Ai sensi dell’articolo 13 della Costituzione federale e secondo le leggi
 sulla protezione dei dati, ognuno ha diritto al rispetto della sua vita
 privata, nonché d’essere protetto dall’impiego abusivo dei suoi dati
-personali. Le autorità che partecipano al portale opendata.swiss si
+personali. Le autorità che partecipano al handbook.opendata.swiss si
 attengono rigorosamente a queste disposizioni. Sul portale
 opendata.swiss i dati personali sono trattati con la massima
 riservatezza e non sono venduti né trasmessi a terzi.
@@ -88,23 +88,11 @@ Il salvataggio di cookie può essere bloccato selezionando l’apposita
 opzione del browser. Con questa impostazione, tuttavia, non potranno
 eventualmente essere utilizzate tutte le funzioni del sito.
 
-Diritti d’autore
-----------------
-
-In generale, i dati pubblicati su opendata.swiss non sono protetti dai
-diritti d’autore. Non sono protetti dai diritti d’autore nemmeno gli
-atti ufficiali e le decisioni, i verbali e i rapporti esterni
-all’amministrazione. Per questi documenti, l’interesse a che siano
-liberamente diffusi prevale sull’interesse di protezione dell’autore. Le
-informazioni disponibili su opendata.swiss sono accessibili al pubblico.
-
 Codice sorgente
 ---------------
 
-Il portale opendata.swiss utilizza il sistema di gestione dei dati
-[CKAN](http://ckan.org/), che è impiegato da molte autorità e
-organizzazioni per l’amministrazione dei dati aperti. CKAN e tutti i
-suoi componenti sono [software open
-source](https://github.com/ckan/ckan). Secondo la licenza Affero GNU GPL
-v3.0, anche le estensioni sviluppate per questa piattaforma sono
-[liberamente accessibili](https://github.com/ogdch).
+Il handbook.opendata.swiss utilizza il sistema di gestione dei dati
+[Pelican](http://getpelican.com), un generatore di sito web statico.
+Pelican e tutti i suoi componenti sono [software open source](https://github.com/getpelican/pelican).
+Secondo la licenza Affero GNU GPL v3.0, anche le estensioni sviluppate per questa piattaforma sono
+[liberamente accessibili](https://github.com/opendata-swiss/ogd-handbook-site).
