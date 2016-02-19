@@ -45,12 +45,16 @@ If you are new to this process, you will need to know a little bit about how thi
 2. **GitHub**: an online hosting service, which amongst other things offers version control and code management via a web interface. We use this to keep track of changes and moderate from this [central location](https://github.com/opendata-swiss/ogd-handbook-wiki).
 3. **Pelican**: is open source software we use for generating a web site complete with all the layout, templates and features. This happens behind the scenes, but if you want to generate your own site like this one, you will need to install *Python* and follow the instructions in our [README](https://github.com/opendata-swiss/ogd-handbook-site/blob/master/README.md).
 
-The easiest way to get started is to create an account on [GitHub](https://github.com) and log in, then click on the **Edit** button on any article in this Handbook - and look for this icon at the top right:
+#### Getting started
 
-![](/images/forkandedit.png)
+Create an account on [GitHub](https://github.com) and log in. Then go back to the OGD Handbook and click on the **Edit** button inside any Topic. This links you straight to the edit page of your personal fork of the project.
 
-Once you make changes in your personal fork of the OGD Handbook, and are ready for these changes to be reviewed for updating this version, look for the **New pull request** button:
+Use Markdown to edit the contents, and leave a short comment about your changes in the form below.
+
+Once you are ready for your changes to be reviewed, look for the **New pull request** button:
 
 ![](/images/newpullrequest.png)
 
-Inside the Pull Request comments, please give us a little bit of background on the intent of your changes. You will be notified via GitHub once they have been moderated and accepted for inclusion in the next release of the OGD Handbook.
+Inside the Pull Request comments, please give us a little bit of background on the intent of your changes.
+
+You will be notified via GitHub once they have been moderated and accepted for inclusion in the next release of the OGD Handbook.
