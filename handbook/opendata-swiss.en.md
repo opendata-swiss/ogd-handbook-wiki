@@ -6,7 +6,6 @@ Date: 2016-01-21
 Slug: opendata-swiss
 Summary: Authorities from the Confederation, cantons and communes as well as third parties that perform tasks on behalf of the state can publish their Open Data on the opendata.swiss portal.
 Lang: en
-Draft: yes
 toc_run: true
 
 
