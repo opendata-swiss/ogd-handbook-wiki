@@ -1,7 +1,7 @@
 Title: Quali set di dati ha la mia organizzazione?
 Category: Identify
 Handbook: yes
-Tags: Draft
+Tags: 
 Date: 2016-01-01
 Slug: inventory
 Authors:

@@ -1,7 +1,7 @@
 Title: Quels jeux de données mon organisation a-t-elle ?
 Category: Identify
 Handbook: yes
-Tags: Draft
+Tags: 
 Date: 2016-01-01
 Slug: inventory
 Authors:

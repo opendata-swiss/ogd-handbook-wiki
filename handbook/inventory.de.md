@@ -1,7 +1,7 @@
 Title: Welche Datensätze hat meine Organisation?
 Category: Identify
 Handbook: yes
-Tags: Draft
+Tags: 
 Date: 2016-01-01
 Slug: inventory
 Authors:
