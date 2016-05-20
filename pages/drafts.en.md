@@ -6,7 +6,7 @@ Slug: drafts
 Authors:
 Summary:
 Lang: en
-toc_run: yes
+toc_run: true
 
 # How to correctly attribute sources
 
