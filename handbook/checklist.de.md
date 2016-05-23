@@ -1,4 +1,4 @@
-Title: Vor der Veröffentlichung von Daten
+Title: Bevor Sie Daten publizieren
 Category: Identify
 Handbook: yes
 Tags:
@@ -10,6 +10,6 @@ Lang: de
 Draft: yes
 
 
-<em>Übersetzungen sind noch nicht überall verfügbar - geben Sie uns Bescheid, falls Sie diesen Inhalt in Ihrer Sprache benötigen.</em>
+<em>Dieses Thema ist noch nicht übersetzt - melden Sie sich, falls Sie diesen Inhalt in Ihrer Sprache benötigen.</em>
 
 Diese Seite ist in [englischer Sprache verfügbar](/en/identify/checklist).

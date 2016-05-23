@@ -2,6 +2,6 @@ Title: Bereit, Open Data zu veröffentlichen?
 Date: 2016-01-01
 Slug: index
 Template: front
-Summary: Dies ist eine Lernressource für jeden, der an der Vorbereitung, Veröffentlichung und Verwendung von Open Government Data (OGD) beteiligt ist und wurde vorrangig entwickelt, um die Veröffentlichung auf opendata.swiss zu unterstützen. Wir befinden uns derzeit im Beta-Stadium und begrüssen Ihre Beiträge, Fehlerberichte und Anregungen.
+Summary: handbook.opendata.swiss bietet Unterstützung für Personen und Organisationen, die Open Government Data veröffentlichen wollen. Dieses Handbuch steht in einer Beta-Version zur Verfügung. Verbesserungsvorschläge und Fehlermeldungen sind sehr willkommen. 
 URL:
 Lang: de
