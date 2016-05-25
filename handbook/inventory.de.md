@@ -1,15 +1,39 @@
-Title: Welche potentiellen OGD gibt es in meiner Organisation?
+Title: Daten-Inventarisierung
 Category: Identify
 Handbook: yes
 Tags:
-Date: 2016-01-01
+Date: 2016-05-25
 Slug: inventory
 Authors:
-Summary: In diesem Abschnitt erörtern wir Wege, um von einer grossen Organisation produzierte Datensätze zu aufzufinden und zu verfolgen.
+Summary: Wege, um von einer grossen Organisation produzierte Datensätze zu aufzufinden und zu verfolgen.
 Lang: de
 Draft: yes
 
 
-<em>Dieses Thema ist noch nicht übersetzt - melden Sie sich, falls Sie diesen Inhalt in Ihrer Sprache benötigen.</em>
+Die Inventarisierung der Daten Ihrer Organisation ist abhängig von deren Grösse ein empfohlenes, aber kein zwingendes Instrument für die Publikation von OGD. Ein Dateninventar gibt Ihnen eine Übersicht über die vorhandenen Daten und erleichtert die Auswahl der als OGD geeigneten Daten. Sie können jedoch problemlos einzelne Datensätze auf opendata.swiss publizieren.
 
-Diese Seite ist in [englischer Sprache verfügbar](/en/identify/inventory).
+## Situation auf Bundesebene
+
+Der Bund hat mit der OGD-Strategie Schweiz 2014-2018 folgenden Auftrag erhalten:
+
+> **M4 Inventarisierung der Datenbestände des Bundes**
+
+> Ein zentrales Verzeichnis der für OGD geeigneten Datenbestände der Bundesverwaltung soll schrittweise aufgebaut und publiziert werden. Dieses Inventar ist eine Grundlage für die weitere Entwicklung und Planung des OGD-Angebotes.
+
+Das Bundesarchiv koordiniert dieses zentrale Verzeichnis, das Informationen über
+
+- Datenbestände in Form von Datenbanken
+- Registern, sogenannten Data-Warehouses
+- ähnlichen Sammlungen strukturierter Datensätze
+
+enthalten soll.
+
+Das Bundesarchiv hat bereits eine erste Inventarisierungsrunde durchgeführt und ist im „[Bericht über Datenbestände des Bundes - Grundlagen für ein Inventar](/de/library/bericht-datenbestaende-bund)“ dokumentiert.
+
+Die 2. Inventarisierungsrunde ist für den Herbst 2016 geplant.
+
+Verschiedene Länder haben bereits weitergehende Erfahrungen als die Schweiz gesammelt:
+
+- [Grossbritannien](http://data.gov.uk/data/search)
+- [USA](https://project-open-data.cio.gov/implementation-guide)
+- [Niederlanden](http://www.openstate.eu/en/2014/10/government-wide-data-inventory-ready-in-spring-2015/)

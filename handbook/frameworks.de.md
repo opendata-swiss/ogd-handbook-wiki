@@ -2,7 +2,7 @@ Title: Rechtliche Vorprüfungen
 Category: Establish
 Handbook: yes
 Tags:
-Date: 2016-01-01
+Date: 2016-05-25
 Slug: frameworks
 Authors:
 Summary: Eine Übersicht der in Open Government Data Schweiz entwickelten gesetzlichen Rahmenbedingungen.

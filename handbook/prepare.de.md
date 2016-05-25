@@ -8,6 +8,7 @@ Authors:
 Summary: Daten können in verschiedenen Formaten vorliegen: im Lauf der Zeit wurden viele verschiedene Methoden verwendet, um sie zu bearbeiten.
 Lang: de
 Draft: yes
+Hidden: yes
 
 
 <em>Dieses Thema ist noch nicht übersetzt - melden Sie sich, falls Sie diesen Inhalt in Ihrer Sprache benötigen.</em>
