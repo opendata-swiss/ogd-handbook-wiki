@@ -8,6 +8,7 @@ Authors:
 Summary: Viele Datensätze leiten sich aus anderen ab und rechtliche Anforderungen verlangen bisweilen explizit die Angabe der Quelle der Daten. Hier untersuchen wir Auswirkungen für Herausgeber von Daten.
 Lang: de
 Draft: yes
+Hidden: yes
 
 
 <em>Dieses Thema ist noch nicht übersetzt - melden Sie sich, falls Sie diesen Inhalt in Ihrer Sprache benötigen.</em>
