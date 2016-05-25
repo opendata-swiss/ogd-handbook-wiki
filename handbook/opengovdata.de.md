@@ -2,10 +2,10 @@ Title: Was ist Open Government Data (OGD)?
 Category: Identify
 Handbook: yes
 Tags:
-Date: 2016-05-25
+Date: 2016-05-26
 Slug: opengovdata
 Authors:
-Summary: 
+Summary: Eine grundlegende Definition
 Lang: de
 Draft: yes
 
