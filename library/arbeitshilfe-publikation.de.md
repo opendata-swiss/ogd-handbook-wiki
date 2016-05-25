@@ -12,3 +12,7 @@ Link_DOC: https://bar-files.opendata.swiss/owncloud/index.php/s/n3YywtlW0Cqolj2
 
 
 > Das folgende Prüfschema soll Behörden als Arbeitshilfe zur Publikation von Datensätzen auf OGD dienen. Das Schema zeigt auf, welche Prüfschritte von den Behörden vorzunehmen sind, bevor ein Datenbestand im Rahmen von OGD publiziert wird.
+
+![](/images/chart-arbeitshilfe-publikation.png)
+
+[Weiter lesen](https://bar-files.opendata.swiss/owncloud/index.php/s/2CeaH5IrXJTiwAu) (PDF)
