@@ -5,12 +5,10 @@ Tags:
 Date: 2016-05-25
 Slug: inventory
 Authors:
-Summary: Wege, um von einer grossen Organisation produzierte Datensätze zu aufzufinden und zu verfolgen.
+Summary: Die Inventarisierung der Daten Ihrer Organisation ist abhängig von deren Grösse ein empfohlenes, aber kein zwingendes Instrument für die Publikation von OGD. Ein Dateninventar gibt Ihnen eine Übersicht über die vorhandenen Daten und erleichtert die Auswahl der als OGD geeigneten Daten. Sie können jedoch problemlos einzelne Datensätze auf opendata.swiss publizieren.
 Lang: de
 Draft: yes
 
-
-Die Inventarisierung der Daten Ihrer Organisation ist abhängig von deren Grösse ein empfohlenes, aber kein zwingendes Instrument für die Publikation von OGD. Ein Dateninventar gibt Ihnen eine Übersicht über die vorhandenen Daten und erleichtert die Auswahl der als OGD geeigneten Daten. Sie können jedoch problemlos einzelne Datensätze auf opendata.swiss publizieren.
 
 ## Situation auf Bundesebene
 

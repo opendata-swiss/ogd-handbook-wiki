@@ -77,39 +77,30 @@ Bestätigen Sie Ihre Änderungen mit einem Klick auf die Schalt- fläche '**Prof
 1. Wählen Sie mittels Häkchen in der Checkbox jene Datensätze aus, für die Sie eine gemeinsame Aktion durchführen wollen.
 2. Wählen Sie aus dem Dropdown-Menu die Aktion aus:
   * '**Bearbeiten**' Sie einzelne Metadaten mehrerer Datensätze.
-  * '**Exportieren**' Sie alle Metadaten ein oder mehrerer Daten- sätze als XML-Datei (DCAT-AP Switzerland Standard). 
+  * '**Exportieren**' Sie alle Metadaten ein oder mehrerer Daten- sätze als XML-Datei (DCAT-AP Switzerland Standard).
 3. Zum Ausführen klicken Sie auf die Schaltfläche 'Übernehmen'.
 
 5) Metadaten **via XML-Import** verwalten 1\. Wählen Sie eine dem DCAT-AP Switzerland Standard entsprechende XML-Datei aus. 2\. Klicken Sie auf die Schaltfläche 'Importieren'. 3\. Neue Datensätze werden mit Status 'Entwurf' **erstellt**. Meta- daten bestehender Datensätze werden **aktualisiert**.
 
-**1)**
-
-**2)**
-
-**3)**
-
-**4)**
-
-**5)**
-
 # **Aufbau des Metadaten-Formulars**
 
-1) Datensatz-Information → S. 5
+1) [Datensatz-Information](#S5)
 
-2a) Daten → S. 6
+2a) [Daten](#S6)
 
-2b) Publisher-Informationen → S. 7
+2b) [Publisher-Informationen](#S7)
 
-3) Weitere Informationen → S. 8
+3) [Weitere Informationen](#S8)
 
-4) Ressourcen → S. 9
+4) [Ressourcen](#S9)
 
-5) Sidebar: → S. 11
+5) [Sidebar](#S11)
 
 > — Veröffentlichen und Aktualisieren
 
 > — Schlagwörter
 
+<a name="S5"></a>
 ## **1) Datensatz-Informationen**
 
 **Neuen Datensatz erstellen / bearbeiten**

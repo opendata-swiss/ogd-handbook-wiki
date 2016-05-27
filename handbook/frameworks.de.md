@@ -5,12 +5,10 @@ Tags:
 Date: 2016-05-25
 Slug: frameworks
 Authors:
-Summary: Eine Übersicht der in Open Government Data Schweiz entwickelten gesetzlichen Rahmenbedingungen.
+Summary: In der ersten Phase haben Sie jene Daten identifiziert, die sie als OGD publizieren möchten. Bevor Sie Daten nun technisch für die Publikation aufbereiten können, müssen Sie abklären, nach welchen Bedingungen die Datensätze genutzt werden können. Dieses Kapitel enthält ein einfaches Schema, um die richtigen Nutzungsbedingungen auszuwählen. Zudem erklärt es das Vorgehen, wenn Sie Geodaten auf opendata.swiss publizieren wollen.
 Lang: de
 Draft: yes
 
-
-In [der ersten Phase](/de/category/identify) haben Sie jene Daten identifiziert, die sie als OGD publizieren möchten. Bevor Sie Daten nun technisch für die Publikation aufbereiten können, müssen Sie abklären, nach welchen Bedingungen die Datensätze genutzt werden können. Dieses Kapitel enthält ein einfaches Schema, um die richtigen Nutzungsbedingungen auszuwählen. Zudem erklärt es das Vorgehen, wenn Sie Geodaten auf opendata.swiss publizieren wollen.
 
 Bevor Daten auf opendata.swiss publiziert werden können, muss sichergestellt sein, dass diese als OGD publiziert werden dürfen. Massgeblich für diese Entscheidung ist in der öffentlichen Verwaltung in aller Regel die gesetzliche Grundlage, also ein Gesetz oder die zugehörige Verordnung. Diese erlaubt die Publikation der OGD und legt allfällige Einschränkungen fest. Aus der gesetzlichen Grundlage leiten Sie anschliessend die Nutzungsbedingungen für Ihre Daten ab. Mehr dazu unter [Nutzungsbedingungen auswählen](terms).
 
