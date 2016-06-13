@@ -18,13 +18,13 @@ Der Bund hat mit der OGD-Strategie Schweiz 2014-2018 folgenden Auftrag erhalten:
 
 > Ein zentrales Verzeichnis der für OGD geeigneten Datenbestände der Bundesverwaltung soll schrittweise aufgebaut und publiziert werden. Dieses Inventar ist eine Grundlage für die weitere Entwicklung und Planung des OGD-Angebotes.
 
-Das Bundesarchiv koordiniert dieses zentrale Verzeichnis, das Informationen über
+Das Bundesarchiv koordiniert dieses zentrale Verzeichnis, das Informationen über:
 
 - Datenbestände in Form von Datenbanken
 - Registern, sogenannten Data-Warehouses
 - ähnlichen Sammlungen strukturierter Datensätze
 
-enthalten soll.
+..enthalten soll.
 
 Das Bundesarchiv hat bereits eine erste Inventarisierungsrunde durchgeführt und ist im „[Bericht über Datenbestände des Bundes - Grundlagen für ein Inventar](/de/library/bericht-datenbestaende-bund)“ dokumentiert.
 

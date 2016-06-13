@@ -67,11 +67,17 @@ Link_PDF: https://bar-files.opendata.swiss/owncloud/index.php/s/XxkHSh8A4vgIgea
 
 ![](/images/anleitung-daten-publisher/s05.jpg)
 
-1) Neuen Datensatz **via Formular** erstellen Klicken Sie auf die Schaltfläche 'Erstellen', um das Metadaten- Formular (→ S. 4) zu öffnen.
+1) Neuen Datensatz **via Formular** erstellen
 
-2) Datensatz **via Formular** bearbeiten Klicken Sie auf den Titel eines Datensatzes Ihrer Organisation, um die Metadaten im Formular (→ S. 4) zu bearbeiten.
+> Klicken Sie auf die Schaltfläche 'Erstellen', um das Metadaten- Formular (→ S. 4) zu öffnen.
 
-3) Status des Datensatzes Wird kein Status (→ S. 11) angezeigt, ist der Datensatz publiziert.
+2) Datensatz **via Formular** bearbeiten
+
+> Klicken Sie auf den Titel eines Datensatzes Ihrer Organisation, um die Metadaten im Formular (→ S. 4) zu bearbeiten.
+
+3) Status des Datensatzes
+
+> Wird kein Status (→ S. 11) angezeigt, ist der Datensatz publiziert.
 
 4) Massenbearbeitungs-Aktionen
 
@@ -104,7 +110,6 @@ Link_PDF: https://bar-files.opendata.swiss/owncloud/index.php/s/XxkHSh8A4vgIgea
 5) [Sidebar](#S11)
 
 - Veröffentlichen und Aktualisieren
-
 - Schlagwörter
 
 <a name="S5"></a>
@@ -120,11 +125,15 @@ Link_PDF: https://bar-files.opendata.swiss/owncloud/index.php/s/XxkHSh8A4vgIgea
 
 - Datensatz-Identifier *
 
-Eindeutiger Identifier des Datensatzes verknüpft mit dem Publisher. Ein guter Weg, einen eindeutigen Identifier zu erhalten, ist es, wenn Sie die ID aus dem Quellsystem verwenden.
+> Eindeutiger Identifier des Datensatzes verknüpft mit dem Publisher. Ein guter Weg, einen eindeutigen Identifier zu erhalten, ist es, wenn Sie die ID aus dem Quellsystem verwenden.
 
-- Titel (EN/DE/FR/IT) * Geben Sie mindestens in einer Sprache einen Titel an.
+- Titel (EN/DE/FR/IT) *
 
-- Beschreibung (EN/DE/FR/IT) * Geben Sie mindestens in einer Sprache eine Beschreibung an.
+> Geben Sie mindestens in einer Sprache einen Titel an.
+
+- Beschreibung (EN/DE/FR/IT) *
+
+> Geben Sie mindestens in einer Sprache eine Beschreibung an.
 
 * Pflichtfelder
 
@@ -144,7 +153,7 @@ Das Datum der ersten Publikation dieses Datensatzes. Falls dieses Datum nicht be
 
 - Zeitliche Abdeckung Geben Sie eine oder mehrere Zeitperioden an, welche dieser Datensatz abdeckt.
 
-* Pflichtfeld
+(* Pflichtfeld)
 
 ### 2b) Publisher-Informationen
 
@@ -152,11 +161,15 @@ Das Datum der ersten Publikation dieses Datensatzes. Falls dieses Datum nicht be
 
 **Publisher-Informationen**
 
-- Publisher * Ein oder mehrere Publisher dieses Datensatzes. Dieser kann der Organisation entsprechen, welche den Datensatz veröffentlicht. Mindestens ein Publisher ist erforderlich.
+- Publisher *
 
-- Kontaktstellen * Die Stelle, welche von den Daten-Nutzern kontaktiert wird, falls eine inhaltliche Frage zum Datensatz besteht. Mindestens eine Kontaktstelle mit E-Mail-Adresse ist erforderlich.
+> Ein oder mehrere Publisher dieses Datensatzes. Dieser kann der Organisation entsprechen, welche den Datensatz veröffentlicht. Mindestens ein Publisher ist erforderlich.
 
-* Pflichtfelder
+- Kontaktstellen *
+
+> Die Stelle, welche von den Daten-Nutzern kontaktiert wird, falls eine inhaltliche Frage zum Datensatz besteht. Mindestens eine Kontaktstelle mit E-Mail-Adresse ist erforderlich.
+
+(* Pflichtfelder)
 
 ### 3) Weitere Informationen
 
@@ -164,13 +177,23 @@ Das Datum der ersten Publikation dieses Datensatzes. Falls dieses Datum nicht be
 
 **Weitere Informationen**
 
-- Kategorien Wählen Sie eine oder mehrere thematische Kategorien aus, denen dieser Datensatz zugeordnet wird.
+- Kategorien
 
-- Landing Page Geben Sie eine Webseite an, auf der weitere Informationen zum Datensatz verfügbar sind.
+> Wählen Sie eine oder mehrere thematische Kategorien aus, denen dieser Datensatz zugeordnet wird.
 
-- Beziehungen Weitere Informationen mit Bezug zu diesem Datensatz: - Verwenden Sie den Titel 'legal_basis', um bei Bedarf einen **Link auf die gesetzliche Grundlage** dieses Datensatzes anzugeben. Der Link wird im Frontend dem Titel '**Gesetzliche Grundlage**' hinterlegt.
+- Landing Page
 
-- Verwandte Datensätze Wählen Sie mittels Dropdown-Menu andere auf dem Portal verfügbare Datensätze aus, die eine inhaltliche Beziehung zu diesem Datensatz haben.
+> Geben Sie eine Webseite an, auf der weitere Informationen zum Datensatz verfügbar sind.
+
+- Beziehungen
+
+> Weitere Informationen mit Bezug zu diesem Datensatz.
+
+> Verwenden Sie den Titel 'legal_basis', um bei Bedarf einen **Link auf die gesetzliche Grundlage** dieses Datensatzes anzugeben. Der Link wird im Frontend dem Titel '**Gesetzliche Grundlage**' hinterlegt.
+
+- Verwandte Datensätze
+
+> Wählen Sie mittels Dropdown-Menu andere auf dem Portal verfügbare Datensätze aus, die eine inhaltliche Beziehung zu diesem Datensatz haben.
 
 ### 4) Ressourcen
 

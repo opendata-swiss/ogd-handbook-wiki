@@ -5,12 +5,12 @@ Tags:
 Date: 2016-05-26
 Slug: opengovdata
 Authors:
-Summary: Eine grundlegende Definition
+Summary: Unter Open Government Data versteht man Behördendaten, die kostenfrei und im Idealfall in maschinenlesbarer Form zur Sekundärnutzung allen Interessierten zur Verfügung stehen.
 Lang: de
 Draft: yes
 
 
-Unter Open Government Data versteht man Behördendaten, die kostenfrei und im Idealfall in maschinenlesbarer Form zur Sekundärnutzung allen Interessierten zur Verfügung stehen. Auf dem Schweizer OGD-Portal opendata.swiss finden sich unterschiedlichste Datensätze wie die Gemeindegrenzen der Schweiz, Bevölkerungsstatistiken, aktuelle Wetterdaten, historische Dokumente oder ein Verzeichnis der Schweizer Literatur. Häufig werden die Daten als gesamte Datensätze zur Verfügung gestellt, die anschliessend durch die Nutzerinnen und Nutzer visualisiert, weiterverarbeitet oder kombiniert werden können. So entstehen Anwendungen und Visualisierungen, die auf Basis bereits bestehender Daten neue Zusammenhänge sichtbar machen.
+Auf dem Schweizer OGD-Portal opendata.swiss finden sich unterschiedlichste Datensätze wie die Gemeindegrenzen der Schweiz, Bevölkerungsstatistiken, aktuelle Wetterdaten, historische Dokumente oder ein Verzeichnis der Schweizer Literatur. Häufig werden die Daten als gesamte Datensätze zur Verfügung gestellt, die anschliessend durch die Nutzerinnen und Nutzer visualisiert, weiterverarbeitet oder kombiniert werden können. So entstehen Anwendungen und Visualisierungen, die auf Basis bereits bestehender Daten neue Zusammenhänge sichtbar machen.
 
 Viele Daten stehen bereits heute kostenlos zur Verfügung, nur sind sie nicht als OGD gekennzeichnet. Für die Publikation auf opendata.swiss eigenen sich diese Datensätze besonders gut, da sie ohne grossen Zusatzaufwand auf opendata.swiss verlinkt werden können.
 

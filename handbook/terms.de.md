@@ -12,7 +12,7 @@ Draft: yes
 
 Aus diesem Grund werden bei jedem Datensatz auf opendata.swiss sogenannte [„Nutzungsbedingungen“](https://opendata.swiss/de/terms-of-use/) angezeigt. Diese erklären mit wenigen Symbolen und Sätzen, wofür ein Datensatz verwendet werden darf. Sie übersetzen damit die weiterhin massgebliche gesetzliche Grundlage in eine einheitliche und für den Nutzenden verständliche Sprache. Als datenpublizierende Behörde müssen Sie deshalb vor der Publikation Ihrer Daten auf opendata.swiss zwingend eine Nutzungsbedingung auswählen, welche die Bestimmungen Ihrer gesetzlichen Grundlage korrekt wiedergibt.
 
-Eine Übersicht über die auf opendata.swiss zugelassenen Nutzungsbedingungen finden Sie [hier](https://opendata.swiss/de/terms-of-use/). An Hand des Resultats der [rechtlichen Vorprüfung](frameworks) können Sie nun einfach die richtigen Nutzungsbedingungen auswählen.
+Eine Übersicht über die auf opendata.swiss zugelassenen Nutzungsbedingungen finden Sie [hier](https://opendata.swiss/de/terms-of-use/). An Hand des Resultats der [rechtlichen Vorprüfung](/de/establish/frameworks) können Sie nun einfach die richtigen Nutzungsbedingungen auswählen.
 
 ![](/images/prepare-terms-overview.png)
 
