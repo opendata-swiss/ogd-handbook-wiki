@@ -5,82 +5,70 @@ Tags: publish
 Date: 2016-03-16
 Slug: anleitung-geocat
 Authors: Schweizerisches Bundesarchiv
-Summary:
+Summary: Im Folgenden ist das Vorgehen beschrieben, wie valide Datensätze in geocat.ch erstellt werden, um sie anschliessend auf dem opendata-Portal zu publizieren.
 Lang: de
 toc_run: true
 
 
-Um Geodaten auf dem Portal https://opendata.swiss/de/ zu publizieren, müssen die Metadaten der betroffenen Daten zuerst im Katalog für Geometadaten www.geocat.ch publiziert werden. Von dort werden die benötigten Attribute dann durch einen automatisierten Prozess ins opendata-Portal überführt. Im Folgenden ist das Vorgehen beschrieben, wie valide Datensätze in www.geocat.ch erstellt werden, um sie anschliessend auf dem opendata-Portal zu publizieren.
+Um Geodaten auf dem Portal [opendata.swiss](https://opendata.swiss/) zu publizieren, müssen die Metadaten der betroffenen Daten zuerst im Katalog für Geometadaten [geocat.ch](http://www.geocat.ch) publiziert werden. Von dort werden die benötigten Attribute dann durch einen automatisierten Prozess ins opendata-Portal überführt.
 
-    Anmeldung bei geocat.ch (geocat@swisstopo.ch)
+## 1. Anmeldung bei geocat.ch
 
 Um auf geocat Metadaten zu publizieren, müssen zwei Kriterien erfüllt sein, die der Benutzer nicht selber einrichten kann, und die er somit durch die Administratoren von geocat.ch beantragen muss:
 
-    Gruppe, welche für die zu publizierenden Daten zuständig ist (z. Bsp. ein Kanton, ein Bundesamt etc.)
+**Gruppe**, welche für die zu publizierenden Daten zuständig ist (z. Bsp. ein Kanton, ein Bundesamt etc.)
 
-    Falls die Gruppe noch nicht in geocat.ch besteht, bitte Angaben zur Gruppe (genauer Name in den drei Landessprachen und Englisch, sowie ein Logo) per Mail an geocat@swisstopo.ch schicken.
+- Falls die Gruppe noch nicht in geocat.ch besteht, bitte Angaben zur Gruppe (genauer Name in den drei Landessprachen und Englisch, sowie ein Logo) per Mail an *geocat@swisstopo.ch* schicken.
 
-    Benutzerkonto
+**Benutzerkonto**
 
-&gt;Um dies einzurichten, bitte eine E-Mail an geocat@swisstopo.ch senden und Kontaktangaben zur Person (Name, Vorname und E-Mail) nennen. Für jede Gruppe wird durch die Administratoren von geocat.ch ein Konto eingerichtet, welches die Rechte eines „Benutzeradministrators“ hat. Diese Rolle berechtigt dazu, selber neue Benutzerkonten in der eigenen Gruppe einzurichten.
+Um dies einzurichten, bitte eine E-Mail an *geocat@swisstopo.ch* senden und Kontaktangaben zur Person (Name, Vorname und E-Mail) nennen. Für jede Gruppe wird durch die Administratoren von geocat.ch ein Konto eingerichtet, welches die Rechte eines „Benutzeradministrators“ hat. Diese Rolle berechtigt dazu, selber neue Benutzerkonten in der eigenen Gruppe einzurichten.
 
 Ein Benutzeradmin kann wie folgt Benutzer einrichten:
 
-Einloggen und unter „Metadatenmanagement“ auf „Admin Konsole“ klicken:
-
-
-Auf der folgenden Seite „Users and groups“ anklicken:
-
-
-Im folgenden Fenster „Manage users“, anschliessend „+ New user“ anklicken:
+1. Einloggen und unter „Metadatenmanagement“ auf „Admin Konsole“ klicken:
+![](../images/anleitung-geocat/1.jpg)
+1. Auf der folgenden Seite „Users and groups“ anklicken:
+![](../images/anleitung-geocat/2.jpg)
+1. Im folgenden Fenster „Manage users“, anschliessend „+ New user“ anklicken:
+![](../images/anleitung-geocat/3.jpg)
 
 Anschliessend müssen die Rechte zugeordnet werden.
 
 Folgende Benutzertypen bestehen in geocat.ch:
 
-        „Registrierter Benutzer“: Benutzer kann Metadaten nicht bearbeiten/löschen, aber alle Metadaten der eigenen Gruppen sehen, auch die nicht publizierten
+- „Registrierter Benutzer“: Benutzer kann Metadaten nicht bearbeiten/löschen, aber alle Metadaten der eigenen Gruppen sehen, auch die nicht publizierten
+- „Editor“: Benutzer kann Metadaten der Gruppe bearbeiten, löschen, neu erstellen, jedoch nicht publizieren
+- „Reviewer“: Benutzer kann Metadaten der Gruppe bearbeiten, löschen, neu erstellen und publizieren
+- „Benutzeradministrator“: Benutzer kann neue Benutzerkontos einrichten und ist unsere Ansprechperson für betroffene Gruppe
 
-        „Editor“: Benutzer kann Metadaten der Gruppe bearbeiten, löschen, neu erstellen, jedoch nicht publizieren
+*„Is an administrator“ bitte nicht anwählen.*
 
-        „Reviewer“: Benutzer kann Metadaten der Gruppe bearbeiten, löschen, neu erstellen und publizieren
-
-        „Benutzeradministrator“: Benutzer kann neue Benutzerkontos einrichten und ist unsere Ansprechperson für betroffene Gruppe
-
-
-
-„Is an administrator“ bitte nicht anwählen.
+![](../images/anleitung-geocat/4.jpg)
 
 Sobald diese beiden Voraussetzungen erfüllt sind, kann der eingeloggte Benutzer selbständig Metadaten erfassen.
 
+## 2. Gibt es schon ein Metadatensatz in geocat.ch oder nicht?
 
-    Gibt es schon ein Metadatensatz in geocat.ch oder nicht?
+**JA:** In vielen Fällen besteht bereits ein Metadatensatz in geocat.ch. Dieser muss einfach noch um die OGD-spezifischen Attribute angereichert werden. In diesem Fall bitte gleich zu Punkt 3 weitergehen.
 
-    JA: In vielen Fällen besteht bereits ein Metadatensatz in geocat.ch. Dieser muss einfach noch um die OGD-spezifischen Attribute angereichert werden. In diesem Fall bitte gleich zu Punkt 3 weitergehen.
+**NEIN:** Besteht noch kein Metadatensatz, muss dieser neu erfasst werden. Dazu muss der Benutzer eingeloggt sein und auf Metadatenmanagement &gt; „Neue Metadaten“ klicken:
 
-    NEIN: Besteht noch kein Metadatensatz, muss dieser neu erfasst werden. Dazu muss der Benutzer eingeloggt sein und auf Metadatenmanagement &gt; „Neue Metadaten“ klicken:
-
+![](../images/anleitung-geocat/5.jpg)
 
 Auf der folgenden Seite „Erstelle einen…“ Datensatz anklicken und das Template „opendata.swiss“ auswählen. Anschliessend müssen (mindestens) die für einen Metadateneintrag obligatorischen Elemente ausgefüllt werden, plus zusätzlich die in Punkt 3 beschriebenen OGD-spezifischen Attribute.
 
-
 Obligatorisch für einen validen Metadatensatz gemäss ISO-Standard sind:
 
-            Titel
+- Titel
+- Datumsangabe
+- Sprache
+- Kurzbeschreibung
+- Thematik (Kategorie)
+- Ausdehnung
+- Metadatenkontakt
 
-            Datumsangabe
-
-            Sprache
-
-            Kurzbeschreibung
-
-            Thematik (Kategorie)
-
-            Ausdehnung
-
-            Metadatenkontakt
-
-
-    Ein Datensatz, der auf dem OGD-Portal publiziert wird, muss folgende Attribute enthalten:
+## 3. Ein Datensatz, der auf dem OGD-Portal publiziert wird, muss folgende Attribute enthalten:
 
 Name Attribut in geocat.ch
 
@@ -168,13 +156,13 @@ Ausdehnung &gt; „Nicht-geographischen Extent hinzufügen“ &gt; zeitliche Aus
 
 Um den erstellten Metadatensatz zu validieren, muss dieser im Bearbeitungsmodus geöffnet werden. In der Menüzeile auf „Überprüfen“ klicken. Gibt es keine Fehlermeldung betreffend…
 
-            XST
+- XST
 
-            ISO 19115
+- ISO 19115
 
-            GM03
+- GM03
 
-            GeoNetwork
+- GeoNetwork
 
 …so ist der Metadatensatz valide. Ansonsten müssen angezeigte Fehler korrigiert werden.
 
@@ -196,4 +184,4 @@ Anschliessend den Datensatz für „alle“ freigeben.
 
     Anfrage machen an opendata.swiss, dass der CSW-Endpoint geharvestet sein soll
 
-Mapping Informationen: file://N:\5-kogis\5-KOGIS\51-BGDI\5104-Metadaten\5104-05-Projektbegleitung\5104-05-02-Benutzer\OGD@Bund\mapping_ISO19139che-DCATAP\mapping_GM03-DCAT_v3.pdf
+Mapping Informationen: sehe *mapping_GM03-DCAT_v3.pdf*

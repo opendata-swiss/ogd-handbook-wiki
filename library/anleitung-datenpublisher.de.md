@@ -8,11 +8,12 @@ Authors: Schweizerisches Bundesarchiv
 Summary:
 Lang: de
 toc_run: true
+Link_PDF: https://bar-files.opendata.swiss/owncloud/index.php/s/XxkHSh8A4vgIgea
 
 
-## Benutzerprofil verwalten
+# Benutzerprofil verwalten
 
-![](../images/anleitung-daten-publisher/s03.jpg)
+![](/images/anleitung-daten-publisher/s03.jpg)
 
 **Persönliche Optionen**
 
@@ -50,7 +51,7 @@ toc_run: true
 
 - Die Reihenfolge des 'Fallback' ist: DE → FR → IT → EN
 
-### Hinweise zu Umlauten, Accents, Leerzeichen
+## Hinweise zu Umlauten, Accents, Leerzeichen
 
 **Schlagwörter und Names (Slugs)**
 
@@ -62,9 +63,9 @@ toc_run: true
 
 - **Leerzeichen** werden ersetzt durch Divis (-).
 
-# **Metadaten via Formular / XML-Import verwalten**
+# Metadaten via Formular / XML-Import verwalten
 
-![](../images/anleitung-daten-publisher/s05.jpg)
+![](/images/anleitung-daten-publisher/s05.jpg)
 
 1) Neuen Datensatz **via Formular** erstellen Klicken Sie auf die Schaltfläche 'Erstellen', um das Metadaten- Formular (→ S. 4) zu öffnen.
 
@@ -86,9 +87,9 @@ toc_run: true
 2. Klicken Sie auf die Schaltfläche 'Importieren'.
 3. Neue Datensätze werden mit Status 'Entwurf' **erstellt**. Metadaten bestehender Datensätze werden **aktualisiert**.
 
-# **Aufbau des Metadaten-Formulars**
+## Aufbau des Metadaten-Formulars
 
-![](../images/anleitung-daten-publisher/s06.jpg)
+![](/images/anleitung-daten-publisher/s06.jpg)
 
 1) [Datensatz-Information](#S5)
 
@@ -107,9 +108,9 @@ toc_run: true
 - Schlagwörter
 
 <a name="S5"></a>
-## **1) Datensatz-Informationen**
+### 1) Datensatz-Informationen
 
-![](../images/anleitung-daten-publisher/s07.jpg)
+![](/images/anleitung-daten-publisher/s07.jpg)
 
 **Neuen Datensatz erstellen / bearbeiten**
 
@@ -127,9 +128,9 @@ Eindeutiger Identifier des Datensatzes verknüpft mit dem Publisher. Ein guter W
 
 * Pflichtfelder
 
-### **2a) Daten**
+### 2a) Daten
 
-![](../images/anleitung-daten-publisher/s08.jpg)
+![](/images/anleitung-daten-publisher/s08.jpg)
 
 **Daten**
 
@@ -145,9 +146,9 @@ Das Datum der ersten Publikation dieses Datensatzes. Falls dieses Datum nicht be
 
 * Pflichtfeld
 
-### **2b) Publisher-Informationen**
+### 2b) Publisher-Informationen
 
-![](../images/anleitung-daten-publisher/s09.jpg)
+![](/images/anleitung-daten-publisher/s09.jpg)
 
 **Publisher-Informationen**
 
@@ -157,9 +158,9 @@ Das Datum der ersten Publikation dieses Datensatzes. Falls dieses Datum nicht be
 
 * Pflichtfelder
 
-## **3) Weitere Informationen**
+### 3) Weitere Informationen
 
-![](../images/anleitung-daten-publisher/s10.jpg)
+![](/images/anleitung-daten-publisher/s10.jpg)
 
 **Weitere Informationen**
 
@@ -171,124 +172,111 @@ Das Datum der ersten Publikation dieses Datensatzes. Falls dieses Datum nicht be
 
 - Verwandte Datensätze Wählen Sie mittels Dropdown-Menu andere auf dem Portal verfügbare Datensätze aus, die eine inhaltliche Beziehung zu diesem Datensatz haben.
 
-## **4) Ressourcen**
+### 4) Ressourcen
 
-![](../images/anleitung-daten-publisher/s11.jpg)
-
-**Ressource 1**
+![](/images/anleitung-daten-publisher/s11.jpg)
 
 - Identifier Identifier der Ressource im Quellsystem des Publishers.
-
 - Titel (EN/DE/FR/IT) Wird der Titel leer gelassen, wird der Titel des Datensatzes verwendet.
-
 - Beschreibung (EN/DE/FR/IT) Wird die Beschreibung leer gelassen, wird die Beschreibung des Datensatzes verwendet.
-
 - Sprache Sprachen, in denen diese Ressource vorliegt. Falls die Ressource sprachunabhängig ist, wählen Sie keine Sprache aus.
-
 - Erstellt * Das Datum der ersten Publikation dieser Ressource.
-
 - Geändert Das Datum der letzten Änderung dieser Ressource.
 
-* Pflichtfeld
+(* Pflichtfeld)
 
-#### (Fortsetzung von **Ressource 1**)
+![](/images/anleitung-daten-publisher/s12.jpg)
 
-![](../images/anleitung-daten-publisher/s12.jpg)
+**Nutzungsbedingungen**
 
-- Nutzungsbedingungen * Wählen Sie aus dem Dropdown-Menu eine der Nutzungsbedingungen aus. **Alle Nutzungsbedingungen, die nicht mit einem Stern (*) markiert sind, gelten als 'Closed Data'.**
+Wählen Sie aus dem Dropdown-Menu eine der Nutzungsbedingungen aus.
 
-- Zugangs-URL * Die URL, über welche auf die Ressource zugegriffen werden kann. Dies kann entweder eine Download-URL, eine API-URL oder eine Landing-Page-URL sein. Falls die Ressource nur über eine Landing Page verfügbar ist, muss dieses Feld die URL der Landing Page beinhalten. Falls eine Download-URL (siehe unten) für diese Ressource angegeben wurde, muss diese ebenfalls in diesem Feld eingetragen werden.
+**Alle Nutzungsbedingungen, die nicht mit einem Stern (*) markiert sind, gelten als 'Closed Data'.**
 
-- Download-URL URL der Datei, falls die Ressource heruntergeladen werden kann.
+**Zugangs-URL**
 
-- Grösse (in Bytes)
+Die URL, über welche auf die Ressource zugegriffen werden kann. Dies kann entweder eine Download-URL, eine API-URL oder eine Landing-Page-URL sein. Falls die Ressource nur über eine Landing Page verfügbar ist, muss dieses Feld die URL der Landing Page beinhalten. Falls eine Download-URL (siehe unten) für diese Ressource angegeben wurde, muss diese ebenfalls in diesem Feld eingetragen werden.
 
-- Format Wählen Sie aus dem Dropdown-Menu eines der Formate aus.
+**Download-URL**
 
-* Pflichtfelder
+URL der Datei, falls die Ressource heruntergeladen werden kann.
 
-## **5) Sidebar**
+**Grösse (in Bytes)**
 
-![](../images/anleitung-daten-publisher/s13.jpg)
+**Format**
+
+Wählen Sie aus dem Dropdown-Menu eines der Formate aus.
+
+(* Pflichtfelder)
+
+### 5) Sidebar
+
+![](/images/anleitung-daten-publisher/s13.jpg)
 
 **Veröffentlichen und Aktualisieren**
 
-- Status Geben Sie den Status des Datensatzes an:
-  - **Entwurf**: Sie bearbeiten die Metadaten des Datensatzes weiter.
-  - **Ausstehender Review**: Sie haben die Angabe der Metadaten abgeschlossen und kennzeichnen den Datensatz für eine Review.
-  - **Veröffentlicht**: Der Datensatz ist auf opendata.swiss publiziert.
-- Veröffentlichen / Aktualisieren
-  - **Sofort veröffentlichen**: Publizieren Sie den Datensatz mit einem Klick auf die Schaltfläche 'Veröffentlichen'.
-  - **Veröffentlichung planen**: Nutzen Sie die Datums- und Zeitangabe, um die Veröffentlichung eines Datensatzes in der Zukunft zu festzulegen und klicken Sie auf die Schaltfläche 'Planen'. Die Veröffentlichung lässt sich verlässlich auf ein bestimmtes Datum planen; die Festlegung einer Uhrzeit kann um ± 1 Stunde von der effektiven Publikation abweichen.
-  - **Aktualisieren**: Haben Sie Metadaten eines Datensatzes bearbeitet, der bereits publiziert ist, publizieren Sie Ihre Änderungen mit einem Klick auf die Schaltfläche 'Aktualisieren'.
+Status Geben Sie den Status des Datensatzes an:
+
+- **Entwurf**: Sie bearbeiten die Metadaten des Datensatzes weiter.
+- **Ausstehender Review**: Sie haben die Angabe der Metadaten abgeschlossen und kennzeichnen den Datensatz für eine Review.
+- **Veröffentlicht**: Der Datensatz ist auf opendata.swiss publiziert.
+
+Veröffentlichen / Aktualisieren
+
+- **Sofort veröffentlichen**: Publizieren Sie den Datensatz mit einem Klick auf die Schaltfläche 'Veröffentlichen'.
+- **Veröffentlichung planen**: Nutzen Sie die Datums- und Zeitangabe, um die Veröffentlichung eines Datensatzes in der Zukunft zu festzulegen und klicken Sie auf die Schaltfläche 'Planen'. Die Veröffentlichung lässt sich verlässlich auf ein bestimmtes Datum planen; die Festlegung einer Uhrzeit kann um ± 1 Stunde von der effektiven Publikation abweichen.
+- **Aktualisieren**: Haben Sie Metadaten eines Datensatzes bearbeitet, der bereits publiziert ist, publizieren Sie Ihre Änderungen mit einem Klick auf die Schaltfläche 'Aktualisieren'.
 
 **Schlagwörter**
 
 - Schlagwörter (EN/DE/FR/IT) Geben Sie ein oder mehrere Schlagwörter zum Datensatz – getrennt durch Kommas – an oder wählen Sie per Klick ein oder mehrere häufig genutze Schlagwörter aus.
 
-# **Im Formular Begriffe suchen**
+## Im Formular Begriffe suchen
 
-![](../images/anleitung-daten-publisher/s14.jpg)
+![](/images/anleitung-daten-publisher/s14.jpg)
 
 **Wie öffnen Sie den Browser-Suchbalken?**
 
 - Drücken Sie den Tastaturbefehl **Ctrl+F**
-
 **oder**
-
 - Wählen Sie im Browsermenu **Edit > Find**
 
 > Geben Sie einen Begriff ins Textfeld des Suchbalkens ein und der Browser markiert den Begriff im Formular.
 
-# **Detailansicht eines Datensatzes**
+## Detailansicht eines Datensatzes
 
-![](../images/anleitung-daten-publisher/s15.jpg)
+![](/images/anleitung-daten-publisher/s15.jpg)
 
 **Informationen**
 
 - Titel des Datensatzes
-
 - Zuletzt aktualisiert
-
 - Nutzungsbedingungen
-
 - Datenpublizierende Organisation
-
 - Thematische Kategorien
-
 - Beschreibung des Datensatzes
-
 - Schlagwörter
-
 - Ressourcen / Formate
-
 - Zusätzliche Informationen
-
 - Verwandte Datensätze
 
-# **Detailansicht einer Ressource**
+## Detailansicht einer Ressource
 
-![](../images/anleitung-daten-publisher/s16.jpg)
+![](/images/anleitung-daten-publisher/s16.jpg)
 
 **Informationen**
 
 - Titel der Ressource
-
 - Zuletzt aktualisiert
-
 - Nutzungsbedingungen
-
 - Datenpublizierende Organisation
-
 - Format der Ressource
-
 - Beschreibung der Ressource
-
 - Zusätzliche Informationen
 
-# **Organisations-Informationen verwalten**
+# Organisations-Informationen verwalten
 
-![](../images/anleitung-daten-publisher/s17.jpg)
+![](/images/anleitung-daten-publisher/s17.jpg)
 
 1) Titel / Name (Slug) Dieser Titel bezeichnet die Organisation im Backend. Aus ihm wird der 'Name (Slug)' der Organisation gebildet. **Verändern Sie diesen Titel und den 'Name (Slug)' nicht mehr, nachdem die Organisation Datensätze publiziert hat!**
 
@@ -308,14 +296,12 @@ Das Datum der ersten Publikation dieses Datensatzes. Falls dieses Datum nicht be
 
 * Pflichtfelder
 
-# **Detailansicht einer Organisation**
+## Detailansicht einer Organisation
 
-![](../images/anleitung-daten-publisher/s18.jpg)
+![](/images/anleitung-daten-publisher/s18.jpg)
 
 **Informationen**
 
 - Titel der Organisation
-
 - Beschreibung der Organisation
-
 - Bild der Organisation
