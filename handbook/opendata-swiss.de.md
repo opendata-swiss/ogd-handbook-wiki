@@ -6,9 +6,10 @@ Date: 2016-01-01
 Slug: opendata-swiss
 Summary: Behörden der Eidgenossenschaft, der Kantone und der Gemeinden ebenso wie Dritte, die im Auftrag des Staates Aufgaben ausführen, können ihre Daten auf dem Portal opendata.swiss veröffentlichen. Erfahren Sie, wie Sie Ihre Open Data auf opendata.swiss bringen.
 Lang: de
+Draft: yes
 
 
-<em>Dieses Thema ist noch nicht übersetzt - melden Sie sich, falls Sie diesen Inhalt in Ihrer Sprache benötigen.</em>
+> *Dieses Thema ist noch nicht übersetzt - melden Sie sich, falls Sie diesen Inhalt in Ihrer Sprache benötigen.*
 
 If you would like to add data to opendata.swiss and your agency or organisation is not yet [publishing on opendata.swiss](https://opendata.swiss/de/organization), please continue reading and [contact us for assistance](/en/pages/contribute).
 
@@ -37,6 +38,6 @@ For publishers, opendata.swiss offers the following ways to add their data to th
 
 ## What is the DCAT-AP for Switzerland format?
 
-The ‹Open Government Data› project organisation have worked out a joint solution for standardising on metadata publishing. See [documentation in the library](/en/library/ch-dcat-ap) for full details:
+<a href="/de/library/ch-dcat-ap" class="btn btn-default" role="button">DCAT-AP for Switzerland</a>
 
-<a href="/en/library/ch-dcat-ap" class="btn btn-default" role="button">DCAT-AP for Switzerland</a>
+The ‹Open Government Data› project organisation have worked out a joint solution for standardising on metadata publishing. See [documentation in the library](/de/library/ch-dcat-ap) for full details.

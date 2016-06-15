@@ -26,12 +26,17 @@ Um dies einzurichten, bitte eine E-Mail an *geocat@swisstopo.ch* senden und Kont
 
 Ein Benutzeradmin kann wie folgt Benutzer einrichten:
 
-1. Einloggen und unter „Metadatenmanagement“ auf „Admin Konsole“ klicken:
-![](../images/anleitung-geocat/1.jpg)
-1. Auf der folgenden Seite „Users and groups“ anklicken:
-![](../images/anleitung-geocat/2.jpg)
-1. Im folgenden Fenster „Manage users“, anschliessend „+ New user“ anklicken:
-![](../images/anleitung-geocat/3.jpg)
+1) Einloggen und unter „Metadatenmanagement“ auf „Admin Konsole“ klicken:
+
+![](/images/anleitung-geocat/1.jpg)
+
+2) Auf der folgenden Seite „Users and groups“ anklicken:
+
+![](/images/anleitung-geocat/2.jpg)
+
+3) Im folgenden Fenster „Manage users“, anschliessend „+ New user“ anklicken:
+
+![](/images/anleitung-geocat/3.jpg)
 
 Anschliessend müssen die Rechte zugeordnet werden.
 
@@ -44,7 +49,7 @@ Folgende Benutzertypen bestehen in geocat.ch:
 
 *„Is an administrator“ bitte nicht anwählen.*
 
-![](../images/anleitung-geocat/4.jpg)
+![](/images/anleitung-geocat/4.jpg)
 
 Sobald diese beiden Voraussetzungen erfüllt sind, kann der eingeloggte Benutzer selbständig Metadaten erfassen.
 
@@ -54,7 +59,7 @@ Sobald diese beiden Voraussetzungen erfüllt sind, kann der eingeloggte Benutzer
 
 **NEIN:** Besteht noch kein Metadatensatz, muss dieser neu erfasst werden. Dazu muss der Benutzer eingeloggt sein und auf Metadatenmanagement &gt; „Neue Metadaten“ klicken:
 
-![](../images/anleitung-geocat/5.jpg)
+![](/images/anleitung-geocat/5.jpg)
 
 Auf der folgenden Seite „Erstelle einen…“ Datensatz anklicken und das Template „opendata.swiss“ auswählen. Anschliessend müssen (mindestens) die für einen Metadateneintrag obligatorischen Elemente ausgefüllt werden, plus zusätzlich die in Punkt 3 beschriebenen OGD-spezifischen Attribute.
 
@@ -161,13 +166,13 @@ Um den erstellten Metadatensatz zu validieren, muss dieser im Bearbeitungsmodus 
 
 …so ist der Metadatensatz valide. Ansonsten müssen angezeigte Fehler korrigiert werden.
 
-![](../images/anleitung-geocat/6.jpg)
+![](/images/anleitung-geocat/6.jpg)
 
 ### 6. Metadaten publizieren
 
 Ob ein Datensatz in geocat.ch publiziert ist, kann an dem kleinen Schloss abgelesen werden. Ist es offen, ist der Datensatz publiziert.
 
-![](../images/anleitung-geocat/7.jpg)
+![](/images/anleitung-geocat/7.jpg)
 
 Um einen Datensatz zu publizieren, entweder…
 
@@ -175,7 +180,7 @@ Um einen Datensatz zu publizieren, entweder…
 
 * den kleinen Menüpfeil anwählen, dort „weitere“ und anschliessend „Berechtigungen“ anklicken:
 
-![](../images/anleitung-geocat/8.jpg)
+![](/images/anleitung-geocat/8.jpg)
 
 Anschliessend den Datensatz für „alle“ freigeben.
 

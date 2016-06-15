@@ -14,7 +14,7 @@ Bevor Daten auf opendata.swiss publiziert werden können, muss sichergestellt se
 
 Das folgende Schema zeigt Schritt für Schritt auf, wie Sie bestimmen, ob ein Datensatz für OGD geeignet ist.
 
-![](/images/chart-arbeitshilfe-publikation.png)
+> ![](/images/chart-arbeitshilfe-publikation.png)
 
 Falls Sie weitergehende Erklärungen zu den einzelnen Schritten benötigen, [finden Sie diese hier](/de/library/arbeitshilfe-publikation).
 
