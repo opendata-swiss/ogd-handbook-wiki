@@ -8,7 +8,7 @@ Authors:
 Summary: An overview of law frameworks developed in Open Government Data Switzerland.
 Lang: en
 Draft: yes
-toc_run: yes
+toc_run: true
 
 
 What are the main legal frameworks that data publishers in Switzerland need to be aware of? What aspects and decision points do we need to be aware of when supporting Open Government Data? These resources will help you make sense and tackle grey area in regards to your organization's needs.

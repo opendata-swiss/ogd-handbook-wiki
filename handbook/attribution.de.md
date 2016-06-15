@@ -1,4 +1,4 @@
-Title: Wie Sie Quellen richtig angeben
+Title: Quellenangabe
 Category: Establish
 Handbook: yes
 Tags:
@@ -8,8 +8,9 @@ Authors:
 Summary: Viele Datensätze leiten sich aus anderen ab und rechtliche Anforderungen verlangen bisweilen explizit die Angabe der Quelle der Daten. Hier untersuchen wir Auswirkungen für Herausgeber von Daten.
 Lang: de
 Draft: yes
+Hidden: yes
 
 
-<em>Übersetzungen sind noch nicht überall verfügbar - geben Sie uns Bescheid, falls Sie diesen Inhalt in Ihrer Sprache benötigen.</em>
+<em>Dieses Thema ist noch nicht übersetzt - melden Sie sich, falls Sie diesen Inhalt in Ihrer Sprache benötigen.</em>
 
 Diese Seite ist in [englischer Sprache verfügbar](/en/establish/attribution).
