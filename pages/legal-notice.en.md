@@ -1,10 +1,11 @@
+---
 Title: Legal notice
 Date: 2016-01-29
 Slug: legal-notice
 Summary:
 URL:
 Lang: en
-
+---
 
 Use of the datasets on opendata.swiss
 -------------------------------------

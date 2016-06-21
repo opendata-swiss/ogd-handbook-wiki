@@ -1,3 +1,4 @@
+---
 Title: DCAT Application Profile
 Category: Library
 Template: document
@@ -6,7 +7,7 @@ Date: 2015-08-10
 Slug: dcat-application
 Summary: Classes and elements of the DCAT metadata standard for Swiss data portals
 Lang: en
-
+---
 
 * Classes and elements of the DCAT Application Profile for Swiss data portals
 * Metadata records and data

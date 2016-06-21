@@ -1,3 +1,4 @@
+---
 Title: Drafts
 Date: 2016-01-01 08:00
 Category:
@@ -7,6 +8,7 @@ Authors:
 Summary:
 Lang: en
 toc_run: true
+---
 
 # How to correctly attribute sources
 

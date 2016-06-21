@@ -1,3 +1,4 @@
+---
 Title: Empfehlungen für OGD Formate
 Category: Library
 Template: document
@@ -10,7 +11,7 @@ Lang: de
 toc_run: true
 Link_PDF: https://bar-files.opendata.swiss/owncloud/index.php/s/aS8LsxUtTe7cIAz
 Link_DOC: https://bar-files.opendata.swiss/owncloud/index.php/s/9D3VHdnkS2pm1JJ
-
+---
 
 ## 1 Einleitung
 

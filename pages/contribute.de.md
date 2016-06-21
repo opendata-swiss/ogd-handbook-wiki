@@ -1,10 +1,11 @@
+---
 Title: Anleitung
 Date: 2016-01-01
 Slug: contribute
 Summary: Wie kann ich Inhalte im Handbuch editieren?
 URL:
 Lang: de
-
+---
 
 Das OGD-Handbuch ist als Wiki konzipiert: Jeder und jede kann Inhalte dazu beitragen. Hauptsächlich werden das Personen sein, die in ihrer Organisation für die Publikation von Daten auf opendata.swiss verantwortlich sind. Vorschläge für Änderungen, neue Themen oder Korrekturen können diese direkt auf den einzelnen Seiten vornehmen.
 

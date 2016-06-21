@@ -1,3 +1,4 @@
+---
 Title: Was ist Open Government Data (OGD)?
 Category: Identify
 Handbook: yes
@@ -8,7 +9,7 @@ Authors:
 Summary: Unter Open Government Data versteht man Behördendaten, die kostenfrei und im Idealfall in maschinenlesbarer Form zur Sekundärnutzung allen Interessierten zur Verfügung stehen.
 Lang: de
 Draft: yes
-
+---
 
 Auf dem Schweizer OGD-Portal opendata.swiss finden sich unterschiedlichste Datensätze wie die Gemeindegrenzen der Schweiz, Bevölkerungsstatistiken, aktuelle Wetterdaten, historische Dokumente oder ein Verzeichnis der Schweizer Literatur. Häufig werden die Daten als gesamte Datensätze zur Verfügung gestellt, die anschliessend durch die Nutzerinnen und Nutzer visualisiert, weiterverarbeitet oder kombiniert werden können. So entstehen Anwendungen und Visualisierungen, die auf Basis bereits bestehender Daten neue Zusammenhänge sichtbar machen.
 

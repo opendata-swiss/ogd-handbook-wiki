@@ -1,3 +1,4 @@
+---
 Title: Prepare data for publication
 Category: Publish
 Handbook: yes
@@ -8,7 +9,7 @@ Authors:
 Summary: Data can take on many different formats and historically many different methods and software has been used for handling them.
 Lang: en
 Draft: yes
-
+---
 
 A number of open data formats are available that are accessible on all platforms, without the restrictions of proprietary standards. Factors when considering data formats include the *structure* and *portability* of the container for your data. A well structured spreadsheet, for instance, is easy to read and managed. It has appropriate and helpful metadata, and when the data is expanded or updated, it is clear where new information needs to go. Portable data formats are non-proprietary, so the files can be opened with generally available or free software on any computer platform, and part of a widely accepted *standard*.
 

@@ -1,3 +1,4 @@
+---
 Title: DCAT-AP for Switzerland format
 Category: Library
 Template: document
@@ -7,7 +8,8 @@ Slug: ch-dcat-ap
 Summary:
 Lang: de
 toc_run: true
-
+---
+---
 
 > *Dieses Dokument ist derzeit nur in englischer Sprache verfügbar.*
 

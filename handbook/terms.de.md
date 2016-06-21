@@ -1,3 +1,4 @@
+---
 Title: Nutzungsbedingungen auswählen
 Category: Establish
 Handbook: yes
@@ -8,7 +9,7 @@ Authors:
 Summary: Wie unter Rechtliche Vorprüfung erläutert, bestimmt in der öffentlichen Verwaltung in aller Regel eine gesetzliche Grundlage, unter welchen Bedingungen ein Datensatz verwendet werden darf. Für die Nutzenden dieser Daten, sind die Gesetze und Verordnungen jedoch häufig schwierig zu verstehen. Ausserdem ist es angesichts der Vielfalt an Gesetzen nicht einfach, die Übersicht zu bewahren.
 Lang: de
 Draft: yes
-
+---
 
 Aus diesem Grund werden bei jedem Datensatz auf opendata.swiss sogenannte [„Nutzungsbedingungen“](https://opendata.swiss/de/terms-of-use/) angezeigt. Diese erklären mit wenigen Symbolen und Sätzen, wofür ein Datensatz verwendet werden darf. Sie übersetzen damit die weiterhin massgebliche gesetzliche Grundlage in eine einheitliche und für den Nutzenden verständliche Sprache. Als datenpublizierende Behörde müssen Sie deshalb vor der Publikation Ihrer Daten auf opendata.swiss zwingend eine Nutzungsbedingung auswählen, welche die Bestimmungen Ihrer gesetzlichen Grundlage korrekt wiedergibt.
 

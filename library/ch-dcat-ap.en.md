@@ -1,3 +1,4 @@
+---
 Title: DCAT-AP for Switzerland format
 Category: Library
 Template: document
@@ -7,7 +8,7 @@ Slug: ch-dcat-ap
 Summary:
 Lang: en
 toc_run: true
-
+---
 
 The ‹Open Government Data› project organisation have worked out a joint solution for metadata. The portal opendata.swiss implements these standards - see [Publish on opendata.swiss](/en/publish/opendata-swiss).
 

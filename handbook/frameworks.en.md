@@ -1,3 +1,4 @@
+---
 Title: Check existing legal frameworks
 Category: Establish
 Handbook: yes
@@ -9,7 +10,7 @@ Summary: An overview of law frameworks developed in Open Government Data Switzer
 Lang: en
 Draft: yes
 toc_run: true
-
+---
 
 What are the main legal frameworks that data publishers in Switzerland need to be aware of? What aspects and decision points do we need to be aware of when supporting Open Government Data? These resources will help you make sense and tackle grey area in regards to your organization's needs.
 

@@ -1,3 +1,4 @@
+---
 Title: DCAT Dataset
 Category: Library
 Template: document
@@ -7,7 +8,7 @@ Slug: dcat-dataset
 Summary: Beschreibung eine einzelne, thematisch geschlossene Datensammlung
 Lang: de
 Link_PDF: https://bar-files.opendata.swiss/owncloud/index.php/s/DWZg94zmSFnNGfH
-
+---
 
 > Ein Metadaten-Record der Klasse dcat:Dataset (Dataset-Metadaten-Record) beschreibt eine einzelne,
 thematisch geschlossene Datensammlung. Die für den Inhalt verantwortliche Stelle (Institution, Per-

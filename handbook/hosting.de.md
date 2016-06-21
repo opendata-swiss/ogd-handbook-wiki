@@ -1,3 +1,4 @@
+---
 Title: Daten im World Wide Web hosten
 Category: Publish
 Handbook: yes
@@ -8,7 +9,7 @@ Authors:
 Summary: Erste Schritte und Richtlinien zur Freigabe von Daten im Web und zur Gewährleistung hoher Verfügbarkeit.
 Lang: de
 Draft: yes
-
+---
 
 Damit Sie Daten in den Katalog von opendata.swiss aufnehmen können, müssen diese irgendwo frei zugänglich sein. Auf opendata.swiss werden nur die Metadaten und ein Link auf die Daten publiziert. Das eigentliche Daten-Hosting liegt jedoch in der Verantwortung des Datenlieferanten.
 

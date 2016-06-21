@@ -1,3 +1,4 @@
+---
 Title: How to manage metadata
 Category: Publish
 Handbook: yes
@@ -8,7 +9,7 @@ Authors:
 Summary: Metadata sets context that provides crucial support for users to be able to interpret and reuse the data itself.
 Lang: en
 Draft: yes
-
+---
 
 Methods of developing and maintaining metadata are used for validating quality and ensuring applicability of the datasets at large, and are a critical support vehicle for improving the potential for appropriate usage of open data.
 

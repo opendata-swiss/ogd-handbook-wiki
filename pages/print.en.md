@@ -1,7 +1,9 @@
+---
 Title: Print view
 Date: 2016-01-01
 Slug: print
 Template: print
-Summary: 
+Summary:
 URL:
 Lang: en
+---

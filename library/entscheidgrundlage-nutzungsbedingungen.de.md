@@ -1,3 +1,4 @@
+---
 Title: Entscheidgrundlage: Nutzungsbedingungen
 Category: Library
 Template: document
@@ -8,6 +9,7 @@ Authors: Anne Wiedmer, Corinna Seiberth
 Summary: OGD Portal –Definition OGD
 Lang: de
 Link_PDF: https://bar-files.opendata.swiss/owncloud/index.php/s/9ADZtcmjFepukFf
+---
 
 > Die OGD-Strategie sieht vor, dass OGD aller föderalen Ebenen unter möglichst einheitlichen
 Nutzungsbedingungen publiziert werden. Die nachfolgende Entscheidgrundlage fasst die

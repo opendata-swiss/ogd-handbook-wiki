@@ -1,3 +1,4 @@
+---
 Title: Nutzer unterstützen und mit ihnen in Kontakt treten
 Category: Support
 Handbook: yes
@@ -9,7 +10,7 @@ Summary: Eine Untersuchung der Nutzerlandschaft von Open Government Data und dar
 Lang: de
 Draft: yes
 Hidden: yes
-
+---
 
 <em>Dieses Thema ist noch nicht übersetzt - melden Sie sich, falls Sie diesen Inhalt in Ihrer Sprache benötigen.</em>
 

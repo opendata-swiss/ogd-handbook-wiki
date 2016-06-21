@@ -1,3 +1,4 @@
+---
 Title: Anleitung für Daten-Publisher
 Category: Library
 Template: document
@@ -9,7 +10,7 @@ Summary:
 Lang: de
 toc_run: true
 Link_PDF: https://bar-files.opendata.swiss/owncloud/index.php/s/XxkHSh8A4vgIgea
-
+---
 
 # Benutzerprofil verwalten
 

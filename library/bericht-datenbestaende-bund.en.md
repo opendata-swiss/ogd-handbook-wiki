@@ -1,3 +1,4 @@
+---
 Title: Report on Databases of the Confederation
 Category: Library
 Template: document
@@ -7,6 +8,7 @@ Slug: bericht-datenbestaende-bund
 Authors: Adelheid Bürgi-Schmelz
 Summary: Basis for an inventory
 Lang: en
+---
 
 <em>Translations are not yet available everywhere: let us know if you need this content in your language.</em>
 

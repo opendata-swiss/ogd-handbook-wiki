@@ -1,3 +1,4 @@
+---
 Title: Rolle von Open-Data-Portalen
 Category: Support
 Handbook: yes
@@ -9,7 +10,7 @@ Summary: Eine Übersicht, wie Datenportale funktionieren, wie Sie dort Daten ver
 Lang: de
 Draft: yes
 Hidden: yes
-
+---
 
 <em>Dieses Thema ist noch nicht übersetzt - melden Sie sich, falls Sie diesen Inhalt in Ihrer Sprache benötigen.</em>
 

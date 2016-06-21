@@ -1,3 +1,4 @@
+---
 Title: Die Verwendung von Open Data auswerten
 Category: Support
 Handbook: yes
@@ -9,7 +10,7 @@ Summary: Nutzungsmessgrössen und -indikatoren beim Vergleich und in der Optimie
 Lang: de
 Draft: yes
 Hidden: yes
-
+---
 
 <em>Dieses Thema ist noch nicht übersetzt - melden Sie sich, falls Sie diesen Inhalt in Ihrer Sprache benötigen.</em>
 

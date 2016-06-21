@@ -1,3 +1,4 @@
+---
 Title: Role of open data portals
 Category: Support
 Handbook: yes
@@ -9,7 +10,7 @@ Summary: An overview of how data portals work, how to publish data to them, and 
 Lang: en
 toc_run: true
 Draft: yes
-
+---
 
 A *data portal* is an online collection of links to resources. They are designed to put together datasets from across many sources in one place, presenting information about them consistently, and including features that assist end users in *discovering* the datasets they need. They also play an important role in connecting the data publisher and end user, for instance allowing people to more easily keep track of *updates and changes* to datasets they are using.
 

@@ -1,3 +1,4 @@
+---
 Title: Controllare i quadri giuridici esistenti
 Category: Establish
 Handbook: yes
@@ -8,7 +9,7 @@ Authors:
 Summary: Una panoramica del diritto sviluppato in Open Government Data Svizzera.
 Lang: it
 Draft: yes
-
+---
 
 <em>Le traduzioni non sono ancora disponibili in tutto il mondo -  fateci sapere se avete bisogno di questo contenuto nella vostra lingua.</em>
 

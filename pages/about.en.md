@@ -1,10 +1,11 @@
+---
 Title: About this site
 Date: 2016-01-01
 Slug: about
 Summary: Overview of the OGD Handbook
 URL:
 Lang: en
-
+---
 
 The project Open Government Data Switzerland is conducted by the [Swiss Federal Archives SFA](http://www.bar.admin.ch/themen/01648/01968/index.html?lang=en). Multiple working teams are responsible for measures set out in the OGD Strategy of Switzerland - for instance: the analysis of legal frameworks, implementation of the [opendata.swiss](http://opendata.swiss) portal, and authoring of supporting studies and documentation.
 

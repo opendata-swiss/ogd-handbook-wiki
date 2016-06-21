@@ -1,3 +1,4 @@
+---
 Title: Host data on the World Wide Web
 Category: Publish
 Handbook: yes
@@ -8,7 +9,7 @@ Authors:
 Summary: First steps and guidelines in opening data on the Web and ensuring high availability.
 Lang: en
 Draft: yes
-
+---
 
 This topic covers a few pointers to help with publishing data on the web. To reference data on a web-based open data portal, it should be available online. Additional barriers, such as having to access protected networks or order CD-ROMs, reduce the accessibility of data. Are web publications harder to support? We contend that, given the alternatives, it is not. If the appropriate infrastructure is in place, web hosted data can be inexpensive and easy to support.
 

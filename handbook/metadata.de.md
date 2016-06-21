@@ -1,3 +1,4 @@
+---
 Title: Metadaten auf opendata.swiss laden
 Category: Publish
 Handbook: yes
@@ -8,7 +9,7 @@ Authors:
 Summary: Nachdem Sie sich für eine Publikationsvariante entscheiden haben, müssen Sie nun die Metadaten auf opendata.swiss laden.
 Lang: de
 Draft: yes
-
+---
 
 Damit Metadaten auf opendata.swiss geladen werden können sind drei Schritte nötig:
 

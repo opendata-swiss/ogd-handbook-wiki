@@ -1,3 +1,4 @@
+---
 Title: Daten zur Veröffentlichung vorbereiten
 Category: Publish
 Handbook: yes
@@ -9,7 +10,7 @@ Summary: Daten können in verschiedenen Formaten vorliegen: im Lauf der Zeit wur
 Lang: de
 Draft: yes
 Hidden: yes
-
+---
 
 <em>Dieses Thema ist noch nicht übersetzt - melden Sie sich, falls Sie diesen Inhalt in Ihrer Sprache benötigen.</em>
 

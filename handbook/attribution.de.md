@@ -1,3 +1,4 @@
+w---
 Title: Quellenangabe
 Category: Establish
 Handbook: yes
@@ -9,7 +10,7 @@ Summary: Viele Datensätze leiten sich aus anderen ab und rechtliche Anforderung
 Lang: de
 Draft: yes
 Hidden: yes
-
+---
 
 <em>Dieses Thema ist noch nicht übersetzt - melden Sie sich, falls Sie diesen Inhalt in Ihrer Sprache benötigen.</em>
 

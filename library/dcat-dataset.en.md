@@ -1,3 +1,4 @@
+---
 Title: DCAT Dataset
 Category: Library
 Template: document
@@ -6,5 +7,6 @@ Date: 2015-05-29
 Slug: dcat-dataset
 Summary:
 Lang: en
+---
 
 This document is [available in German](/de/library/dcat-dataset).

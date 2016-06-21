@@ -1,10 +1,11 @@
+---
 Title: Contributor's guide
 Date: 2016-01-01
 Slug: contribute
 Summary: Information on contributing to the OGD Handbook
 URL:
 Lang: en
-
+---
 
 Here you will find an overview of ways to contribute to the OGD Handbook. Notably here we will explain the editorial workflow that we have put in place to keep a high overall standard of quality. We warmly welcome comments, corrections and additions, as well as suggestions for additional topics to explore.
 

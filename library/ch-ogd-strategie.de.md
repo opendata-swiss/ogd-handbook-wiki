@@ -1,3 +1,4 @@
+---
 Title: Open-Government-Data-Strategie Schweiz 2014–2018
 Category: Library
 Template: document
@@ -7,7 +8,7 @@ Slug: ch-ogd-strategie
 Summary: Vom Bundesrat am 16. April 2014 genehmigt
 Lang: de
 Link_PDF: https://bar-files.opendata.swiss/owncloud/index.php/s/twA1uu08TgRvp9Y
-
+---
 
 > Die OGD-Strategie Schweiz 2014–2018 schafft ein gemeinsames Verständnis des
 Nutzens von OGD, hält die Ziele, welche mit der Bereitstellung von OGD erreicht

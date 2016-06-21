@@ -1,3 +1,4 @@
+---
 Title: Glossary
 Category: Library
 Tags: library
@@ -5,6 +6,7 @@ Date: 2016-01-01
 Slug: glossary
 Summary: Common terms used in the OGD Handbook, with links to references.
 Lang: en
+---
 
 ##### The starting point for this Glossary is the [Open Data Handbook](http://opendatahandbook.org/en/glossary.html). If you wish to submit or expand on the definitions, please [contact us](/en/pages/contribute).
 

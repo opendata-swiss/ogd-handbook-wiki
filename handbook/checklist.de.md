@@ -1,3 +1,4 @@
+---
 Title: Welche Daten gibt es in meiner Organisation?
 Category: Identify
 Handbook: yes
@@ -8,7 +9,7 @@ Authors:
 Summary: Damit Sie Daten als OGD publizieren können, müssen Sie wissen, über welche Daten Ihre Organisation überhaupt verfügt. Idealerweise haben Sie ein Inventar sämtlicher Datensätze Ihrer Organisation. Das ist jedoch nicht zwingend nötig.
 Lang: de
 Draft: yes
-
+---
 
 Wir empfehlen zu Beginn die am häufigsten nachgefragten, eventuell bereits publizierten Datensätze zu identifizieren. Falls Sie anschliessend ein komplettes Inventar Ihrer Datensammlungen erstellen möchten, [finden sie hier](/de/identify/inventory).
 

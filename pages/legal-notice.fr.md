@@ -1,10 +1,11 @@
+---
 Title: Mention juridique
 Date: 2016-01-29
 Slug: legal-notice
 Summary:
 URL:
 Lang: fr
-
+---
 
 Utilisation des jeux de données publiés sur *opendata.swiss*
 ------------------------------------------------------------

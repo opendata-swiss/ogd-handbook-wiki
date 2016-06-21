@@ -1,3 +1,4 @@
+---
 Title: References
 Date: 2016-01-01 08:00
 Category:
@@ -6,7 +7,7 @@ Slug: references
 Authors:
 Summary: References used specifically in the development of the OGD Handbook are listed here.
 Lang: en
-
+---
 
 A growing number of documents have been released as part of the Open Government Data (OGD) Switzerland project, corresponding to the work areas of the implementation of the national OGD Strategy. These are primary sources for the OGD Handbook, which you can view in condensed form and download here:
 

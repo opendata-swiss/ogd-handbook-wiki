@@ -1,10 +1,11 @@
+---
 Title: Quadro giuridico
 Date: 2016-01-29
 Slug: legal-notice
 Summary:
 URL:
 Lang: it
-
+---
 
 Utilizzo dei dataset di opendata.swiss
 --------------------------------------

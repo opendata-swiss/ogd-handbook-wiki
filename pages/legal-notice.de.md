@@ -1,10 +1,11 @@
+---
 Title: Rechtliche Hinweise
 Date: 2016-05-24
 Slug: legal-notice
 Summary:
 URL:
 Lang: de
-
+---
 
 Die auf opendata.swiss verwendeten Nutzungsbedingungen sind
 [hier](https://opendata.swiss/de/terms-of-use/) erklärt.

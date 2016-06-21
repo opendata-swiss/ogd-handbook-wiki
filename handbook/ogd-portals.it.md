@@ -1,3 +1,4 @@
+---
 Title: Il ruolo dei portali di open data
 Category: Support
 Handbook: yes
@@ -8,7 +9,7 @@ Authors:
 Summary: Una panoramica di come i portali di dati funzionano, come pubblicare i dati su di essi e dove trovarli.
 Lang: it
 Draft: yes
-
+---
 
 <em>Le traduzioni non sono ancora disponibili in tutto il mondo -  fateci sapere se avete bisogno di questo contenuto nella vostra lingua.</em>
 
