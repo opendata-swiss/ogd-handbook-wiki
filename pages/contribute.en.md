@@ -53,7 +53,7 @@ Use Markdown to edit the contents, and leave a short comment about your changes 
 
 Once you are ready for your changes to be reviewed, look for the **New pull request** button:
 
-![](/images/newpullrequest.png)
+![](../../images/newpullrequest.png)
 
 Inside the Pull Request comments, please give us a little bit of background on the intent of your changes.
 

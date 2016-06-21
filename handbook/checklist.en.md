@@ -73,4 +73,4 @@ This wizard tool and flowchart is based on the decision process described in thi
 </div>
 </div></section>
 
-![Entscheidungsbaum](/images/chart-abgrenzung-leistungen.png)
+![Entscheidungsbaum](../../images/chart-abgrenzung-leistungen.png)

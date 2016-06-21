@@ -14,7 +14,7 @@ Aus diesem Grund werden bei jedem Datensatz auf opendata.swiss sogenannte [„Nu
 
 Eine Übersicht über die auf opendata.swiss zugelassenen Nutzungsbedingungen finden Sie [hier](https://opendata.swiss/de/terms-of-use/). An Hand des Resultats der [rechtlichen Vorprüfung](/de/establish/frameworks) können Sie nun einfach die richtigen Nutzungsbedingungen auswählen.
 
-> ![](/images/prepare-terms-overview.png)
+> ![](../../images/prepare-terms-overview.png)
 
 Der Spezialfall: Sollte Ihre gesetzliche Grundlage keine kommerzielle Nutzung erlauben, können Sie Ihre Daten momentan nicht auf opendata.swiss publizieren. Ist die kommerzielle Nutzung grundsätzlich erlaubt, dafür ist jedoch eine Bewilligung nötig, tritt der Spezialfall ein. Wenn Sie die Daten anschliessend auf opendata.swiss publizieren, sollten Sie im Voraus entscheiden, dass Sie die kommerzielle Nutzung in aller Regel bewilligen, sofern das die entsprechende gesetzliche Grundlage erlaubt.
 
