@@ -9,7 +9,6 @@ Summary:
 Lang: de
 toc_run: true
 ---
----
 
 > *Dieses Dokument ist derzeit nur in englischer Sprache verfügbar.*
 
@@ -64,7 +63,7 @@ Example:
 ```xml
 <dct:identifier>325@swisstopo</dct:identifier>
 ```
----
+
 ##### `dct:title`
 
 |             |             |             |
@@ -81,7 +80,7 @@ Example:
 ```xml
 <dct:title xml:lang="de">Eisenbahnlärm Nacht</dct:title>
 ```
----
+
 ##### `dct:description`
 
 |             |             |             |
@@ -98,7 +97,7 @@ Example:
 ```xml
 <dct:description xml:lang="de">Die Karte zeigt, welcher Lärmbelastung die Bevölkerung durch den Schienenverkehr ausgesetzt ist.</dct:description>
 ```
----
+
 ##### `dct:issued`
 
 |             |             |             |
@@ -115,7 +114,7 @@ Example:
 ```xml
 <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"> 2013-04-26T01:00:00Z</dct:issued>
 ```
----
+
 ##### `dct:modified`
 
 |             |             |             |
@@ -132,7 +131,7 @@ Example:
 ```xml
 <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"> 2013-04-26T01:00:00Z</dct:modified>
 ```
----
+
 ##### `dct:publisher`
 
 |             |             |
@@ -150,7 +149,7 @@ Example:
   </rdf:Description>
 </dct:publisher>
 ```
----
+
 ##### `dct:contactPoint`
 
 |             |             |
@@ -176,7 +175,7 @@ Example:
   </vcard:Individual>
 </dcat:contactPoint>
 ```
----
+
 ##### `dct:theme`
 
 |             |             |             |
@@ -192,7 +191,7 @@ Example:
 ```xml
 <dcat:theme rdf:resource="http://opendata.swiss/themes/population"/>
 ```
----
+
 ##### `dct:language`
 
 |             |             |
@@ -207,7 +206,7 @@ Example:
 ```xml
 <dct:language>de</dct:language>
 ```
----
+
 ##### `dct:relation`
 
 |             |             |
@@ -225,7 +224,7 @@ Example:
   </rdf:Description>
 </dct:relation>
 ```
----
+
 ##### `dcat:keyword`
 
 |             |             |             |
@@ -245,7 +244,7 @@ Example:
 <dcat:keyword xml:lang="it">Noche</dcat:keyword>
 <dcat:keyword xml:lang="en">Night</dcat:keyword>
 ```
----
+
 ##### `dcat:landingPage`
 
 |             |             |
@@ -259,7 +258,7 @@ Example:
 ```xml
 <dcat:landingPage>http://www.bafu.admin.ch/laerm/index.html?lang=de</dcat:landingPage>
 ```
----
+
 ##### `dcat:spatial`
 
 |             |             |
@@ -273,7 +272,7 @@ Example:
 ```xml
 <dct:spatial rdf:resource="http://publications.europa.eu/mdr/authority/country/ZWE"/>
 ```
----
+
 ##### `dcat:temporal`
 
 |             |             |
@@ -292,7 +291,7 @@ Example:
   </dct:PeriodOfTime>
 </dct:temporal>
 ```
----
+
 ##### `dct:accrualPeriodicity`
 
 |             |             |             |
@@ -307,7 +306,7 @@ Example:
 ```xml
 <dct:accrualPeriodicity rdf:resource="http://purl.org/cld/freq/daily"/>
 ```
----
+
 ##### `rdfs:seeAlso`
 
 |             |             |
@@ -321,7 +320,7 @@ Example:
 ```xml
 <rdfs:seeAlso>326@swisstopo</rdfs:seeAlso>
 ```
----
+
 ##### `dcat:distribution`
 
 |             |             |
@@ -347,7 +346,7 @@ Example:
 ```xml
 <dct:identifier>ch.bafu.laerm-bahnlaerm_nacht</dct:identifier>
 ```
----
+
 ##### `dcat:title`
 
 |             |             |             |
@@ -364,7 +363,7 @@ Example:
 ```xml
 <dct:title xml:lang="de">WMS (ch.bafu.laerm-bahnlaerm_nacht)</dct:title>
 ```
----
+
 ##### `dct:description`
 
 |             |             |             |
@@ -381,7 +380,7 @@ Example:
 ```xml
 <dct:title xml:lang="de">WMS (ch.bafu.laerm-bahnlaerm_nacht)</dct:title>
 ```
----
+
 ##### `dct:issued`
 
 |             |             |             |
@@ -398,7 +397,7 @@ Example:
 ```xml
 <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"> 2013-05-11T00:00:00Z</dct:issued>
 ```
----
+
 ##### `dct:modified`
 
 |             |             |             |
@@ -415,7 +414,7 @@ Example:
 ```xml
 <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"> 2015-04-26T00:00:00Z</dct:modified>
 ```
----
+
 ##### `dct:language`
 
 |             |             |             |
@@ -430,7 +429,7 @@ Example:
 ```xml
 <dct:language>de</dct:language>
 ```
----
+
 ##### `dcat:accessURL`
 
 |             |             |             |
@@ -447,7 +446,7 @@ Example:
 ```xml
 <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"> http://wms.geo.admin.ch/</dcat:accessURL>
 ```
----
+
 ##### `dct:downloadURL`
 
 |             |             |             |
@@ -464,7 +463,7 @@ Example:
 ```xml
 <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"> http://data.geo.admin.ch.s3.amazonaws.com/ch.fill/data.zip</dcat:downloadURL>
 ```
----
+
 ##### `dct:rights`
 
 |             |             |             |
@@ -484,7 +483,7 @@ Example:
   </odrs:dataLicence>
 </dct:rights>
 ```
----
+
 ##### `dct:license`
 
 |             |             |
@@ -498,7 +497,7 @@ Example:
 ```xml
 <dct:license/>
 ```
----
+
 ##### `dct:byteSize`
 
 |             |             |
@@ -512,7 +511,7 @@ Example:
 ```xml
 <dcat:byteSize>1024</dcat:byteSize>
 ```
----
+
 ##### `dct:mediaType`
 
 |             |             |
@@ -526,7 +525,7 @@ Example:
 ```xml
 <dcat:mediaType>text/html</dcat:mediaType>
 ```
----
+
 ##### `dct:format`
 
 |             |             |
@@ -540,7 +539,7 @@ Example:
 ```xml
 <dct:format/>
 ```
----
+
 ##### `dct:coverage`
 
 |             |             |
