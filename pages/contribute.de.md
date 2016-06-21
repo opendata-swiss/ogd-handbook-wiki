@@ -21,11 +21,11 @@ Bitte prüfen Sie jeweils im der [Liste der pendenten Fragen](https://github.com
 
 (3) Nehmen Sie Ihre Änderungen vor. Ihnen stehen dafür ein einfacher Editor oder die Programmiersprache [Markdown](../../images/contribution-howto-markdown.jpg) zur Verfügung. Schreiben Sie in das Formular unten auf der Seite, was Sie geändert haben.
 
-![](../../images/contribution-howto-github.jpg)
+![GitHub screenshot](../../images/contribution-howto-github.jpg)
 
 (4) Wenn Sie mit Ihren Änderungen zufrieden sind, klicken Sie auf «new pull request». Ihre Änderungen werden als neue Version der Seite – in GitHub «fork» genannt – gespeichert.
 
-![](../../images/newpullrequest.png)
+![Pull Request starten](../../images/newpullrequest.png)
 
 (5) Das Team von opendata.swiss [prüft](../../images/contribution-howto-pullrequest.jpg) nun Ihre Änderungen. Sie werden via GitHub benachrichtigt, sobald Ihre Version online ist.
 

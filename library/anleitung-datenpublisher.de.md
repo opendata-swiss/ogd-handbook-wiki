@@ -14,7 +14,7 @@ Link_PDF: https://bar-files.opendata.swiss/owncloud/index.php/s/XxkHSh8A4vgIgea
 
 # Benutzerprofil verwalten
 
-![](../../images/anleitung-daten-publisher/s03.jpg)
+![Screenshot](../../images/anleitung-daten-publisher/s03.jpg)
 
 **Persönliche Optionen**
 
@@ -66,7 +66,7 @@ Link_PDF: https://bar-files.opendata.swiss/owncloud/index.php/s/XxkHSh8A4vgIgea
 
 # Metadaten via Formular / XML-Import verwalten
 
-![](../../images/anleitung-daten-publisher/s05.jpg)
+![Screenshot](../../images/anleitung-daten-publisher/s05.jpg)
 
 1) Neuen Datensatz **via Formular** erstellen
 
@@ -96,7 +96,7 @@ Link_PDF: https://bar-files.opendata.swiss/owncloud/index.php/s/XxkHSh8A4vgIgea
 
 ## Aufbau des Metadaten-Formulars
 
-![](../../images/anleitung-daten-publisher/s06.jpg)
+![Screenshot](../../images/anleitung-daten-publisher/s06.jpg)
 
 1) [Datensatz-Information](#S5)
 
@@ -116,7 +116,7 @@ Link_PDF: https://bar-files.opendata.swiss/owncloud/index.php/s/XxkHSh8A4vgIgea
 <a name="S5"></a>
 ### 1) Datensatz-Informationen
 
-![](../../images/anleitung-daten-publisher/s07.jpg)
+![Screenshot](../../images/anleitung-daten-publisher/s07.jpg)
 
 **Neuen Datensatz erstellen / bearbeiten**
 
@@ -140,7 +140,7 @@ Link_PDF: https://bar-files.opendata.swiss/owncloud/index.php/s/XxkHSh8A4vgIgea
 
 ### 2a) Daten
 
-![](../../images/anleitung-daten-publisher/s08.jpg)
+![Screenshot](../../images/anleitung-daten-publisher/s08.jpg)
 
 **Daten**
 
@@ -158,7 +158,7 @@ Das Datum der ersten Publikation dieses Datensatzes. Falls dieses Datum nicht be
 
 ### 2b) Publisher-Informationen
 
-![](../../images/anleitung-daten-publisher/s09.jpg)
+![Screenshot](../../images/anleitung-daten-publisher/s09.jpg)
 
 **Publisher-Informationen**
 
@@ -174,7 +174,7 @@ Das Datum der ersten Publikation dieses Datensatzes. Falls dieses Datum nicht be
 
 ### 3) Weitere Informationen
 
-![](../../images/anleitung-daten-publisher/s10.jpg)
+![Screenshot](../../images/anleitung-daten-publisher/s10.jpg)
 
 **Weitere Informationen**
 
@@ -198,7 +198,7 @@ Das Datum der ersten Publikation dieses Datensatzes. Falls dieses Datum nicht be
 
 ### 4) Ressourcen
 
-![](../../images/anleitung-daten-publisher/s11.jpg)
+![Screenshot](../../images/anleitung-daten-publisher/s11.jpg)
 
 - Identifier Identifier der Ressource im Quellsystem des Publishers.
 - Titel (EN/DE/FR/IT) Wird der Titel leer gelassen, wird der Titel des Datensatzes verwendet.
@@ -209,7 +209,7 @@ Das Datum der ersten Publikation dieses Datensatzes. Falls dieses Datum nicht be
 
 (* Pflichtfeld)
 
-![](../../images/anleitung-daten-publisher/s12.jpg)
+![Screenshot](../../images/anleitung-daten-publisher/s12.jpg)
 
 **Nutzungsbedingungen**
 
@@ -235,7 +235,7 @@ Wählen Sie aus dem Dropdown-Menu eines der Formate aus.
 
 ### 5) Sidebar
 
-![](../../images/anleitung-daten-publisher/s13.jpg)
+![Screenshot](../../images/anleitung-daten-publisher/s13.jpg)
 
 **Veröffentlichen und Aktualisieren**
 
@@ -257,7 +257,7 @@ Veröffentlichen / Aktualisieren
 
 ## Im Formular Begriffe suchen
 
-![](../../images/anleitung-daten-publisher/s14.jpg)
+![Screenshot](../../images/anleitung-daten-publisher/s14.jpg)
 
 **Wie öffnen Sie den Browser-Suchbalken?**
 
@@ -269,7 +269,7 @@ Veröffentlichen / Aktualisieren
 
 ## Detailansicht eines Datensatzes
 
-![](../../images/anleitung-daten-publisher/s15.jpg)
+![Screenshot](../../images/anleitung-daten-publisher/s15.jpg)
 
 **Informationen**
 
@@ -286,7 +286,7 @@ Veröffentlichen / Aktualisieren
 
 ## Detailansicht einer Ressource
 
-![](../../images/anleitung-daten-publisher/s16.jpg)
+![Screenshot](../../images/anleitung-daten-publisher/s16.jpg)
 
 **Informationen**
 
@@ -300,7 +300,7 @@ Veröffentlichen / Aktualisieren
 
 # Organisations-Informationen verwalten
 
-![](../../images/anleitung-daten-publisher/s17.jpg)
+![Screenshot](../../images/anleitung-daten-publisher/s17.jpg)
 
 1) Titel / Name (Slug) Dieser Titel bezeichnet die Organisation im Backend. Aus ihm wird der 'Name (Slug)' der Organisation gebildet. **Verändern Sie diesen Titel und den 'Name (Slug)' nicht mehr, nachdem die Organisation Datensätze publiziert hat!**
 
@@ -322,7 +322,7 @@ Veröffentlichen / Aktualisieren
 
 ## Detailansicht einer Organisation
 
-![](../../images/anleitung-daten-publisher/s18.jpg)
+![Screenshot](../../images/anleitung-daten-publisher/s18.jpg)
 
 **Informationen**
 

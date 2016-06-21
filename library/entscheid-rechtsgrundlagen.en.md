@@ -1,5 +1,5 @@
 ---
-Title: Decision basis: guidelines in respect to legal foundations for the publication of data as OGD
+Title: Decision basis - guidelines in respect to legal foundations for the publication of data as OGD
 Category: Library
 Template: document
 Tags: establish

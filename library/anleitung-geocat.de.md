@@ -1,5 +1,5 @@
 ---
-Title: Publikation auf opendata.swiss über geo.admin.ch: Vorgehen
+Title: Publikation auf opendata.swiss über geo.admin.ch - Vorgehen
 Category: Library
 Template: document
 Tags: publish

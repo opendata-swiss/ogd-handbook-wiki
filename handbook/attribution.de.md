@@ -1,4 +1,4 @@
-w---
+---
 Title: Quellenangabe
 Category: Establish
 Handbook: yes

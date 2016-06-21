@@ -30,6 +30,6 @@ What are the main legal frameworks that data publishers in Switzerland need to b
 
 The [Worksheet for government authorities](/en/library/arbeitshilfe-publikation) is intended to serve as an aid agencies for publication of records, showing test steps to be carried out by the authorities before a dataset under OGD is published. It contains a schema based on which we developed this flowchart:
 
-![](../../images/chart-arbeitshilfe-publikation.png)
+![Schema Arbeitshilfe-Publikation](../../images/chart-arbeitshilfe-publikation.png)
 
 *Bezogen auf Prüfschema, A. Wiedmer, C. Seiberth*
