@@ -1,5 +1,5 @@
 ---
-Title: Entscheidgrundlage: Nutzungsbedingungen
+Title: Entscheidgrundlage - Nutzungsbedingungen
 Category: Library
 Template: document
 Tags: establish

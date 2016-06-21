@@ -1,5 +1,5 @@
 ---
-Title: Concept: Legal framework for the publication of data as Open Government Data (OGD)
+Title: Concept - Legal framework for the publication of data as Open Government Data (OGD)
 Category: Library
 Template: document
 Tags: establish

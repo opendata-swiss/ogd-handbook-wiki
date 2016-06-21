@@ -1,5 +1,5 @@
 ---
-Title: Entscheidgrundlage: Weiteres Vorgehen bezüglich Rechtsgrundlagen für die Publikation von Daten als OGD
+Title: Entscheidgrundlage - Weiteres Vorgehen bezüglich Rechtsgrundlagen für die Publikation von Daten als OGD
 Category: Library
 Template: document
 Tags: establish
