@@ -9,8 +9,7 @@ Authors:
 Summary: Una panoramica del diritto sviluppato in Open Government Data Svizzera.
 Lang: it
 Draft: yes
+Untranslated: yes
 ---
-
-<em>Le traduzioni non sono ancora disponibili in tutto il mondo -  fateci sapere se avete bisogno di questo contenuto nella vostra lingua.</em>
 
 Questo articolo è [disponibile in inglese](/en/establish/frameworks).

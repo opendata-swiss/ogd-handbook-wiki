@@ -10,8 +10,7 @@ Summary: Eine Übersicht, wie Datenportale funktionieren, wie Sie dort Daten ver
 Lang: de
 Draft: yes
 Hidden: yes
+Untranslated: yes
 ---
-
-<em>Dieses Thema ist noch nicht übersetzt - melden Sie sich, falls Sie diesen Inhalt in Ihrer Sprache benötigen.</em>
 
 Diese Seite ist in [englischer Sprache verfügbar](/en/support/ogd-portals).

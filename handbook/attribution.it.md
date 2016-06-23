@@ -9,8 +9,7 @@ Authors:
 Summary: Molti set di dati derivano da altri, e requisiti di legge a volte esplicitamente richiedono attribuendo l'origine dei dati. Qui esploriamo le implicazioni per gli editori di dati.
 Lang: it
 Draft: yes
+Untranslated: yes
 ---
-
-<em>Le traduzioni non sono disponibili ovunque ancora: fateci sapere se avete bisogno di questo contenuto nella tua lingua.</em>
 
 Questo articolo è [disponibile in inglese](/en/establish/attribution).

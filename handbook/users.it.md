@@ -9,8 +9,7 @@ Authors:
 Summary: Un'esplorazione del panorama degli utenti degli Open Government Data, e come essi sono supportati al meglio.
 Lang: it
 Draft: yes
+Untranslated: yes
 ---
-
-<em>Le traduzioni non sono ancora disponibili in tutto il mondo -  fateci sapere se avete bisogno di questo contenuto nella vostra lingua.</em>
 
 Questo articolo è [disponibile in inglese](/en/support/users).

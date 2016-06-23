@@ -8,8 +8,7 @@ Slug: opendata-swiss
 Summary: Note di utilizzo che saranno di uso soprattutto per gli utenti del governo che vorrebbero sapere come pubblicare i dati a livello nazionale.
 Lang: it
 Draft: yes
+Untranslated: yes
 ---
-
-<em>Le traduzioni non sono disponibili ovunque ancora: fateci sapere se avete bisogno di questo contenuto nella tua lingua.</em>
 
 Questo articolo è [disponibile in inglese](/en/publish/opendata-swiss).

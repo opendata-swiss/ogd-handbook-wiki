@@ -9,8 +9,7 @@ Authors:
 Summary: Aperçu de la façon dont les portails de données fonctionnent, comment y publier des données, et où les trouver.
 Lang: fr
 Draft: yes
+Untranslated: yes
 ---
-
-<em>Les traductions ne sont pas encore disponibles partout - faites-nous savoir si vous avez besoin de ce contenu dans votre langue.</em>
 
 Cet article est [disponible en anglais](/en/support/ogd-portals).

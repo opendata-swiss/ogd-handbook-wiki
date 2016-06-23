@@ -9,8 +9,7 @@ Authors:
 Summary: Primi passi e linee guida per gli open data sul web e per garantire un'elevata disponibilità.
 Lang: it
 Draft: yes
+Untranslated: yes
 ---
-
-<em>Le traduzioni non sono ancora disponibili in tutto il mondo -  fateci sapere se avete bisogno di questo contenuto nella vostra lingua.</em>
 
 Questo articolo è [disponibile in inglese](/en/publish/hosting).
