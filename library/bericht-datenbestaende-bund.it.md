@@ -7,8 +7,8 @@ Date: 2015-04-23
 Slug: bericht-datenbestaende-bund
 Authors: Adelheid Bürgi-Schmelz
 Summary: Basis for an inventory
-Lang: en
+Lang: it
 Untranslated: yes
 ---
 
-This document is [available in German](/de/library/bericht-datenbestaende-bund).
+Questo articolo è [disponibile in tedesco](/de/library/bericht-datenbestaende-bund).

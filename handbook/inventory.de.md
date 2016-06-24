@@ -6,10 +6,12 @@ Tags:
 Date: 2016-05-25
 Slug: inventory
 Authors:
-Summary: Die Inventarisierung der Daten Ihrer Organisation ist abhängig von deren Grösse ein empfohlenes, aber kein zwingendes Instrument für die Publikation von OGD. Ein Dateninventar gibt Ihnen eine Übersicht über die vorhandenen Daten und erleichtert die Auswahl der als OGD geeigneten Daten. Sie können jedoch problemlos einzelne Datensätze auf opendata.swiss publizieren.
+Summary: Die Inventarisierung der Daten Ihrer Organisation ist abhängig von deren Grösse ein empfohlenes, aber kein zwingendes Instrument für die Publikation von OGD.
 Lang: de
 Draft: yes
 ---
+
+Ein Dateninventar gibt Ihnen eine Übersicht über die vorhandenen Daten und erleichtert die Auswahl der als OGD geeigneten Daten. Sie können jedoch problemlos einzelne Datensätze auf opendata.swiss publizieren.
 
 ## Situation auf Bundesebene
 
@@ -25,11 +27,9 @@ Das Bundesarchiv koordiniert dieses zentrale Verzeichnis, das Informationen übe
 - Registern, sogenannten Data-Warehouses
 - ähnlichen Sammlungen strukturierter Datensätze
 
-..enthalten soll.
+enthalten soll.
 
-Das Bundesarchiv hat bereits eine erste Inventarisierungsrunde durchgeführt und ist im „[Bericht über Datenbestände des Bundes - Grundlagen für ein Inventar](/de/library/bericht-datenbestaende-bund)“ dokumentiert.
-
-Die 2. Inventarisierungsrunde ist für den Herbst 2016 geplant.
+Das Bundesarchiv hat bereits eine erste Inventarisierungsrunde durchgeführt und ist im „[Bericht über Datenbestände des Bundes - Grundlagen für ein Inventar](/de/library/bericht-datenbestaende-bund)“ dokumentiert. Die 2. Inventarisierungsrunde ist für den Herbst 2016 geplant.
 
 Verschiedene Länder haben bereits weitergehende Erfahrungen als die Schweiz gesammelt:
 
