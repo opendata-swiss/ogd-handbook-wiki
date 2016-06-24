@@ -9,6 +9,7 @@ Authors:
 Summary: Many datasets derive from others, and legal requirements sometimes explicitly demand attributing the source of the data. Here we explore implications for data publishers.
 Lang: en
 Draft: yes
+Hidden: yes
 ---
 
 Correctly attributing data sources is a requirement on several levels of the [conditions of use on opendata.swiss](https://opendata.swiss/de/terms-of-use/), where users are required to correctly state the author, title and link of the original dataset.

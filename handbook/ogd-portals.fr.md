@@ -10,6 +10,7 @@ Summary: Aperçu de la façon dont les portails de données fonctionnent, commen
 Lang: fr
 Draft: yes
 Untranslated: yes
+Hidden: yes
 ---
 
 Cet article est [disponible en anglais](/en/support/ogd-portals).

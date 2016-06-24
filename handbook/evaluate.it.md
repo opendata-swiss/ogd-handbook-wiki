@@ -10,6 +10,7 @@ Summary: Le metriche e gli indicatori di utilizzo nel confronto e ottimizzazione
 Lang: it
 Draft: yes
 Untranslated: yes
+Hidden: yes
 ---
 
 Questo articolo è [disponibile in inglese](/en/support/evaluate).

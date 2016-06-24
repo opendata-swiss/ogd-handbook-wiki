@@ -10,6 +10,7 @@ Summary: Indicateurs d'utilisation permettant la comparaison et l'optimisation d
 Lang: fr
 Draft: yes
 Untranslated: yes
+Hidden: yes
 ---
 
 Cet article est [disponible en anglais](/en/support/evaluate).

@@ -10,6 +10,7 @@ Summary: An exploration of the landscape of users of Open Government Data, and h
 Lang: en
 Draft: yes
 toc_run: true
+Hidden: yes
 ---
 
 What we understand by data in the context of OGD is often the kind of specialized and detailed information that preoccupies teams of experts in statistics departments, university and corporate research labs. While expert users continue to be the focus and often the motivators of data collection, today's "data users" represent only a small part of the global interest potential.

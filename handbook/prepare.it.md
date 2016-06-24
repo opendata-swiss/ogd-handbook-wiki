@@ -10,6 +10,7 @@ Summary: I dati possono assumere diversi formati e, storicamente, diversi metodi
 Lang: it
 Draft: yes
 Untranslated: yes
+Hidden: yes
 ---
 
 Questo articolo è [disponibile in inglese](/en/publish/prepare).

@@ -9,6 +9,7 @@ Authors:
 Summary: Metrics and indicators of use in comparing and optimizing interest and uptake of OGD.
 Lang: en
 Draft: yes
+Hidden: yes
 ---
 
 A combination of high-level *indicators*, and low-level *metrics* can ensure that OGD projects are both appropriately scoped and planned, and as tools for monitoring and improving data offerings are accessed and interacted with. At their best, they are an instrument for closing the loop to improve collaboration between publisher and data user.

@@ -9,6 +9,7 @@ Authors:
 Summary: Common steps to prepare for releasing data in the form of OGD, along with critical decision points.
 Lang: en
 Draft: yes
+Hidden: yes
 ---
 
 As soon as one starts [making an inventory](/identify/inventory) of datasets within an organization, a picture starts to emerge of technology, legal status, and process. It can be useful to apply rules to such a list and map out top candidates for OGD publication.

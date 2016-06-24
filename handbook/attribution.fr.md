@@ -10,6 +10,7 @@ Summary: Les exigences juridiques exigent parfois explicitement l'attribution de
 Lang: fr
 Draft: yes
 Untranslated: yes
+Hidden: yes
 ---
 
 Cet article est [disponible en anglais](/en/establish/attribution).

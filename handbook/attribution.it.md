@@ -10,6 +10,7 @@ Summary: Molti set di dati derivano da altri, e requisiti di legge a volte espli
 Lang: it
 Draft: yes
 Untranslated: yes
+Hidden: yes
 ---
 
 Questo articolo è [disponibile in inglese](/en/establish/attribution).

@@ -10,6 +10,7 @@ Summary: Mesures communes à suivre pour se préparer à la publication de donn�
 Lang: fr
 Draft: yes
 Untranslated: yes
+Hidden: yes
 ---
 
 Cet article est [disponible en anglais](/en/identify/checklist).

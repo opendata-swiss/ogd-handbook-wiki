@@ -10,6 +10,7 @@ Summary: Le misure comuni per la preparazione per il rilascio dei dati sotto for
 Lang: it
 Draft: yes
 Untranslated: yes
+Hidden: yes
 ---
 
 Questo articolo è [disponibile in inglese](/en/identify/checklist).

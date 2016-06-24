@@ -10,6 +10,7 @@ Summary: Les données peuvent se présenter sous plusieurs formats différents e
 Lang: fr
 Draft: yes
 Untranslated: yes
+Hidden: yes
 ---
 
 Cet article est [disponible en anglais](/en/publish/prepare).

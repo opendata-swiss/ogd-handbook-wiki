@@ -10,6 +10,7 @@ Summary: Una panoramica di come i portali di dati funzionano, come pubblicare i 
 Lang: it
 Draft: yes
 Untranslated: yes
+Hidden: yes
 ---
 
 Questo articolo è [disponibile in inglese](/en/support/ogd-portals).
