@@ -1,6 +1,6 @@
 ---
 Title: Vérifier les cadres juridiques existants
-Category: Establish
+Category: Prepare
 Handbook: yes
 Tags:
 Date: 2016-01-01
@@ -12,4 +12,4 @@ Draft: yes
 Untranslated: yes
 ---
 
-Cet article est [disponible en anglais](/en/establish/frameworks).
+Cet article est [disponible en anglais](/en/prepare/frameworks).

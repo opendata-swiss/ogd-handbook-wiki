@@ -33,9 +33,9 @@ Rollen vergeben:
 
 Daten und Metadaten vorbereiten:
 
-*   Die [Referenz zur gesetzlichen Grundlage](/de/establish/frameworks) für die Publikation verifizieren.
+*   Die [Referenz zur gesetzlichen Grundlage](/de/prepare/frameworks) für die Publikation verifizieren.
 
-*   Auswahl der [korrekten Nutzungsbedingung](/de/establish/terms) verifizieren.
+*   Auswahl der [korrekten Nutzungsbedingung](/de/prepare/terms) verifizieren.
 
 *   Prüfen in welchem Format diese Datensätze publiziert werden.
 

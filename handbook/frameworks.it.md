@@ -1,6 +1,6 @@
 ---
 Title: Controllare i quadri giuridici esistenti
-Category: Establish
+Category: Prepare
 Handbook: yes
 Tags:
 Date: 2016-01-01
@@ -12,4 +12,4 @@ Draft: yes
 Untranslated: yes
 ---
 
-Questo articolo è [disponibile in inglese](/en/establish/frameworks).
+Questo articolo è [disponibile in inglese](/en/prepare/frameworks).

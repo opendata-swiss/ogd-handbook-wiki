@@ -22,8 +22,8 @@ This checklist can help to quickly ascertain how ready a particular data source 
 
 - <checkbox> Is there a legal basis for the publication of the data set? *[Identify](/identify/criteria)*
 - <checkbox> Is any of the data to be published under copyright? *[Identify](/identify/criteria)*
-- <checkbox> Is it clear who the data owner is? *[Establish](/establish/frameworks)*
-- <checkbox> Have any attributable sources been identified? *[Establish](/establish/frameworks)*
+- <checkbox> Is it clear who the data owner is? *[Prepare](/prepare/frameworks)*
+- <checkbox> Have any attributable sources been identified? *[Prepare](/prepare/frameworks)*
 
 **Data protection**
 
@@ -33,7 +33,7 @@ This checklist can help to quickly ascertain how ready a particular data source 
 
 **Technical checks**
 
-- <checkbox> Is the entire dataset accessible without involving a third party? *[Establish](/establish/attribution)*
+- <checkbox> Is the entire dataset accessible without involving a third party? *[Prepare](/prepare/attribution)*
 - <checkbox> Is the data in a format compatible with OGD? *[Publish](/publish/prepare)*
 - <checkbox> Does a process exist to make data available online? *[Publish](/publish/hosting)*
 

@@ -1,6 +1,6 @@
 ---
 Title: Quellenangabe
-Category: Establish
+Category: Prepare
 Handbook: yes
 Tags:
 Date: 2016-01-01
@@ -13,4 +13,4 @@ Hidden: yes
 Untranslated: yes
 ---
 
-Diese Seite ist in [englischer Sprache verfügbar](/en/establish/attribution).
+Diese Seite ist in [englischer Sprache verfügbar](/en/prepare/attribution).

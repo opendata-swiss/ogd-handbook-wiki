@@ -1,6 +1,6 @@
 ---
 Title: Check existing legal frameworks
-Category: Establish
+Category: Prepare
 Handbook: yes
 Tags:
 Date: 2016-01-01

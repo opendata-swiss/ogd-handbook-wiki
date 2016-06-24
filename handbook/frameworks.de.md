@@ -1,6 +1,6 @@
 ---
 Title: Rechtliche Vorprüfungen
-Category: Establish
+Category: Prepare
 Handbook: yes
 Tags:
 Date: 2016-05-25

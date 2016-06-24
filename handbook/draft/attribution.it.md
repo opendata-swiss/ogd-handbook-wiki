@@ -1,6 +1,6 @@
 ---
 Title: Sorgente corretta
-Category: Establish
+Category: Prepare
 Handbook: yes
 Tags:
 Date: 2016-01-01
@@ -13,4 +13,4 @@ Untranslated: yes
 Hidden: yes
 ---
 
-Questo articolo è [disponibile in inglese](/en/establish/attribution).
+Questo articolo è [disponibile in inglese](/en/prepare/attribution).
