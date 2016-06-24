@@ -18,6 +18,7 @@ Viele Daten stehen bereits heute kostenlos zur Verfügung, nur sind sie nicht al
 Für weiterführende Informationen zu OGD ist der Besuch folgender Seite empfohlen:
 
 - Die [OGD-Strategie Schweiz 2014-2018](https://www.egovernment.ch/de/umsetzung/e-government-schweiz-2008-2015/open-government-data-schweiz/) definiert Ziele und Massnahmen für die Umsetzung von OGD auf Bundesebene. Die Strategie dient zudem als Grundlage für die Zusammenarbeit mit Kantonen und Gemeinden.
+
 - Ausführliche Informationen zum Thema OGD bietet die international anerkannte [Open Knowledge International](http://okfn.org/). Die Schweizer Sektion der Open Knowledge Foundation ist der [Verein Opendata.ch](http://opendata.ch/), der Anlässe für OGD-Interessierte und -Anwender organisiert und die OGD-Community vertritt.
 
 ## Profitieren Sie von bereits vorhandenem Wissen
