@@ -3,7 +3,7 @@ Title: Inventariazione dei dati
 Category: Identify
 Handbook: yes
 Tags:
-Date: 2016-05-25
+Date: 2016-04-24
 Slug: inventory
 Authors:
 Summary: Secondo le dimensioni dell’organizzazione, l’inventariazione è un passo raccomandato, ma non obbligatorio per la pubblicazione di OGD.
@@ -33,4 +33,4 @@ Diversi Paesi hanno già esperienza nell’inventariazione dei dati:
 
 - [Gran Bretagna](http://data.gov.uk/data/search);
 - [USA](https://project-open-data.cio.gov/implementation-guide);
-- [Paesi Bassi](http://www.openstate.eu/en/2014/10/government-wide-data-inventory-ready-in-spring-2015/). 
+- [Paesi Bassi](http://www.openstate.eu/en/2014/10/government-wide-data-inventory-ready-in-spring-2015/).

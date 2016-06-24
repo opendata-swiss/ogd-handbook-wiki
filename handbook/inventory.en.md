@@ -3,7 +3,7 @@ Title: Compiling a data inventory
 Category: Identify
 Handbook: yes
 Tags:
-Date: 2016-01-01
+Date: 2016-04-24
 Slug: inventory
 Authors:
 Summary: Depending on the size of your organization, compiling an inventory of your data is a recommended tool for publishing OGD but not a requirement.
