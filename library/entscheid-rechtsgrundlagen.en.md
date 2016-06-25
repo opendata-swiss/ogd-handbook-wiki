@@ -8,8 +8,7 @@ Slug: entscheid-rechtsgrundlagen
 Authors: Anne Wiedmer, Corinna Seiberth
 Summary:
 Lang: en
+Untranslated: yes
 ---
-
-<em>Translations are not yet available everywhere: let us know if you need this content in your language.</em>
 
 This document is [available in German](/de/library/entscheid-rechtsgrundlagen).

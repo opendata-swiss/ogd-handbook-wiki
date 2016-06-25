@@ -1,5 +1,5 @@
 ---
-Title: Concept - Legal framework for the publication of data as Open Government Data (OGD)
+Title: Legal framework for the publication of data as Open Government Data
 Category: Library
 Template: document
 Tags: prepare
@@ -8,8 +8,7 @@ Slug: konzept-rechtliche-rahmen
 Authors: Anne Wiedmer, Corinna Seiberth
 Summary:
 Lang: en
+Untranslated: yes
 ---
-
-<em>Translations are not yet available everywhere: let us know if you need this content in your language.</em>
 
 This document is [available in German](/de/library/konzept-rechtliche-rahmen).
