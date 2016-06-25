@@ -3,7 +3,7 @@ Title: Uploading metadata to opendata.swiss
 Category: Publish
 Handbook: yes
 Tags:
-Date: 2016-01-01
+Date: 2016-01-03
 Slug: metadata
 Authors:
 Lang: en

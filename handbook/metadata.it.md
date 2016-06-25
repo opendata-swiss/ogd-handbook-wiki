@@ -3,7 +3,7 @@ Title: Caricamento dei metadati su opendata.swiss
 Category: Publish
 Handbook: yes
 Tags:
-Date: 2016-01-1
+Date: 2016-01-03
 Slug: metadata
 Authors:
 Lang: it
