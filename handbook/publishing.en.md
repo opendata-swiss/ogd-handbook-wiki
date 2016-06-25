@@ -3,7 +3,7 @@ Title: Selecting your publication option
 Category: Publish
 Handbook: yes
 Tags:
-Date: 2016-01-01
+Date: 2016-06-01
 Slug: publishing
 Authors:
 Summary: The opendata.swiss portal only references and manages metadata. The primary data, as well as responsibility for publishing them, remain with the data supplier. The Federal Archives operate the portal, and also support and coordinate data publication.

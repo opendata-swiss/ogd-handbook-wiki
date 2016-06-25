@@ -1,22 +1,55 @@
 ---
-Title: How to manage metadata
+Title: Uploading metadata to opendata.swiss
 Category: Publish
 Handbook: yes
 Tags:
 Date: 2016-01-01
 Slug: metadata
 Authors:
-Summary: Metadata sets context that provides crucial support for users to be able to interpret and reuse the data itself.
 Lang: en
 Draft: yes
+Summary: Once you have selected your publication option, you need to upload the metadata to opendata.swiss.
 ---
 
-Methods of developing and maintaining metadata are used for validating quality and ensuring applicability of the datasets at large, and are a critical support vehicle for improving the potential for appropriate usage of open data.
+This involves three steps:
 
-For larger organizations with their own infrastructure, it often becomes inconvenient and costly to upload datasets one at a time, so software programs called **harvesters** are used to collect details on each dataset and publish a selection of metadata to the data portal. These programs can also be run automatically to ensure that updates are propagated.
+1. Organizational and technical preparations by you as data supplier
+2. Uploading to the opendata.swiss catalogue
+3. Updated catalogue online at opendata.swiss.
 
-## Publishing metadata on opendata.swiss
+The [user handbook](/en/library/anleitung-datenpublisher) contains detailed information on the opendata.swiss system.
 
-You need to publish standardised information about your data, so-called metadata.  For publishers, the national Open Government Data portal **opendata.swiss** offers different ways to add their data to the metadata catalogue. The Open Government Data Switzerland project has developed a joint solution (see *Selection and definition of the OGD standards* [in the library](/category/library)).
+## Preparations
 
-The portal opendata.swiss implements these standards, and provides further documentation on the DCAT-AP standard: visit [Publishing on opendata.swiss](/publish/opendata-swiss) for background.
+Assign roles:
+
+- Define the data owner: who in your organization is responsible for the data and for publishing them?  
+- Define the data supplier: who has technical responsibility? (tasks may include metadata entry, testing, updates)
+- Define who assesses the quality of the descriptions and the metadata and who can answer technical/content questions on the data fonds.
+- Define the single point of contact (SPOC) for the portal operator.
+
+Prepare the data and metadata:
+
+- Verify the reference to the [legal framework for publication](/en/prepare/frameworks).
+- Check that the [correct terms of use](/en/prepare/terms) have been chosen.
+- Check the format in which the datasets are to be published.
+
+> ### Recommended data formats
+
+> Essentially, you can make your data available on opendata.swiss in any data format you choose. However, the Federal Archives recommend using one of the formats listed in [Recommendations for OGD Formats](/en/library/empfehlungen-formate).
+
+- If necessary, carry out a quality check of the data
+
+## Importing the metadata
+
+Before you can import your metadata to opendata.swiss, the Federal Archives must enter your organization in the system. If your organization has not previously published data on the portal, please register by [contacting us](mailto:opendata@bar.admin.ch). You should then do the following:
+
+- Familiarize yourself with the user interface and the DCAT-AP fields. Detailed information on the system can be found in the [opendata.swiss user handbook](/en/library/anleitung-datenpublisher).
+- Enter the metadata, completing the fields defined in the [DCAT-AP standard](/en/library/ch-dcat-ap) (this will depend on the publication option chosen).
+- Send us an image and a description of your organization, if possible in four languages (DE, FR, IT, EN). These will be published on your organization’s page ([for example here](https://opendata.swiss/en/organization/schweizerisches-bundesarchiv-bar)).
+
+## Data online
+
+The Federal Archives and the data supplier together ensure that all the data, metadata and descriptions are displayed correctly in the test environment.
+
+Once you have given your consent, the Federal Archives will make the data available online.

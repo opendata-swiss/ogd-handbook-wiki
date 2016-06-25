@@ -3,7 +3,7 @@ Title: Choisir le mode de publication
 Category: Publish
 Handbook: yes
 Tags:
-Date: 2016-01-01
+Date: 2016-06-01
 Slug: publishing
 Authors:
 Summary: Le portail opendata.swiss référence et administre exclusivement les métadonnées. Les données primaires et leur publication relèvent de la responsabilité des fournisseurs de données. Les Archives fédérales, qui administrent le portail, apportent leur soutien dans le cadre de la publication des données et coordonnent la procédure.

@@ -3,7 +3,7 @@ Title: Scelta dell’opzione di pubblicazione
 Category: Publish
 Handbook: yes
 Tags:
-Date: 2016-01-01
+Date: 2016-06-01
 Slug: publishing
 Authors:
 Summary: Il portale opendata.swiss collega e gestisce esclusivamente metadati. Questo significa che i dati primari restano presso il fornitore, che conserva anche la responsabilità della loro divulgazione. Il portale è gestito dall’Archivio federale, che sostiene e coordina la pubblicazione dei dati.
