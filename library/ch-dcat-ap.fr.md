@@ -6,8 +6,8 @@ Tags: publish
 Date: 2016-02-09
 Slug: ch-dcat-ap
 Summary:
-Lang: de
+Lang: fr
 Untranslated: yes
 ---
 
-Dieses Dokument ist derzeit nur in [englischer Sprache verfügbar](/en/library/ch-dcat-ap).
+Cet article est [disponible en anglais](/en/library/ch-dcat-ap).
