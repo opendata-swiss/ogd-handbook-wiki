@@ -15,7 +15,7 @@ Dans l’administration publique, la décision découle généralement d’une b
 
 Le schéma suivant explique, étape par étape, comment déterminer si un jeu de données peut être publié comme OGD.
 
-![Schema Arbeitshilfe-Publikation](../../images/chart-arbeitshilfe-publikation-de.png)
+> ![Schema Arbeitshilfe-Publikation](../../images/chart-arbeitshilfe-publikation-de.png)
 
 Si vous avez besoin d’informations complémentaires concernant les différentes étapes, veuillez [consulter ce document](/fr/library/entscheid-rechtsgrundlagen).
 
