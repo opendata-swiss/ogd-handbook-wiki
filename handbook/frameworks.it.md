@@ -15,7 +15,7 @@ Nell’amministrazione pubblica fa solitamente stato la base legale, ossia una l
 
 Lo schema seguente spiega passo dopo passo come stabilire se un set di dati è idoneo a essere pubblicato come OGD.
 
-![Schema Arbeitshilfe-Publikation](../../images/chart-arbeitshilfe-publikation-it.svg)
+![Schema Arbeitshilfe-Publikation](../../images/chart-arbeitshilfe-publikation-it.png)
 
 Per maggiori dettagli sui singoli passi, [cliccare qui](/it/library/entscheid-rechtsgrundlagen).
 
