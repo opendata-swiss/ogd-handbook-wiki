@@ -15,7 +15,7 @@ In the public administration, this decision normally depends on the legal framew
 
 The following diagram explains step by step how you establish whether a dataset is suitable for OGD.
 
-> ![Schema Arbeitshilfe-Publikation](../../images/chart-arbeitshilfe-publikation-de.png)
+![Schema Arbeitshilfe-Publikation](../../images/chart-arbeitshilfe-publikation-de.png)
 
 Further guidance on the individual steps can be found in [Decision basis - guidelines in respect to legal foundations for the publication of data as OGD](/de/library/entscheid-rechtsgrundlagen).
 
