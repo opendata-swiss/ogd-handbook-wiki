@@ -15,7 +15,7 @@ Massgeblich für diese Entscheidung ist in der öffentlichen Verwaltung in aller
 
 Das folgende Schema zeigt Schritt für Schritt auf, wie Sie bestimmen, ob ein Datensatz für OGD geeignet ist.
 
-![Schema Arbeitshilfe-Publikation](../../images/chart-arbeitshilfe-publikation-de.png)
+![Schema Arbeitshilfe-Publikation](../../images/chart-arbeitshilfe-publikation-de.svg)
 
 Falls Sie weitergehende Erklärungen zu den einzelnen Schritten benötigen, [finden Sie diese hier](/de/library/arbeitshilfe-publikation).
 
