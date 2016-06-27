@@ -1,14 +1,13 @@
 ---
-Title: Anleitung für Daten-Publisher
-Category: Library
-Template: document
-Tags: publish
-Date: 2016-03-16
+Title: Benutzerhandbuch opendata.swiss
+Category: Publish
+Handbook: yes
+Tags:
+Date: 2016-06-20
 Slug: anleitung-datenpublisher
-Authors: Schweizerisches Bundesarchiv
-Summary:
+Authors:
 Lang: de
-toc_run: true
+Draft: yes
 Link_PDF: https://bar-files.opendata.swiss/owncloud/index.php/s/XxkHSh8A4vgIgea
 ---
 

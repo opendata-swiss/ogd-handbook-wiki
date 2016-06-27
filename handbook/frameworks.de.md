@@ -3,7 +3,7 @@ Title: Rechtliche Vorprüfungen
 Category: Prepare
 Handbook: yes
 Tags:
-Date: 2016-05-25
+Date: 2016-06-27
 Slug: frameworks
 Authors:
 Lang: de

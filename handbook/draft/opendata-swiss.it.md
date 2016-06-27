@@ -9,6 +9,7 @@ Summary: Note di utilizzo che saranno di uso soprattutto per gli utenti del gove
 Lang: it
 Draft: yes
 Untranslated: yes
+Hidden: yes
 ---
 
 Questo articolo è [disponibile in inglese](/en/publish/opendata-swiss).

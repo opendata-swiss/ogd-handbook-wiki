@@ -3,7 +3,7 @@ Title: Qu’entend-on par Open Government Data (OGD)?
 Category: Identify
 Handbook: yes
 Tags:
-Date: 2016-01-26
+Date: 2016-06-26
 Slug: opengovdata
 Authors:
 Summary: Par Open Government Data, on entend les données des autorités mises à disposition gratuitement et, idéalement, sous forme lisible par un ordinateur, afin qu’elles puissent être réutilisées par les personnes intéressées.

@@ -3,7 +3,7 @@ Title: Definizione di Open Government Data (OGD)
 Category: Identify
 Handbook: yes
 Tags:
-Date: 2016-01-26
+Date: 2016-06-26
 Slug: opengovdata
 Authors:
 Summary: Con questo termine s’intendono i dati di enti governativi messi gratuitamente a disposizione di tutti gli interessati, possibilmente in un formato leggibile dalle macchine (machine readable), per il loro riutilizzo («dati aperti»).

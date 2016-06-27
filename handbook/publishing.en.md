@@ -3,12 +3,12 @@ Title: Selecting your publication option
 Category: Publish
 Handbook: yes
 Tags:
-Date: 2016-06-01
+Date: 2016-06-27
 Slug: publishing
 Authors:
-Summary: The opendata.swiss portal only references and manages metadata. The primary data, as well as responsibility for publishing them, remain with the data supplier. The Federal Archives operate the portal, and also support and coordinate data publication.
 Lang: en
 Draft: yes
+Summary: The opendata.swiss portal only references and manages metadata. The primary data, as well as responsibility for publishing them, remain with the data supplier. The Federal Archives operate the portal, and also support and coordinate data publication.
 ---
 
 When you publish your data on opendata.swiss, you can choose between four technical options. The following table will help you decide which option is best suited to your organization.

@@ -3,7 +3,7 @@ Title: What is Open Government Data (OGD)?
 Category: Identify
 Handbook: yes
 Tags:
-Date: 2016-01-26
+Date: 2016-06-26
 Slug: opengovdata
 Authors:
 Summary: Open Government Data is data from the public administration that is made available for secondary use by anyone interested, free of charge and ideally in machine-readable form.

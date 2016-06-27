@@ -3,7 +3,7 @@ Title: Inventariazione dei dati
 Category: Identify
 Handbook: yes
 Tags:
-Date: 2016-04-24
+Date: 2016-06-24
 Slug: inventory
 Authors:
 Summary: Secondo le dimensioni dell’organizzazione, l’inventariazione è un passo raccomandato, ma non obbligatorio per la pubblicazione di OGD.

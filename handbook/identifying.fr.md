@@ -3,7 +3,7 @@ Title: Quelles sont les données existantes dans mon organisation?
 Category: Identify
 Handbook: yes
 Tags:
-Date: 2016-01-26
+Date: 2016-06-25
 Slug: identifying
 Authors:
 Summary: Avant de publier des données publiques en libre accès, vous devez savoir quelles données sont disponibles au sein de votre organisation. Idéalement, vous disposeriez d’un inventaire de tous les jeux de données de votre organisation, mais ce n’est pas indispensable.

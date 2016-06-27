@@ -3,7 +3,7 @@ Title: What data does my organization hold?
 Category: Identify
 Handbook: yes
 Tags:
-Date: 2016-01-26
+Date: 2016-06-25
 Slug: identifying
 Authors:
 Summary: In order to publish OGD, you need to know what data your organization holds. Ideally, you will have an inventory of all datasets in your organization. However, this is not absolutely necessary.

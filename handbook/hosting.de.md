@@ -1,5 +1,5 @@
 ---
-Title: Daten im World Wide Web hosten
+Title: Daten-Hosting
 Category: Publish
 Handbook: yes
 Tags:

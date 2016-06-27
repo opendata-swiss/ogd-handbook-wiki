@@ -3,7 +3,7 @@ Title: Choix des conditions d’utilisation
 Category: Prepare
 Handbook: yes
 Tags:
-Date: 2016-01-01
+Date: 2016-06-24
 Slug: terms
 Authors:
 Lang: fr

@@ -3,7 +3,7 @@ Title: Inventaire des données
 Category: Identify
 Handbook: yes
 Tags:
-Date: 2016-04-24
+Date: 2016-06-24
 Slug: inventory
 Authors:
 Summary: Selon la taille de votre organisation, il peut s’avérer judicieux de réaliser un inventaire de vos données, mais il ne s’agit pas d’une condition requise pour la publication d’OGD.

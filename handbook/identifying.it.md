@@ -3,7 +3,7 @@ Title: Determinazione dei dati disponibili
 Category: Identify
 Handbook: yes
 Tags:
-Date: 2016-01-26
+Date: 2016-06-25
 Slug: identifying
 Authors:
 Summary: Per pubblicare OGD occorre sapere di quali dati si dispone. L’ideale sarebbe avere un inventario di tutti i set di dati, ma non è indispensabile.

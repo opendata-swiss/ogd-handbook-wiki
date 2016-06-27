@@ -3,12 +3,12 @@ Title: Publikationsvariante wählen
 Category: Publish
 Handbook: yes
 Tags:
-Date: 2016-06-01
+Date: 2016-06-27
 Slug: publishing
 Authors:
-Summary: Das Portal opendata.swiss referenziert und verwaltet ausschliesslich Metadaten. Die primären Daten sowie die Verantwortung für deren Publikation bleiben beim Datenlieferanten. Das Bundesarchiv betreibt das Portal. Es unterstützt und koordiniert die Datenpublikation.
 Lang: de
 Draft: yes
+Summary: Das Portal opendata.swiss referenziert und verwaltet ausschliesslich Metadaten. Die primären Daten sowie die Verantwortung für deren Publikation bleiben beim Datenlieferanten. Das Bundesarchiv betreibt das Portal. Es unterstützt und koordiniert die Datenpublikation.
 ---
 
 Wenn Sie Ihre Daten auf opendata.swiss publizieren, können Sie zwischen vier technischen Optionen wählen. Die folgende Tabelle liefert Ihnen einen Anhaltspunkt, welche Variante für Ihre Organisation geeignet ist.

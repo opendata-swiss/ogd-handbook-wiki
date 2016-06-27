@@ -3,7 +3,7 @@ Title: Daten-Inventarisierung
 Category: Identify
 Handbook: yes
 Tags:
-Date: 2016-04-24
+Date: 2016-06-24
 Slug: inventory
 Authors:
 Summary: Die Inventarisierung der Daten Ihrer Organisation ist abhängig von deren Grösse ein empfohlenes, aber kein zwingendes Instrument für die Publikation von OGD.

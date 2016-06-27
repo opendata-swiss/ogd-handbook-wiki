@@ -9,6 +9,7 @@ Summary: Behörden der Eidgenossenschaft, der Kantone und der Gemeinden ebenso w
 Lang: de
 Draft: yes
 Untranslated: yes
+Hidden: yes
 ---
 
 Diese Seite ist in [englischer Sprache verfügbar](/en/publish/opendata-swiss).

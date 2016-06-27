@@ -1,9 +1,9 @@
 ---
-Title: Metadaten auf opendata.swiss laden
+Title: Publikation direkt auf opendata.swiss
 Category: Publish
 Handbook: yes
 Tags:
-Date: 2016-01-03
+Date: 2016-06-24
 Slug: metadata
 Authors:
 Lang: de

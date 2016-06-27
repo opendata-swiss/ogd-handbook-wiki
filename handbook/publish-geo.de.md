@@ -1,14 +1,14 @@
 ---
-Title: Publikation auf opendata.swiss über geo.admin.ch - Vorgehen
-Category: Library
-Template: document
-Tags: publish
-Date: 2016-03-16
-Slug: anleitung-geocat
-Authors: Schweizerisches Bundesarchiv
-Summary: Im Folgenden ist das Vorgehen beschrieben, wie valide Datensätze in geocat.ch erstellt werden, um sie anschliessend auf dem opendata-Portal zu publizieren.
+Title: Publikation via geo.admin.ch
+Category: Publish
+Handbook: yes
+Tags:
+Date: 2016-06-23
+Slug: publish-geo
+Authors:
 Lang: de
-toc_run: false
+Draft: yes
+Summary: Im Folgenden ist das Vorgehen beschrieben, wie valide Datensätze in geocat.ch erstellt werden, um sie anschliessend auf dem opendata-Portal zu publizieren.
 ---
 
 Um Geodaten auf dem Portal [opendata.swiss](https://opendata.swiss/) zu publizieren, müssen die Metadaten der betroffenen Daten zuerst im Katalog für Geometadaten [geocat.ch](http://www.geocat.ch) publiziert werden. Von dort werden die benötigten Attribute dann durch einen automatisierten Prozess ins opendata-Portal überführt.
