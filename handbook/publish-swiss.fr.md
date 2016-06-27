@@ -1,16 +1,21 @@
 ---
-Title: Verser vos métadonnées sur opendata.swiss
+Title: Pubblicazione
 Category: Publish
 Handbook: yes
 Tags:
 Date: 2016-06-24
-Slug: metadata
+Slug: publish-swiss
 Authors:
 Lang: fr
 Draft: yes
-Summary: Après avoir choisi un mode de publication, il vous faut verser les métadonnées sur opendata.swiss.
+toc_run: true
+Summary:  Après avoir choisi un mode de publication, vous pouvez commencer à publier des données ouvertes.
 ---
 
+<a name="opendataswiss"></a>
+# Verser vos métadonnées sur opendata.swiss
+
+Après avoir choisi un mode de publication, vous serez prête les métadonnées sur opendata.swiss.
 
 Ce processus compte trois étapes:
 
@@ -53,3 +58,8 @@ Avant que vous puissiez saisir les métadonnées sur opendata.swiss, les Archive
 Les Archives fédérales et le fournisseur des données s’attachent à vérifier que toutes les données, métadonnées et descriptions soient présentées correctement dans l’environnement de test.
 
 Une fois que vous avez donné le feu vert, les Archives fédérales mettent vos données en ligne.
+
+<a name="geoadmin"></a>
+# Publication à travers geo.admin.ch
+
+Cet article est [disponible en allemand](/de/publish/publish-swiss#geoadmin).

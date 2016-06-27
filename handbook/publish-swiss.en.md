@@ -1,15 +1,23 @@
 ---
-Title: Uploading metadata to opendata.swiss
+Title: Publication
 Category: Publish
 Handbook: yes
 Tags:
 Date: 2016-06-24
-Slug: metadata
+Slug: publish-swiss
 Authors:
 Lang: en
 Draft: yes
-Summary: Once you have selected your publication option, you need to upload the metadata to opendata.swiss.
+toc_run: true
+Summary: Once you have decided a publication route, you can start publishing open data.
 ---
+
+This is done in most cases directly [on opendata.swiss](#opendataswiss). If you wish to publish geographic data, this happens [via geo.admin.ch](#geoadmin).
+
+<a name="opendataswiss"></a>
+# Uploading metadata to opendata.swiss
+
+Once you have selected your publication option, you need to upload the metadata to opendata.swiss.
 
 This involves three steps:
 
@@ -53,3 +61,8 @@ Before you can import your metadata to opendata.swiss, the Federal Archives must
 The Federal Archives and the data supplier together ensure that all the data, metadata and descriptions are displayed correctly in the test environment.
 
 Once you have given your consent, the Federal Archives will make the data available online.
+
+<a name="geoadmin"></a>
+# Publication via geo.admin.ch
+
+This chapter is [available in German](/de/publish/publish-swiss#geoadmin).

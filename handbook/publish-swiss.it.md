@@ -1,5 +1,5 @@
 ---
-Title: Caricamento dei metadati su opendata.swiss
+Title: Pubblicazione
 Category: Publish
 Handbook: yes
 Tags:
@@ -8,8 +8,11 @@ Slug: metadata
 Authors:
 Lang: it
 Draft: yes
+toc_run: true
 Summary: Una volta scelta l’opzione di pubblicazione, i metadati vanno caricati su opendata.swiss seguendo le tre tappe seguenti.
 ---
+
+# Caricamento dei metadati su opendata.swiss
 
 1. preparazione organizzativa e tecnica da parte del fornitore dei dati;
 2. caricamento nel catalogo di opendata.swiss;
@@ -51,3 +54,8 @@ Per poter registrare metadati su opendata.swiss, è necessario avere uno spazio 
 L’Archivio federale e il fornitore dei dati provvedono insieme a che tutti i dati, i metadati e le descrizioni siano riportati correttamente nell’ambiente di test.
 
 Una volta ottenuto il consenso, l’Archivio federale attiva i dati, che da quel momento sono consultabili in linea.
+
+<a name="geoadmin"></a>
+# Pubblicazione tramite geo.admin.ch
+
+Questo articolo è [disponibile in tedesco](/de/publish/publish-swiss#geoadmin).
