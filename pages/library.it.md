@@ -1,13 +1,13 @@
 ---
-Title: Library
+Title: Biblioteca
 Slug: library
 Date: 2016-01-01 08:00
 Category:
 Authors:
-Summary: Documenti e link su Open Government Data - dal progetto OGD Svizzera e da terze parti selezionate.
+Summary: Documenti e link a proposito del tema Open Government Data – provenienti dal progetto OGD Svizzera e da determinate fonti esterne.
 Lang: it
 Template: library
 save_as: category/library/index.html
 ---
 
-Riferimenti Biblioteca sono contrassegnati secondo le quattro fasi della pubblicazione. Al momento tutti i contenuti in tutte le lingue non sono ancora disponibili.
+I documenti e i link proposti nella biblioteca sono ordinati secondo i quattro passi di pubblicazione di OGD. Attualmente i contenuti non sono disponibili in tutte le lingue.

@@ -4,10 +4,10 @@ Slug: library
 Date: 2016-01-01 08:00
 Category:
 Authors:
-Summary: Documents and links on the topic of Open Government Data - from the OGD Switzerland project and selected third parties.
+Summary: Documents and links on open government data - from the OGD Switzerland project and selected third parties.
 Lang: en
 Template: library
 save_as: category/library/index.html
 ---
 
-Library references are tagged according to the four publication steps. At this time not all contents are available in all languages.
+The documents and links in the library are categorized according to the four steps for publishing OGD. Currently not all content is available in all languages.
