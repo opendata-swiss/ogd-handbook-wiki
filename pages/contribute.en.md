@@ -6,7 +6,7 @@ Summary: How can I edit content in the Handbook?
 Lang: en
 ---
 
-The OGD Handbook is designed as a wiki to which anyone can contribute content – in particular, those who are responsible within their organization for publishing data on *opendata.swiss*. You can make suggestions for changes, new topics or corrections on the pages themselves.
+**The OGD Handbook is designed as a wiki to which anyone can contribute content – in particular, those who are responsible within their organization for publishing data on *opendata.swiss*. You can make suggestions for changes, new topics or corrections on the pages themselves.**
 
 ## Editing content
 

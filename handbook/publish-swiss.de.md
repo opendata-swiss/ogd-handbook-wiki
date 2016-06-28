@@ -75,11 +75,11 @@ Um auf geocat Metadaten zu publizieren, müssen zwei Kriterien erfüllt sein, di
 
 **Gruppe**, welche für die zu publizierenden Daten zuständig ist (z. Bsp. ein Kanton, ein Bundesamt etc.)
 
-- Falls die Gruppe noch nicht in geocat.ch besteht, bitte Angaben zur Gruppe (genauer Name in den drei Landessprachen und Englisch, sowie ein Logo) per Mail an *geocat@swisstopo.ch* schicken.
+- Falls die Gruppe noch nicht in geocat.ch besteht, bitte Angaben zur Gruppe (genauer Name in den drei Landessprachen und Englisch, sowie ein Logo) per Mail an [geocat@swisstopo.ch](mailto:geocat@swisstopo.ch) schicken.
 
 **Benutzerkonto**
 
-Um dies einzurichten, bitte eine E-Mail an *geocat@swisstopo.ch* senden und Kontaktangaben zur Person (Name, Vorname und E-Mail) nennen. Für jede Gruppe wird durch die Administratoren von geocat.ch ein Konto eingerichtet, welches die Rechte eines „Benutzeradministrators“ hat. Diese Rolle berechtigt dazu, selber neue Benutzerkonten in der eigenen Gruppe einzurichten.
+Um dies einzurichten, bitte eine E-Mail an [geocat@swisstopo.ch](mailto:geocat@swisstopo.ch) senden und Kontaktangaben zur Person (Name, Vorname und E-Mail) nennen. Für jede Gruppe wird durch die Administratoren von geocat.ch ein Konto eingerichtet, welches die Rechte eines „Benutzeradministrators“ hat. Diese Rolle berechtigt dazu, selber neue Benutzerkonten in der eigenen Gruppe einzurichten.
 
 Ein Benutzeradmin kann wie folgt Benutzer einrichten:
 
@@ -241,8 +241,10 @@ Um einen Datensatz zu publizieren, entweder…
 
 Anschliessend den Datensatz für „alle“ freigeben.
 
-## 7. Anfrage machen an geocat@swisstopo für ein CSW-Endpoint
+## 7. Anfrage machen für ein CSW-Endpoint
 
-## 8. Anfrage machen an opendata.swiss, dass der CSW-Endpoint geharvestet sein soll
+[geocat@swisstopo.ch](mailto:geocat@swisstopo.ch)
 
-Mapping Informationen: sehe *mapping_GM03-DCAT_v3.pdf*
+## 8. Anfrage machen, dass der CSW-Endpoint geharvestet sein soll
+
+[@opendata.swiss](mailto:opendata@bar.admin.ch)

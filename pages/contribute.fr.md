@@ -6,7 +6,7 @@ Summary: Comment puis-je éditer des textes dans le manuel?
 Lang: fr
 ---
 
-Le manuel OGD est conçu comme un Wiki: chacun peut apporter sa pierre à l’édifice. Les contributeurs seront généralement des personnes qui publient des données sur *opendata.swiss* pour le compte de leur organisation. Vous pouvez saisir vos suggestions, qu’elles concernent des modifications, des nouveaux sujets ou encore des corrections directement sur les pages en question.
+**Le manuel OGD est conçu comme un Wiki: chacun peut apporter sa pierre à l’édifice. Les contributeurs seront généralement des personnes qui publient des données sur *opendata.swiss* pour le compte de leur organisation. Vous pouvez saisir vos suggestions, qu’elles concernent des modifications, des nouveaux sujets ou encore des corrections directement sur les pages en question.**
 
 ## Editer un contenu
 

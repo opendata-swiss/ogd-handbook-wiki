@@ -6,7 +6,7 @@ Summary: Come modificare i contenuti del manuale
 Lang: it
 ---
 
-Il manuale OGD è basato sul modello Wiki: chiunque può contribuirvi, anche se perlopiù si tratterà di persone responsabili per la loro organizzazione della pubblicazione di informazioni su *opendata.swiss*. Le proposte di modifica o di nuovi temi e le correzioni possono essere inserite direttamente sulle singole pagine.
+**Il manuale OGD è basato sul modello Wiki: chiunque può contribuirvi, anche se perlopiù si tratterà di persone responsabili per la loro organizzazione della pubblicazione di informazioni su *opendata.swiss*. Le proposte di modifica o di nuovi temi e le correzioni possono essere inserite direttamente sulle singole pagine.**
 
 ## Modifica dei contenuti
 

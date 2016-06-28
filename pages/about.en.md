@@ -2,10 +2,12 @@
 Title: About us
 Date: 2016-01-01
 Slug: about
-Summary: handbook.opendata.swiss contains instructions and guidelines for publishing data on opendata.swiss. It is designed as a wiki. opendata.swiss is supplying the initial content, which will then be complemented by the experiences of the authorities publishing data.
 URL:
 Lang: en
+Summary:
 ---
+
+**_handbook.opendata.swiss_ contains instructions and guidelines for publishing data on _opendata.swiss_. It is designed as a wiki. opendata.swiss is supplying the initial content, which will then be complemented by the experiences of the authorities publishing data.**
 
 The OGD Handbook at handbook.opendata.swiss is a collection of instructions to assist authorities in publishing their data. It also includes existing guidelines such as the metadata standard for the portal catalogue. The texts follow the order of activities required for the publication on opendata.swiss, from identifying potential open data to support for users during operation.
 

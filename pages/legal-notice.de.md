@@ -41,8 +41,8 @@ Die auf swiss *handbook.opendata.swiss* veröffentlichten Daten sind in der Rege
 
 ### Quellcode
 
-*handbook.opendata.swiss* nutzt [Pelican](http://ckan.org/), eine
-statische Website-Generator. Pelican und alle seine
+*handbook.opendata.swiss* nutzt [Pelican](http://getpelican.com), eine
+statischen Website-Generator. Pelican und alle seine
 Komponenten sind [Open Source Software](https://github.com/getpelican/pelican).
 Gemäss der Affero GNU GPL v3.0 Lizenz sind die für diese Plattform
 entwickelten Erweiterungen ebenfalls [frei

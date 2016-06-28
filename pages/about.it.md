@@ -2,9 +2,11 @@
 Title: Chi siamo
 Date: 2016-01-01
 Slug: about
-Summary: La pagina handbook.opendata.swiss offre istruzioni e direttive per la pubblicazione di dati su opendata.swiss. Il manuale è basato sul modello Wiki - opendata.swiss mette a disposizione primi contenuti, le autorità che pubblicano dati li integrano con le loro esperienze.
 Lang: it
+Summary:
 ---
+
+**La pagina _handbook.opendata.swiss_ offre istruzioni e direttive per la pubblicazione di dati su opendata.swiss. Il manuale è basato sul modello Wiki - _opendata.swiss_ mette a disposizione primi contenuti, le autorità che pubblicano dati li integrano con le loro esperienze.**
 
 Il manuale OGD su handbook.opendata.swiss è una raccolta di istruzioni utili in cui le autorità che desiderano pubblicare dati trovano anche direttive specifiche, come lo standard dei metadati del catalogo del portale. L’organizzazione dei testi riflette il processo di pubblicazione su opendata.swiss, dall’identificazione di possibili «dati aperti» fino al supporto per gli utenti.
 
