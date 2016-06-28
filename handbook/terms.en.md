@@ -15,7 +15,7 @@ Laws and ordinances are often difficult for users of the data to understand. The
 
 For this reason, “[terms of use](https://opendata.swiss/en/terms-of-use/)” are displayed for every dataset on opendata.swiss. Using a small number of symbols and sentences, these explain what a dataset can be used for. They translate the applicable legal framework into a standardized language that users can understand. As an authority publishing data, you must therefore select a set of terms of use that correctly reflects your legal framework before publishing your data on opendata.swiss.
 
-You can find an overview of the terms of use [permitted on opendata.swiss here](https://opendata.swiss/en/terms-of-use/). Based on the results of the [preliminary legal check](frameworks) you can now simply select the right terms of use.
+You can find an overview of the terms of use [permitted on opendata.swiss here](https://opendata.swiss/en/terms-of-use/). Based on the results of the [preliminary legal check](/en/prepare/frameworks) you can now simply select the right terms of use.
 
 | Result of preliminary legal check | Terms of use | Symbol |
 |-----------------------------------|--------------|--------|
@@ -26,6 +26,6 @@ You can find an overview of the terms of use [permitted on opendata.swiss here](
 
 The special case: if your legal framework does not permit commercial use, you cannot currently publish your data on opendata.swiss. If commercial use is permitted in principle but permission is required, this corresponds to the special case. If you subsequently publish the data on opendata.swiss, you should decide in advance that you will normally permit commercial use. Data subject to more restrictive conditions are not published on opendata.swiss.
 
-You will need your terms of use and the link to the legal framework later for the catalogue [metadata on opendata.swiss](/en/publish/metadata).
+You will need your terms of use and the link to the legal framework later for the catalogue [metadata on opendata.swiss](/en/publish/publish-swiss).
 
 Further details of legal issues related to OGD are contained in the concept [Legal framework for the publication of data as open government data (OGD)](/en/library/konzept-rechtliche-rahmen).

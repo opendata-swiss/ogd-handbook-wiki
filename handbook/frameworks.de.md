@@ -11,7 +11,7 @@ Draft: yes
 Summary: Bevor Daten auf opendata.swiss publiziert werden können, muss sichergestellt sein, dass diese als OGD publiziert werden dürfen.
 ---
 
-Massgeblich für diese Entscheidung ist in der öffentlichen Verwaltung in aller Regel die gesetzliche Grundlage, also ein Gesetz oder die zugehörige Verordnung. Diese erlaubt die Publikation der OGD und legt allfällige Einschränkungen fest. Aus der gesetzlichen Grundlage leiten Sie anschliessend die Nutzungsbedingungen für Ihre Daten ab. Mehr dazu unter [Nutzungsbedingungen auswählen](terms).
+Massgeblich für diese Entscheidung ist in der öffentlichen Verwaltung in aller Regel die gesetzliche Grundlage, also ein Gesetz oder die zugehörige Verordnung. Diese erlaubt die Publikation der OGD und legt allfällige Einschränkungen fest. Aus der gesetzlichen Grundlage leiten Sie anschliessend die Nutzungsbedingungen für Ihre Daten ab. Mehr dazu unter [Nutzungsbedingungen auswählen](/de/prepare/terms).
 
 Das folgende Schema zeigt Schritt für Schritt auf, wie Sie bestimmen, ob ein Datensatz für OGD geeignet ist.
 

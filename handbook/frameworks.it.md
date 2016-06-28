@@ -11,7 +11,7 @@ Draft: yes
 Summary: Prima di pubblicare dati su opendata.swiss, è imperativo accertare se sia lecito divulgarli come OGD.
 ---
 
-Nell’amministrazione pubblica fa solitamente stato la base legale, ossia una legge o una relativa ordinanza che ne consenta, con eventuali limitazioni, la pubblicazione. Le condizioni d’uso si fondano sulla base legale. Per maggiori dettagli si veda il capitolo [Definizione delle condizioni d’uso](terms).
+Nell’amministrazione pubblica fa solitamente stato la base legale, ossia una legge o una relativa ordinanza che ne consenta, con eventuali limitazioni, la pubblicazione. Le condizioni d’uso si fondano sulla base legale. Per maggiori dettagli si veda il capitolo [Definizione delle condizioni d’uso](/it/prepare/terms).
 
 Lo schema seguente spiega passo dopo passo come stabilire se un set di dati è idoneo a essere pubblicato come OGD.
 

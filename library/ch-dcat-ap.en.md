@@ -8,6 +8,7 @@ Slug: ch-dcat-ap
 Summary:
 Lang: en
 toc_run: true
+Link_RDF: /samples/ogdch_dcatap_import.rdf
 ---
 
 The ‹Open Government Data› project organisation have worked out a joint solution for metadata. The portal opendata.swiss implements these standards - see [Publish on opendata.swiss](/en/publish/opendata-swiss).

@@ -11,7 +11,7 @@ Draft: yes
 Summary: Before data can be published on opendata.swiss, you must establish whether their publication as OGD is permitted.
 ---
 
-In the public administration, this decision normally depends on the legal framework, in other words a law or the associated ordinance. This will allow for publication of the data and set out any restrictions. You can then decide on the terms of use for your data based on this. For more information, see [Choosing terms of use](terms).
+In the public administration, this decision normally depends on the legal framework, in other words a law or the associated ordinance. This will allow for publication of the data and set out any restrictions. You can then decide on the terms of use for your data based on this. For more information, see [Choosing terms of use](/en/prepare/terms).
 
 The following diagram explains step by step how you establish whether a dataset is suitable for OGD.
 

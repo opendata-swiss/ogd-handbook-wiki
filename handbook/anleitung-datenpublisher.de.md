@@ -8,6 +8,7 @@ Slug: anleitung-datenpublisher
 Authors:
 Lang: de
 Draft: yes
+toc_run: true
 Link_PDF: https://bar-files.opendata.swiss/owncloud/index.php/s/XxkHSh8A4vgIgea
 Summary: Im Benutzerhandbuch ist das System von opendata.swiss ausführlich dokumentiert.
 ---

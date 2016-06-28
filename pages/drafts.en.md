@@ -190,7 +190,7 @@ Important steps in the process of uploading and managing a dataset include:
 
 - ensuring the latest *versions* of content is available
 - appropriate *taxonometry* and *categorisation*
-- correct and complete *labels and tagging* (see [applying metadata](/publish/metadata))
+- correct and complete *labels and tagging* (see [applying metadata](/publish/publish-swiss))
 - validating *license* details and *contact* information
 - testing *links* to download/preview the data and related resources
 

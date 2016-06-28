@@ -11,7 +11,7 @@ Draft: yes
 Summary: Avant de publier des données sur opendata.swiss, vous devez vous assurer que celles-ci peuvent être publiées comme OGD.
 ---
 
-Dans l’administration publique, la décision découle généralement d’une base légale, soit une loi ou son ordonnance d’exécution, qui régit la possibilité de publier des données et prévoit les éventuelles restrictions. Les conditions d’utilisation de vos données dépendent de la base légale. Pour de plus amples informations, reportez-vous à la section traitant des [conditions d’utilisation](terms).
+Dans l’administration publique, la décision découle généralement d’une base légale, soit une loi ou son ordonnance d’exécution, qui régit la possibilité de publier des données et prévoit les éventuelles restrictions. Les conditions d’utilisation de vos données dépendent de la base légale. Pour de plus amples informations, reportez-vous à la section traitant des [conditions d’utilisation](/fr/prepare/terms).
 
 Le schéma suivant explique, étape par étape, comment déterminer si un jeu de données peut être publié comme OGD.
 

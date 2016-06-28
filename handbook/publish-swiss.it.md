@@ -4,7 +4,7 @@ Category: Publish
 Handbook: yes
 Tags:
 Date: 2016-06-24
-Slug: metadata
+Slug: publish-swiss
 Authors:
 Lang: it
 Draft: yes

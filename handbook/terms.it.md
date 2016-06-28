@@ -15,7 +15,7 @@ I testi normativi sono tuttavia redatti in un linguaggio non sempre facilmente c
 
 Per questa ragione, su opendata.swiss per ogni set di dati sono indicate [condizioni d’uso](https://opendata.swiss/it/terms-of-use/) che con pochi simboli e frasi ne illustrano l’utilizzo ammesso. La base legale applicabile viene così espressa in una lingua unitaria e di facile comprensione. Prima della pubblicazione dei dati su opendata.swiss, le autorità sono pertanto tenute a scegliere le condizioni d’uso che rispecchiano correttamente le disposizioni della pertinente base legale.
 
-[Qui](https://opendata.swiss/it/terms-of-use/) è riportata una panoramica delle condizioni d’uso ammesse per opendata.swiss. In base all’esito della verifica [giuridica preliminare](frameworks) è ora possibile selezionare le condizioni che fanno al caso.
+[Qui](https://opendata.swiss/it/terms-of-use/) è riportata una panoramica delle condizioni d’uso ammesse per opendata.swiss. In base all’esito della verifica [giuridica preliminare](/it/prepare/frameworks) è ora possibile selezionare le condizioni che fanno al caso.
 
 | Esito della verifica giuridica preliminare | Condizioni d’uso | Simbolo |
 |--------------------------------------------|------------------|--------|
@@ -26,6 +26,6 @@ Per questa ragione, su opendata.swiss per ogni set di dati sono indicate [condiz
 
 Caso speciale: se la base legale non ammette un uso commerciale, al momento i dati non possono essere pubblicati su opendata.swiss. Se l’uso commerciale è invece ammesso, ma richiede un consenso, ci si trova di fronte a un caso speciale. Se i dati vengono pubblicati su opendata.swiss, occorre stabilire in anticipo se consentirne l’uso commerciale. I dati soggetti a condizioni restrittive non vengono pubblicati su opendata.swiss.
 
-Le condizioni d’uso e il rimando alla base legale serviranno in un secondo tempo per il caricamento dei [metadati nel catalogo di opendata.swiss](/it/publish/metadata).
+Le condizioni d’uso e il rimando alla base legale serviranno in un secondo tempo per il caricamento dei [metadati nel catalogo di opendata.swiss](/it/publish/publish-swiss).
 
 Per maggiori dettagli sulle questioni giuridiche rilevanti per gli OGD, consultare il piano per le condizioni quadro legali per [la pubblicazione di dati come OGD](/it/library/konzept-rechtliche-rahmen).
