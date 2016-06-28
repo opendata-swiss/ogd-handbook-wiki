@@ -1,25 +1,16 @@
 ---
-Title: About this site
+Title: About us
 Date: 2016-01-01
 Slug: about
-Summary: Overview of the OGD Handbook
 URL:
 Lang: en
+Summary:
 ---
 
-The project Open Government Data Switzerland is conducted by the [Swiss Federal Archives SFA](http://www.bar.admin.ch/themen/01648/01968/index.html?lang=en). Multiple working teams are responsible for measures set out in the OGD Strategy of Switzerland - for instance: the analysis of legal frameworks, implementation of the [opendata.swiss](http://opendata.swiss) portal, and authoring of supporting studies and documentation.
+**_handbook.opendata.swiss_ contains instructions and guidelines for publishing data on _opendata.swiss_. It is designed as a wiki. opendata.swiss is supplying the initial content, which will then be complemented by the experiences of the authorities publishing data.**
 
-The OGD Handbook should support individuals with responsibilities for data publishing at government departments, as well as the users of OGD platforms at large. The structure of this site is based around visual and contextual representations of the process of data publishing, providing an updated resource for actual and potential data owners. Relevant documentation created as part of Open Government Data Switzerland, as well as from OGD projects around the world, will be referenced within.
+The OGD Handbook at handbook.opendata.swiss is a collection of instructions to assist authorities in publishing their data. It also includes existing guidelines such as the metadata standard for the portal catalogue. The texts follow the order of activities required for the publication on opendata.swiss, from identifying potential open data to support for users during operation.
 
-We have interviewed a number of people involved in the use and publication of OGD about their organisational readiness and knowledge sharing needs. Such activities help us to be aware of best practices and facilitate more knowledge sharing between stakeholders. The OGD Handbook team continues to gather feedback with a focus on evaluating the structure, quality and usability of learning materials. Contributions on any relevant topic are welcomed.
+The Handbook relies on the experiences of the authorities publishing data. They are invited to input these to the texts at handbook.opendata.swiss. The way to do this is [explained here](/en/pages/contribute).
 
-## Project team
-
-| Role                              | Name              | Function / Organisation         |
-|-----------------------------------|-------------------|---------------------------------|
-| Project Owner                     | Jean-Luc Cochard  | Head IT, Swiss Federal Archives |
-| Open Government Data Project Lead | Juan Pablo Lovato | Swiss Federal Archives          |
-| Portal Manager                    | Pierre Dumas      | Swiss Federal Archives          |
-| Handbook Coordinator/Developer    | Oleg Lavrovsky    | Datalets.ch & Opendata.ch       |
-
-Contact the project team via the [Contribute page](/en/pages/contribute).
+handbook.opendata.swiss is operated by the Federal Archives. More information about the opendata.swiss portal can be [found here](https://opendata.swiss/en/about/). The OGD Switzerland project, under which opendata.swiss and the Handbook have been developed, is presented on the [egovernment Switzerland](https://www.egovernment.ch/en/umsetzung/e-government-schweiz-2008-2015/open-government-data-schweiz/) website. [Contact us](mailto:opendata@bar.admin.ch) if you would like to work on the Handbook or have questions.

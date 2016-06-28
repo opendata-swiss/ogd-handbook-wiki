@@ -8,6 +8,7 @@ Slug: bericht-abgrenzung-leistungen
 Authors: Adelheid Bürgi-Schmelz
 Summary:
 Lang: en
+Untranslated: yes
 ---
 
 This report by defines in more detail the concept of OGD, explains economic fundamentals of the production and use of open data in government, and provides a decision tree for use in evaluating publication criteria. It defines general demarcation criteria so that individual administrations can identify "their" authority's data in the context of specific legal basis as OGD, or otherwise classify them.

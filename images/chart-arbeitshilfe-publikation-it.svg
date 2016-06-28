@@ -1,0 +1,1091 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 744.09448819 1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="chart-arbeitshilfe-publikation-it.svg"
+   inkscape:export-filename="D:\Dropbox\Datalets\Clients\OGD Handbook\Illustration\5 Flowcharts\1 Arbeitshilfe\chart-arbeitshilfe-publikation-it.png"
+   inkscape:export-xdpi="102.97"
+   inkscape:export-ydpi="102.97">
+  <defs
+     id="defs4">
+    <clipPath
+       id="clipPath4152"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4154"
+         d="m 0,0 1024,0 0,768 L 0,768 0,0 Z" />
+    </clipPath>
+    <clipPath
+       id="clipPath4174"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4176"
+         d="m 0,0 1024,0 0,768 L 0,768 0,0 Z" />
+    </clipPath>
+    <clipPath
+       id="clipPath4208"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4210"
+         d="m 0,0 1024,0 0,768 L 0,768 0,0 Z" />
+    </clipPath>
+    <clipPath
+       id="clipPath4224"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4226"
+         d="m 0,0 1024,0 0,768 L 0,768 0,0 Z" />
+    </clipPath>
+    <clipPath
+       id="clipPath4324"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4326"
+         d="m 0,0 1024,0 0,768 L 0,768 0,0 Z" />
+    </clipPath>
+    <clipPath
+       id="clipPath4352"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4354"
+         d="m 0,0 1024,0 0,768 L 0,768 0,0 Z" />
+    </clipPath>
+    <clipPath
+       id="clipPath4374"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4376"
+         d="m 0,0 1024,0 0,768 L 0,768 0,0 Z" />
+    </clipPath>
+    <clipPath
+       id="clipPath4416"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4418"
+         d="m 0,0 1024,0 0,768 L 0,768 0,0 Z" />
+    </clipPath>
+    <clipPath
+       id="clipPath4444"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4446"
+         d="m 0,0 1024,0 0,768 L 0,768 0,0 Z" />
+    </clipPath>
+    <clipPath
+       id="clipPath4472"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4474"
+         d="m 0,0 1024,0 0,768 L 0,768 0,0 Z" />
+    </clipPath>
+    <clipPath
+       id="clipPath4492"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4494"
+         d="m 0,0 1024,0 0,768 L 0,768 0,0 Z" />
+    </clipPath>
+    <clipPath
+       id="clipPath4512"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4514"
+         d="m 0,0 1024,0 0,768 L 0,768 0,0 Z" />
+    </clipPath>
+    <clipPath
+       id="clipPath4538"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4540"
+         d="m 0,0 1024,0 0,768 L 0,768 0,0 Z" />
+    </clipPath>
+    <clipPath
+       id="clipPath4564"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4566"
+         d="M 0,768 1024,768 1024,0 0,0 0,768 Z" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="201.30441"
+     inkscape:cy="498.72496"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1004"
+     inkscape:window-height="1048"
+     inkscape:window-x="-7"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g4148"
+       transform="matrix(1.25,0,0,-1.25,-257.14286,1010.9336)">
+      <g
+         id="g4150"
+         clip-path="url(#clipPath4152)">
+        <g
+           id="g4156"
+           transform="translate(473.7501,67.6389)">
+          <path
+             d="m 0,0 -180.316,0 c -2.272,0 -4.131,1.859 -4.131,4.13 l 0,31.145 c 0,2.272 1.859,4.131 4.131,4.131 L 0,39.406 c 2.271,0 4.129,-1.859 4.129,-4.131 l 0,-31.145 C 4.129,1.859 2.271,0 0,0"
+             style="fill:#119586;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path4158"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g4160"
+           transform="matrix(1.2105556,0,0,1,794.12589,78.8972)">
+          <path
+             d="m 0,0 -76.177,0 c -2.271,0 -4.13,1.859 -4.13,4.13 l 0,19.887 c 0,2.271 1.859,4.13 4.13,4.13 l 76.177,0 c 2.273,0 4.13,-1.859 4.13,-4.13 L 4.13,4.13 C 4.13,1.859 2.273,0 0,0"
+             style="fill:#858585;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path4162"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+    </g>
+    <text
+       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.41137505px;font-family:'Source Sans Pro';-inkscape-font-specification:SourceSansPro-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4164"
+       x="113.08114"
+       y="897.62622">
+      <tspan
+         x="113.08114"
+         y="897.62622"
+         sodipodi:role="line"
+         id="tspan4166">Il set di dati può essere</tspan>
+      <tspan
+         x="113.08114"
+         y="912.5199"
+         sodipodi:role="line"
+         id="tspan4168">pubblicato come OGD.</tspan>
+    </text>
+    <g
+       id="g4170"
+       transform="matrix(1.25,0,0,-1.25,-257.14286,1010.9336)">
+      <g
+         id="g4172"
+         clip-path="url(#clipPath4174)">
+        <g
+           id="g4178"
+           transform="translate(677.5694,43.3528)">
+          <path
+             d="m 0,0 -180.314,0 c -2.272,0 -4.128,1.859 -4.128,4.13 l 0,55.431 c 0,2.273 1.856,4.13 4.128,4.13 L 0,63.691 c 2.274,0 4.132,-1.857 4.132,-4.13 l 0,-55.431 C 4.132,1.859 2.274,0 0,0"
+             style="fill:#119586;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path4180"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g4204"
+       transform="matrix(1.25,0,0,-1.25,-257.14286,1010.9336)">
+      <g
+         id="g4206"
+         clip-path="url(#clipPath4208)">
+        <g
+           id="g4212"
+           transform="translate(264.7473,609.4139)">
+          <path
+             d="m 0,0 0,32.358 c 0.016,0.919 0.769,1.697 1.711,1.706 l 40.846,0 0,4.242 -42.146,0 c -2.497,0 -4.651,-2.194 -4.651,-4.671 l 0,-33.635 0,-5.331 0,-178.272 c 0,-2.498 2.193,-4.652 4.668,-4.652 l 2.769,0 0,-0.017 3.332,0 12.038,0 3.078,2.13 -3.078,2.128 -12.038,0 -3.332,0 -1.495,0 C 0.786,-184 0.009,-183.245 0,-182.303 L 0,-5.331 0,0 Z"
+             style="fill:#119586;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path4214"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+    </g>
+    <text
+       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.41137505px;font-family:'Source Sans Pro';-inkscape-font-specification:SourceSansPro-Bold;writing-mode:lr-tb;fill:#119586;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4216"
+       x="41.542889"
+       y="579.55682">
+      <tspan
+         x="41.542889"
+         y="579.55682"
+         sodipodi:role="line"
+         id="tspan4218">No</tspan>
+    </text>
+    <g
+       id="g4220"
+       transform="matrix(1.25,0,0,-1.25,-257.14286,1010.9336)">
+      <g
+         id="g4222"
+         clip-path="url(#clipPath4224)">
+        <g
+           id="g4228"
+           transform="translate(264.7473,379.2834)">
+          <path
+             d="m 0,0 0,32.361 c 0.016,0.919 0.769,1.694 1.711,1.705 l 40.846,0 0,4.24 -42.146,0 c -2.497,0 -4.651,-2.194 -4.651,-4.668 l 0,-33.638 0,-5.328 0,-89.194 c 0,-2.498 2.193,-4.65 4.668,-4.65 l 2.769,0 0,-0.017 3.332,0 12.038,0 3.078,2.128 -3.078,2.13 -12.038,0 -3.332,0 0,-0.002 -1.495,0 C 0.786,-94.916 0.009,-94.164 0,-93.222 L 0,-5.328 0,0 Z"
+             style="fill:#119586;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path4230"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g4232"
+           transform="translate(331.8875,616.5278)">
+          <path
+             d="m 0,0 0,11.998 -4.51,0 0,-11.998 -0.011,0 0,-19.43 2.267,-3.451 L 0.01,-19.43 0.01,0 0,0 Z"
+             style="fill:#119586;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path4234"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+    </g>
+    <text
+       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.41137505px;font-family:'Source Sans Pro';-inkscape-font-specification:SourceSansPro-Bold;writing-mode:lr-tb;fill:#119586;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4236"
+       x="132.42839"
+       y="529.40399">
+      <tspan
+         x="132.42839"
+         y="529.40399"
+         sodipodi:role="line"
+         id="tspan4238">Si</tspan>
+    </text>
+    <g
+       id="g4240"
+       transform="matrix(1.25,0,0,-1.25,157.71652,517.62097)">
+      <path
+         d="m 0,0 0,12.001 -4.51,0 0,-12.001 -0.011,0 0,-19.43 2.267,-3.448 L 0.01,-19.43 0.01,0 0,0 Z"
+         style="fill:#119586;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path4242"
+         inkscape:connector-curvature="0" />
+    </g>
+    <text
+       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.41137505px;font-family:'Source Sans Pro';-inkscape-font-specification:SourceSansPro-Bold;writing-mode:lr-tb;fill:#119586;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4244"
+       x="132.42839"
+       y="621.79297">
+      <tspan
+         x="132.42839"
+         y="621.79297"
+         sodipodi:role="line"
+         id="tspan4246">Si</tspan>
+    </text>
+    <g
+       id="g4248"
+       transform="matrix(1.25,0,0,-1.25,157.71652,610.00647)">
+      <path
+         d="m 0,0 0,11.998 -4.51,0 0,-11.998 -0.011,0 0,-19.433 2.267,-3.448 2.264,3.448 L 0.01,0 0,0 Z"
+         style="fill:#119586;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path4250"
+         inkscape:connector-curvature="0" />
+    </g>
+    <text
+       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.41137505px;font-family:'Source Sans Pro';-inkscape-font-specification:SourceSansPro-Bold;writing-mode:lr-tb;fill:#119586;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4252"
+       x="132.42839"
+       y="443.51874">
+      <tspan
+         x="132.42839"
+         y="443.51874"
+         sodipodi:role="line"
+         id="tspan4254">Si</tspan>
+    </text>
+    <g
+       id="g4256"
+       transform="matrix(1.25,0,0,-1.25,157.71652,426.6731)">
+      <path
+         d="m 0,0 0,11.998 -4.51,0 0,-11.998 -0.011,0 0,-29.569 2.267,-3.451 2.264,3.451 L 0.01,0 0,0 Z"
+         style="fill:#119586;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path4258"
+         inkscape:connector-curvature="0" />
+    </g>
+    <text
+       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.41137505px;font-family:'Source Sans Pro';-inkscape-font-specification:SourceSansPro-Bold;writing-mode:lr-tb;fill:#119586;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4260"
+       x="132.42839"
+       y="857.81036">
+      <tspan
+         x="132.42839"
+         y="857.81036"
+         sodipodi:role="line"
+         id="tspan4262">Si</tspan>
+    </text>
+    <g
+       id="g4264"
+       transform="matrix(1.25,0,0,-1.25,157.71652,846.02723)">
+      <path
+         d="m 0,0 0,11.998 -4.51,0 0,-11.998 -0.011,0 0,-19.43 2.267,-3.451 L 0.01,-19.43 0.01,0 0,0 Z"
+         style="fill:#119586;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path4266"
+         inkscape:connector-curvature="0" />
+    </g>
+    <text
+       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.41137505px;font-family:'Source Sans Pro';-inkscape-font-specification:SourceSansPro-Bold;writing-mode:lr-tb;fill:#119586;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4268"
+       x="132.42839"
+       y="157.88335">
+      <tspan
+         x="132.42839"
+         y="157.88335"
+         sodipodi:role="line"
+         id="tspan4270">Si</tspan>
+    </text>
+    <g
+       id="g4272"
+       transform="matrix(1.25,0,0,-1.25,157.71652,146.09685)">
+      <path
+         d="m 0,0 0,11.998 -4.51,0 0,-11.998 -0.011,0 0,-19.43 2.267,-3.451 L 0.01,-19.43 0.01,0 0,0 Z"
+         style="fill:#119586;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path4274"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g4276"
+       transform="matrix(1.25,0,0,-1.25,157.71652,320.76347)">
+      <path
+         d="m 0,0 0,12.001 -4.51,0 0,-12.001 -0.011,0 0,-19.43 2.267,-3.448 L 0.01,-19.43 0.01,0 0,0 Z"
+         style="fill:#119586;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path4278"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g4280"
+       transform="matrix(1.25,0,0,-1.25,420.28952,846.02723)">
+      <path
+         d="m 0,0 0,11.998 -4.513,0 0,-11.998 -0.008,0 0,-19.43 2.265,-3.451 L 0.01,-19.43 0.01,0 0,0 Z"
+         style="fill:#119586;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path4282"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g4284"
+       transform="matrix(1.25,0,0,-1.25,420.28952,320.76347)">
+      <path
+         d="m 0,0 0,12.001 -4.513,0 0,-12.001 -0.008,0 0,-19.43 2.265,-3.448 L 0.01,-19.43 0.01,0 0,0 Z"
+         style="fill:#119586;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path4286"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g4288"
+       transform="matrix(1.25,0,0,-1.25,605.75814,380.3641)">
+      <path
+         d="m 0,0 -11.999,0 0,-4.511 11.999,0 0,-0.009 19.43,0 3.449,2.264 L 19.43,0.009 0,0.009 0,0 Z"
+         style="fill:#858585;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path4290"
+         inkscape:connector-curvature="0" />
+    </g>
+    <text
+       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.41137505px;font-family:'Source Sans Pro';-inkscape-font-specification:SourceSansPro-Bold;writing-mode:lr-tb;fill:#858585;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4292"
+       x="603.12274"
+       y="563.61761">
+      <tspan
+         x="603.12274"
+         y="563.61761"
+         sodipodi:role="line"
+         id="tspan4294">No</tspan>
+    </text>
+    <g
+       id="g4296"
+       transform="matrix(1.25,0,0,-1.25,605.75814,571.9371)">
+      <path
+         d="m 0,0 -11.999,0 0,-4.511 11.999,0 0,-0.009 19.43,0 3.449,2.264 L 19.43,0.009 0,0.009 0,0 Z"
+         style="fill:#858585;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path4298"
+         inkscape:connector-curvature="0" />
+    </g>
+    <text
+       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.41137505px;font-family:'Source Sans Pro';-inkscape-font-specification:SourceSansPro-Bold;writing-mode:lr-tb;fill:#858585;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4300"
+       x="603.12274"
+       y="647.62799">
+      <tspan
+         x="603.12274"
+         y="647.62799"
+         sodipodi:role="line"
+         id="tspan4302">No</tspan>
+    </text>
+    <g
+       id="g4304"
+       transform="matrix(1.25,0,0,-1.25,605.75814,655.94747)">
+      <path
+         d="m 0,0 -11.999,0 0,-4.511 11.999,0 0,-0.009 19.43,0 3.449,2.264 L 19.43,0.011 0,0.011 0,0 Z"
+         style="fill:#858585;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path4306"
+         inkscape:connector-curvature="0" />
+    </g>
+    <text
+       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.41137505px;font-family:'Source Sans Pro';-inkscape-font-specification:SourceSansPro-Bold;writing-mode:lr-tb;fill:#858585;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4308"
+       x="603.12274"
+       y="725.78949">
+      <tspan
+         x="603.12274"
+         y="725.78949"
+         sodipodi:role="line"
+         id="tspan4310">No</tspan>
+    </text>
+    <g
+       id="g4312"
+       transform="matrix(1.25,0,0,-1.25,605.75814,734.1106)">
+      <path
+         d="m 0,0 -11.999,0 0,-4.508 11.999,0 0,-0.012 19.43,0 3.449,2.267 L 19.43,0.011 0,0.011 0,0 Z"
+         style="fill:#858585;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path4314"
+         inkscape:connector-curvature="0" />
+    </g>
+    <text
+       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.41137505px;font-family:'Source Sans Pro';-inkscape-font-specification:SourceSansPro-Bold;writing-mode:lr-tb;fill:#119586;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4316"
+       x="394.81015"
+       y="332.82059">
+      <tspan
+         x="394.81015"
+         y="332.82059"
+         sodipodi:role="line"
+         id="tspan4318">Si</tspan>
+    </text>
+    <g
+       id="g4320"
+       transform="matrix(1.25,0,0,-1.25,-257.14286,1010.9336)">
+      <g
+         id="g4322"
+         clip-path="url(#clipPath4324)">
+        <g
+           id="g4328"
+           transform="translate(720.3069,712.0612)">
+          <path
+             d="m 0,0 0,2.586 c 0,2.311 -2.013,4.362 -4.346,4.362 l -7.942,0 -3.783,0 -32.066,0 0,-3.961 32.066,0 3.783,0 6.727,0 c 0.88,-0.009 1.584,-0.734 1.599,-1.593 l 0,-1.394 -0.002,0 0,-2.072 0,-597.834 1.99,-2.958 1.99,2.958 0,597.834 L 0.016,0 0,0 Z"
+             style="fill:#858585;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path4330"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g4332"
+           transform="translate(448.4861,461.9223)">
+          <path
+             d="m 0,0 -2.862,0 c -2.551,0 -4.815,2.221 -4.815,4.8 l 0,8.778 0,4.18 0,35.436 4.377,0 0,-35.436 0,-4.18 0,-7.434 C -3.291,5.17 -2.489,4.392 -1.54,4.378 l 1.54,0 2.288,0 259.203,0 3.136,-2.198 -3.136,-2.2 -259.203,0 L 0,-0.02 0,0 Z"
+             style="fill:#858585;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path4334"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g4336"
+           transform="translate(679.2125,702.6)">
+          <path
+             d="m 0,0 -385.779,0 c -2.272,0 -4.13,1.859 -4.13,4.13 l 0,19.887 c 0,2.271 1.858,4.13 4.13,4.13 L 0,28.147 c 2.271,0 4.13,-1.859 4.13,-4.13 L 4.13,4.13 C 4.13,1.859 2.271,0 0,0"
+             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path4338"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g4340"
+           transform="translate(679.2125,702.6)">
+          <path
+             d="m 0,0 -385.779,0 c -2.272,0 -4.13,1.859 -4.13,4.13 l 0,19.887 c 0,2.271 1.858,4.13 4.13,4.13 L 0,28.147 c 2.271,0 4.13,-1.859 4.13,-4.13 L 4.13,4.13 C 4.13,1.859 2.271,0 0,0 Z"
+             style="fill:none;stroke:#d9d9d9;stroke-width:2.1329999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path4342"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+    </g>
+    <text
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.41137505px;font-family:'Source Sans Pro';-inkscape-font-specification:SourceSansPro-Regular;writing-mode:lr-tb;fill:#171716;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4344"
+       x="113.16964"
+       y="118.0116">
+      <tspan
+         x="113.16964"
+         y="118.0116"
+         sodipodi:role="line"
+         id="tspan4346">Esiste una base legale per la pubblicazione del set di dati?</tspan>
+    </text>
+    <g
+       id="g4348"
+       transform="matrix(1.25,0,0,-1.25,-257.14286,1010.9336)">
+      <g
+         id="g4350"
+         clip-path="url(#clipPath4352)">
+        <g
+           id="g4356"
+           transform="translate(679.2125,626.8112)">
+          <path
+             d="m 0,0 -385.779,0 c -2.272,0 -4.13,1.859 -4.13,4.127 l 0,31.146 c 0,2.271 1.858,4.13 4.13,4.13 L 0,39.403 c 2.271,0 4.13,-1.859 4.13,-4.13 l 0,-31.146 C 4.13,1.859 2.271,0 0,0"
+             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path4358"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g4360"
+           transform="translate(679.2125,626.8112)">
+          <path
+             d="m 0,0 -385.779,0 c -2.272,0 -4.13,1.859 -4.13,4.127 l 0,31.146 c 0,2.271 1.858,4.13 4.13,4.13 L 0,39.403 c 2.271,0 4.13,-1.859 4.13,-4.13 l 0,-31.146 C 4.13,1.859 2.271,0 0,0 Z"
+             style="fill:none;stroke:#d9d9d9;stroke-width:2.1329999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path4362"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+    </g>
+    <text
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.41137505px;font-family:'Source Sans Pro';-inkscape-font-specification:SourceSansPro-Regular;writing-mode:lr-tb;fill:#171716;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4364"
+       x="113.30676"
+       y="197.63147">
+      <tspan
+         x="113.30676"
+         y="197.63147"
+         sodipodi:role="line"
+         id="tspan4366">Dai dati che si intende pubblicare si può risalire a determinate </tspan>
+      <tspan
+         x="113.30676"
+         y="212.52512"
+         sodipodi:role="line"
+         id="tspan4368">persone/il set di dati contiene dati personali?</tspan>
+    </text>
+    <g
+       id="g4370"
+       transform="matrix(1.25,0,0,-1.25,-257.14286,1010.9336)">
+      <g
+         id="g4372"
+         clip-path="url(#clipPath4374)">
+        <g
+           id="g4378"
+           transform="translate(679.2125,562.8334)">
+          <path
+             d="m 0,0 -385.779,0 c -2.272,0 -4.13,1.857 -4.13,4.127 l 0,19.887 c 0,2.271 1.858,4.13 4.13,4.13 L 0,28.144 c 2.271,0 4.13,-1.859 4.13,-4.13 l 0,-19.887 C 4.13,1.857 2.271,0 0,0"
+             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path4380"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g4382"
+           transform="translate(679.2125,562.8334)">
+          <path
+             d="m 0,0 -385.779,0 c -2.272,0 -4.13,1.857 -4.13,4.127 l 0,19.887 c 0,2.271 1.858,4.13 4.13,4.13 L 0,28.144 c 2.271,0 4.13,-1.859 4.13,-4.13 l 0,-19.887 C 4.13,1.857 2.271,0 0,0 Z"
+             style="fill:none;stroke:#d9d9d9;stroke-width:2.1329999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path4384"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g4386"
+           transform="translate(473.7501,476.8682)">
+          <path
+             d="m 0,0 -180.316,0 c -2.272,0 -4.131,1.86 -4.131,4.132 l 0,42.403 c 0,2.269 1.859,4.127 4.131,4.127 L 0,50.662 c 2.271,0 4.129,-1.858 4.129,-4.127 l 0,-42.403 C 4.129,1.86 2.271,0 0,0"
+             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path4388"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g4390"
+           transform="translate(473.7501,476.8682)">
+          <path
+             d="m 0,0 -180.316,0 c -2.272,0 -4.131,1.86 -4.131,4.132 l 0,42.403 c 0,2.269 1.859,4.127 4.131,4.127 L 0,50.662 c 2.271,0 4.129,-1.858 4.129,-4.127 l 0,-42.403 C 4.129,1.86 2.271,0 0,0 Z"
+             style="fill:none;stroke:#d9d9d9;stroke-width:2.1329999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path4392"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+    </g>
+    <text
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.41137505px;font-family:'Source Sans Pro';-inkscape-font-specification:SourceSansPro-Regular;writing-mode:lr-tb;fill:#171716;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4394"
+       x="113.60902"
+       y="293.02209">
+      <tspan
+         x="113.60902"
+         y="293.02209"
+         sodipodi:role="line"
+         id="tspan4402">Si tratta di dati personali degni di particolare protezione?</tspan>
+    </text>
+    <path
+       d="m 424.15464,463.6361 -40.21875,0 0,-23.1875 40.21875,0 0,23.1875 z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path4404"
+       inkscape:connector-curvature="0" />
+    <text
+       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.41137505px;font-family:'Source Sans Pro';-inkscape-font-specification:SourceSansPro-Bold;writing-mode:lr-tb;fill:#119586;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4406"
+       x="394.81015"
+       y="455.16971">
+      <tspan
+         x="394.81015"
+         y="455.16971"
+         sodipodi:role="line"
+         id="tspan4410">Si</tspan>
+    </text>
+    <g
+       id="g4412"
+       transform="matrix(1.25,0,0,-1.25,-257.14286,1010.9336)">
+      <g
+         id="g4414"
+         clip-path="url(#clipPath4416)">
+        <g
+           id="g4420"
+           transform="translate(679.2125,404.3611)">
+          <path
+             d="m 0,0 -385.779,0 c -2.272,0 -4.13,1.859 -4.13,4.13 l 0,19.887 c 0,2.269 1.858,4.127 4.13,4.127 L 0,28.144 c 2.271,0 4.13,-1.858 4.13,-4.127 L 4.13,4.13 C 4.13,1.859 2.271,0 0,0"
+             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path4422"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g4424"
+           transform="translate(679.2125,404.3611)">
+          <path
+             d="m 0,0 -385.779,0 c -2.272,0 -4.13,1.859 -4.13,4.13 l 0,19.887 c 0,2.269 1.858,4.127 4.13,4.127 L 0,28.144 c 2.271,0 4.13,-1.858 4.13,-4.127 L 4.13,4.13 C 4.13,1.859 2.271,0 0,0 Z"
+             style="fill:none;stroke:#d9d9d9;stroke-width:2.1329999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path4426"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+    </g>
+    <text
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.41137505px;font-family:'Source Sans Pro';-inkscape-font-specification:SourceSansPro-Regular;writing-mode:lr-tb;fill:#171716;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4428"
+       x="113.60902"
+       y="491.11072">
+      <tspan
+         x="113.60902"
+         y="491.11072"
+         sodipodi:role="line"
+         id="tspan4430">I dati che si intendono pubblicare sono protetti da diritti d’autore?</tspan>
+    </text>
+    <text
+       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.41137505px;font-family:'Source Sans Pro';-inkscape-font-specification:SourceSansPro-Bold;writing-mode:lr-tb;fill:#119586;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4432"
+       x="132.42467"
+       y="700.26721">
+      <tspan
+         x="132.42467"
+         y="700.26721"
+         sodipodi:role="line"
+         id="tspan4434">Si</tspan>
+    </text>
+    <g
+       id="g4436"
+       transform="matrix(1.25,0,0,-1.25,157.71652,688.4891)">
+      <path
+         d="m 0,0 0,11.998 -4.51,0 0,-11.998 -0.011,0 0,-19.43 2.267,-3.451 L 0.01,-19.43 0.01,0 0,0 Z"
+         style="fill:#119586;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path4438"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g4440"
+       transform="matrix(1.25,0,0,-1.25,-257.14286,1010.9336)">
+      <g
+         id="g4442"
+         clip-path="url(#clipPath4444)">
+        <g
+           id="g4448"
+           transform="translate(679.2125,267.6639)">
+          <path
+             d="m 0,0 -385.779,0 c -2.272,0 -4.13,1.859 -4.13,4.13 l 0,19.887 c 0,2.271 1.858,4.13 4.13,4.13 L 0,28.147 c 2.271,0 4.13,-1.859 4.13,-4.13 L 4.13,4.13 C 4.13,1.859 2.271,0 0,0"
+             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path4450"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g4452"
+           transform="translate(679.2125,267.6639)">
+          <path
+             d="m 0,0 -385.779,0 c -2.272,0 -4.13,1.859 -4.13,4.13 l 0,19.887 c 0,2.271 1.858,4.13 4.13,4.13 L 0,28.147 c 2.271,0 4.13,-1.859 4.13,-4.13 L 4.13,4.13 C 4.13,1.859 2.271,0 0,0 Z"
+             style="fill:none;stroke:#d9d9d9;stroke-width:2.1329999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path4454"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+    </g>
+    <text
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.41137505px;font-family:'Source Sans Pro';-inkscape-font-specification:SourceSansPro-Regular;writing-mode:lr-tb;fill:#171716;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4456"
+       x="113.60902"
+       y="661.98212">
+      <tspan
+         x="113.60902"
+         y="661.98212"
+         sodipodi:role="line"
+         id="tspan4458">I set di dati possono essere pubblicati e messi a disposizione gratuitamente?</tspan>
+    </text>
+    <text
+       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.41137505px;font-family:'Source Sans Pro';-inkscape-font-specification:SourceSansPro-Bold;writing-mode:lr-tb;fill:#119586;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4460"
+       x="132.42467"
+       y="778.59937">
+      <tspan
+         x="132.42467"
+         y="778.59937"
+         sodipodi:role="line"
+         id="tspan4462">Si</tspan>
+    </text>
+    <g
+       id="g4464"
+       transform="matrix(1.25,0,0,-1.25,157.71652,766.8156)">
+      <path
+         d="m 0,0 0,11.998 -4.51,0 0,-11.998 -0.011,0 0,-19.43 2.267,-3.451 L 0.01,-19.43 0.01,0 0,0 Z"
+         style="fill:#119586;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path4466"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g4468"
+       transform="matrix(1.25,0,0,-1.25,-257.14286,1010.9336)">
+      <g
+         id="g4470"
+         clip-path="url(#clipPath4472)">
+        <g
+           id="g4476"
+           transform="translate(679.2125,205.0055)">
+          <path
+             d="m 0,0 -385.779,0 c -2.272,0 -4.13,1.859 -4.13,4.127 l 0,19.887 c 0,2.271 1.858,4.13 4.13,4.13 L 0,28.144 c 2.271,0 4.13,-1.859 4.13,-4.13 l 0,-19.887 C 4.13,1.859 2.271,0 0,0"
+             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path4478"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g4480"
+           transform="translate(679.2125,205.0055)">
+          <path
+             d="m 0,0 -385.779,0 c -2.272,0 -4.13,1.859 -4.13,4.127 l 0,19.887 c 0,2.271 1.858,4.13 4.13,4.13 L 0,28.144 c 2.271,0 4.13,-1.859 4.13,-4.13 l 0,-19.887 C 4.13,1.859 2.271,0 0,0 Z"
+             style="fill:none;stroke:#d9d9d9;stroke-width:2.1329999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path4482"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+    </g>
+    <text
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.41137505px;font-family:'Source Sans Pro';-inkscape-font-specification:SourceSansPro-Regular;writing-mode:lr-tb;fill:#171716;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4484"
+       x="113.60902"
+       y="740.30859">
+      <tspan
+         x="113.60902"
+         y="740.30859"
+         sodipodi:role="line"
+         id="tspan4486">I set di dati possono essere utilizzati a fini commerciali e non commerciali?</tspan>
+    </text>
+    <g
+       id="g4488"
+       transform="matrix(1.25,0,0,-1.25,-257.14286,1010.9336)">
+      <g
+         id="g4490"
+         clip-path="url(#clipPath4492)">
+        <g
+           id="g4496"
+           transform="translate(679.2125,142.3056)">
+          <path
+             d="m 0,0 -385.779,0 c -2.272,0 -4.13,1.862 -4.13,4.13 l 0,19.887 c 0,2.271 1.858,4.13 4.13,4.13 L 0,28.147 c 2.271,0 4.13,-1.859 4.13,-4.13 L 4.13,4.13 C 4.13,1.862 2.271,0 0,0"
+             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path4498"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g4500"
+           transform="translate(679.2125,142.3056)">
+          <path
+             d="m 0,0 -385.779,0 c -2.272,0 -4.13,1.862 -4.13,4.13 l 0,19.887 c 0,2.271 1.858,4.13 4.13,4.13 L 0,28.147 c 2.271,0 4.13,-1.859 4.13,-4.13 L 4.13,4.13 C 4.13,1.862 2.271,0 0,0 Z"
+             style="fill:none;stroke:#d9d9d9;stroke-width:2.1329999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path4502"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+    </g>
+    <text
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.41137505px;font-family:'Source Sans Pro';-inkscape-font-specification:SourceSansPro-Regular;writing-mode:lr-tb;fill:#171716;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4504"
+       x="113.60902"
+       y="818.68011">
+      <tspan
+         x="113.60902"
+         y="818.68011"
+         sodipodi:role="line"
+         id="tspan4506">Il set di dati può essere utilizzato senza indicazione della fonte?</tspan>
+    </text>
+    <g
+       id="g4508"
+       transform="matrix(1.25,0,0,-1.25,-257.14286,1010.9336)">
+      <g
+         id="g4510"
+         clip-path="url(#clipPath4512)">
+        <g
+           id="g4516"
+           transform="translate(679.2125,329.2888)">
+          <path
+             d="m 0,0 -385.779,0 c -2.272,0 -4.13,1.859 -4.13,4.127 l 0,31.146 c 0,2.271 1.858,4.13 4.13,4.13 L 0,39.403 c 2.271,0 4.13,-1.859 4.13,-4.13 l 0,-31.146 C 4.13,1.859 2.271,0 0,0"
+             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path4518"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g4520"
+           transform="translate(679.2125,329.2888)">
+          <path
+             d="m 0,0 -385.779,0 c -2.272,0 -4.13,1.859 -4.13,4.127 l 0,31.146 c 0,2.271 1.858,4.13 4.13,4.13 L 0,39.403 c 2.271,0 4.13,-1.859 4.13,-4.13 l 0,-31.146 C 4.13,1.859 2.271,0 0,0 Z"
+             style="fill:none;stroke:#d9d9d9;stroke-width:2.1329999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path4522"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+    </g>
+    <text
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.41137505px;font-family:'Source Sans Pro';-inkscape-font-specification:SourceSansPro-Regular;writing-mode:lr-tb;fill:#171716;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4524"
+       x="113.60902"
+       y="571.05682">
+      <tspan
+         x="113.60902"
+         y="571.05682"
+         sodipodi:role="line"
+         id="tspan4526">I diritti d’autore di terzi o di dipendenti sono stati ceduti alla </tspan>
+      <tspan
+         x="113.60902"
+         y="585.9505"
+         sodipodi:role="line"
+         id="tspan4528">Confederazione e si è rinunciato ai diritti della personalità?</tspan>
+    </text>
+    <g
+       id="g4530"
+       transform="matrix(1.25,0,0,-1.25,420.28952,426.6731)">
+      <path
+         d="m 0,0 0,11.998 -4.513,0 0,-11.998 -0.008,0 0,-28.9 2.265,-3.447 L 0.01,-28.9 0.01,0 0,0 Z"
+         style="fill:#119586;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path4532"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g4534"
+       transform="matrix(1.25,0,0,-1.25,-257.14286,1010.9336)">
+      <g
+         id="g4536"
+         clip-path="url(#clipPath4538)">
+        <g
+           id="g4542"
+           transform="translate(677.5694,476.8682)">
+          <path
+             d="m 0,0 -180.314,0 c -2.272,0 -4.128,1.86 -4.128,4.132 l 0,42.403 c 0,2.269 1.856,4.127 4.128,4.127 L 0,50.662 c 2.274,0 4.132,-1.858 4.132,-4.127 l 0,-42.403 C 4.132,1.86 2.274,0 0,0"
+             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path4544"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g4546"
+           transform="translate(677.5694,476.8682)">
+          <path
+             d="m 0,0 -180.314,0 c -2.272,0 -4.128,1.86 -4.128,4.132 l 0,42.403 c 0,2.269 1.856,4.127 4.128,4.127 L 0,50.662 c 2.274,0 4.132,-1.858 4.132,-4.127 l 0,-42.403 C 4.132,1.86 2.274,0 0,0 Z"
+             style="fill:none;stroke:#d9d9d9;stroke-width:2.1329999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path4548"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+    </g>
+    <text
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.41137505px;font-family:'Source Sans Pro';-inkscape-font-specification:SourceSansPro-Regular;writing-mode:lr-tb;fill:#171716;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4550"
+       x="372.3519"
+       y="372.18173">
+      <tspan
+         x="372.3519"
+         y="372.18173"
+         sodipodi:role="line"
+         id="tspan4552">La pubblicazione dei dati personali</tspan>
+      <tspan
+         x="372.3519"
+         y="387.69595"
+         sodipodi:role="line"
+         id="tspan4554">degni di particolare protezione è</tspan>
+      <tspan
+         x="372.3519"
+         y="403.21017"
+         sodipodi:role="line"
+         id="tspan4556">formalmente ammessa da una legge?</tspan>
+    </text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4965"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion4967"><rect
+           id="rect4969"
+           width="257.14285"
+           height="82.85714"
+           x="365.71429"
+           y="892.36218" /></flowRegion><flowPara
+         id="flowPara4971" /></flowRoot>    <text
+       y="897.62622"
+       x="369.08115"
+       id="text4982"
+       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.41137505px;font-family:'Source Sans Pro';-inkscape-font-specification:SourceSansPro-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none">
+      <tspan
+         id="tspan4986"
+         sodipodi:role="line"
+         x="369.08115"
+         y="897.62622">Il set di dati può essere pubblicato </tspan>
+      <tspan
+         sodipodi:role="line"
+         x="369.08115"
+         y="913.14044"
+         id="tspan4990">come OGD, ma sulla piattaforma deve </tspan>
+      <tspan
+         sodipodi:role="line"
+         x="369.08115"
+         y="928.65466"
+         id="tspan4992">essere specificato che l’indicazione</tspan>
+      <tspan
+         sodipodi:role="line"
+         x="369.08115"
+         y="944.16888"
+         id="tspan4994">della fonte è obbligatoria.</tspan>
+    </text>
+    <text
+       y="897.62622"
+       x="624.224"
+       id="text4996"
+       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.41137505px;font-family:'Source Sans Pro';-inkscape-font-specification:SourceSansPro-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none">
+      <tspan
+         id="tspan5000"
+         sodipodi:role="line"
+         x="624.224"
+         y="897.62622">Non si tratta di OGD.</tspan>
+    </text>
+    <text
+       y="371.61761"
+       x="603.12274"
+       id="text5004"
+       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.41137505px;font-family:'Source Sans Pro';-inkscape-font-specification:SourceSansPro-Bold;writing-mode:lr-tb;fill:#858585;fill-opacity:1;fill-rule:nonzero;stroke:none">
+      <tspan
+         id="tspan5006"
+         sodipodi:role="line"
+         y="371.61761"
+         x="603.12274">No</tspan>
+    </text>
+    <text
+       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.41137505px;font-family:'Source Sans Pro';-inkscape-font-specification:SourceSansPro-Bold;writing-mode:lr-tb;fill:#858585;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text5008"
+       x="647.40845"
+       y="155.90334">
+      <tspan
+         x="647.40845"
+         y="155.90334"
+         sodipodi:role="line"
+         id="tspan5010">No</tspan>
+    </text>
+    <text
+       y="431.61761"
+       x="263.12274"
+       id="text5012"
+       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.41137505px;font-family:'Source Sans Pro';-inkscape-font-specification:SourceSansPro-Bold;writing-mode:lr-tb;fill:#858585;fill-opacity:1;fill-rule:nonzero;stroke:none">
+      <tspan
+         id="tspan5014"
+         sodipodi:role="line"
+         y="431.61761"
+         x="263.12274">No</tspan>
+    </text>
+    <text
+       y="372.18173"
+       x="117.83407"
+       id="text3561"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.41137505px;font-family:'Source Sans Pro';-inkscape-font-specification:SourceSansPro-Regular;writing-mode:lr-tb;fill:#171716;fill-opacity:1;fill-rule:nonzero;stroke:none">
+      <tspan
+         id="tspan3567"
+         sodipodi:role="line"
+         y="372.18173"
+         x="117.83407">La pubblicazione dei dati personali</tspan>
+      <tspan
+         sodipodi:role="line"
+         y="387.69595"
+         x="117.83407"
+         id="tspan3574">è ammessa da una norma di diritto (a</tspan>
+      <tspan
+         sodipodi:role="line"
+         y="403.21017"
+         x="117.83407"
+         id="tspan3576">prescindere dal livello)?</tspan>
+    </text>
+    <text
+       y="857.34875"
+       x="389.03537"
+       id="text3588"
+       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.41137505px;font-family:'Source Sans Pro';-inkscape-font-specification:SourceSansPro-Bold;writing-mode:lr-tb;fill:#119586;fill-opacity:1;fill-rule:nonzero;stroke:none">
+      <tspan
+         id="tspan3590"
+         sodipodi:role="line"
+         y="857.34875"
+         x="389.03537">No</tspan>
+    </text>
+    <text
+       y="253.88336"
+       x="132.42839"
+       id="text3594"
+       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.41137505px;font-family:'Source Sans Pro';-inkscape-font-specification:SourceSansPro-Bold;writing-mode:lr-tb;fill:#119586;fill-opacity:1;fill-rule:nonzero;stroke:none">
+      <tspan
+         id="tspan3596"
+         sodipodi:role="line"
+         y="253.88336"
+         x="132.42839">Si</tspan>
+    </text>
+    <text
+       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.41137505px;font-family:'Source Sans Pro';-inkscape-font-specification:SourceSansPro-Bold;writing-mode:lr-tb;fill:#119586;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text3598"
+       x="130.42839"
+       y="333.88336">
+      <tspan
+         x="130.42839"
+         y="333.88336"
+         sodipodi:role="line"
+         id="tspan3600">No</tspan>
+    </text>
+    <text
+       y="345.55682"
+       x="41.542889"
+       id="text3602"
+       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.41137505px;font-family:'Source Sans Pro';-inkscape-font-specification:SourceSansPro-Bold;writing-mode:lr-tb;fill:#119586;fill-opacity:1;fill-rule:nonzero;stroke:none">
+      <tspan
+         id="tspan3604"
+         sodipodi:role="line"
+         y="345.55682"
+         x="41.542889">No</tspan>
+    </text>
+  </g>
+</svg>

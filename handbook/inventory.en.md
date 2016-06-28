@@ -1,25 +1,36 @@
 ---
-Title: What datasets does my organization have?
+Title: Compiling a data inventory
 Category: Identify
 Handbook: yes
 Tags:
-Date: 2016-01-01
+Date: 2016-06-24
 Slug: inventory
 Authors:
-Summary: In this section we discuss ways to research and track datasets that a large organization produces.
+Summary: Depending on the size of your organization, compiling an inventory of your data is a recommended tool for publishing OGD but not a requirement.
 Lang: en
 Draft: yes
 ---
 
-It is easy to start keeping track of datasets in a table or spreadsheet, but in a larger organization multiple people and departments collaborate on this task. One of the most important processes behind the creation of the data portals, essential to data services in a large organization, is to create a *data inventory*.
+A data inventory gives you an overview of the available data and makes it easier to identify those that are suitable for OGD. However, there is no reason not to publish individual datasets on opendata.swiss.
 
-### Guidelines for Swiss publishers of OGD
+#### Situation at the federal level
 
-In the report [Databases of the Confederation](/library/m4-datebestaende-bund), additional details are available which are particularly relevant to public institutions in Switzerland:
+The OGD Strategy for Switzerland 2014-2018 gives the Confederation the following task:
 
-> The focus [of a data inventory] is on databases, registers and similar forms of official databases, which are managed by federal agencies under its legal mandate. This regardless of whether they are publicly available today or not. These databases provide potentially a huge benefit to the public.
+> **M4 Setting up an inventory of the Confederation’s datasets**
 
-The report also mentions what does _not_ need to be inventarised:
+> A central directory of Federal Administration datasets which are appropriate for OGD should gradually be drawn up and published. This inventory is a basis for further development and planning of the OGD offering.
 
-> - Documents, business files or classification systems - i.e. only structured data collections;
-- All kinds of personal data collections of individual employees of the administration, which have been created ad hoc for their needs.
+The Federal Archives coordinate this central directory, which is to contain information about:
+
+- data fonds in the form of databases
+- registers (data warehouses)
+- similar collections of structured datasets.  
+
+The Federal Archives have already conducted a first round of inventorization and [documented it here](/en/library/bericht-datenbestaende-bund). The second round is scheduled for autumn 2016.
+
+A number of countries have already accumulated more experience with data inventorization:
+
+- [UK](http://data.gov.uk/data/search)
+- [USA](https://project-open-data.cio.gov/implementation-guide)
+- [Netherlands](http://www.openstate.eu/en/2014/10/government-wide-data-inventory-ready-in-spring-2015/)

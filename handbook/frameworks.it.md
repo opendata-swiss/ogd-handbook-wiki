@@ -1,16 +1,22 @@
 ---
-Title: Controllare i quadri giuridici esistenti
-Category: Establish
+Title: Verifiche giuridiche preliminari
+Category: Prepare
 Handbook: yes
 Tags:
-Date: 2016-01-01
+Date: 2016-06-27
 Slug: frameworks
 Authors:
-Summary: Una panoramica del diritto sviluppato in Open Government Data Svizzera.
 Lang: it
 Draft: yes
+Summary: Prima di pubblicare dati su opendata.swiss, è imperativo accertare se sia lecito divulgarli come OGD.
 ---
 
-<em>Le traduzioni non sono ancora disponibili in tutto il mondo -  fateci sapere se avete bisogno di questo contenuto nella vostra lingua.</em>
+Nell’amministrazione pubblica fa solitamente stato la base legale, ossia una legge o una relativa ordinanza che ne consenta, con eventuali limitazioni, la pubblicazione. Le condizioni d’uso si fondano sulla base legale. Per maggiori dettagli si veda il capitolo [Definizione delle condizioni d’uso](/it/prepare/terms).
 
-Questo articolo è [disponibile in inglese](/en/establish/frameworks).
+Lo schema seguente spiega passo dopo passo come stabilire se un set di dati è idoneo a essere pubblicato come OGD.
+
+![Schema Arbeitshilfe-Publikation](../../images/chart-arbeitshilfe-publikation-it.png)
+
+Per maggiori dettagli sui singoli passi, [cliccare qui](/it/library/entscheid-rechtsgrundlagen).
+
+Il piano per le condizioni [quadro legali per la pubblicazione di dati come OGD](/it/library/konzept-rechtliche-rahmen) offre una panoramica delle questioni giuridiche rilevanti per gli OGD.

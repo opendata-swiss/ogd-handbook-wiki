@@ -1,25 +1,17 @@
 ---
-Title: Host data on the World Wide Web
+Title: Data hosting
 Category: Publish
 Handbook: yes
 Tags:
-Date: 2016-01-01
+Date: 2016-01-02
 Slug: hosting
 Authors:
-Summary: First steps and guidelines in opening data on the Web and ensuring high availability.
+Summary: In order for you to import data to the opendata.swiss catalogue, the data must be freely accessible somewhere. Only the metadata and a link to the data are published on opendata.swiss. Responsibility for actual data hosting lies with the data supplier.
 Lang: en
 Draft: yes
 ---
 
-This topic covers a few pointers to help with publishing data on the web. To reference data on a web-based open data portal, it should be available online. Additional barriers, such as having to access protected networks or order CD-ROMs, reduce the accessibility of data. Are web publications harder to support? We contend that, given the alternatives, it is not. If the appropriate infrastructure is in place, web hosted data can be inexpensive and easy to support.
-
-> Data should be priced at no more than a reasonable cost of reproduction, preferably as a free download from the Internet. This pricing model is achieved because your agency should not undertake any cost when it provides data for use.
-
-> [Open Data Handbook](http://opendatahandbook.org/guide/en/how-to-open-up-data/#make-data-available-technical-openness)
-
-### Checklist for hosting web data
-
-Here are some aspects to consider when setting up web hosting for your data:
+Data hosting is now relatively cheap and simple to manage, even if you do not yet have a solution in place within your organization. However, there are some issues you should consider before publication:
 
 **<checkbox> Cloud vs. data center?**
 

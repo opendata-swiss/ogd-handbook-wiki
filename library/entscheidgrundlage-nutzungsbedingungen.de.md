@@ -2,7 +2,7 @@
 Title: Entscheidgrundlage - Nutzungsbedingungen
 Category: Library
 Template: document
-Tags: establish
+Tags: prepare
 Date: 2015-03-13
 Slug: entscheidgrundlage-nutzungsbedingungen
 Authors: Anne Wiedmer, Corinna Seiberth

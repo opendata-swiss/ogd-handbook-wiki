@@ -1,9 +1,9 @@
 ---
-Title: Prêt à publier des données ouvertes ?
+Title: Etes-vous prêts à publier des données en libre accès?
 Date: 2016-01-01
 Slug: index
 Template: front
-Summary: Voici un manuel d'apprentissage pour toutes les personnes impliquées dans la préparation, la publication et l'utilisation des données ouvertes du gouvernement (Open Government Data, ou OGD). Développé principalement pour soutenir la publication sur opendata.swiss, cette ressource est actuellement en version bêta. Nous vous remercions pour toutes vos suggestions et contributions.
+Summary: handbook.opendata.swiss apporte une aide aux personnes et aux organisations souhaitant publier en libre accès des données de l’administration publique (OGD). Le manuel est disponible en version bêta. [N’hésitez pas à nous faire des suggestions ou à nous signaler les erreurs](mailto:opendata@bar.admin.ch).
 URL:
 Lang: fr
 ---

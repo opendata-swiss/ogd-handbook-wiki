@@ -1,25 +1,31 @@
 ---
-Title: Apply correct terms of use
-Category: Establish
+Title: Choosing terms of use
+Category: Prepare
 Handbook: yes
 Tags:
-Date: 2016-01-01
+Date: 2016-06-24
 Slug: terms
 Authors:
-Summary: Options for data licenses and terms of use from the legal perspective in Switzerland.
 Lang: en
 Draft: yes
+Summary: As explained in the “Preliminary legal checks” section, there is normally a legal framework setting out the conditions under which a dataset from the public administration can be used.
 ---
 
-In this section we illustrate some of the ways that the licensing process can help assure long term usefulness of the data for a variety of end-users. In this topic we will place reference to the official recommendations from Open Government Data Switzerland, and provide some illustrative examples for data owners who need to understand the implications of decisions in this area.
+Laws and ordinances are often difficult for users of the data to understand. The large number of laws also means it is far from simple to maintain an overview.
 
-#### Guidance for data publishers
+For this reason, “[terms of use](https://opendata.swiss/en/terms-of-use/)” are displayed for every dataset on opendata.swiss. Using a small number of symbols and sentences, these explain what a dataset can be used for. They translate the applicable legal framework into a standardized language that users can understand. As an authority publishing data, you must therefore select a set of terms of use that correctly reflects your legal framework before publishing your data on opendata.swiss.
 
-The worksheet is intended to serve as an aid agencies for publication of records, showing test steps to be carried out by the authorities before a dataset under OGD is published:
-[Worksheet for government authorities](/arbeitshilfe-publikation-en)
+You can find an overview of the terms of use [permitted on opendata.swiss here](https://opendata.swiss/en/terms-of-use/). Based on the results of the [preliminary legal check](/en/prepare/frameworks) you can now simply select the right terms of use.
 
-> Die OGD-Strategie sieht vor, dass die rechtlichen Rahmenbedingungen dort angepasst werden sollen, wo sie eine Publikation von an sich geeigneten Daten als OGD verhindern. Die Strategie lässt jedoch offen, wie diese Anpassungen erfolgen sollen. Folgende zwei Dimensionen sind für die Anpassungen wichtig: Erstens kann die Anpassung entweder zentral oder dezentral erfolgen. Zweitens besteht einerseits die Möglichkeit, ein einheitliches Gesetz zu schaffen sowie andererseits, die einzelnen Spezialgesetze anzupassen.
-[Decision basis: guidelines in respect to legal foundations for the publication of data as OGD](/entscheid-rechtsgrundlagen-de)
+| Result of preliminary legal check | Terms of use | Symbol |
+|-----------------------------------|--------------|--------|
+| The dataset may be published on opendata.swiss without restrictions on use. | Open use. | <img src="../../images/terms_open.svg" width="38" height="58"> |
+| The dataset may be published on opendata.swiss but the source must be indicated. | Open use. Must provide the source. | <img src="../../images/terms_by.svg" width="74" height="58"> |
+| Special case: you have answered “yes” to all the questions in the diagram up to the question regarding commercial use or the one regarding citing the source (see explanation below). | Open use. Use for commercial purposes requires permission of the data owner. <br><br> Or <br><br> Open use. Must provide the source. Use for commercial purposes requires permission of the data owner. | <img src="../../images/terms_ask.svg" width="84" height="58"> <br> <img src="../../images/terms_by-ask.svg" width="120" height="58"> |
+| Not OGD | Publication on opendata.swiss is not permitted. | - |
 
-This document produced within the Open Government Data Switzerland project, has legal recommendations for data publishers:
-[Concept: legal framework for the publication of data as Open Government Data](/konzept-rechtliche-rahmen-de)
+The special case: if your legal framework does not permit commercial use, you cannot currently publish your data on opendata.swiss. If commercial use is permitted in principle but permission is required, this corresponds to the special case. If you subsequently publish the data on opendata.swiss, you should decide in advance that you will normally permit commercial use. Data subject to more restrictive conditions are not published on opendata.swiss.
+
+You will need your terms of use and the link to the legal framework later for the catalogue [metadata on opendata.swiss](/en/publish/publish-swiss).
+
+Further details of legal issues related to OGD are contained in the concept [Legal framework for the publication of data as open government data (OGD)](/en/library/konzept-rechtliche-rahmen).

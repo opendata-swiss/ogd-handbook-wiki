@@ -1,16 +1,17 @@
 ---
-Title: Ospitare i dati sul World Wide Web
+Title: Hosting di dati
 Category: Publish
 Handbook: yes
 Tags:
-Date: 2016-01-22
+Date: 2016-01-02
 Slug: hosting
 Authors:
-Summary: Primi passi e linee guida per gli open data sul web e per garantire un'elevata disponibilità.
 Lang: it
 Draft: yes
+Untranslated: yes
+Summary: Per essere inseriti nel catalogo di opendata.swiss, i dati devono essere liberamente accessibili da qualche parte. Sul portale vengono pubblicati unicamente i metadati e un link ai dati. L’hosting di dati vero e proprio è tuttavia responsabilità del fornitore.
 ---
 
-<em>Le traduzioni non sono ancora disponibili in tutto il mondo -  fateci sapere se avete bisogno di questo contenuto nella vostra lingua.</em>
+L’hosting di dati è oggi relativamente economico e semplice da gestire, anche in seno alle organizzazioni che non dispongono ancora di apposite soluzioni. È però importante tenere conto di alcuni aspetti prima della pubblicazione.
 
 Questo articolo è [disponibile in inglese](/en/publish/hosting).

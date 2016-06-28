@@ -1,35 +1,22 @@
 ---
-Title: Check existing legal frameworks
-Category: Establish
+Title: Preliminary legal checks
+Category: Prepare
 Handbook: yes
 Tags:
-Date: 2016-01-01
+Date: 2016-06-27
 Slug: frameworks
 Authors:
-Summary: An overview of law frameworks developed in Open Government Data Switzerland.
 Lang: en
 Draft: yes
-toc_run: true
+Summary: Before data can be published on opendata.swiss, you must establish whether their publication as OGD is permitted.
 ---
 
-What are the main legal frameworks that data publishers in Switzerland need to be aware of? What aspects and decision points do we need to be aware of when supporting Open Government Data? These resources will help you make sense and tackle grey area in regards to your organization's needs.
+In the public administration, this decision normally depends on the legal framework, in other words a law or the associated ordinance. This will allow for publication of the data and set out any restrictions. You can then decide on the terms of use for your data based on this. For more information, see [Choosing terms of use](/en/prepare/terms).
 
-### Guidance for data publishers
+The following diagram explains step by step how you establish whether a dataset is suitable for OGD.
 
-[Concept: legal framework for the publication of data as Open Government Data](/en/library/konzept-rechtliche-rahmen) is a document produced within the Open Government Data Switzerland project, with legal recommendations for data publishers. There you can find a complete description of some of the following criteria:
+![Schema Arbeitshilfe-Publikation](../../images/chart-arbeitshilfe-publikation-de.png)
 
-1. Is there a legal basis for the publication of the data set?
-1. Can people be identified from attributes in the data, or do any records contain personal information?
-1. Are these sensitive personal data?
-1. Is there a legal precedent for the publication of such personal data?
-1. Does a formal enactment exist for the publication of sensitive personal data?
-1. Is any of the data to be published under copyright?
-1. Were the copyrights of third parties or employees of the Federal Administration assigned to the federal government, with privacy rights waived?
-1. May the records be published and made available for free?
-1. May the records be used both non-commercially and commercially?
+Further guidance on the individual steps can be found in [Decision basis - guidelines in respect to legal foundations for the publication of data as OGD](/de/library/entscheid-rechtsgrundlagen).
 
-The [Worksheet for government authorities](/en/library/arbeitshilfe-publikation) is intended to serve as an aid agencies for publication of records, showing test steps to be carried out by the authorities before a dataset under OGD is published. It contains a schema based on which we developed this flowchart:
-
-![Schema Arbeitshilfe-Publikation](../../images/chart-arbeitshilfe-publikation.png)
-
-*Bezogen auf Prüfschema, A. Wiedmer, C. Seiberth*
+You can also find an overview of the various legal issues relevant to OGD in the concept [Legal framework for the publication of data as Open Government Data (OGD)](/en/library/konzept-rechtliche-rahmen).
