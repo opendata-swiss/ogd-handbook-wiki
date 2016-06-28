@@ -16,7 +16,7 @@ When you publish your data on opendata.swiss, you can choose between four techni
 | Number of datasets and update frequency | Option for publication |
 |-----------------------------------------|------------------------|
 | small number of datasets, rarely updated | Option 1 – Enter metadata manually using a web form. |
-| more than 10 datasets, updated regularly | Option 2 – Upload metadata manually using an XML file ([see example](/en/library/ch-dcat-ap)). |
+| more than 10 datasets, updated regularly | Option 2 – Upload metadata manually using an XML file (see also [DCAT-AP for Switzerland format](/en/library/ch-dcat-ap)). |
 | large number of datasets, updated frequently | Option 3 – Upload metadata automatically using a harvester. |
 | spatial data already published or soon to be published on [geo.admin.ch / Federal Spatial Data Infrastructure](http://www.geo.admin.ch/internet/geoportal/en/home/geoadmin/mission/bgdi.html) | Option 4 – Upload metadata automatically using a geocat harvester. |
 

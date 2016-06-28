@@ -16,7 +16,7 @@ Vous avez le choix entre quatre options techniques pour publier vos données sur
 | Nombre de jeux de données et rythme de mise à jour | Option de publication |
 |----------------------------------------------------|-----------------------|
 | peu de jeux de données, mise à jour peu fréquente | Option 1 – saisir manuellement les métadonnées via le formulaire en ligne |
-| plus de 10 jeux de données, mise à jour régulière | Option 2 – téléverser manuellement les métadonnées via un fichier XML ([voir exemple](/fr/library/ch-dcat-ap)) |
+| plus de 10 jeux de données, mise à jour régulière | Option 2 – téléverser manuellement les métadonnées via un fichier XML (voir aussi [DCAT-AP for Switzerland format](/fr/library/ch-dcat-ap)) |
 | grand nombre de jeux de données, mise à jour fréquente | Option 3 – téléverser automatiquement les métadonnées à l’aide d’un «harvester» |
 | géodonnées, publiées sur [geo.admin.ch / Bundes Geodaten-Infrastruktur](http://www.geo.admin.ch/internet/geoportal/fr/home/geoadmin/mission/bgdi.html) BGDI ou qui vont l’être sous peu. | Option 4 – téléverser automatiquement les métadonnées à l’aide d’un «geocat harvester». |
 
