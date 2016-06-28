@@ -15,7 +15,7 @@ Summary: Nachdem Sie sich für eine Publikationsvariante entscheiden haben, kön
 Das machen Sie in den meisten Fällen [direkt auf opendata.swiss](#opendataswiss). Falls Sie Geodaten publizieren möchten, geschieht [das über geo.admin.ch](#geoadmin).
 
 <a name="opendataswiss"></a>
-# Uploading metadata to opendata.swiss
+# Publikation direkt auf opendata.swiss
 
 Nachdem Sie sich für [eine Publikationsvariante](publish-options) entscheiden haben, müssen Sie nun die Metadaten auf opendata.swiss laden.
 

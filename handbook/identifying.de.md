@@ -27,4 +27,4 @@ Sobald Sie geeignete Daten identifiziert haben, müssen Sie abklären, ob sie di
 
 #### Unterscheidung OGD und kundenspezifische Leistungen
 
-In der Regel werden jene Daten als OGD publiziert, für die eine breite Nachfrage besteht und die von mehreren Personen weitergenutzt werden können. Datensätze, die auf speziellen Kundenwunsch hergestellt worden sind, gelten jedoch meist nicht als OGD. Weitere Informationen zu dieser Abgrenzung finden Sie hier im [Abgrenzung zwischen OGD und kundenspezifischen, individuellen Leistungen](/de/library/bericht-abgrenzung-leistungen).
+In der Regel werden jene Daten als OGD publiziert, für die eine breite Nachfrage besteht und die von mehreren Personen weitergenutzt werden können. Datensätze, die auf speziellen Kundenwunsch hergestellt worden sind, gelten jedoch meist nicht als OGD. Weitere Informationen zu dieser Abgrenzung finden Sie im Dokument [Abgrenzung zwischen OGD und kundenspezifischen, individuellen Leistungen](/de/library/bericht-abgrenzung-leistungen).

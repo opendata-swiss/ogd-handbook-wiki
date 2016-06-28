@@ -8,6 +8,7 @@ Slug: anleitung-datenpublisher
 Authors:
 Lang: en
 Untranslated: yes
+Summary:
 ---
 
 This document is [available in German](/de/publish/anleitung-datenpublisher).
