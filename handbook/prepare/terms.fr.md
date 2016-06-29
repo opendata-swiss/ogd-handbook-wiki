@@ -26,6 +26,6 @@ Vous [trouverez ici](https://opendata.swiss/fr/terms-of-use/) une vue d’ensemb
 
 Cas spécial: si la base juridique pertinente ne permet pas d’utilisation commerciale, vous ne pouvez pas publier vos données sur opendata.swiss pour le moment. Si l’utilisation commerciale est permise, mais qu’elle appelle une autorisation, il s’agit d’un cas spécial. Si vous prévoyez de publier les données sur opendata.swiss, vous devez déterminer à l’avance que vous autoriserez en principe l’utilisation commerciale. Les données auxquelles s’appliquent des conditions plus restrictives ne sont pas publiées sur opendata.swiss.
 
-Vous aurez besoin de vos conditions d’utilisation et du lien vers la base juridique à un stade ultérieur, pour compléter [les métadonnées du catalogue sur opendata.swiss](/fr/publish/publish-swiss).
+Vous aurez besoin de vos conditions d’utilisation et du lien vers la base juridique à un stade ultérieur, pour compléter [les métadonnées du catalogue sur opendata.swiss](/fr/publish/swiss).
 
 Le document [Rechtliche Rahmenbedingungen zur Publikation von Daten als Open Government Data (OGD)](/fr/library/konzept-rechtliche-rahmen) contient des informations complémentaires sur les questions juridiques pertinentes en matière d’OGD.

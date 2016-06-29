@@ -26,6 +26,6 @@ You can find an overview of the terms of use [permitted on opendata.swiss here](
 
 The special case: if your legal framework does not permit commercial use, you cannot currently publish your data on opendata.swiss. If commercial use is permitted in principle but permission is required, this corresponds to the special case. If you subsequently publish the data on opendata.swiss, you should decide in advance that you will normally permit commercial use. Data subject to more restrictive conditions are not published on opendata.swiss.
 
-You will need your terms of use and the link to the legal framework later for the catalogue [metadata on opendata.swiss](/en/publish/publish-swiss).
+You will need your terms of use and the link to the legal framework later for the catalogue [metadata on opendata.swiss](/en/publish/swiss).
 
 Further details of legal issues related to OGD are contained in the concept [Legal framework for the publication of data as open government data (OGD)](/en/library/konzept-rechtliche-rahmen).

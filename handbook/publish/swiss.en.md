@@ -4,7 +4,7 @@ Category: Publish
 Handbook: yes
 Tags:
 Date: 2016-06-24
-Slug: publish-swiss
+Slug: swiss
 Authors:
 Lang: en
 Draft: yes
@@ -25,7 +25,7 @@ This involves three steps:
 2. Uploading to the opendata.swiss catalogue
 3. Updated catalogue online at opendata.swiss.
 
-The [user handbook](/en/support/anleitung-datenpublisher) contains detailed information on the opendata.swiss system.
+The [user handbook](/en/publish/userguide) contains detailed information on the opendata.swiss system.
 
 ## Preparations
 
@@ -52,7 +52,7 @@ Prepare the data and metadata:
 
 Before you can import your metadata to opendata.swiss, the Federal Archives must enter your organization in the system. If your organization has not previously published data on the portal, please register by [contacting us](mailto:opendata@bar.admin.ch). You should then do the following:
 
-- Familiarize yourself with the user interface and the DCAT-AP fields. Detailed information on the system can be found in the [opendata.swiss user handbook](/en/support/anleitung-datenpublisher).
+- Familiarize yourself with the user interface and the DCAT-AP fields. Detailed information on the system can be found in the [opendata.swiss user handbook](/en/publish/userguide).
 - Enter the metadata, completing the fields defined in the [DCAT-AP standard](/en/library/ch-dcat-ap) (this will depend on the publication option chosen).
 - Send us an image and a description of your organization, if possible in four languages (DE, FR, IT, EN). These will be published on your organization’s page ([for example here](https://opendata.swiss/en/organization/schweizerisches-bundesarchiv-bar)).
 
@@ -65,4 +65,4 @@ Once you have given your consent, the Federal Archives will make the data availa
 <a name="geoadmin"></a>
 # Publication via geo.admin.ch
 
-This chapter is [available in German](/de/publish/publish-swiss#geoadmin).
+This chapter is [available in German](/de/publish/swiss#geoadmin).

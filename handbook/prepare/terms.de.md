@@ -26,6 +26,6 @@ Eine Übersicht über die auf opendata.swiss zugelassenen Nutzungsbedingungen fi
 
 Der Spezialfall: Sollte Ihre gesetzliche Grundlage keine kommerzielle Nutzung erlauben, können Sie Ihre Daten momentan nicht auf opendata.swiss publizieren. Ist die kommerzielle Nutzung grundsätzlich erlaubt, dafür ist jedoch eine Bewilligung nötig, tritt der Spezialfall ein. Wenn Sie die Daten anschliessend auf opendata.swiss publizieren, sollten Sie im Voraus entscheiden, dass Sie die kommerzielle Nutzung in aller Regel bewilligen. Daten, für die restriktivere Bedingungen gelten, werden nicht auf opendata.swiss publiziert.
 
-Ihre Nutzungsbedingung und den Link auf die gesetzliche Grundlage benötigen Sie später, für die [Metadaten des Katalogs auf opendata.swiss](/de/publish/publish-swiss).
+Ihre Nutzungsbedingung und den Link auf die gesetzliche Grundlage benötigen Sie später, für die [Metadaten des Katalogs auf opendata.swiss](/de/publish/swiss).
 
 Weitere Ausführungen zu rechtlichen Fragen rund um OGD sind im Konzept [Rechtliche Rahmenbedingungen zur Publikation von Daten als Open Government Data (OGD)](/de/library/konzept-rechtliche-rahmen) zu finden.

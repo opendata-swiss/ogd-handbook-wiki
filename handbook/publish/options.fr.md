@@ -4,7 +4,7 @@ Category: Publish
 Handbook: yes
 Tags:
 Date: 2016-06-27
-Slug: publish-options
+Slug: options
 Authors:
 Lang: fr
 Draft: yes

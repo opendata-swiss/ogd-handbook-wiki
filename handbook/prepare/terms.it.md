@@ -26,6 +26,6 @@ Per questa ragione, su opendata.swiss per ogni set di dati sono indicate [condiz
 
 Caso speciale: se la base legale non ammette un uso commerciale, al momento i dati non possono essere pubblicati su opendata.swiss. Se l’uso commerciale è invece ammesso, ma richiede un consenso, ci si trova di fronte a un caso speciale. Se i dati vengono pubblicati su opendata.swiss, occorre stabilire in anticipo se consentirne l’uso commerciale. I dati soggetti a condizioni restrittive non vengono pubblicati su opendata.swiss.
 
-Le condizioni d’uso e il rimando alla base legale serviranno in un secondo tempo per il caricamento dei [metadati nel catalogo di opendata.swiss](/it/publish/publish-swiss).
+Le condizioni d’uso e il rimando alla base legale serviranno in un secondo tempo per il caricamento dei [metadati nel catalogo di opendata.swiss](/it/publish/swiss).
 
 Per maggiori dettagli sulle questioni giuridiche rilevanti per gli OGD, consultare il piano per le condizioni quadro legali per [la pubblicazione di dati come OGD](/it/library/konzept-rechtliche-rahmen).
