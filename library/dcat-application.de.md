@@ -10,3 +10,5 @@ Lang: de
 Link_PPT: https://bar-files.opendata.swiss/owncloud/index.php/s/zOzNf2V4uSPCFMZ
 Link_PDF: https://bar-files.opendata.swiss/owncloud/index.php/s/ugWCVoBSrzJ2fCg
 ---
+
+Die vorliegende Präsentation erklärt das DCAT Application Profile, welches für opendata.swiss verwendet wird.
