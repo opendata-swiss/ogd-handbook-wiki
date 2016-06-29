@@ -8,7 +8,7 @@ Slug: konzept-rechtliche-rahmen
 Authors: Anne Wiedmer, Corinna Seiberth
 Summary: OGD Schweiz, Bericht
 Lang: de
-Link_DOC: https://bar-files.opendata.swiss/owncloud/index.php/s/JLpvuvqQWGTtN3C
+Link_DOC_hidden: https://bar-files.opendata.swiss/owncloud/index.php/s/JLpvuvqQWGTtN3C
 Link_PDF: https://bar-files.opendata.swiss/owncloud/index.php/s/ZOY5XzyB0OO2rMf
 ---
 

@@ -9,7 +9,7 @@ Authors: Anne Wiedmer, Corinna Seiberth
 Summary:
 Lang: de
 Link_PDF: https://bar-files.opendata.swiss/owncloud/index.php/s/2CeaH5IrXJTiwAu
-Link_DOC: https://bar-files.opendata.swiss/owncloud/index.php/s/n3YywtlW0Cqolj2
+Link_DOC_hidden: https://bar-files.opendata.swiss/owncloud/index.php/s/n3YywtlW0Cqolj2
 ---
 
 Die vorliegende Arbeitshilfe soll Behörden bei der Publikation von Datensätzen auf OGD unterstützen. Das darin enthaltene Schema zeigt auf, welche Prüfschritte von den Behörden vorzunehmen sind, bevor ein Datenbestand im Rahmen von OGD publiziert werden kann.
