@@ -1,6 +1,6 @@
 ---
 Title: User guide to opendata.swiss
-Category: Publish
+Category: Support
 Handbook: yes
 Tags:
 Date: 2016-06-20
@@ -11,4 +11,4 @@ Untranslated: yes
 Summary:
 ---
 
-This document is [available in German](/de/publish/anleitung-datenpublisher).
+This document is [available in German](/de/support/anleitung-datenpublisher).
