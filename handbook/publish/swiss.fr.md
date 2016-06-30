@@ -9,8 +9,10 @@ Authors:
 Lang: fr
 Draft: yes
 toc_run: true
-Summary:  Après avoir choisi un mode de publication, vous pouvez commencer à publier des données ouvertes.
+Summary: Après avoir choisi un mode de publication, vous pouvez commencer à publier des données ouvertes. Cela se fait dans la plupart des cas directement sur opendata.swiss. Si vous souhaitez publier des données géographiques, cela se produit via geo.admin.ch
 ---
+
+**Après avoir choisi un mode de publication, vous pouvez commencer à publier des données ouvertes. Cela se fait dans la plupart des cas directement [sur opendata.swiss](#opendataswiss). Si vous souhaitez publier des données géographiques, cela se produit [via geo.admin.ch](#geoadmin)**
 
 <a name="opendataswiss"></a>
 # Verser vos métadonnées sur opendata.swiss

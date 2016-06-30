@@ -33,4 +33,4 @@ Plusieurs pays ont déjà une plus grande expérience de l’inventoriage des do
 
 - [la Grande-Bretagne](http://data.gov.uk/data/search)
 - [les Etats-Unis](https://project-open-data.cio.gov/implementation-guide)
-- [les Pays-Bas] (http://www.openstate.eu/en/2014/10/government-wide-data-inventory-ready-in-spring-2015/)
+- [les Pays-Bas](http://www.openstate.eu/en/2014/10/government-wide-data-inventory-ready-in-spring-2015/)

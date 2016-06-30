@@ -19,10 +19,10 @@ Für weiterführende Informationen zu OGD ist der Besuch folgender Seite empfohl
 
 - Die [OGD-Strategie Schweiz 2014-2018](https://www.egovernment.ch/de/umsetzung/e-government-schweiz-2008-2015/open-government-data-schweiz/) definiert Ziele und Massnahmen für die Umsetzung von OGD auf Bundesebene. Die Strategie dient zudem als Grundlage für die Zusammenarbeit mit Kantonen und Gemeinden.
 
-- Ausführliche Informationen zum Thema OGD bietet die international anerkannte [Open Knowledge International](http://okfn.org/). Die Schweizer Sektion der Open Knowledge Foundation ist der [Verein Opendata.ch](http://opendata.ch/), der Anlässe für OGD-Interessierte und -Anwender organisiert und die OGD-Community vertritt.
+- Ausführliche Informationen zum Thema OGD bietet die international anerkannte [Open Knowledge International](http://okfn.org/). Die Schweizer Sektion der Open Knowledge Foundation ist der [Verein Opendata.ch](http://fr.opendata.ch/), der Anlässe für OGD-Interessierte und -Anwender organisiert und die OGD-Community vertritt.
 
 ## Profitieren Sie von bereits vorhandenem Wissen
 
 Viele Organisationen publizieren bereits heute Daten als OGD. Von deren Erfahrungen können Sie profitieren oder sogar gemeinsame Lösungen nutzen. Das Bundesarchiv hilft Ihnen gerne weiter. [Kontaktieren Sie uns](mailto:opendata@bar.admin.ch).
 
-Suchen Sie zudem frühzeitig den Dialog mit potentiellen Datennutzern wie Journalisten, Programmierer oder dem [Verein Opendata.ch](http://opendata.ch/). So finden Sie heraus, welche Datensätze besonders nachgefragt werden.
+Suchen Sie zudem frühzeitig den Dialog mit potentiellen Datennutzern wie Journalisten, Programmierer oder dem [Verein Opendata.ch](http://fr.opendata.ch/). So finden Sie heraus, welche Datensätze besonders nachgefragt werden.

@@ -9,9 +9,12 @@ Authors:
 Lang: it
 Draft: yes
 toc_run: true
-Summary: Una volta scelta l’opzione di pubblicazione, i metadati vanno caricati su opendata.swiss seguendo le tre tappe seguenti.
+Summary: Una volta scelta l’opzione di pubblicazione, i metadati vanno caricati su opendata.swiss seguendo le tre tappe seguenti. Questo viene fatto in molti casi direttamente su opendata.swiss. Se si desidera pubblicare i dati geografici, questo avviene tramite su geo.admin.ch
 ---
 
+**Una volta scelta l’opzione di pubblicazione, i metadati vanno caricati su opendata.swiss seguendo le tre tappe seguenti. Questo viene fatto in molti casi direttamente su [opendata.swiss](#opendataswiss). Se si desidera pubblicare i dati geografici, questo avviene tramite su [geo.admin.ch](#geoadmin)**
+
+<a name="opendataswiss"></a>
 # Caricamento dei metadati su opendata.swiss
 
 1. preparazione organizzativa e tecnica da parte del fornitore dei dati;
@@ -37,7 +40,7 @@ Preparazione di dati e metadati
 
 > ### Formato dei file: raccomandazioni
 
-> In linea di principio vige la massima libertà in merito al formato in cui si desidera mettere a disposizione i dati su opendata.swiss. L’Archivio federale raccomanda tuttavia di attenersi ai formati riportati nel documento [Raccomandazioni per OGD Formati](/it/library/empfehlungen-formate).
+> _In linea di principio vige la massima libertà in merito al formato in cui si desidera mettere a disposizione i dati su opendata.swiss. L’Archivio federale raccomanda tuttavia di attenersi ai formati riportati nel documento [Raccomandazioni per OGD Formati](/it/library/empfehlungen-formate)._
 
 - Se necessario, svolgimento di prove atte a garantire la qualità dei dati.
 

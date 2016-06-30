@@ -17,7 +17,7 @@ Many data are already available free of charge, but are not identified as OGD. S
 
 Further information on OGD can be found on the following sites:
 
-* [OGD Strategy for Switzerland 2014-2018](https://www.egovernment.ch/index.php/download_file/force/761/3631/) defines objectives and measures for implementing OGD at the federal level. The strategy also forms the basis for cooperation with cantons and communes.
+* [OGD Strategy for Switzerland 2014-2018](https://www.egovernment.ch/en/umsetzung/e-government-schweiz-2008-2015/open-government-data-schweiz/ ) defines objectives and measures for implementing OGD at the federal level. The strategy also forms the basis for cooperation with cantons and communes.
 
 * Detailed information on OGD is offered by the internationally recognized [Open Knowledge International](http://okfn.org). The Foundation’s Swiss section is the [Opendata.ch association](http://opendata.ch), which organizes events for users and those interested in OGD and represents the OGD community.
 
