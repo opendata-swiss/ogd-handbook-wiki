@@ -6,11 +6,11 @@ Tags: publish
 Date: 2015-12-09
 Slug: empfehlungen-formate
 Authors:
-Summary:
+Summary: Damit Behördendaten einfach weiterverwendet werden können, müssen diese in den richtigen Formaten zur Verfügung stehen. Das vorliegende Dokument definiert Kriterien für die Publikation von Datensätzen auf opendata.swiss und gibt Empfehlungen zu spezifischen Formaten und Schnittstellen ab.
 Lang: de
 toc_run: true
 Link_PDF: https://bar-files.opendata.swiss/owncloud/index.php/s/aS8LsxUtTe7cIAz
-Link_DOC: https://bar-files.opendata.swiss/owncloud/index.php/s/9D3VHdnkS2pm1JJ
+Link_DOC_hidden: https://bar-files.opendata.swiss/owncloud/index.php/s/9D3VHdnkS2pm1JJ
 ---
 
 ## 1 Einleitung

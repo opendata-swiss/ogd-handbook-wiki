@@ -17,15 +17,15 @@ For this reason, “[terms of use](https://opendata.swiss/en/terms-of-use/)” a
 
 You can find an overview of the terms of use [permitted on opendata.swiss here](https://opendata.swiss/en/terms-of-use/). Based on the results of the [preliminary legal check](/en/prepare/frameworks) you can now simply select the right terms of use.
 
-| Result of preliminary legal check | Terms of use | Symbol |
-|-----------------------------------|--------------|--------|
-| The dataset may be published on opendata.swiss without restrictions on use. | Open use. | <img src="../../images/terms_open.svg" width="38" height="58"> |
-| The dataset may be published on opendata.swiss but the source must be indicated. | Open use. Must provide the source. | <img src="../../images/terms_by.svg" width="74" height="58"> |
-| Special case: you have answered “yes” to all the questions in the diagram up to the question regarding commercial use or the one regarding citing the source (see explanation below). | Open use. Use for commercial purposes requires permission of the data owner. <br><br> Or <br><br> Open use. Must provide the source. Use for commercial purposes requires permission of the data owner. | <img src="../../images/terms_ask.svg" width="84" height="58"> <br> <img src="../../images/terms_by-ask.svg" width="120" height="58"> |
-| Not OGD | Publication on opendata.swiss is not permitted. | - |
+| Result of preliminary legal check | Terms of use |
+|-----------------------------------|--------------|
+| The dataset may be published on opendata.swiss without restrictions on use. | Open use. <br><img src="../../images/terms_open.svg" width="38" height="58"> |
+| The dataset may be published on opendata.swiss but the source must be indicated. | Open use. Must provide the source. <br><img src="../../images/terms_by.svg" width="74" height="58"> |
+| Special case: you have answered “yes” to all the questions in the diagram up to the question regarding commercial use or the one regarding citing the source (see explanation below). | Open use. Use for commercial purposes requires permission of the data owner.<br><img src="../../images/terms_ask.svg" width="84" height="58"> <br><br> Or <br><br> Open use. Must provide the source. Use for commercial purposes requires permission of the data owner. <br><img src="../../images/terms_by-ask.svg" width="120" height="58"> |
+| Not OGD | Publication on opendata.swiss is not permitted. |
 
 The special case: if your legal framework does not permit commercial use, you cannot currently publish your data on opendata.swiss. If commercial use is permitted in principle but permission is required, this corresponds to the special case. If you subsequently publish the data on opendata.swiss, you should decide in advance that you will normally permit commercial use. Data subject to more restrictive conditions are not published on opendata.swiss.
 
-You will need your terms of use and the link to the legal framework later for the catalogue [metadata on opendata.swiss](/en/publish/publish-swiss).
+You will need your terms of use and the link to the legal framework later for the catalogue [metadata on opendata.swiss](/en/publish/swiss).
 
 Further details of legal issues related to OGD are contained in the concept [Legal framework for the publication of data as open government data (OGD)](/en/library/konzept-rechtliche-rahmen).

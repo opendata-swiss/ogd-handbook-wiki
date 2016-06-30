@@ -9,7 +9,7 @@ Authors: Adelheid Bürgi-Schmelz
 Summary: OGD Schweiz, Bericht
 Lang: de
 Link_PDF: https://bar-files.opendata.swiss/owncloud/index.php/s/mZxkFA5OZHW606f
-Link_DOC: https://bar-files.opendata.swiss/owncloud/index.php/s/lWRyPvCxuuVYWU2
+Link_DOC_hidden: https://bar-files.opendata.swiss/owncloud/index.php/s/lWRyPvCxuuVYWU2
 ---
 
-Dieser Bericht definiert im Detail das Konzept der OGD, erklärt die wirtschaftlichen Fundamentaldaten der Erzeugung und Nutzung von offenen Daten in der Regierung, und stellt einen Entscheidungsbaum für die Verwendung bei der Beurteilung Veröffentlichung Kriterien. Er legt die allgemeinen Abgrenzungskriterien, so dass einzelne Verwaltungen können Daten "ihre" Autorität im Rahmen der spezifischen Rechtsgrundlage als OGD zu identifizieren, oder auf andere Weise zu klassifizieren.
+Nicht alle Daten, welche die Verwaltung produziert, sind als OGD zu veröffentlichen. Insbesondere Leistungen die spezifisch für einen Kunden erbracht werden, müssen nicht als Open Data veröffentlicht werden. Der vorliegende Bericht liefert Kriterien zur Abgrenzung zwischen OGD und kundenspezifischen Leistungen.

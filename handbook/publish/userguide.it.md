@@ -4,11 +4,11 @@ Category: Publish
 Handbook: yes
 Tags:
 Date: 2016-06-20
-Slug: anleitung-datenpublisher
+Slug: userguide
 Authors:
 Lang: it
 Untranslated: yes
 Summary:
 ---
 
-Questo articolo è [disponibile in tedesco](/de/library/anleitung-datenpublisher).
+Questo articolo è [disponibile in tedesco](/de/publish/userguide).
