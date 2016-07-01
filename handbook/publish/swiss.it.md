@@ -12,8 +12,6 @@ toc_run: true
 Summary: Una volta scelta l’opzione di pubblicazione, i metadati vanno caricati su opendata.swiss seguendo le tre tappe seguenti. Questo viene fatto in molti casi direttamente su opendata.swiss. Se si desidera pubblicare i dati geografici, questo avviene tramite su geo.admin.ch
 ---
 
-**Una volta scelta l’opzione di pubblicazione, i metadati vanno caricati su opendata.swiss seguendo le tre tappe seguenti. Questo viene fatto in molti casi direttamente su [opendata.swiss](#opendataswiss). Se si desidera pubblicare i dati geografici, questo avviene tramite su [geo.admin.ch](#geoadmin)**
-
 <a name="opendataswiss"></a>
 # Caricamento dei metadati su opendata.swiss
 
