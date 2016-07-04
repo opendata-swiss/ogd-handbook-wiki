@@ -17,7 +17,7 @@ Già oggi, sono messe a disposizione gratuitamente molte informazioni, che però
 
 Maggiori ragguagli sugli OGD:
 
-* la Strategia sul libero accesso ai dati pubblici in Svizzera 2014-2018 definisce gli obiettivi e le misure a livello federale e funge da base per la collaborazione con i Cantoni e i Comuni; 
+* la [Strategia sul libero accesso ai dati pubblici in Svizzera 2014-2018](https://www.egovernment.ch/it/umsetzung/e-government-schweiz-2008-2015/open-government-data-schweiz/) definisce gli obiettivi e le misure a livello federale e funge da base per la collaborazione con i Cantoni e i Comuni; 
 
 * chi vuole saperne di più sugli OGD può visitare il sito della [Open Knowledge](https://okfn.org/), una fondazione internazionalmente riconosciuta, o quello della sua [sezione italiana](http://it.okfn.org/). La sezione svizzera, l’associazione [Opendata.ch](http://opendata.ch), organizza incontri informativi per utenti o semplici interessati agli OGD e rappresenta la comunità OGD. 
 

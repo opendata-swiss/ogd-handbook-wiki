@@ -9,10 +9,8 @@ Authors:
 Lang: en
 Draft: yes
 toc_run: true
-Summary: Once you have decided a publication route, you can start publishing open data.
+Summary: Once you have decided a publication route, you can start publishing open data. This is done in most cases directly on opendata.swiss. If you wish to publish geographic data, this happens via geo.admin.ch.
 ---
-
-This is done in most cases directly [on opendata.swiss](#opendataswiss). If you wish to publish geographic data, this happens [via geo.admin.ch](#geoadmin).
 
 <a name="opendataswiss"></a>
 # Uploading metadata to opendata.swiss

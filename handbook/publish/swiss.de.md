@@ -9,15 +9,11 @@ Authors:
 Lang: de
 Draft: yes
 toc_run: true
-Summary: Nachdem Sie sich für eine Publikationsvariante entscheiden haben, können Sie ihre Daten publizieren.
+Summary: Nachdem Sie sich für eine Publikationsvariante entscheiden haben, können Sie ihre Daten publizieren. Das machen Sie in den meisten Fällen direkt auf opendata.swiss. Falls Sie Geodaten publizieren möchten, geschieht das über geo.admin.ch.
 ---
-
-Das machen Sie in den meisten Fällen [direkt auf opendata.swiss](#opendataswiss). Falls Sie Geodaten publizieren möchten, geschieht [das über geo.admin.ch](#geoadmin).
 
 <a name="opendataswiss"></a>
 # Publikation direkt auf opendata.swiss
-
-Nachdem Sie sich für [eine Publikationsvariante](publish-options) entscheiden haben, müssen Sie nun die Metadaten auf opendata.swiss laden.
 
 Dafür sind drei Schritte nötig:
 
