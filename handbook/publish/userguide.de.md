@@ -315,7 +315,11 @@ Veröffentlichen / Aktualisieren
 
 > Geben Sie mindestens in einer Sprache eine Beschreibung an(nur Text). Diese wird auf dem Portal angezeigt
 
-3) Organisations-Bild Wählen Sie eine Bild-Datei aus und klicken Sie auf die Schaltfläche 'Datei hinzufügen oder hochladen'.
+- URL
+
+> Eine URL, welche zu weiteren Informationen dieser Organisation führt
+
+3) Bild Wählen Sie eine Bild-Datei aus und klicken Sie auf die Schaltfläche 'Datei hinzufügen oder hochladen'.
 
 4) Veröffentlichen / Aktualisieren Nachdem Sie die Informationen angegeben oder Änderungen vorgenommen haben, publizieren bzw. aktualisieren Sie diese mit einem Klick auf die entsprechende Schaltfläche.
 
