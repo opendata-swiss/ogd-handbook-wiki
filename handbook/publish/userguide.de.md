@@ -333,4 +333,5 @@ Veröffentlichen / Aktualisieren
 
 - Titel der Organisation
 - Beschreibung der Organisation
+- Link zu weiteren Informationen der Organisation
 - Bild der Organisation
