@@ -45,15 +45,15 @@ All metadata must be available in the [DCAT-AP for Switzerland format](/en/libra
 The RDF XML harvester is [based on ckanext-dcat](https://github.com/ckan/ckanext-dcat#rdf-dcat-harvester>). As a publisher you must provide a valid catalog endpoint to fetch all datasets.
 If the amount of datasets exeeds best practices to be fetched in one request (e.g. more than 1'000 datasets), it is recommend to implement pagination using the [Hydra vocabulary](http://www.w3.org/ns/hydra/spec/latest/core/).
 
-```xml
+Example:
 
-  @prefix hydra: <http://www.w3.org/ns/hydra/core#> .
-  
-  <http://example.com/catalog.rdf?page=1> a hydra:PagedCollection ;
-      hydra:firstPage "http://example.com/catalog.rdf?page=1" ;
-      hydra:itemsPerPage 100 ;
-      hydra:lastPage "http://example.com/catalog.rdf?page=3" ;
-      hydra:nextPage "http://example.com/catalog.rdf?page=2" ;
-      hydra:totalItems 283 .
+```xml
+  <hydra:PagedCollection rdf:about="http://opendata.swiss/catalog.xml?page=3">
+    <hydra:lastPage>http://opendata.swiss/catalog.xml?page=4</hydra:lastPage>
+    <hydra:itemsPerPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000</hydra:itemsPerPage>
+    <hydra:totalItems rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3479</hydra:totalItems>
+    <hydra:firstPage>http://opendata.swiss/catalog.xml?page=1</hydra:firstPage>
+    <hydra:previousPage>http://opendata.swiss/catalog.xml?page=2</hydra:previousPage>
+  </hydra:PagedCollection>
 ```
 
