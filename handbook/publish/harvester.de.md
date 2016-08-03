@@ -15,9 +15,9 @@ Summary: Mit einem Harvester lassen sich grössere Datenmengen einfach und schne
 <a name="harvester"></a>
 # Harvester
 
-If you have a rather large amount of datasets (>= 100), you can use our harvesters to automatically update them at regular intervals.
+Bei grösseren Mengen an Datensätzen (>= 100), können Harvester verwendet werden um die Datensätze regelmässig zu aktualisieren.
 
-All metadata must be available in the [DCAT-AP for Switzerland format](/de/library/ch-dcat-ap). You must provide a catalog as an RDF file ([see the example](/samples/ogdch_dcatap_import.rdf) for reference).
+Die Metadatan müssen dazu im [DCAT-AP Switzerland format](/de/library/ch-dcat-ap) vorliegen. Sie müssen einen Katalog als RDF-Datei zur Verfügung stellen ([Beispiel RDF](/samples/ogdch_dcatap_import.rdf)).
 
 ```xml
   <rdf:RDF>
@@ -42,17 +42,18 @@ All metadata must be available in the [DCAT-AP for Switzerland format](/de/libra
   </rdf:RDF>
 ```
 
-The RDF XML harvester is [based on ckanext-dcat](https://github.com/ckan/ckanext-dcat#rdf-dcat-harvester>). As a publisher you must provide a valid catalog endpoint to fetch all datasets.
-If the amount of datasets exeeds best practices to be fetched in one request (e.g. more than 1'000 datasets), it is recommend to implement pagination using the [Hydra vocabulary](http://www.w3.org/ns/hydra/spec/latest/core/).
+Der RDF XML Harvester [basiert auf der CKAN-Extension ckanext-dcat](https://github.com/ckan/ckanext-dcat#rdf-dcat-harvester). Als Datenlieferant müssen Sie einen gültigen "catalog endpoint" für alle Datensätze zur Verfügung stellen.
+Falls Sie so viele Datensätze anbieten, dass sich diese nicht mehr mit einer einzigen Anfrage holen lassen (z.B. mehr als 1'000 Datensätze), ist die Empfehlung Pagination mit dem [Hydra Vocabulary](http://www.w3.org/ns/hydra/spec/latest/core/) zu implementieren. 
+
+Beispiel:
 
 ```xml
-
-  @prefix hydra: <http://www.w3.org/ns/hydra/core#> .
-  
-  <http://example.com/catalog.rdf?page=1> a hydra:PagedCollection ;
-      hydra:firstPage "http://example.com/catalog.rdf?page=1" ;
-      hydra:itemsPerPage 100 ;
-      hydra:lastPage "http://example.com/catalog.rdf?page=3" ;
-      hydra:nextPage "http://example.com/catalog.rdf?page=2" ;
-      hydra:totalItems 283 .
+  <hydra:PagedCollection rdf:about="http://opendata.swiss/catalog.xml?page=3">
+    <hydra:lastPage>http://opendata.swiss/catalog.xml?page=4</hydra:lastPage>
+    <hydra:itemsPerPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000</hydra:itemsPerPage>
+    <hydra:totalItems rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3479</hydra:totalItems>
+    <hydra:firstPage>http://opendata.swiss/catalog.xml?page=1</hydra:firstPage>
+    <hydra:previousPage>http://opendata.swiss/catalog.xml?page=2</hydra:previousPage>
+  </hydra:PagedCollection>
 ```
+
