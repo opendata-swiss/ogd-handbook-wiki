@@ -17,7 +17,7 @@ Summary: Harvesters are an easy way to publish large numbers of datasets. The on
 
 If you have a rather large amount of datasets (>= 100), you can use our harvesters to automatically update them at regular intervals.
 
-All metadata must be available in the [DCAT-AP for Switzerland format](/en/library/ch-dcat-ap). You must provide a catalog as an RDF file ([see the example](/samples/ogdch_dcatap_import.rdf) for reference).
+All metadata must be available in the [DCAT-AP Switzerland format](/en/library/ch-dcat-ap). You must provide a catalog as an RDF file ([see the example](/samples/ogdch_dcatap_import.rdf) for reference).
 
 ```xml
   <rdf:RDF>
@@ -42,7 +42,7 @@ All metadata must be available in the [DCAT-AP for Switzerland format](/en/libra
   </rdf:RDF>
 ```
 
-The RDF XML harvester is [based on ckanext-dcat](https://github.com/ckan/ckanext-dcat#rdf-dcat-harvester>). As a publisher you must provide a valid catalog endpoint to fetch all datasets.
+The RDF XML harvester is [based on ckanext-dcat](https://github.com/ckan/ckanext-dcat#rdf-dcat-harvester). As a publisher you must provide a valid catalog endpoint to fetch all datasets.
 If the amount of datasets exeeds best practices to be fetched in one request (e.g. more than 1'000 datasets), it is recommend to implement pagination using the [Hydra vocabulary](http://www.w3.org/ns/hydra/spec/latest/core/).
 
 Example:
