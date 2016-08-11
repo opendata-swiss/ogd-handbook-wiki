@@ -47,7 +47,7 @@ Preparazione di dati e metadati
 Per poter registrare metadati su opendata.swiss, è necessario avere uno spazio specifico nel sistema dell’Archivio federale. Chi non avesse ancora pubblicato dati sul portale, deve [annunciarsi all’indirizzo](opendata@bar.admin.ch). Dopo di che, occorrerà in particolare:
 
 - acquisire dimestichezza con l’interfaccia grafica e i campi DCAT-AP. Per informazioni dettagliate sul sistema, consultare [il manuale di opendata.swiss](/it/publish/userguide);
-- registrare i metadati compilando i campi definiti nello [standard DCAT-AP](/it/library/ch-dcat-ap) (fa stato l’opzione di pubblicazione scelta);
+- registrare i metadati compilando i campi definiti nello [standard DCAT-AP](/it/library/ch-dcat-ap) (fa stato [l’opzione di pubblicazione](/it/publish/options) scelta);
 - Inviare un’immagine e una descrizione dell’organizzazione, se possibile in quattro lingue (DE, FR, IT, EN), affinché possano essere pubblicate sulla sua pagina ([esempio](https://opendata.swiss/it/organization/schweizerisches-bundesarchiv-bar)).
 
 ## Attivazione
