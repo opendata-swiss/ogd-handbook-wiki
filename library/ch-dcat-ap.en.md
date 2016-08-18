@@ -265,10 +265,37 @@ Example:
 | Mandatory   | no          |
 | Cardinality | 0..n        |
 | Attributes  |             |
-| Description | Geographical classification of the dataset. Can be a description, coordinates or a bounding-box. |
+| Description | Geographical classification of the dataset. Can be a description, coordinates, a bounding-box or a polygon. This field currently supports GeoJSON with the [LOCN extension](https://www.w3.org/community/locadd/wiki/LOCN_extension:_Metadata). |
 Example:
 ```xml
 <dct:spatial rdf:resource="http://publications.europa.eu/mdr/authority/country/ZWE"/>
+<dct:spatial>Bern</dct:spatial>
+<dct:spatial>
+  <dct:Location>
+    <locn:geometry rdf:datatype="https://www.iana.org/assignments/media-types/application/vnd.geo+json"><![CDATA[
+      {
+        "type":"Polygon",
+        "crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},
+        "coordinates":[[[-6.41736,55.7447],[2.05827,55.7447],[2.05827,49.8625],[-6.41736,49.8625],[-6.41736,55.7447]]]
+      }
+    ]]>
+    </locn:geometry>
+  </dct:Location>
+</dct.spatial>
+```
+
+##### `dcat:coverage`
+
+|             |             |
+|-------------|-------------|
+| Type        | `dct:LocationPeriodOrJurisdiction` http://dublincore.org/documents/2012/06/14/dcmi-terms/?v=terms#LocationPeriodOrJurisdiction |
+| Mandatory   | no          |
+| Cardinality | 0..n        |
+| Attributes  |             |
+| Description | This field is currently not used, use `dcat:spatial` instead. |
+Example:
+```xml
+<dct:coverage/>
 ```
 
 ##### `dcat:temporal`
