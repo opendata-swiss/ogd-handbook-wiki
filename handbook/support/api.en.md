@@ -19,7 +19,10 @@ Untranslated: yes
 The open data portal opendata.swiss is based on the [open source project CKAN](http://ckan.org).
 CKAN provides an extensive API for the metadata of the open data catalogue.
 
-Please use the [CKAN documentation for more information about the API](http://docs.ckan.org/en/latest/api/).
+The API is HTTP based and uses GET and POST requests.
+All responses are provided as JSON.
+
+Please use the [CKAN documentation for detailed information about the API](http://docs.ckan.org/en/latest/api/).
 
 Important note about metadata: opendata.swiss uses the [metadata standard DCAT-AP Switzerland](/en/library/ch-dcat-ap). Therefore all metadata is returned using this standard. Where possible, a mapping to CKAN standard fields is provided by the API.
 
