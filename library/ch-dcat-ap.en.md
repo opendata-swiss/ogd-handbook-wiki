@@ -54,7 +54,7 @@ The multi-lingual elements have to contain the `xml:lang` attribute, as the foll
 
 |             |             |
 |-------------|-------------|
-| Content     | Contains exactly one nested element of type `<dcat:dataset>` |
+| Content     | Contains nested elements of type `<dcat:dataset>` |
 | Mandatory   | yes         |
 | Cardinality | 1..1        |
 | Attributes  |             |
@@ -66,6 +66,7 @@ Example:
     <dcat:dataset>
         [...]
     </dcat:dataset>
+    [further dcat:dataset]
 </dcat:Catalog>
 ```
 
@@ -73,11 +74,11 @@ Example:
 
 |             |             |
 |-------------|-------------|
-| Content     | Nested elements of type `dcat:Dataset`. See [Definition of dcat:Dataset](#definition-of-dataset). |
+| Content     | Contains single nested element of type `dcat:Dataset`. See [Definition of dcat:Dataset](#definition-of-dataset). |
 | Mandatory   | yes         |
-| Cardinality | 1..1        |
+| Cardinality | 1..n        |
 | Attributes  |             |
-| Description | Wrapper for datasets of the catalog |
+| Description | Wrapper for a dataset of the catalog |
 
 Example:
 ```xml
@@ -85,8 +86,8 @@ Example:
     <dcat:Dataset rdf:about="http://swisstopo/325">
         [Content of dataset]
     </dcat:Dataset>
-    [further datasets]
 </dcat:dataset>
+[further dcat:dataset]
 ```
 
 <a name="definition-of-dataset"></a>
@@ -95,7 +96,7 @@ Example:
 |             |             |             |
 |-------------|-------------|-------------|
 | Mandatory   | yes         |             |
-| Cardinality | 1..n        |             |
+| Cardinality | 1..1        |             |
 | Attributes  | Name        | `rdf:about`  |
 |             | Content     | Unique identifier for dataset |
 |             | Mandatory   | yes         |
@@ -427,11 +428,11 @@ Example:
 
 |             |             |
 |-------------|-------------|
-| Content     | Nested elements of type `dcat:Distribution`. See [Definition of `dcat:Distribution`](#definition-of-distribution). |
+| Content     | Contains single nested element of type `dcat:Distribution`. See [Definition of `dcat:Distribution`](#definition-of-distribution). |
 | Mandatory   | yes         |
-| Cardinality | 1..1        |
+| Cardinality | 1..n        |
 | Attributes  |             |
-| Description | Wrapper for distributions of the dataset |
+| Description | Wrapper for a distribution of the dataset |
 
 Example:
 ```xml
@@ -439,8 +440,8 @@ Example:
     <dcat:Distribution rdf:about="http://swisstopo/325/ch.bafu.laerm-bahnlaerm_nacht">
         [Content of distribution]
     </dcat:Distribution>
-    [further distributions]
 </dcat:distribution>
+[further distributions]
 ```
 
 <a name="definition-of-distribution"></a>
@@ -449,7 +450,7 @@ Example:
 |             |             |             |
 |-------------|-------------|-------------|
 | Mandatory   | yes         |             |
-| Cardinality | 1..n        |             |
+| Cardinality | 1..1        |             |
 | Attributes  | Name        | `rdf:about`  |
 |             | Content     | Unique identifier for distribution |
 |             | Mandatory   | yes         |
