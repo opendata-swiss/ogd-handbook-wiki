@@ -55,7 +55,8 @@ Contains exactly one element of `<dcat:dataset>`.
 
 |             |             |
 |-------------|-------------|
-| Type        | Nested elements of type `dcat:Dataset`. See [Definition of dcat:Dataset](#definition-of-dataset). |
+| Type        | Nested element |
+| Content     | Nested elements of type `dcat:Dataset`. See [Definition of dcat:Dataset](#definition-of-dataset). |
 | Mandatory   | yes         |
 | Cardinality | 0..n        |
 | Attributes  |             |
@@ -365,14 +366,15 @@ Example:
 
 |             |             |
 |-------------|-------------|
-| Type        | Nested elements of type `dcat:districution`. See [Definition of `dcat:distribution`](#definition-of-distribution). |
+| Type        | Nested element |
+| Content     | Nested elements of type `dcat:distribution`. See [Definition of `dcat:distribution`](#definition-of-distribution). |
 | Mandatory   | no          |
 | Cardinality | 0..n        |
 | Attributes  |             |
 | Description | Distribution of the datasets |
 
 <a name="definition-of-distribution"></a>
-#### Definition of `dcat:districution`
+#### Definition of `dcat:distribution`
 
 ##### `dcat:identifier`
 
