@@ -77,6 +77,16 @@ Example:
 | Attributes  |             |
 | Description | Wrapper for datasets of the catalog |
 
+Example:
+```xml
+<dcat:dataset>
+    <dcat:Dataset rdf:about="http://swisstopo/325">
+        [Content of dataset]
+    </dcat:Dataset>
+    [further datasets]
+</dcat:dataset>
+```
+
 <a name="definition-of-dataset"></a>
 #### Definition of `dcat:Dataset`
 
@@ -88,7 +98,7 @@ Example:
 | Attributes  | Name        | `rdf:about`  |
 |             | Content     | Unique identifier for dataset |
 |             | Mandatory   | yes         |
-| Description | Datasets of the catalog |             |
+| Description | A single dataset of the catalog |             |
 
 Example:
 ```xml
@@ -399,14 +409,41 @@ Example:
 |             |             |
 |-------------|-------------|
 | Type        | Nested element |
-| Content     | Nested elements of type `dcat:distribution`. See [Definition of `dcat:distribution`](#definition-of-distribution). |
+| Content     | Nested elements of type `dcat:Distribution`. See [Definition of `dcat:Distribution`](#definition-of-distribution). |
 | Mandatory   | no          |
 | Cardinality | 0..n        |
 | Attributes  |             |
-| Description | Distribution of the datasets |
+| Description | Wrapper for distributions of the dataset |
+
+Example:
+```xml
+<dcat:distribution>
+    <dcat:Distribution rdf:about="http://swisstopo/325/ch.bafu.laerm-bahnlaerm_nacht">
+        [Content of distribution]
+    </dcat:Distribution>
+    [further distributions]
+</dcat:distribution>
+```
 
 <a name="definition-of-distribution"></a>
-#### Definition of `dcat:distribution`
+#### Definition of `dcat:Distribution`
+
+|             |             |             |
+|-------------|-------------|-------------|
+| Type        | Nested element |             |
+| Mandatory   | yes         |             |
+| Cardinality | 1..n        |             |
+| Attributes  | Name        | `rdf:about`  |
+|             | Content     | Unique identifier for distribution |
+|             | Mandatory   | yes         |
+| Description | A single distribution of the dataset |             |
+
+Example:
+```xml
+<dcat:Distribution rdf:about="http://swisstopo/325/ch.bafu.laerm-bahnlaerm_nacht">
+    [Content of distribution]
+</dcat:Distribution>
+```
 
 ##### `dcat:identifier`
 
