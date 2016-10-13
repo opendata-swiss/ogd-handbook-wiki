@@ -493,9 +493,8 @@ Example:
 
 |             |             |             |
 |-------------|-------------|-------------|
-| Elements    | Name        | `odrs:dataLicense` |
-|             | Content     | Possible values: <ul><li>NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired (acceptable for opendata.swiss, Open Definition compliant)</li><li>NonCommercialAllowed-CommercialAllowed-ReferenceRequired (acceptable for opendata.swiss, Open Definition compliant)</li><li>NonCommercialAllowed-CommercialWithPermission-ReferenceNotRequired (acceptable for opendata.swiss)</li><li>NonCommercialAllowed-CommercialWithPermission-ReferenceRequired (acceptable for opendata.swiss)</li><li>NonCommercialAllowed-CommercialNotAllowed-ReferenceNotRequired (not acceptable for opendata.swiss)</li><li>NonCommercialAllowed-CommercialNotAllowed-ReferenceRequired (not acceptable for opendata.swiss)</li><li>NonCommercialNotAllowed-CommercialNotAllowed-ReferenceNotRequired (not acceptable for opendata.swiss)</li><li>NonCommercialNotAllowed-CommercialNotAllowed-ReferenceRequired (not acceptable for opendata.swiss)</li><li>NonCommercialNotAllowed-CommercialAllowed-ReferenceNotRequired (not acceptable for opendata.swiss)</li><li>NonCommercialNotAllowed-CommercialAllowed-ReferenceRequired (not acceptable for opendata.swiss)</li><li>NonCommercialNotAllowed-CommercialWithPermission-ReferenceNotRequired (not acceptable for opendata.swiss)</li><li>NonCommercialNotAllowed-CommercialWithPermission-ReferenceRequired (not acceptable for opendata.swiss)</li></ul> |
-| Type        | Open Data Rights Statement Vocabulary (https://theodi.org/guides/publishers-guide-to-the-open-data-rights-statement-vocabulary) |             |
+| Elements    | Type        | `rdfs:Literal` http://www.w3.org/TR/rdf-schema/#ch_literal |
+|             | Content     | Possible values: <ul><li>NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired (acceptable for opendata.swiss, Open Definition compliant)</li><li>NonCommercialAllowed-CommercialAllowed-ReferenceRequired (acceptable for opendata.swiss, Open Definition compliant)</li><li>NonCommercialAllowed-CommercialWithPermission-ReferenceNotRequired (acceptable for opendata.swiss)</li><li>NonCommercialAllowed-CommercialWithPermission-ReferenceRequired (acceptable for opendata.swiss)</li><li>NonCommercialAllowed-CommercialNotAllowed-ReferenceNotRequired (not acceptable for opendata.swiss)</li><li>NonCommercialAllowed-CommercialNotAllowed-ReferenceRequired (not acceptable for opendata.swiss)</li><li>NonCommercialNotAllowed-CommercialNotAllowed-ReferenceNotRequired (not acceptable for opendata.swiss)</li><li>NonCommercialNotAllowed-CommercialNotAllowed-ReferenceRequired (not acceptable for opendata.swiss)</li><li>NonCommercialNotAllowed-CommercialAllowed-ReferenceNotRequired (not acceptable for opendata.swiss)</li><li>NonCommercialNotAllowed-CommercialAllowed-ReferenceRequired (not acceptable for opendata.swiss)</li><li>NonCommercialNotAllowed-CommercialWithPermission-ReferenceNotRequired (not acceptable for opendata.swiss)</li><li>NonCommercialNotAllowed-CommercialWithPermission-ReferenceRequired (not acceptable for opendata.swiss)</li></ul> |       
 | Mandatory   | yes         |             |
 | Cardinality | 1..1        |             |
 | Attributes  |             |             |
@@ -503,9 +502,7 @@ Example:
 Example:
 ```xml
 <dct:rights>
-<odrs:dataLicence>
 NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
-</odrs:dataLicence>
 </dct:rights>
 ```
 
