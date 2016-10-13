@@ -91,9 +91,7 @@
           <dct:language>de</dct:language>
           <dct:language>en</dct:language>
           <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://wms.geo.admin.ch/</dcat:accessURL>
-          <dct:rights>
-            <odrs:dataLicence>NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired</odrs:dataLicence>
-          </dct:rights>
+          <dct:rights>NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired</dct:rights>
           <dct:license/>
           <dcat:byteSize>1024</dcat:byteSize>
           <dcat:mediaType>text/html</dcat:mediaType>
