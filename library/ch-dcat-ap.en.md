@@ -47,16 +47,31 @@ The multi-lingual elements have to contain the `xml:lang` attribute, as the foll
 
 ### DCAT-AP reference documentation
 
+#### Definition of `dcat:Catalog`
+
+Contains exactly one element of `<dcat:dataset>`.
+
+##### `dcat:dataset`
+
+|             |             |
+|-------------|-------------|
+| Type        | Nested elements of type `dcat:Dataset`. See [Definition of dcat:Dataset](#definition-of-dataset). |
+| Mandatory   | yes         |
+| Cardinality | 0..n        |
+| Attributes  |             |
+| Description | Datasets of the catalog |
+
+<a name="definition-of-dataset"></a>
 #### Definition of `dcat:Dataset`
 
 ##### `dct:identifier`
 
-| Attributes  |             |
+|             |             |
 |-------------|-------------|
 | Type        | `rdfs:Literal` http://www.w3.org/TR/rdf-schema/#ch_literal |
 | Mandatory   | yes         |
 | Cardinality | 1..1        |
-| Description | Unique identifier of the dataset across all publishers. A good way to make sure this identifier is unique is to link the source system ID with the ID of the publisher: `<Source-Dataset-ID>@<Source-Organisation-ID>` |
+| Description | Unique identifier of the dataset across all publishers. A good way to make sure this identifier is unique is to link the source system ID with the ID of the publisher: `[Source-Dataset-ID]@[Source-Organisation-ID]` |
 Example:
 ```xml
 <dct:identifier>325@swisstopo</dct:identifier>
@@ -142,9 +157,9 @@ Example:
 Example:
 ```xml
 <dct:publisher>
-<rdf:Description rdf:about="Reference of publisher">
-<rdfs:label>Bundesamt für Landestopografie swisstopo</rdfs:label>
-</rdf:Description>
+    <rdf:Description rdf:about="Reference of publisher">
+        <rdfs:label>Bundesamt für Landestopografie swisstopo</rdfs:label>
+    </rdf:Description>
 </dct:publisher>
 ```
 
@@ -160,17 +175,17 @@ Example:
 Example:
 ```xml
 <dcat:contactPoint>
-<vcard:Organization>
-<vcard:fn>Abteilung Lärm BAFU</vcard:fn>
-<vcard:hasEmail rdf:resource="mailto:noise@bafu.admin.ch"/>
-</vcard:Organization>
+    <vcard:Organization>
+        <vcard:fn>Abteilung Lärm BAFU</vcard:fn>
+        <vcard:hasEmail rdf:resource="mailto:noise@bafu.admin.ch"/>
+    </vcard:Organization>
 </dcat:contactPoint>
 
 <dcat:contactPoint>
-<vcard:Individual>
-<vcard:fn>Sekretariat BAFU</vcard:fn>
-<vcard:hasEmail rdf:resource="mailto:sekretariat@bafu.admin.ch"/>
-</vcard:Individual>
+    <vcard:Individual>
+        <vcard:fn>Sekretariat BAFU</vcard:fn>
+        <vcard:hasEmail rdf:resource="mailto:sekretariat@bafu.admin.ch"/>
+    </vcard:Individual>
 </dcat:contactPoint>
 ```
 
@@ -217,9 +232,9 @@ Example:
 Example:
 ```xml
 <dct:relation>
-<rdf:Description rdf:about="http://www.bafu.admin.ch/laerm/index.html?lang=de">
-<rdfs:label>Webseite des BAFU</rdfs:label>
-</rdf:Description>
+    <rdf:Description rdf:about="http://www.bafu.admin.ch/laerm/index.html?lang=de">
+        <rdfs:label>Webseite des BAFU</rdfs:label>
+    </rdf:Description>
 </dct:relation>
 ```
 
@@ -302,7 +317,7 @@ Example:
 
 |             |             |
 |-------------|-------------|
-| Type        | `ct:PeriodOfTime` http://dublincore.org/documents/2012/06/14/dcmi-terms/?v=terms#terms-PeriodOfTime |
+| Type        | `dct:PeriodOfTime` http://dublincore.org/documents/2012/06/14/dcmi-terms/?v=terms#terms-PeriodOfTime |
 | Mandatory   | no          |
 | Cardinality | 0..n        |
 | Attributes  |             |
@@ -310,10 +325,10 @@ Example:
 Example:
 ```xml
 <dct:temporal>
-<dct:PeriodOfTime>
-<schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1905-03-01</schema:startDate>
-<schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-01-05</schema:endDate>
-</dct:PeriodOfTime>
+    <dct:PeriodOfTime>
+        <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1905-03-01</schema:startDate>
+        <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-01-05</schema:endDate>
+    </dct:PeriodOfTime>
 </dct:temporal>
 ```
 
@@ -350,13 +365,14 @@ Example:
 
 |             |             |
 |-------------|-------------|
-| Type        | Nested elements. See [Definition of Distribution](#definition-of-distribution). |
+| Type        | Nested elements of type `dcat:districution`. See [Definition of `dcat:distribution`](#definition-of-distribution). |
 | Mandatory   | no          |
 | Cardinality | 0..n        |
 | Attributes  |             |
 | Description | Distribution of the datasets |
 
-#### Definition of Distribution
+<a name="definition-of-distribution"></a>
+#### Definition of `dcat:districution`
 
 ##### `dcat:identifier`
 
@@ -493,17 +509,14 @@ Example:
 
 |             |             |             |
 |-------------|-------------|-------------|
-| Elements    | Type        | `rdfs:Literal` http://www.w3.org/TR/rdf-schema/#ch_literal |
-|             | Content     | Possible values: <ul><li>NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired (acceptable for opendata.swiss, Open Definition compliant)</li><li>NonCommercialAllowed-CommercialAllowed-ReferenceRequired (acceptable for opendata.swiss, Open Definition compliant)</li><li>NonCommercialAllowed-CommercialWithPermission-ReferenceNotRequired (acceptable for opendata.swiss)</li><li>NonCommercialAllowed-CommercialWithPermission-ReferenceRequired (acceptable for opendata.swiss)</li><li>NonCommercialAllowed-CommercialNotAllowed-ReferenceNotRequired (not acceptable for opendata.swiss)</li><li>NonCommercialAllowed-CommercialNotAllowed-ReferenceRequired (not acceptable for opendata.swiss)</li><li>NonCommercialNotAllowed-CommercialNotAllowed-ReferenceNotRequired (not acceptable for opendata.swiss)</li><li>NonCommercialNotAllowed-CommercialNotAllowed-ReferenceRequired (not acceptable for opendata.swiss)</li><li>NonCommercialNotAllowed-CommercialAllowed-ReferenceNotRequired (not acceptable for opendata.swiss)</li><li>NonCommercialNotAllowed-CommercialAllowed-ReferenceRequired (not acceptable for opendata.swiss)</li><li>NonCommercialNotAllowed-CommercialWithPermission-ReferenceNotRequired (not acceptable for opendata.swiss)</li><li>NonCommercialNotAllowed-CommercialWithPermission-ReferenceRequired (not acceptable for opendata.swiss)</li></ul> |       
+| Type        | `rdfs:Literal` http://www.w3.org/TR/rdf-schema/#ch_literal |             |
+| Content     | Possible values: <ul><li>NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired (acceptable for opendata.swiss, Open Definition compliant)</li><li>NonCommercialAllowed-CommercialAllowed-ReferenceRequired (acceptable for opendata.swiss, Open Definition compliant)</li><li>NonCommercialAllowed-CommercialWithPermission-ReferenceNotRequired (acceptable for opendata.swiss)</li><li>NonCommercialAllowed-CommercialWithPermission-ReferenceRequired (acceptable for opendata.swiss)</li><li>NonCommercialAllowed-CommercialNotAllowed-ReferenceNotRequired (not acceptable for opendata.swiss)</li><li>NonCommercialAllowed-CommercialNotAllowed-ReferenceRequired (not acceptable for opendata.swiss)</li><li>NonCommercialNotAllowed-CommercialNotAllowed-ReferenceNotRequired (not acceptable for opendata.swiss)</li><li>NonCommercialNotAllowed-CommercialNotAllowed-ReferenceRequired (not acceptable for opendata.swiss)</li><li>NonCommercialNotAllowed-CommercialAllowed-ReferenceNotRequired (not acceptable for opendata.swiss)</li><li>NonCommercialNotAllowed-CommercialAllowed-ReferenceRequired (not acceptable for opendata.swiss)</li><li>NonCommercialNotAllowed-CommercialWithPermission-ReferenceNotRequired (not acceptable for opendata.swiss)</li><li>NonCommercialNotAllowed-CommercialWithPermission-ReferenceRequired (not acceptable for opendata.swiss)</li></ul> |             |
 | Mandatory   | yes         |             |
 | Cardinality | 1..1        |             |
-| Attributes  |             |             |
 | Description | Rights statement of this distribution. This is composed of 3 elements that can be summarized in a string literal: - Non-commercial use: allowed or not allowed - Commercial use: allowed, allowed with permission and not allowed - Reference: required or not required |             |
 Example:
 ```xml
-<dct:rights>
-NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
-</dct:rights>
+<dct:rights>NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired</dct:rights>
 ```
 
 ##### `dct:license`
