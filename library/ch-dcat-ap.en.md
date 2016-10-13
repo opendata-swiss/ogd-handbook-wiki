@@ -28,9 +28,10 @@ Have a look at the following file for a quickstart: [full dataset example](/samp
   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
   xmlns:odrs="http://schema.theodi.org/odrs#"
   xmlns:schema="http://schema.org/">
-  ```
+```
 
 ### Internationalisation
+
 The DCAT-AP for Switzerland Standard expects that text elements of the datasets and their distributions be translated in the following four languages:
 * French (fr)
 * German (de)
@@ -38,6 +39,7 @@ The DCAT-AP for Switzerland Standard expects that text elements of the datasets 
 * English (en)
 
 The multi-lingual elements have to contain the `xml:lang` attribute, as the following example show:
+
 ```xml
 <dct:title xml:lang="fr">FR Titre</dct:title>
 <dct:title xml:lang="de">DE Titel</dct:title>
