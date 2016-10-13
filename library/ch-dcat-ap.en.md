@@ -49,7 +49,22 @@ The multi-lingual elements have to contain the `xml:lang` attribute, as the foll
 
 #### Definition of `dcat:Catalog`
 
-Contains exactly one element of `<dcat:dataset>`.
+|             |             |
+|-------------|-------------|
+| Type        | Nested element |
+| Mandatory   | yes         |
+| Cardinality | 1           |
+| Attributes  |             |
+| Description | Catalog with datasets. Contains exactly one element of `<dcat:dataset>`. |
+
+Example:
+```xml
+<dcat:Catalog>
+    <dcat:dataset>
+        [...]
+    </dcat:dataset>
+</dcat:Catalog>
+```
 
 ##### `dcat:dataset`
 
@@ -58,12 +73,29 @@ Contains exactly one element of `<dcat:dataset>`.
 | Type        | Nested element |
 | Content     | Nested elements of type `dcat:Dataset`. See [Definition of dcat:Dataset](#definition-of-dataset). |
 | Mandatory   | yes         |
-| Cardinality | 0..n        |
+| Cardinality | 1           |
 | Attributes  |             |
-| Description | Datasets of the catalog |
+| Description | Wrapper for datasets of the catalog |
 
 <a name="definition-of-dataset"></a>
 #### Definition of `dcat:Dataset`
+
+|             |             |             |
+|-------------|-------------|-------------|
+| Type        | Nested element |             |
+| Mandatory   | yes         |             |
+| Cardinality | 1..n        |             |
+| Attributes  | Name        | `rdf:about`  |
+|             | Content     | Unique identifier for dataset |
+|             | Mandatory   | yes         |
+| Description | Datasets of the catalog |             |
+
+Example:
+```xml
+<dcat:Dataset rdf:about="http://swisstopo/325">
+    [Content of dataset]
+</dcat:Dataset>
+```
 
 ##### `dct:identifier`
 
