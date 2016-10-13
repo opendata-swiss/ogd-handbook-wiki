@@ -51,11 +51,11 @@ The multi-lingual elements have to contain the `xml:lang` attribute, as the foll
 
 |             |             |
 |-------------|-------------|
-| Type        | Nested element |
+| Content     | Contains exactly one nested element of type `<dcat:dataset>` |
 | Mandatory   | yes         |
 | Cardinality | 1           |
 | Attributes  |             |
-| Description | Catalog with datasets. Contains exactly one element of `<dcat:dataset>`. |
+| Description | Catalog with datasets |
 
 Example:
 ```xml
@@ -70,7 +70,6 @@ Example:
 
 |             |             |
 |-------------|-------------|
-| Type        | Nested element |
 | Content     | Nested elements of type `dcat:Dataset`. See [Definition of dcat:Dataset](#definition-of-dataset). |
 | Mandatory   | yes         |
 | Cardinality | 1           |
@@ -92,7 +91,6 @@ Example:
 
 |             |             |             |
 |-------------|-------------|-------------|
-| Type        | Nested element |             |
 | Mandatory   | yes         |             |
 | Cardinality | 1..n        |             |
 | Attributes  | Name        | `rdf:about`  |
@@ -408,10 +406,9 @@ Example:
 
 |             |             |
 |-------------|-------------|
-| Type        | Nested element |
 | Content     | Nested elements of type `dcat:Distribution`. See [Definition of `dcat:Distribution`](#definition-of-distribution). |
-| Mandatory   | no          |
-| Cardinality | 0..n        |
+| Mandatory   | yes         |
+| Cardinality | 1           |
 | Attributes  |             |
 | Description | Wrapper for distributions of the dataset |
 
@@ -430,7 +427,6 @@ Example:
 
 |             |             |             |
 |-------------|-------------|-------------|
-| Type        | Nested element |             |
 | Mandatory   | yes         |             |
 | Cardinality | 1..n        |             |
 | Attributes  | Name        | `rdf:about`  |
