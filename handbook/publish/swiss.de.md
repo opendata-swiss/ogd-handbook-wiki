@@ -59,7 +59,7 @@ Das Bundesarchiv und der Datenlieferant stellen gemeinsam sicher, dass alle Date
 Nachdem Sie Ihr Einverständnis gegeben haben, schaltet das Bundesarchiv die Daten online.
 
 <a name="geoadmin"></a>
-# Publikation via geo.admin.ch
+# Publikation von Geodaten
 
 Im Folgenden ist das Vorgehen beschrieben, wie valide Datensätze in geocat.ch erstellt werden, um sie anschliessend auf dem opendata-Portal zu publizieren.
 
