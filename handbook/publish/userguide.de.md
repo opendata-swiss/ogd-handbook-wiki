@@ -86,7 +86,7 @@ Summary: Im Benutzerhandbuch ist das System von opendata.swiss ausführlich doku
 1. Wählen Sie mittels Häkchen in der Checkbox jene Datensätze aus, für die Sie eine gemeinsame Aktion durchführen wollen.
 2. Wählen Sie aus dem Dropdown-Menu die Aktion aus:
   * '**Bearbeiten**' Sie einzelne Metadaten mehrerer Datensätze.
-  * '**Exportieren**' Sie alle Metadaten ein oder mehrerer Datensätze als XML-Datei (DCAT-AP Switzerland Standard).
+  * '**Exportieren**' Sie alle Metadaten ein oder mehrerer Datensätze als XML-Datei ([DCAT-AP Switzerland Standard](/de/library/ch-dcat-ap)).
 3. Zum Ausführen klicken Sie auf die Schaltfläche 'Übernehmen'.
 
 5) Metadaten **via XML-Import** verwalten
