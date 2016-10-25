@@ -86,12 +86,12 @@ Summary: Im Benutzerhandbuch ist das System von opendata.swiss ausführlich doku
 1. Wählen Sie mittels Häkchen in der Checkbox jene Datensätze aus, für die Sie eine gemeinsame Aktion durchführen wollen.
 2. Wählen Sie aus dem Dropdown-Menu die Aktion aus:
   * '**Bearbeiten**' Sie einzelne Metadaten mehrerer Datensätze.
-  * '**Exportieren**' Sie alle Metadaten ein oder mehrerer Daten- sätze als XML-Datei (DCAT-AP Switzerland Standard).
+  * '**Exportieren**' Sie alle Metadaten ein oder mehrerer Datensätze als XML-Datei (DCAT-AP Switzerland Standard).
 3. Zum Ausführen klicken Sie auf die Schaltfläche 'Übernehmen'.
 
 5) Metadaten **via XML-Import** verwalten
 
-1. Wählen Sie eine dem DCAT-AP Switzerland Standard entsprechende XML-Datei aus.
+1. Wählen Sie eine dem [DCAT-AP Switzerland Standard](/de/library/ch-dcat-ap) entsprechende XML-Datei aus.
 2. Klicken Sie auf die Schaltfläche 'Importieren'.
 3. Neue Datensätze werden mit Status 'Entwurf' **erstellt**. Metadaten bestehender Datensätze werden **aktualisiert**.
 
@@ -243,7 +243,6 @@ Wählen Sie aus dem Dropdown-Menu eines der Formate aus.
 Status Geben Sie den Status des Datensatzes an:
 
 - **Entwurf**: Sie bearbeiten die Metadaten des Datensatzes weiter.
-- **Ausstehender Review**: Sie haben die Angabe der Metadaten abgeschlossen und kennzeichnen den Datensatz für eine Review.
 - **Veröffentlicht**: Der Datensatz ist auf opendata.swiss publiziert.
 
 Veröffentlichen / Aktualisieren
