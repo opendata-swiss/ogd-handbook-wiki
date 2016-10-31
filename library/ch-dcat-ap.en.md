@@ -16,6 +16,7 @@ The ‹Open Government Data› project organisation have worked out a joint solu
 Have a look at the following file for a quickstart: [full dataset example](/samples/ogdch_dcatap_import.rdf) (RDF)
 
 ### Namespaces
+
 ```xml
 <rdf:RDF
   xmlns:dct="http://purl.org/dc/terms/"
@@ -28,9 +29,10 @@ Have a look at the following file for a quickstart: [full dataset example](/samp
   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
   xmlns:odrs="http://schema.theodi.org/odrs#"
   xmlns:schema="http://schema.org/">
-  ```
+```
 
 ### Internationalisation
+
 The DCAT-AP for Switzerland Standard expects that text elements of the datasets and their distributions be translated in the following four languages:
 * French (fr)
 * German (de)
@@ -38,6 +40,7 @@ The DCAT-AP for Switzerland Standard expects that text elements of the datasets 
 * English (en)
 
 The multi-lingual elements have to contain the `xml:lang` attribute, as the following example show:
+
 ```xml
 <dct:title xml:lang="fr">FR Titre</dct:title>
 <dct:title xml:lang="de">DE Titel</dct:title>
@@ -47,16 +50,74 @@ The multi-lingual elements have to contain the `xml:lang` attribute, as the foll
 
 ### DCAT-AP reference documentation
 
+#### Definition of `dcat:Catalog`
+
+|             |             |
+|-------------|-------------|
+| Content     | Contains nested elements of type `<dcat:dataset>` |
+| Mandatory   | yes         |
+| Cardinality | 1..1        |
+| Attributes  |             |
+| Description | Catalog with datasets |
+
+Example:
+```xml
+<dcat:Catalog>
+    <dcat:dataset>
+        [...]
+    </dcat:dataset>
+    [further dcat:dataset]
+</dcat:Catalog>
+```
+
+##### `dcat:dataset`
+
+|             |             |
+|-------------|-------------|
+| Content     | Contains single nested element of type `dcat:Dataset`. See [Definition of dcat:Dataset](#definition-of-dataset). |
+| Mandatory   | yes         |
+| Cardinality | 1..n        |
+| Attributes  |             |
+| Description | Wrapper for a dataset of the catalog |
+
+Example:
+```xml
+<dcat:dataset>
+    <dcat:Dataset rdf:about="http://swisstopo/325">
+        [Content of dataset]
+    </dcat:Dataset>
+</dcat:dataset>
+[further dcat:dataset]
+```
+
+<a name="definition-of-dataset"></a>
 #### Definition of `dcat:Dataset`
+
+|             |             |             |
+|-------------|-------------|-------------|
+| Mandatory   | yes         |             |
+| Cardinality | 1..1        |             |
+| Attributes  | Name        | `rdf:about`  |
+|             | Content     | Unique identifier for dataset |
+|             | Mandatory   | yes         |
+| Description | A single dataset of the catalog |             |
+
+Example:
+```xml
+<dcat:Dataset rdf:about="http://swisstopo/325">
+    [Content of dataset]
+</dcat:Dataset>
+```
 
 ##### `dct:identifier`
 
-| Attributes  |             |
+|             |             |
 |-------------|-------------|
 | Type        | `rdfs:Literal` http://www.w3.org/TR/rdf-schema/#ch_literal |
 | Mandatory   | yes         |
 | Cardinality | 1..1        |
-| Description | Unique identifier of the dataset across all publishers. A good way to make sure this identifier is unique is to link the source system ID with the ID of the publisher: `<Source-Dataset-ID>@<Source-Organisation-ID>` |
+| Description | Unique identifier of the dataset across all publishers. A good way to make sure this identifier is unique is to link the source system ID with the ID of the publisher: `[Source-Dataset-ID]@[Source-Organisation-ID]` |
+
 Example:
 ```xml
 <dct:identifier>325@swisstopo</dct:identifier>
@@ -74,6 +135,7 @@ Example:
 |             | Description | Language of the element |
 |             | Mandatory   | yes         |
 | Description | Title of the dataset in the language defined by the `xml:lang` attribute |             |
+
 Example:
 ```xml
 <dct:title xml:lang="de">Eisenbahnlärm Nacht</dct:title>
@@ -91,6 +153,7 @@ Example:
 |             | Description | Language of the element |
 |             | Mandatory   | yes         |
 | Description | Description of the dataset in the language defined by the `xml:lang` attribute |             |
+
 Example:
 ```xml
 <dct:description xml:lang="de">Die Karte zeigt, welcher Lärmbelastung die Bevölkerung durch den Schienenverkehr ausgesetzt ist.</dct:description>
@@ -108,6 +171,7 @@ Example:
 |             | Description | Type of the field |
 |             | Mandatory   | yes         |
 | Description | Date of the first publication of this dataset. If this date is unknown, the date of the first publication on opendata.swiss can be used. If that date is in the future, the dataset is not displayed. |             |
+
 Example:
 ```xml
 <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"> 2013-04-26T01:00:00Z</dct:issued>
@@ -125,6 +189,7 @@ Example:
 |             | Description | Type of the field |
 |             | Mandatory   | yes         |
 | Description | Date of the last change (since the first publication on opendata.swiss) |             |
+
 Example:
 ```xml
 <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"> 2013-04-26T01:00:00Z</dct:modified>
@@ -139,12 +204,13 @@ Example:
 | Mandatory   | yes         |
 | Cardinality | 1..n        |
 | Description | The publishers of the dataset. `rdf:about` is an optional attribute. |
+
 Example:
 ```xml
 <dct:publisher>
-<rdf:Description rdf:about="Reference of publisher">
-<rdfs:label>Bundesamt für Landestopografie swisstopo</rdfs:label>
-</rdf:Description>
+    <rdf:Description rdf:about="Reference of publisher">
+        <rdfs:label>Bundesamt für Landestopografie swisstopo</rdfs:label>
+    </rdf:Description>
 </dct:publisher>
 ```
 
@@ -157,20 +223,21 @@ Example:
 | Mandatory   | yes         |
 | Cardinality | 1..n        |
 | Description | One or more contact email addresses for this dataset `vcard:fn`. Description of the point of contact `vcard:hasEmail` has an attribute `rdf:resource` which contains the email of the point of contact (including mailto:) |
+
 Example:
 ```xml
 <dcat:contactPoint>
-<vcard:Organization>
-<vcard:fn>Abteilung Lärm BAFU</vcard:fn>
-<vcard:hasEmail rdf:resource="mailto:noise@bafu.admin.ch"/>
-</vcard:Organization>
+    <vcard:Organization>
+        <vcard:fn>Abteilung Lärm BAFU</vcard:fn>
+        <vcard:hasEmail rdf:resource="mailto:noise@bafu.admin.ch"/>
+    </vcard:Organization>
 </dcat:contactPoint>
 
 <dcat:contactPoint>
-<vcard:Individual>
-<vcard:fn>Sekretariat BAFU</vcard:fn>
-<vcard:hasEmail rdf:resource="mailto:sekretariat@bafu.admin.ch"/>
-</vcard:Individual>
+    <vcard:Individual>
+        <vcard:fn>Sekretariat BAFU</vcard:fn>
+        <vcard:hasEmail rdf:resource="mailto:sekretariat@bafu.admin.ch"/>
+    </vcard:Individual>
 </dcat:contactPoint>
 ```
 
@@ -185,6 +252,7 @@ Example:
 |             | Description | URI to the category |
 |             | Mandatory   | yes         |
 | Description | Categorisation of the data. In the `rdf:resource` attribute, the unique URI of the category from [SKOS-RDF](/samples/opendataswiss-themes.rdf) (RDF) must be given. The following values are accepted from Themes: <ul><li>http://opendata.swiss/themes/work</li><li>http://opendata.swiss/themes/construction</li><li>http://opendata.swiss/themes/population</li><li>http://opendata.swiss/themes/education</li><li>http://opendata.swiss/themes/energy</li><li>http://opendata.swiss/themes/finances</li><li>http://opendata.swiss/themes/geography</li><li>http://opendata.swiss/themes/legislation</li><li>http://opendata.swiss/themes/health</li><li>http://opendata.swiss/themes/trade</li><li>http://opendata.swiss/themes/industry</li><li>http://opendata.swiss/themes/crime</li><li>http://opendata.swiss/themes/culture</li><li>http://opendata.swiss/themes/agriculture</li><li>http://opendata.swiss/themes/mobility</li><li>http://opendata.swiss/themes/public-order</li><li>http://opendata.swiss/themes/politics</li><li>http://opendata.swiss/themes/prices</li><li>http://opendata.swiss/themes/territory</li><li>http://opendata.swiss/themes/social-security</li><li>http://opendata.swiss/themes/statistical-basis</li><li>http://opendata.swiss/themes/tourism</li><li>http://opendata.swiss/themes/administration</li><li>http://opendata.swiss/themes/national-economy</li></ul> |             |
+
 Example:
 ```xml
 <dcat:theme rdf:resource="http://opendata.swiss/themes/population"/>
@@ -200,6 +268,7 @@ Example:
 | Cardinality | 0..n (for each language) |
 | Attributes  |             |
 | Description | Should contain all languages for which a [distribution](#definition-of-distribution) is available. This field is not validated and is used for display purposes. If all distributions are language-independant, this field can be left out. |
+
 Example:
 ```xml
 <dct:language>de</dct:language>
@@ -214,12 +283,13 @@ Example:
 | Mandatory   | no          |
 | Cardinality | 0..n        |
 | Description | A relation to a document. The `rdf:about` must link to a related document. |
+
 Example:
 ```xml
 <dct:relation>
-<rdf:Description rdf:about="http://www.bafu.admin.ch/laerm/index.html?lang=de">
-<rdfs:label>Webseite des BAFU</rdfs:label>
-</rdf:Description>
+    <rdf:Description rdf:about="http://www.bafu.admin.ch/laerm/index.html?lang=de">
+        <rdfs:label>Webseite des BAFU</rdfs:label>
+    </rdf:Description>
 </dct:relation>
 ```
 
@@ -235,6 +305,7 @@ Example:
 |             | Description | Language of the element |
 |             | Mandatory   | yes         |
 | Description | Keyword who describes this dataset |             |
+
 Example:
 ```xml
 <dcat:keyword xml:lang="de">Nacht</dcat:keyword>
@@ -252,6 +323,7 @@ Example:
 | Cardinality | 0..1        |
 | Attributes  |             |
 | Description | Website of the dataset with related information |
+
 Example:
 ```xml
 <dcat:landingPage>http://www.bafu.admin.ch/laerm/index.html?lang=de</dcat:landingPage>
@@ -266,13 +338,15 @@ Example:
 | Cardinality | 0..n        |
 | Attributes  |             |
 | Description | Geographical classification of the dataset. Can be a description, coordinates, a bounding-box or a polygon. This field currently supports GeoJSON with the [LOCN extension](https://www.w3.org/community/locadd/wiki/LOCN_extension:_Metadata). |
+
 Example:
 ```xml
 <dct:spatial rdf:resource="http://publications.europa.eu/mdr/authority/country/ZWE"/>
 <dct:spatial>Bern</dct:spatial>
 <dct:spatial>
   <dct:Location>
-    <locn:geometry rdf:datatype="https://www.iana.org/assignments/media-types/application/vnd.geo+json"><![CDATA[
+    <locn:geometry rdf:datatype="https://www.iana.org/assignments/media-types/application/vnd.geo+json">
+    <![CDATA[
       {
         "type":"Polygon",
         "crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},
@@ -293,6 +367,7 @@ Example:
 | Cardinality | 0..n        |
 | Attributes  |             |
 | Description | This field is currently not used, use `dcat:spatial` instead. |
+
 Example:
 ```xml
 <dct:coverage/>
@@ -302,18 +377,19 @@ Example:
 
 |             |             |
 |-------------|-------------|
-| Type        | `ct:PeriodOfTime` http://dublincore.org/documents/2012/06/14/dcmi-terms/?v=terms#terms-PeriodOfTime |
+| Type        | `dct:PeriodOfTime` http://dublincore.org/documents/2012/06/14/dcmi-terms/?v=terms#terms-PeriodOfTime |
 | Mandatory   | no          |
 | Cardinality | 0..n        |
 | Attributes  |             |
 | Description | One or more time period(s) that cover the dataset. `<schema:startDate>` contains the start date, `<schema:endDate>` contains the end date format for dates: http://www.w3.org/2001/XMLSchema#date |
+
 Example:
 ```xml
 <dct:temporal>
-<dct:PeriodOfTime>
-<schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1905-03-01</schema:startDate>
-<schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-01-05</schema:endDate>
-</dct:PeriodOfTime>
+    <dct:PeriodOfTime>
+        <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1905-03-01</schema:startDate>
+        <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-01-05</schema:endDate>
+    </dct:PeriodOfTime>
 </dct:temporal>
 ```
 
@@ -327,6 +403,7 @@ Example:
 |             | Type        | `dct:Frequency` |
 |             | Mandatory   | yes         |
 | Description | The frequency in which this dataset is updated. Values for `dct:Frequency`: http://dublincore.org/groups/collections/frequency/ |             |
+
 Example:
 ```xml
 <dct:accrualPeriodicity rdf:resource="http://purl.org/cld/freq/daily"/>
@@ -341,6 +418,7 @@ Example:
 | Cardinality | 0..n        |
 | Attributes  |             |
 | Description | Link to related datasets. Contains the identifier of the linked dataset. |
+
 Example:
 ```xml
 <rdfs:seeAlso>326@swisstopo</rdfs:seeAlso>
@@ -350,13 +428,40 @@ Example:
 
 |             |             |
 |-------------|-------------|
-| Type        | Nested elements. See [Definition of Distribution](#definition-of-distribution). |
-| Mandatory   | no          |
-| Cardinality | 0..n        |
+| Content     | Contains single nested element of type `dcat:Distribution`. See [Definition of `dcat:Distribution`](#definition-of-distribution). |
+| Mandatory   | yes         |
+| Cardinality | 1..n        |
 | Attributes  |             |
-| Description | Distribution of the datasets |
+| Description | Wrapper for a distribution of the dataset |
 
-#### Definition of Distribution
+Example:
+```xml
+<dcat:distribution>
+    <dcat:Distribution rdf:about="http://swisstopo/325/ch.bafu.laerm-bahnlaerm_nacht">
+        [Content of distribution]
+    </dcat:Distribution>
+</dcat:distribution>
+[further distributions]
+```
+
+<a name="definition-of-distribution"></a>
+#### Definition of `dcat:Distribution`
+
+|             |             |             |
+|-------------|-------------|-------------|
+| Mandatory   | yes         |             |
+| Cardinality | 1..1        |             |
+| Attributes  | Name        | `rdf:about`  |
+|             | Content     | Unique identifier for distribution |
+|             | Mandatory   | yes         |
+| Description | A single distribution of the dataset |             |
+
+Example:
+```xml
+<dcat:Distribution rdf:about="http://swisstopo/325/ch.bafu.laerm-bahnlaerm_nacht">
+    [Content of distribution]
+</dcat:Distribution>
+```
 
 ##### `dcat:identifier`
 
@@ -367,6 +472,7 @@ Example:
 | Cardinality | 0..1        |
 | Attributes  |             |
 | Description | Identifier of the distribution in the source system |
+
 Example:
 ```xml
 <dct:identifier>ch.bafu.laerm-bahnlaerm_nacht</dct:identifier>
@@ -384,6 +490,7 @@ Example:
 |             | Description | Language of the element |
 |             | Mandatory   | yes         |
 | Description | The title of the distribution in the language defined by the `xml:lang?` attribute. If this element is left out, the `dct:title` of the dataset is used instead. |             |
+
 Example:
 ```xml
 <dct:title xml:lang="de">WMS (ch.bafu.laerm-bahnlaerm_nacht)</dct:title>
@@ -401,6 +508,7 @@ Example:
 |             | Description | Language of the element |
 |             | Mandatory   | yes         |
 | Description | Description of the distribution in the language defined by the `xml:lang` attribute |             |
+
 Example:
 ```xml
 <dct:title xml:lang="de">WMS (ch.bafu.laerm-bahnlaerm_nacht)</dct:title>
@@ -418,6 +526,7 @@ Example:
 |             | Description | Type of the field |
 |             | Mandatory   | yes         |
 | Description | Date of the publication of this distribution |             |
+
 Example:
 ```xml
 <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"> 2013-05-11T00:00:00Z</dct:issued>
@@ -435,6 +544,7 @@ Example:
 |             | Description | Type of the field |
 |             | Mandatory   | yes         |
 | Description | Date of the last change of the distribution |             |
+
 Example:
 ```xml
 <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"> 2015-04-26T00:00:00Z</dct:modified>
@@ -450,6 +560,7 @@ Example:
 | Cardinality | 0..n (for each language) |             |
 | Attributes  |             |             |
 | Description | Languages in which this distribution is available. If the distribution is language-independant, this can be left out. |             |
+
 Example:
 ```xml
 <dct:language>de</dct:language>
@@ -467,6 +578,7 @@ Example:
 |             | Description | Type of the field |
 |             | Mandatory   | yes         |
 | Description | URL where the distribution can be found. This could be either a download URL, an API URL or a landing page URL. If the distribution is only available through a landing page, this field must contain the URL of the landing page. If a download URL was given for this distribution, this field has to contain the same value. |             |
+
 Example:
 ```xml
 <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"> http://wms.geo.admin.ch/</dcat:accessURL>
@@ -484,6 +596,7 @@ Example:
 |             | Description | Type of the field |
 |             | Mandatory   | yes         |
 | Description | URL of a data file, if the distribution can be downloaded. For each of these, a `dcat:accessURL` has to exist. |             |
+
 Example:
 ```xml
 <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"> http://data.geo.admin.ch.s3.amazonaws.com/ch.fill/data.zip</dcat:downloadURL>
@@ -493,20 +606,14 @@ Example:
 
 |             |             |             |
 |-------------|-------------|-------------|
-| Elements    | Name        | `odrs:dataLicense` |
-|             | Content     | Possible values: <ul><li>NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired (acceptable for opendata.swiss, Open Definition compliant)</li><li>NonCommercialAllowed-CommercialAllowed-ReferenceRequired (acceptable for opendata.swiss, Open Definition compliant)</li><li>NonCommercialAllowed-CommercialWithPermission-ReferenceNotRequired (acceptable for opendata.swiss)</li><li>NonCommercialAllowed-CommercialWithPermission-ReferenceRequired (acceptable for opendata.swiss)</li><li>NonCommercialAllowed-CommercialNotAllowed-ReferenceNotRequired (not acceptable for opendata.swiss)</li><li>NonCommercialAllowed-CommercialNotAllowed-ReferenceRequired (not acceptable for opendata.swiss)</li><li>NonCommercialNotAllowed-CommercialNotAllowed-ReferenceNotRequired (not acceptable for opendata.swiss)</li><li>NonCommercialNotAllowed-CommercialNotAllowed-ReferenceRequired (not acceptable for opendata.swiss)</li><li>NonCommercialNotAllowed-CommercialAllowed-ReferenceNotRequired (not acceptable for opendata.swiss)</li><li>NonCommercialNotAllowed-CommercialAllowed-ReferenceRequired (not acceptable for opendata.swiss)</li><li>NonCommercialNotAllowed-CommercialWithPermission-ReferenceNotRequired (not acceptable for opendata.swiss)</li><li>NonCommercialNotAllowed-CommercialWithPermission-ReferenceRequired (not acceptable for opendata.swiss)</li></ul> |
-| Type        | Open Data Rights Statement Vocabulary (https://theodi.org/guides/publishers-guide-to-the-open-data-rights-statement-vocabulary) |             |
+| Type        | `rdfs:Literal` http://www.w3.org/TR/rdf-schema/#ch_literal |             |
+| Content     | Possible values: <ul><li>NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired (acceptable for opendata.swiss, Open Definition compliant)</li><li>NonCommercialAllowed-CommercialAllowed-ReferenceRequired (acceptable for opendata.swiss, Open Definition compliant)</li><li>NonCommercialAllowed-CommercialWithPermission-ReferenceNotRequired (acceptable for opendata.swiss)</li><li>NonCommercialAllowed-CommercialWithPermission-ReferenceRequired (acceptable for opendata.swiss)</li><li>NonCommercialAllowed-CommercialNotAllowed-ReferenceNotRequired (not acceptable for opendata.swiss)</li><li>NonCommercialAllowed-CommercialNotAllowed-ReferenceRequired (not acceptable for opendata.swiss)</li><li>NonCommercialNotAllowed-CommercialNotAllowed-ReferenceNotRequired (not acceptable for opendata.swiss)</li><li>NonCommercialNotAllowed-CommercialNotAllowed-ReferenceRequired (not acceptable for opendata.swiss)</li><li>NonCommercialNotAllowed-CommercialAllowed-ReferenceNotRequired (not acceptable for opendata.swiss)</li><li>NonCommercialNotAllowed-CommercialAllowed-ReferenceRequired (not acceptable for opendata.swiss)</li><li>NonCommercialNotAllowed-CommercialWithPermission-ReferenceNotRequired (not acceptable for opendata.swiss)</li><li>NonCommercialNotAllowed-CommercialWithPermission-ReferenceRequired (not acceptable for opendata.swiss)</li></ul> |             |
 | Mandatory   | yes         |             |
 | Cardinality | 1..1        |             |
-| Attributes  |             |             |
 | Description | Rights statement of this distribution. This is composed of 3 elements that can be summarized in a string literal: - Non-commercial use: allowed or not allowed - Commercial use: allowed, allowed with permission and not allowed - Reference: required or not required |             |
 Example:
 ```xml
-<dct:rights>
-<odrs:dataLicence>
-NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
-</odrs:dataLicence>
-</dct:rights>
+<dct:rights>NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired</dct:rights>
 ```
 
 ##### `dct:license`
@@ -518,6 +625,7 @@ NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 | Cardinality | 0..1        |
 | Attributes  |             |
 | Description | Not used, see `dct:rights`. This field ensures compatibility to other metadata standards. |
+
 Example:
 ```xml
 <dct:license/>
@@ -532,6 +640,7 @@ Example:
 | Cardinality | 0..1        |
 | Attributes  |             |
 | Description | Size of the data in bytes |
+
 Example:
 ```xml
 <dcat:byteSize>1024</dcat:byteSize>
@@ -546,6 +655,7 @@ Example:
 | Cardinality | 0..1        |
 | Attributes  |             |
 | Description | Only values from the list of IANA MIME types http://www.iana.org/assignments/media-types/media-types.xhtml |
+
 Example:
 ```xml
 <dcat:mediaType>text/html</dcat:mediaType>
@@ -560,6 +670,7 @@ Example:
 | Cardinality | 0..1        |
 | Attributes  |             |
 | Description | Available for compatibility reasons. Not used. |
+
 Example:
 ```xml
 <dct:format/>
@@ -574,6 +685,7 @@ Example:
 | Cardinality | 0..n        |
 | Attributes  |             |
 | Description | Distributions can be classified by their location or time period (for example, one for each canton, one for each year, etc.) |
+
 Example:
 ```xml
 <dct:coverage/>
@@ -595,8 +707,8 @@ Example:
 
 The following documents on the selection and definition of OGD standards for metadata are available in the Library:
 
-- [CH DCAT AP Reference](/de/library/ch-dcat-ap)
-- [DCAT Application Profile](/en/library/dcat-application)
-- [DCAT: Catalog](/en/library/dcat-catalog)
-- [DCAT: Dataset](/en/library/dcat-dataset)
-- [DCAT: Distribution](/en/library/dcat-distribution)
+* [CH DCAT AP Reference](/de/library/ch-dcat-ap)
+* [DCAT Application Profile](/en/library/dcat-application)
+* [DCAT: Catalog](/en/library/dcat-catalog)
+* [DCAT: Dataset](/en/library/dcat-dataset)
+* [DCAT: Distribution](/en/library/dcat-distribution)
