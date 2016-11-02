@@ -705,6 +705,36 @@ Example:
 | Description | The description of the dataset/distribution |             |
 
 
+##### MIME-Type Mapping
+To retrieve the format, following values will be checked in following order:
+1. File Extension of `dcat:downloadURL`
+2. Value of `dct:mediaType`
+3. Value of `dct:format`
+
+The value retrieved will be mapped as follows:
+
+| Retrieved Value | Displayed Format |
+|-------------|-----------|
+| text, txt   | TXT       |
+| html        | HTML      |
+| csv         | CSV       |
+| xml         | XML       |
+| json        | JSON      |
+| geojson     | GeoJSON   |
+| xls, xlsx   | XLS       |
+| zip         | ZIP       |
+| pdf         | PDF       |
+| wms         | WMS       |
+| wcs         | WCS       |
+| wfs         | WFS       |
+| wmts        | WMTS      |
+| kmz         | KMZ       |
+| geotiff     | GeoTIFF   |
+| tiff        | TIFF      |
+| png         | PNG       |  
+| other values| N/A       |         
+
+
 The following documents on the selection and definition of OGD standards for metadata are available in the Library:
 
 * [CH DCAT AP Reference](/de/library/ch-dcat-ap)
