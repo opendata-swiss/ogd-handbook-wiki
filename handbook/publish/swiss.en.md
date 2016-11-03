@@ -46,6 +46,36 @@ Prepare the data and metadata:
 
 - If necessary, carry out a quality check of the data
 
+#### MIME-Type Mapping
+To retrieve the format that is displayed on the portal, following values will be checked in following order:
+1. File Extension of `dcat:downloadURL`
+2. Value of `dct:mediaType`
+3. Value of `dct:format`
+
+The value retrieved will be mapped as follows:
+
+| Retrieved Value | Displayed Format |
+|-------------|-----------|
+| text, txt   | TXT       |
+| html        | HTML      |
+| csv         | CSV       |
+| xml         | XML       |
+| json        | JSON      |
+| geojson     | GeoJSON   |
+| xls, xlsx   | XLS       |
+| zip         | ZIP       |
+| pdf         | PDF       |
+| wms         | WMS       |
+| wcs         | WCS       |
+| wfs         | WFS       |
+| wmts        | WMTS      |
+| kmz         | KMZ       |
+| geotiff     | GeoTIFF   |
+| tiff        | TIFF      |
+| png         | PNG       |
+| other values| N/A       |
+
+
 ## Importing the metadata
 
 Before you can import your metadata to opendata.swiss, the Federal Archives must enter your organization in the system. If your organization has not previously published data on the portal, please register by [contacting us](mailto:opendata@bar.admin.ch). You should then do the following:
