@@ -669,7 +669,7 @@ Example:
 | Mandatory   | no          |
 | Cardinality | 0..1        |
 | Attributes  |             |
-| Description | If neither the `downloadURL` nor the `mediaType` do not provide a valid format this value is used to display the format of the ressource. |
+| Description | If neither the `downloadURL` nor the `mediaType` provide a valid format this value is used to display the format of the ressource. |
 
 Example:
 ```xml
