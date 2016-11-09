@@ -654,7 +654,7 @@ Example:
 | Mandatory   | no - except if the distribution is available as a data download (see `downloadURL`). |
 | Cardinality | 0..1        |
 | Attributes  |             |
-| Description | Only values from the list of IANA MIME types http://www.iana.org/assignments/media-types/media-types.xhtml |
+| Description | This value will be used to display the ressource-format if the `downloadURL` is empty. Only values from the list of IANA MIME types http://www.iana.org/assignments/media-types/media-types.xhtml |
 
 Example:
 ```xml
@@ -669,7 +669,7 @@ Example:
 | Mandatory   | no          |
 | Cardinality | 0..1        |
 | Attributes  |             |
-| Description | Available for compatibility reasons. Not used. |
+| Description | If neither the `downloadURL` nor the `mediaType` provide a valid format this value is used to display the format of the ressource. |
 
 Example:
 ```xml
@@ -703,6 +703,7 @@ Example:
 | Attributes  | Name        | `rdf:about` |
 |             | Mandatory   | no         |
 | Description | The description of the dataset/distribution |             |
+
 
 
 The following documents on the selection and definition of OGD standards for metadata are available in the Library:
