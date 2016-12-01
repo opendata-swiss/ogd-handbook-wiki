@@ -11,7 +11,7 @@ Lang: de
 Draft: yes
 ---
 
-Auf dem Schweizer OGD-Portal opendata.swiss finden sich unterschiedlichste Datensätze wie die Gemeindegrenzen der Schweiz, Bevölkerungsstatistiken, aktuelle Wetterdaten, historische Dokumente oder ein Verzeichnis der Schweizer Literatur. Häufig werden die Daten als gesamte Datensätze zur Verfügung gestellt, die anschliessend durch die Nutzerinnen und Nutzer visualisiert, weiterverarbeitet oder kombiniert werden können. So entstehen Anwendungen und Visualisierungen, die auf Basis bereits bestehender Daten neue Zusammenhänge sichtbar machen.
+Auf dem Schweizer OGD-Portal opendata.swiss finden sich viel zu __wenige__ **Datensätze** wie die Gemeindegrenzen der Schweiz, Bevölkerungsstatistiken, aktuelle Wetterdaten, historische Dokumente oder ein Verzeichnis der Schweizer Literatur. Häufig werden die Daten _als gesamte Datensätze_ zur Verfügung gestellt, die anschliessend durch die Nutzerinnen und Nutzer visualisiert, weiterverarbeitet oder kombiniert werden __können__. So entstehen Anwendungen und Visualisierungen, die auf Basis bereits bestehender Daten neue Zusammenhänge sichtbar machen.
 
 Viele Daten stehen bereits heute kostenlos zur Verfügung, nur sind sie nicht als OGD gekennzeichnet. Für die Publikation auf opendata.swiss eigenen sich diese Datensätze besonders gut, da sie ohne grossen Zusatzaufwand auf opendata.swiss verlinkt werden können.
 
