@@ -56,4 +56,17 @@ Outcomes of our testing with opendata.swiss:
 
 ### Option 3: Scripted widget and/or SaaS
 
-Work in progress.
+Similar to the rich media widgets from Twitter and other websites can be added to third-party pages through loading remote JavaScript, it should be possible to provide users with a code snippet that could be configured according to their needs.
+
+CKAN's [Data Viewer](http://docs.ckan.org/en/latest/maintaining/data-viewer.html) is a feature that already has resource embedding built in, including the ability to whitelist sites where this may be deployed using a `resource proxy` configuration option.
+
+The [ckan.js](https://github.com/okfn/ckan.js) project is a JavaScript library that could be used to connect to CKAN from within the browser. In order to overcome Cross-origin resource sharing (CORS) restriction, a backend service needs to be hosted on the same machine as the scripts.
+
+We have put together a demonstration widget which displays the same information about datasets as the standard search. It uses [ckan.js](https://github.com/okfn/ckan.js) to connect to the [CKAN API](http://docs.ckan.org/en/latest/api/) and run search queries, and the [jQuery](http://jquery.com/) and [Underscore](http://underscorejs.org/) libraries to render the result in an HTML5 template.
+
+Outcomes of our testing with opendata.swiss:
+
+- This could be a good solution if wrapped together in a reusable package for third party developers.
+- A 'configurator' similar to [Twitter Publish](https://publish.twitter.com) would make it even easier for non-technical users.
+- Performance issues could potentially be compounded by availability and connectivity of the proxying server, so hosting this widget needs to be done with care.
+- It would be wise to limit the API calls of the proxying server to specific calls for security and performance. However, this requires an actual service backend that uses something like the Python [ckanapi client](https://github.com/ckan/ckanapi).
