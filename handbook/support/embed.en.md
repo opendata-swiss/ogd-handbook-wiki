@@ -81,7 +81,7 @@ It would also be wise to limit the API calls of the proxying server to specific 
 
 We have put together a demonstration widget which displays the same information about datasets as the standard search. It uses [ckan.js](https://github.com/okfn/ckan.js) to connect to the [CKAN API](http://docs.ckan.org/en/latest/api/) and run search queries, and the [jQuery](http://jquery.com/) and [Underscore](http://underscorejs.org/) libraries to render the result in an HTML5 template:
 
-<a href="http://opendataswiss-lindas-test.datalets.ch/embed-widget.html" target="_blank" class="btn btn-default">Embedded Frame example (offsite)</a>
+<a href="http://opendataswiss-lindas-test.datalets.ch/embed-widget.html" target="_blank" class="btn btn-default">Embedded Widget example (offsite)</a>
 
 ## Further options
 
