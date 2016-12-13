@@ -36,9 +36,15 @@ Furthermore, there is no reason that category or search result pages could not b
 
 There are various open-source packages and libraries you can use as a developer to add support to your Web project. Here are some examples: [pelican-open_graph](https://github.com/whiskyechobravo/pelican-open_graph) (Pelican is used in this Handbook), [opengraph by erikriver](https://github.com/erikriver/opengraph), [Drupal](https://www.drupal.org/project/oembed), [JavaScript/Node.js](https://www.npmjs.com/package/open-graph), and a middleware API at [Opengraph.io](https://www.opengraph.io/documentation/).
 
-Summary:
+Example of how a dataset would currently render with basic HTML5 metadata:
 
-> In newer releases of CKAN, pasting links from the open data portal into a Web platform that supports the *Open Graph protocol* will enable a richer sharing experience.
+![](../../images/embed/ckan-default.png)
+
+Example of a dataset rendered using OpenGraph from the CKAN instance at [data.beta.nyc](http://data.beta.nyc/showcase/nyc-marriage-index):
+
+![](../../images/embed/ckan-opengraph.png)
+
+In summary, starting with newer releases of CKAN, pasting links from the open data portal into a Web platform that supports the *Open Graph protocol* will enable a richer sharing experience.
 
 ## Frames
 
@@ -88,7 +94,13 @@ Note that performance issues could potentially be compounded by availability and
 
 It would also be wise to limit the API calls of the proxying server to specific calls for security and performance. However, this requires an actual service backend that uses something like the Python [ckanapi client](https://github.com/ckan/ckanapi).
 
-We have put together a demonstration JavaScript widget which displays the same information about datasets as the standard search. It uses [ckan.js](https://github.com/okfn/ckan.js) to connect to the [CKAN API](http://docs.ckan.org/en/latest/api/) and run search queries, and the [jQuery](http://jquery.com/) and [Underscore](http://underscorejs.org/) libraries to render the result in an HTML5 template. You can find the code and deployment instructions at [TBD]
+We have put together a demonstration JavaScript widget which displays the same information about datasets as the standard search. It uses [ckan.js](https://github.com/okfn/ckan.js) to connect to the [CKAN API](http://docs.ckan.org/en/latest/api/) and run search queries, and the [jQuery](http://jquery.com/) and [Underscore](http://underscorejs.org/) libraries to render the result in an HTML5 template.
+
+Example of rendering a search from opendata.swiss in this widget:
+
+![](../../images/embed/ckan-widget.png)
+
+Code and deployment instructions will be available soon.
 
 ## Further options
 
