@@ -1,7 +1,7 @@
 ---
 Title: Analysis of options for embedding datasets from opendata.swiss
 Category: Library
-Handbook: yes
+Template: document
 Tags: support
 Date: 2016-12-01
 Slug: embed
