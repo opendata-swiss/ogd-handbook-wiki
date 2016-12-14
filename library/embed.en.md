@@ -13,38 +13,38 @@ toc_run: true
 ---
 
 
-Opendata.swiss is the central reference catalog for open government data in Switzerland. Some data publishers may like to present published datasets on their own website. For example, several government institutions have their own data portals on which they would like to feature datasets which they maintain - and integrate this with other information on their website.
+Opendata.swiss is the central reference catalog for open government data in Switzerland. Some data publishers may like to present published datasets on their own website. Several government institutions even have their own data portals, on which they would like to feature any datasets which they maintain on *opendata.swiss* - and integrate this with other information on their website.
 
-This document discusses a range of technical options for embedding content opendata.swiss on other websites website, with these goals covered:
+This document discusses a range of technical options for embedding content from the CKAN open data platform on other websites website, with these goals covered:
 
-- The datasets should be well presented, and the information accurate and up-to-date - in other words, where a copy-and-paste is insufficient.
-- Data publishers of the Swiss OGD Project need to have the possibility to show on their own website a selection from the catalogue. Usually, this selection is filtered to the datasets they themselves publish.
+- The datasets should be well presented, the information accurate and up-to-date - in other words, where a copy-and-paste of the information is insufficient.
+- Data publishers need to be able to show on their own website a dynamic selection from the central catalogue. Usually, this selection is filtered to the datasets they themselves publish.
 
-We describe several recommended options here from linking to resources from the catalogue, to embedding parts of the functionality from the portal on other websites..
+We describe several recommended options here - from linking to resources from the catalogue, to embedding parts of the functionality from the portal on other websites.
 
 ## Cards
 
-Standards like the [Open Graph protocol](http://ogp.me) and [oEmbed](http://oembed.com) not only improve the way search engines and other "machine users" access the platform, they also make it easy to bring in rich content from different sites through standard interfaces.
+Standards like the [Open Graph protocol](http://ogp.me) and [oEmbed](http://oembed.com) not only improve the way search engines and other machine 'users' access the platform, they also make it easy to bring in rich content from different sites through standard interfaces.
 
 Using these standards, sharing links to datasets on *opendata.swiss* is vastly improved: simply by pasting in the URL to a dataset on a platform with support for the protocol (like Discourse or Wordpress), visitors of your site see a "card" with the title and description and possibly an image of the page. If you see a plain link, then embedding is not supported or working - but visitors can still navigate to the target page.
 
-This option would not allow search and other interactivity, but could be a good basis for them (see next option). Initially it would make it easy for content owners to use their own existing platforms to present the datasets in a nice way just by linking to the datasets.
-
-Basic OpenGraph support is available in more [recent versions](https://github.com/ckan/ckanext-showcase/pull/7) of CKAN. An example deployment with this support is [data.beta.nyc](http://data.beta.nyc/showcase/nyc-marriage-index). The Data Viewer also has an [embedding feature](http://docs.ckan.org/en/ckan-2.2.3/data-viewer.html#embed-previews) since 2.1.
-
-Furthermore, there is no reason that category or search result pages could not be tagged with Open Graph metadata. This way third party websites could have a summary view into the datasets simply by linking to the appropriate URL. While this is currently not supported in CKAN, it would be a straightforward request for the roadmap.
-
-There are various open-source packages and libraries you can use as a developer to add support to your Web project. Here are some examples: [pelican-open_graph](https://github.com/whiskyechobravo/pelican-open_graph) (Pelican is used in this Handbook), [opengraph by erikriver](https://github.com/erikriver/opengraph), [Drupal](https://www.drupal.org/project/oembed), [JavaScript/Node.js](https://www.npmjs.com/package/open-graph), and a middleware API at [Opengraph.io](https://www.opengraph.io/documentation/).
-
-Example of how a dataset would currently render with basic HTML5 metadata:
+Here is an example of how a dataset renders at time of writing in the [Slack](https://slack.com/) web application using basic HTML5 metadata:
 
 ![](../../images/embed/ckan-default.png)
 
-Example of a dataset rendered using OpenGraph from the CKAN instance at [data.beta.nyc](http://data.beta.nyc/showcase/nyc-marriage-index):
+Compare this to a dataset rendered using Open Graph from the CKAN instance at [data.beta.nyc](http://data.beta.nyc/showcase/nyc-marriage-index), which appears like this in the same client:
 
 ![](../../images/embed/ckan-opengraph.png)
 
-In summary, starting with newer releases of CKAN, pasting links from the open data portal into a Web platform that supports the *Open Graph protocol* will enable a richer sharing experience.
+This option would not allow search and other interactivity, but could provide a basis for it (further discussion in the next option). Initially it would make it easy for content owners to use their own existing platforms to present the datasets in a nice way just by linking to the datasets.
+
+Open Graph support is available in more [recent versions](https://github.com/ckan/ckanext-showcase/pull/7) of CKAN. Another example deployment with support is the open data portal of the [City of Zurich](https://data.stadt-zuerich.ch/).
+
+There are various open-source packages and libraries you can use as a developer to add support for reading Open Graph metadata in your Web project. Here are some examples: [pelican-open_graph](https://github.com/whiskyechobravo/pelican-open_graph) (Pelican is used in this Handbook), [opengraph by erikriver](https://github.com/erikriver/opengraph), [Drupal](https://www.drupal.org/project/oembed), [JavaScript/Node.js](https://www.npmjs.com/package/open-graph), and a middleware API at [Opengraph.io](https://www.opengraph.io/documentation/).
+
+Furthermore, category and search result pages could also be tagged using the same mechanisms. This way third party websites could have a summary view into the datasets simply by linking to the appropriate URL. As far as we can tell, this is currently not supported or planned in CKAN. For more in-depth discussion of metadata support see: [Make consistent all forms of RDF output from CKAN #1890](https://github.com/ckan/ckan/issues/1890).
+
+In summary, starting with newer releases of CKAN, pasting links from the open data portal into a Web platform that supports the Web metadata protocols enables a richer sharing experience.
 
 ## Frames
 
@@ -82,11 +82,11 @@ src="https://opendata.swiss/de/dataset/jahresrechnungen-der-korperschaften-des-k
 
 Similar to the rich media widgets from Twitter and other websites, a script can be added to pages which loads remote content using JavaScript. It is possible to provide users with a code snippet that could be configured according to their needs.
 
-CKAN's [Data Viewer](http://docs.ckan.org/en/latest/maintaining/data-viewer.html) is a feature that already has resource embedding built in, including the ability to whitelist sites where this may be deployed using a `resource proxy` configuration option.
+The portal's [Data Viewer](http://docs.ckan.org/en/latest/maintaining/data-viewer.html) is a feature that already has resource embedding built in, including the ability to whitelist sites where this may be deployed using a `resource proxy` configuration option. This capability has been available since CKAN 2.1.
 
 The [ckan.js](https://github.com/okfn/ckan.js) project is a JavaScript library that could be used to connect to CKAN from within the browser. In order to overcome Cross-origin resource sharing (CORS) restriction, a backend service needs to be hosted on the same machine as the scripts.
 
-OpenGraph or oEmbed support (as discussed in the Cards section) would make it possible to use a compatible client-side library (e.g.: [Oembetter](https://github.com/punkave/oembetter)). Furthermore, soon on the opendata.swiss roadmap there will be support for requesting DCAT-AP compatible RDF for any dataset. While this does not mean that the data itself is linked, it would also allow a more generic solution to displaying the metadata.
+Open Graph support (as discussed in the Cards section) would make it possible to use a compatible client-side library (e.g.: [Oembetter](https://github.com/punkave/oembetter)). Furthermore, soon on the *opendata.swiss* roadmap there will be support for requesting DCAT-AP compatible RDF for any dataset. While this does not mean that the data itself is linked, it would also allow a more generic solution to displaying the metadata.
 
 This option could be a good solution if wrapped together in a reusable package for third party developers. A 'configurator' similar to [Twitter Publish](https://publish.twitter.com) would make it even easier for non-technical users.
 
@@ -104,9 +104,7 @@ Code and deployment instructions will be available soon.
 
 ## Further options
 
-We also investigated the possibility of supporting publishers of 'static sites', such as this handbook. We could support the deployment of rich content with dynamic crawling and updating of content during the publication process without reliance on cross-site requests in the browser.
-
-This would however require technical effort for the specific publishing platforms, and come with the synchronicitiy issues of the Cards option - i.e. the embedded information will only be as recent as the latest publication.
+We also investigated the possibility of supporting publishers of 'static sites', such as this handbook. We could support the deployment of rich content with dynamic crawling and updating of content during the publication process without reliance on cross-site requests in the browser. This would however require technical effort for the specific publishing platforms, and come with the synchronicitiy issues of the Cards option - i.e. the embedded information will only be as recent as the latest publication. This approach is described in the [govpack package](https://www.npmjs.com/package/govpack).
 
 Access to regular exports from the portal's underlying database - in other words, federated or raw data access - would enable content providers to run their own mini-sites synchronised to the central port. It is currently not clear how prominently portal federation will feature on CKAN's roadmap, while third party extensions like [ckanext-odn-ic2pc-sync](https://github.com/OpenDataNode/ckanext-odn-ic2pc-sync) promise this kind of functionality. For a more high level discussion of the advantages of hosting federated platforms for data discovery, see [Zhang Haojie et al., 2015](https://www.researchgate.net/publication/283356205_Data-as-a-Service_A_Cloud-Based_Federated_Platform_to_Facilitate_Discovery_of_Private_Sector_Datasets).
 
