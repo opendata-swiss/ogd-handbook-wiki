@@ -6,19 +6,20 @@ Tags: support
 Date: 2016-12-01
 Slug: embed
 Authors: Oleg Lavrovsky
-Summary: This working document analyses the Web publishing capabilities of CKAN portals, in order to present and discuss options for sharing rich content on third-party sites.
+Summary: This working document analyses the embedding capabilities of CKAN portals such as opendata.swiss, in order to present and discuss options for sharing rich content on third-party sites.
 Lang: en
 Draft: yes
 toc_run: true
 ---
 
 
-Opendata.swiss is the central reference catalog for open government data in Switzerland, and some people may like to present published datasets on their own website. Several government institutions even have their own data portals, on which they would like to feature any datasets which they maintain on *opendata.swiss* - and integrate this with other information on their website.
+Some users may like to present datasets published at *opendata.swiss* on their own website. Several of the publishing institutions even have their own data portals, on which they may like to feature any datasets which they maintain on the central catalog - integrating these with other information on their website.
 
-This document discusses a range of technical options for embedding content from the CKAN open data platform on other websites website, with these goals covered:
+This document discusses a range of technical options for embedding content from the CKAN open data platform on other websites website, with goals that:
 
 - The datasets should be well presented, the information accurate and up-to-date - in other words, where a copy-and-paste of the information is insufficient.
 - Data publishers need to be able to show on their own website a dynamic selection from the central catalogue. Usually, this selection is filtered to the datasets they themselves publish.
+- Options covered here should cater to all platforms and a range of technical skills required.
 
 We describe several recommended options here - from linking to resources from the catalogue, to embedding parts of the functionality from the portal on other websites.
 
@@ -26,19 +27,19 @@ We describe several recommended options here - from linking to resources from th
 
 Standards like the [Open Graph protocol](http://ogp.me) and [oEmbed](http://oembed.com) not only improve the way search engines and other machine 'users' access the platform, they also make it easy to bring in rich content from different sites through standard interfaces.
 
-Using these standards, sharing links to datasets on *opendata.swiss* is vastly improved: simply by pasting in the URL to a dataset on a platform with support for the protocol (like Discourse or Wordpress), visitors of your site see a "card" with the title and description and possibly an image of the page. If you see a plain link, then embedding is not supported or working - but visitors can still navigate to the target page.
+Using these standards, sharing links to datasets on *opendata.swiss* is improved: simply by pasting in the URL to a dataset on a platform with support for the protocol (like Discourse or Wordpress), visitors of your site see a "card" with the title and description and possibly an image of the page. If you see a plain link, then embedding is not supported or working - but visitors can still navigate to the target page.
 
 Here is an example of how a dataset renders at time of writing in the [Slack](https://slack.com/) web application using basic HTML5 metadata:
 
 ![](../../images/embed/ckan-default.png)
 
-Compare this to a dataset rendered using Open Graph from the CKAN instance at [data.beta.nyc](http://data.beta.nyc/showcase/nyc-marriage-index), which appears like this in the same client:
+Compare this to a dataset rendered through Open Graph support from the CKAN instance at [data.beta.nyc](http://data.beta.nyc/showcase/nyc-marriage-index), which appears like this in the same client:
 
 ![](../../images/embed/ckan-opengraph.png)
 
 This option would not allow search and other interactivity, but could provide a basis for it (further discussion in the next option). Initially it would make it easy for content owners to use their own existing platforms to present the datasets in a nice way just by linking to the datasets.
 
-Open Graph support is available in more [recent versions](https://github.com/ckan/ckanext-showcase/pull/7) of CKAN. Another example deployment with support is the open data portal of the [City of Zurich](https://data.stadt-zuerich.ch/).
+Open Graph is available in [recent versions](https://github.com/ckan/ckanext-showcase/pull/7) of CKAN. Another example deployment with support is the open data portal of the [City of Zurich](https://data.stadt-zuerich.ch/).
 
 There are various open-source packages and libraries you can use as a developer to add support for reading Open Graph metadata in your Web project. Here are some examples: [pelican-open_graph](https://github.com/whiskyechobravo/pelican-open_graph) (Pelican is used in this Handbook), [opengraph by erikriver](https://github.com/erikriver/opengraph), [Drupal](https://www.drupal.org/project/oembed), [JavaScript/Node.js](https://www.npmjs.com/package/open-graph), and a middleware API at [Opengraph.io](https://www.opengraph.io/documentation/).
 
@@ -56,7 +57,7 @@ The [ckan.js](https://github.com/okfn/ckan.js) project is a JavaScript library t
 
 We have put together a JavaScript widget based on `ckan.js` which displays the same information about datasets as the standard search. It uses the [CKAN API](http://docs.ckan.org/en/latest/api/) to run search queries, and the [jQuery](http://jquery.com/) and [LoDash](https://lodash.com/) libraries to render the result into the Web page.
 
-Note that due to lack of CORS support, we used JSONP to mitigate cross-site scripting restrictions. This approach is not aligned with current best practices, and therefore we recommend if possible that developers put in place a *proxy service* as recommended in the next section.
+Note that due to lack of CORS support, we provided an option to use JSONP to mitigate cross-site scripting restrictions. [JSONP is not recommended](https://en.wikipedia.org/wiki/JSONP#Security_concerns) in current best practices in Web development, and we advise that - if possible - developers should put in place a *proxy service* as recommended in the next section.
 
 Example of rendering a search from *opendata.swiss* in this widget:
 
