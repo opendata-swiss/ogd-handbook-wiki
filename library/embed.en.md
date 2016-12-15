@@ -13,7 +13,7 @@ toc_run: true
 ---
 
 
-Opendata.swiss is the central reference catalog for open government data in Switzerland. Some data publishers may like to present published datasets on their own website. Several government institutions even have their own data portals, on which they would like to feature any datasets which they maintain on *opendata.swiss* - and integrate this with other information on their website.
+Opendata.swiss is the central reference catalog for open government data in Switzerland, and some people may like to present published datasets on their own website. Several government institutions even have their own data portals, on which they would like to feature any datasets which they maintain on *opendata.swiss* - and integrate this with other information on their website.
 
 This document discusses a range of technical options for embedding content from the CKAN open data platform on other websites website, with these goals covered:
 
@@ -46,15 +46,53 @@ Furthermore, category and search result pages could also be tagged using the sam
 
 In summary, starting with newer releases of CKAN, pasting links from the open data portal into a Web platform that supports the Web metadata protocols enables a richer sharing experience.
 
+## Widget
+
+Similar to the rich media widgets from Twitter and other websites, a script can be added to pages which loads remote content using JavaScript. It is possible to provide users with a code snippet that could be configured according to their needs.
+
+The portal's [Data Viewer](http://docs.ckan.org/en/latest/maintaining/data-viewer.html) is a feature that already has resource embedding built in, including the ability to whitelist sites where this may be deployed using a `resource proxy` configuration option. This capability has been available since CKAN 2.1.
+
+The [ckan.js](https://github.com/okfn/ckan.js) project is a JavaScript library that could be used to connect to CKAN from within the browser. In order to overcome Cross-origin resource sharing (CORS) restrictions, a backend service would ideally be hosted on the same machine as the scripts. This could just be a proxy to the data portal.
+
+We have put together a JavaScript widget based on `ckan.js` which displays the same information about datasets as the standard search. It uses the [CKAN API](http://docs.ckan.org/en/latest/api/) to run search queries, and the [jQuery](http://jquery.com/) and [LoDash](https://lodash.com/) libraries to render the result into the Web page.
+
+Note that due to lack of CORS support, we used JSONP to mitigate cross-site scripting restrictions. This approach is not aligned with current best practices, and therefore we recommend if possible that developers put in place a *proxy service* as recommended in the next section.
+
+Example of rendering a search from *opendata.swiss* in this widget:
+
+![](../../images/embed/ckan-widget.png)
+
+This is made by adding the following code to the page, querying the portal for "RDF" as a search term:
+
+```
+<script src="ckan-embed.min.js"></script>
+<div id="opendata-swiss"></div>
+<script>
+ck.embed('#opendata-swiss', 'https://opendata.swiss/', 'RDF');
+</script>
+```
+
+Full source code and deployment instructions are [available here](https://github.com/Datalets/ckan-embed).
+
+## Middleware
+
+It would be wise to monitor the API calls of the proxying server to specific calls for security and performance. An intermediate service backend that uses something like the Python [ckanapi client](https://github.com/ckan/ckanapi) could be used to facilitate this, or a load balancing server.
+
+Open Graph support (as discussed in the Cards section) would make it possible to use a compatible client-side library (e.g.: [Oembetter](https://github.com/punkave/oembetter)). Furthermore, soon on the *opendata.swiss* roadmap there will be support for requesting DCAT-AP compatible RDF for any dataset. While this does not mean that the data itself is linked, it would also allow a more generic solution to displaying the metadata.
+
+This option could especially be a widely accessible solution if wrapped together in a reusable package for third party developers. A 'configurator' similar to [Twitter Publish](https://publish.twitter.com) would make it even easier for non-technical users.
+
+Note that performance issues could potentially be compounded by availability and connectivity of the proxying server, so hosting this widget needs to be done with care. One straightforward option would be to add this functionality to CKAN itself, however there may be reasons why platform owners may wish to separate the 'sharing' service from core functionality.
+
 ## Frames
 
 Using standard HTML IFRAMEs or EMBEDs, subsets or links from the portal can be placed directly into the page. This is the basic way content gets embedded across sites, supported in all browsers. The main advantage is ease of use, essentially it is just an HTML snippet that needs to be placed somewhere on a web page.
 
 Through the browser's sandboxing of the frames, this has the least impact from a security and performance standpoint. It is actually essentially the same as if the user opens a link in a new tab, except the other web page is shown within a block on the current page, and it scrolls along with the content.
 
-However, from an accessibility and usability perspective this option presents several challenges:
+However, from an accessibility and usability perspective this option presents several challenges and is **NOT RECOMMENDED**:
 
-- [opendata.swiss](http://opendata.swiss) has its own branding and navigation which may get in the way - the user may be confused about what is actually being presented.
+- *opendata.swiss* has its own branding and navigation which may get in the way - the user may be confused about what is actually being presented.
 - It is difficult to navigate with the keyboard into an IFRAME and visitors who rely on text-to-speech will be impeded - this is an option unlikely to meet [accessibility requirements](http://www.accessibility-checklist.ch/).
 - Due to the security measures of the browser, no communication can happen between the sites. It is possible to track users of the IFRAME through advanced web analytics, but only on the destination site - the host site will get no data on user behavior.
 
@@ -78,34 +116,12 @@ style="border:0;margin:0;padding:0"
 src="https://opendata.swiss/de/dataset/jahresrechnungen-der-korperschaften-des-kantons-zurich#content"></iframe>
 ```
 
-## Widgets
-
-Similar to the rich media widgets from Twitter and other websites, a script can be added to pages which loads remote content using JavaScript. It is possible to provide users with a code snippet that could be configured according to their needs.
-
-The portal's [Data Viewer](http://docs.ckan.org/en/latest/maintaining/data-viewer.html) is a feature that already has resource embedding built in, including the ability to whitelist sites where this may be deployed using a `resource proxy` configuration option. This capability has been available since CKAN 2.1.
-
-The [ckan.js](https://github.com/okfn/ckan.js) project is a JavaScript library that could be used to connect to CKAN from within the browser. In order to overcome Cross-origin resource sharing (CORS) restriction, a backend service needs to be hosted on the same machine as the scripts.
-
-Open Graph support (as discussed in the Cards section) would make it possible to use a compatible client-side library (e.g.: [Oembetter](https://github.com/punkave/oembetter)). Furthermore, soon on the *opendata.swiss* roadmap there will be support for requesting DCAT-AP compatible RDF for any dataset. While this does not mean that the data itself is linked, it would also allow a more generic solution to displaying the metadata.
-
-This option could be a good solution if wrapped together in a reusable package for third party developers. A 'configurator' similar to [Twitter Publish](https://publish.twitter.com) would make it even easier for non-technical users.
-
-Note that performance issues could potentially be compounded by availability and connectivity of the proxying server, so hosting this widget needs to be done with care. One straightforward option would be to add this functionality to CKAN itself, however there may be reasons why platform owners may wish to separate the 'sharing' service from core functionality.
-
-It would also be wise to limit the API calls of the proxying server to specific calls for security and performance. However, this requires an actual service backend that uses something like the Python [ckanapi client](https://github.com/ckan/ckanapi).
-
-We have put together a demonstration JavaScript widget which displays the same information about datasets as the standard search. It uses [ckan.js](https://github.com/okfn/ckan.js) to connect to the [CKAN API](http://docs.ckan.org/en/latest/api/) and run search queries, and the [jQuery](http://jquery.com/) and [Underscore](http://underscorejs.org/) libraries to render the result in an HTML5 template.
-
-Example of rendering a search from opendata.swiss in this widget:
-
-![](../../images/embed/ckan-widget.png)
-
-Code and deployment instructions will be available soon.
-
 ## Further options
 
-We also investigated the possibility of supporting publishers of 'static sites', such as this handbook. We could support the deployment of rich content with dynamic crawling and updating of content during the publication process without reliance on cross-site requests in the browser. This would however require technical effort for the specific publishing platforms, and come with the synchronicitiy issues of the Cards option - i.e. the embedded information will only be as recent as the latest publication. This approach is described in the [govpack package](https://www.npmjs.com/package/govpack).
+We investigated the possibility of supporting publishers of 'static sites', such as this handbook. The deployment of rich content could be extended with dynamic crawling and updating of content during the publication process without reliance on cross-site requests in the browser. This would however require technical effort for the specific publishing platforms, and come with the synchronicitiy issues of the Cards option - i.e. the embedded information will only be as recent as the latest publication. Such an approach is described in the [govpack package](https://www.npmjs.com/package/govpack).
 
 Access to regular exports from the portal's underlying database - in other words, federated or raw data access - would enable content providers to run their own mini-sites synchronised to the central port. It is currently not clear how prominently portal federation will feature on CKAN's roadmap, while third party extensions like [ckanext-odn-ic2pc-sync](https://github.com/OpenDataNode/ckanext-odn-ic2pc-sync) promise this kind of functionality. For a more high level discussion of the advantages of hosting federated platforms for data discovery, see [Zhang Haojie et al., 2015](https://www.researchgate.net/publication/283356205_Data-as-a-Service_A_Cloud-Based_Federated_Platform_to_Facilitate_Discovery_of_Private_Sector_Datasets).
 
 Access to the metadata of the portal itself would be a sound option for the most technical users of the open data platform. They would however most likely need to host CKAN, or at least be familiar with its schema, to make use of such data. A compromise option, such as static snapshots of the API, could be another strategy to pursue in the future.
+
+In the meantime, we recommend the Cards option with Open Graph support for non-technical users, and the Widget that uses JavaScript for rendering content for technical users.
