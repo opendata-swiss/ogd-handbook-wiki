@@ -13,9 +13,9 @@ toc_run: true
 ---
 
 
-Some users may like to present datasets published at *opendata.swiss* on their own website. Several of the publishing institutions even have their own data portals, on which they may like to feature any datasets which they maintain on the central catalog - integrating these with other information on their website.
+Some data publishers may like to present datasets published at *opendata.swiss* on their own website. Several of the publishing institutions even have their own data portals, on which they may like to feature any datasets which they maintain on the central catalog - integrating these with other information on their website.
 
-This document discusses a range of technical options for embedding content from the CKAN open data platform on other websites website, with goals that:
+This document discusses a range of technical options for embedding content from the CKAN open data platform on other websites, with goals that:
 
 - The datasets should be well presented, the information accurate and up-to-date - in other words, where a copy-and-paste of the information is insufficient.
 - Data publishers need to be able to show on their own website a dynamic selection from the central catalogue. Usually, this selection is filtered to the datasets they themselves publish.
@@ -45,7 +45,7 @@ There are various open-source packages and libraries you can use as a developer 
 
 Furthermore, category and search result pages could also be tagged using the same mechanisms. This way third party websites could have a summary view into the datasets simply by linking to the appropriate URL. As far as we can tell, this is currently not supported or planned in CKAN. For more in-depth discussion of metadata support see: [Make consistent all forms of RDF output from CKAN #1890](https://github.com/ckan/ckan/issues/1890).
 
-In summary, starting with newer releases of CKAN, pasting links from the open data portal into a Web platform that supports the Web metadata protocols enables a richer sharing experience.
+In summary, starting with newer releases of CKAN (Comment: This is not a very useful conclusion for a dataowner who has no control on the CKAN version used here. He even probably doesn't know about the version in operation), pasting links from the open data portal into a Web platform that supports the Web metadata protocols enables a richer sharing experience.
 
 ## Widget
 
