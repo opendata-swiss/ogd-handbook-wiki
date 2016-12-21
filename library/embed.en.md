@@ -89,7 +89,7 @@ There are various open-source packages and libraries you can use as a developer 
 
 Furthermore, category and search result pages could also be tagged using the same mechanisms, so third party websites get a summary view into the datasets simply by linking to the appropriate URL. For more in-depth discussion of metadata support see: [Make consistent all forms of RDF output from CKAN #1890](https://github.com/ckan/ckan/issues/1890).
 
-Summary: it is already possible to link directly to search pages and resources on *opendata.swiss*, however rich metadata in the page header is not yet supported. In a future release, pasting links from the portal into a Web platform that supports Web metadata protocols will enable a richer sharing experience. Until such time as Open Graph support is enabled on *opendata.swiss*, we recommend you to use the (Widget option)[#widget].
+Summary: it is already possible to link directly to search pages and resources on *opendata.swiss*, however rich metadata in the page header is not yet supported. In a future release, pasting links from the portal into a Web platform that supports Web metadata protocols will enable a richer sharing experience. Until such time as Open Graph support is enabled on *opendata.swiss*, we recommend you to use the [Widget option](#widget).
 
 ## Frames
 
