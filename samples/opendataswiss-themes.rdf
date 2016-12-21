@@ -258,7 +258,7 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://opendata.swiss/themes/national-economy">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="de">Volkswirtschft</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Volkswirtschaft</skos:prefLabel>
         <skos:prefLabel xml:lang="fr">Economie nationale</skos:prefLabel>
         <skos:prefLabel xml:lang="it">Economia</skos:prefLabel>
         <skos:prefLabel xml:lang="en">National economy</skos:prefLabel>
