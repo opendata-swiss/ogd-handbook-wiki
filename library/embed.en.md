@@ -28,13 +28,13 @@ We describe several options here - from linking to resources from the catalog, t
 
 Similar to the rich media widgets from Twitter and other websites, a script can be added to pages which loads remote content using JavaScript. It is possible to provide users with a code snippet that could be configured according to their needs. This provides a richer experience for users, but requires some technical knowledge of HTML, CSS and JavaScript.
 
-The [ckan.js](https://github.com/okfn/ckan.js) project is a JavaScript library that can be used to connect to CKAN from within the browser. In order to overcome Cross-origin resource sharing (CORS) restrictions, a backend service would ideally be hosted on the same machine as the scripts. This could just be a proxy to the data portal.
+The [ckan.js](https://github.com/okfn/ckan.js) project from Open Knowledge is a JavaScript library that can be used to connect to CKAN from within the browser. In order to overcome Cross-origin resource sharing (CORS) restrictions, a backend service would ideally be hosted on the same machine as the scripts. This could just be a proxy to the data portal.
 
-We have developed a [JavaScript widget]() based on `ckan.js` which displays the same information about datasets as the standard search. It uses the [CKAN API](http://docs.ckan.org/en/latest/api/) to run search queries, and renders the result into the Web page. Our solution is similar to the [CKAN Data Viewer](http://docs.ckan.org/en/latest/maintaining/data-viewer.html), a feature that already has resource embedding built in, and the ability to white-list sites where this may be deployed using a `resource proxy` configuration option.
+We have developed a [JavaScript widget](https://github.com/opendata-swiss/ckan-embed) based on `ckan.js` which displays the same information about datasets as the standard search. It uses the [CKAN API](http://docs.ckan.org/en/latest/api/) to run search queries, and renders the result into the Web page. Our solution is similar to the [CKAN Data Viewer](http://docs.ckan.org/en/latest/maintaining/data-viewer.html), a feature that already has resource embedding built in, and the ability to white-list sites where this may be deployed using a `resource proxy` configuration option.
 
-Note that due to lack of CORS support, we provided an option to use JSONP to mitigate cross-site scripting restrictions. [JSONP is not recommended](https://en.wikipedia.org/wiki/JSONP#Security_concerns) in current best practices in Web development, and we advise that - if possible - developers should put in place a *proxy service*.
+Note that due to lack of CORS support, we provided an option to use JSONP to mitigate cross-site scripting restrictions. [JSONP is not recommended](https://en.wikipedia.org/wiki/JSONP#Security_concerns) in current best practices in Web development, and we advise that - if possible - developers should put in place a proxy service, as described [further down](#middleware).
 
-Example of how a search result from *opendata.swiss* appears in this widget:
+Here is an example of how a search result from *opendata.swiss* appears in this widget:
 
 ![](../../images/embed-widget.png)
 
@@ -60,7 +60,7 @@ ck.datasets('#opendata-swiss', 'https://opendata.swiss/', {
 });
 ```
 
-**Summary:** we recommend the use of the official JavaScript widget for embedding *opendata.swiss* datasets and search results. Full source code and deployment instructions are available on the [ckan-embed project page](https://github.com/opendata-swiss/ckan-embed).
+**Summary:** we recommend the use of our JavaScript widget for embedding *opendata.swiss* datasets and search results. Full source code and deployment instructions are available on the [ckan-embed project page](https://github.com/opendata-swiss/ckan-embed).
 
 ## Cards
 
