@@ -51,11 +51,12 @@ This is made by adding the following code to the page, for example to query the 
 
 You may wish to link to the portal itself in the loading message, in case there are issues with connectivity or JavaScript in the browser.
 
-It is also possible to use filter queries to limit results to a specific facets - such as group (`groups:energy`, for example), tags (`tags:energie`) or organization (`organization:schweizerische-nationalbibliothek-nb`). For example, this code fetches the top 3 datasets published by the National Library:
+It is also possible to use filter queries to limit results to a specific facets - such as group (`groups:energy`, for example), tags (`tags:energie`) or organization (`organization:schweizerische-nationalbibliothek-nb`). For example, this code fetches the top 3 datasets published by the National Library, linking to the german-language portal (`lang:'de'`):
 
 ```
 ck.datasets('#opendata-swiss', 'https://opendata.swiss/', {
   fq:       'organization:schweizerische-nationalbibliothek-nb',
+  lang:     'de',
   rows:     3
 });
 ```
