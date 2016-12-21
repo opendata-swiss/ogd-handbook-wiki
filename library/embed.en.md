@@ -60,8 +60,6 @@ ck.datasets('#opendata-swiss', 'https://opendata.swiss/', {
 });
 ```
 
-Other example filters: .
-
 **Summary:** we recommend the use of our JavaScript widget for embedding *opendata.swiss* datasets and search results. Full source code and deployment instructions are available on the [ckan-embed project page](https://github.com/opendata-swiss/ckan-embed).
 
 ## Cards
