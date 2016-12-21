@@ -51,7 +51,7 @@ This is made by adding the following code to the page, for example to query the 
 
 You may wish to link to the portal itself in the loading message, in case there are issues with connectivity or JavaScript in the browser.
 
-It is also possible to use filter queries to limit results to a specific facets - such as group, tags or organization. For example, this code fetches the top 3 datasets from the National Library (`schweizerische-nationalbibliothek-nb`) organization:
+It is also possible to use filter queries to limit results to a specific facets - such as group (`groups:energy`, for example), tags (`tags:energie`) or organization (`organization:schweizerische-nationalbibliothek-nb`). For example, this code fetches the top 3 datasets published by the National Library:
 
 ```
 ck.datasets('#opendata-swiss', 'https://opendata.swiss/', {
@@ -59,6 +59,8 @@ ck.datasets('#opendata-swiss', 'https://opendata.swiss/', {
   rows:     3
 });
 ```
+
+Other example filters: .
 
 **Summary:** we recommend the use of our JavaScript widget for embedding *opendata.swiss* datasets and search results. Full source code and deployment instructions are available on the [ckan-embed project page](https://github.com/opendata-swiss/ckan-embed).
 
