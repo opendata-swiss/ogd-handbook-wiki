@@ -20,7 +20,9 @@ Goals of embedding content from the portal could include:
 - Ability to show on their own website a dynamic selection from the central catalog. For instance, filtered to only include datasets owned by the organization.
 - Options covered here should cater to all platforms and a range of technical skills required.
 
-We describe several options here - from linking to resources from the catalog, to embedding parts of the functionality from the portal on other websites. Our current recommendation at this time is to use the first option (Widget).
+We describe several options here - from linking to resources from the catalog, to embedding parts of the functionality from the portal on other websites. Our current recommendation at this time is to use the first option (Widget), as illustrated here:
+
+![](../../images/embed-architecture.png)
 
 ## Widget
 
@@ -39,13 +41,17 @@ Example of how a search result from *opendata.swiss* appears in this widget:
 This is made by adding the following code to the page, for example to query the portal for "statistik" as a search term:
 
 ```
-<div id="opendata-swiss"></div>
+<div id="opendata-swiss">
+  Loading datasets ...
+</div>
 <script>
   ck.datasets('#opendata-swiss', 'https://opendata.swiss/', 'statistik');
 </script>
 ```
 
-It is possible to use filter queries to limit results to a specific facets - such as group, tags or organization. For example, this code fetches the top 3 datasets from the National Library (`schweizerische-nationalbibliothek-nb`) organization:
+You may wish to link to the portal itself in the loading message, in case there are issues with connectivity or JavaScript in the browser.
+
+It is also possible to use filter queries to limit results to a specific facets - such as group, tags or organization. For example, this code fetches the top 3 datasets from the National Library (`schweizerische-nationalbibliothek-nb`) organization:
 
 ```
 ck.datasets('#opendata-swiss', 'https://opendata.swiss/', {
@@ -83,15 +89,15 @@ There are various open-source packages and libraries you can use as a developer 
 
 Furthermore, category and search result pages could also be tagged using the same mechanisms, so third party websites get a summary view into the datasets simply by linking to the appropriate URL. For more in-depth discussion of metadata support see: [Make consistent all forms of RDF output from CKAN #1890](https://github.com/ckan/ckan/issues/1890).
 
-**Summary:** it is already possible to link directly to search pages and resources on *opendata.swiss*, however rich metadata in the page header is not yet supported. In a future release, pasting links from the portal into a Web platform that supports Web metadata protocols will enable a richer sharing experience. Until such time as Open Graph support is enabled on *opendata.swiss*, we recommend you to use the [#Widget] option.
+Summary: it is already possible to link directly to search pages and resources on *opendata.swiss*, however rich metadata in the page header is not yet supported. In a future release, pasting links from the portal into a Web platform that supports Web metadata protocols will enable a richer sharing experience. Until such time as Open Graph support is enabled on *opendata.swiss*, we recommend you to use the (Widget option)[#widget].
 
 ## Frames
 
-Using HTML IFRAMEs or EMBEDs, subsets or links from the portal can be placed directly into the page. This is a basic way for content to be embedded across sites, and supported in all browsers, with an HTML snippet that needs to be placed somewhere on a web page. Through the browser's sandboxing of the frames, this has the least impact from a security and performance standpoint. It is actually essentially the same as if the user opens a link in a new tab, except the other web page is shown within a block on the current page, and it scrolls along with the content.
+Using HTML IFRAMEs or EMBEDs, subsets or links from the portal can be placed directly into the page. It is actually essentially the same as if the user opens a link in a new tab, except the other web page is shown within a block on the current page, and scrolls along with the content.
 
-However, this method is **NOT RECOMMENDED** for the reasons we describe here. From an accessibility and usability perspective this option presents several challenges:
+However, this method is **not recommended** due to challenges from an accessibility and usability perspective:
 
-- *opendata.swiss* has its own page branding and navigation which, when stuck inside of an frame, will have the unintended consequence of confusing the user about what is actually being presented.
+- The portal has its own page branding and navigation which, when stuck inside of an frame, will have the unintended consequence of confusing the user about what is actually being presented.
 - It is difficult to navigate with the keyboard into an IFRAME and visitors who rely on text-to-speech will be impeded, and will not meet full [accessibility requirements](http://www.accessibility-checklist.ch/).
 - Due to the security measures of the browser, no communication can happen between the sites. It is possible to track users of the IFRAME through advanced web analytics, but only on the destination site - the host site will get no data on user behavior.
 
@@ -105,7 +111,7 @@ style="border:0;margin:0;padding:0"
 src="https://opendata.swiss/en/dataset?q=RDF&res_format=HTML&sort=score+desc%2C+metadata_modified+desc#field-order-by"></iframe>
 ```
 
-Summary: we do **not recommend** or support the use of IFRAMES, for reasons of poor accessibility and usability. However, if installing JavaScript is not possible, we have shown this basic workaround above.
+Summary: we do **NOT RECOMMEND** or support the use of IFRAMES, for reasons of poor accessibility and usability. However, if installing [JavaScript](#widget) is not possible, we have shown a basic workaround above.
 
 ## Middleware
 
@@ -123,4 +129,4 @@ Access to regular exports from the portal's underlying database - in other words
 
 Access to the metadata of the portal itself would be a sound option for the most technical users of the open data platform. They would however most likely need to host CKAN, or at least be familiar with its schema, to make use of such data. A compromise option, such as static snapshots of the API, could be another strategy to pursue in the future.
 
-In the meantime, we recommend the Cards option with Open Graph support for non-technical users, and the Widget that uses JavaScript for rendering content for technical users.
+In the meantime, we recommend that *opendata.swiss* content is embedded externally using the [JavaScript Widget](#widget).
