@@ -133,25 +133,25 @@ so that people can point at your stuff</td>
 
 As an example use-case, the [final report of the W3C sample applications of Linked Data in library environment](https://www.w3.org/2005/Incubator/lld/wiki/Benefits) explains the advantages of Linked Open Data which is by nature sharable, extensible, and easily re-usable.
 
-1. Richer data, better data integration and reuse
+<span>1. Richer data, better data integration and reuse</span>
 
 Libraries assets will benefit from descriptions of a higher level of granularity, without requiring more investment. Linked Data enables different kinds of data about the same asset to be produced in a decentralized way by different actors. This is an alternative from the traditional approach where libraries have to produce stand-alone descriptions (as MARC records for instance). As a result data quality will be improved and this will help in the reduction of redundancy of metadata.
 
 This is made possible by the use of Web-based identifiers which will also help in different areas, as facilitating navigation across library and non-library information resources, making up-to-date resource descriptions directly citable by catalogers, or enhance citation management software for instance.
 
-2. Improved search possibilities and SEO
+<span>2. Improved search possibilities and SEO</span>
 
 Information seekers benefit from improved federated search in new search applications, but also in existing search engines. Searching services will be richer, and libraries will improve their visibility through search engine optimization (SEO).
 
-3. Long-lived meta-data
+<span>3. Long-lived meta-data</span>
 
 The history of information technology shows that specific data formats are ephemeral. Linked Data do not rely on a particular data structure and is thus more durable and robust than other metadata formats bound to a specific format.
 
-4. Easier data access
+<span>4. Easier data access</span>
 
 Linked Data being published in the Web, accessing Linked Data is done in a uniform and trivial way consisting of HTTP requests. Data consumers do not need to learn different APIs or library-centric protocols.
 
-5. Beneficiaries
+<span>5. Beneficiaries</span>
 
 Those benefits are presented for different actors of the library environment regrouped in four categories:
 
@@ -166,9 +166,6 @@ Those benefits are presented for different actors of the library environment reg
 # **How to implement this approach?**
 
 This section describes how the Linked Data approach could be implemented in the domain of Swiss Open Government Data. The proposed 10 steps are based on the W3C [Best Practices for Publishing Linked Data](https://www.w3.org/TR/ld-bp) document, adapted to the opendata.swiss context. Only the methodological guidelines of each step are presented here. For further details, please refer to the original document.
-
-Table of content
-
 
 <span style="text-decoration: underline;">1. Prepare Stakeholders</span>
 
@@ -329,6 +326,7 @@ Here is a visual representation of the few triples here above:
 
 <center>![RDF Graph](../images/ld-graph.png)</center>
 <center>Figure 5. RDF Graph</center>
+
 RDF data, and thus Linked Data, form a Graph Database, which is different from the more common Relational or Hierarchical Databases:
 
 <center>![structured data formats](../images/ld-struct-data-formats.png)</center>
