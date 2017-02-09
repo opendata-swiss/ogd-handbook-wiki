@@ -51,7 +51,7 @@ Linked Data is shareable, extensible, and easily re-usable. It supports multilin
 
 When talking more specifically about Open Data, Linked Open Data is given a 5 stars rating. Tim Berners-Lee proposed a rating system for Open Data as shown in Figure 1. To get the maximum five stars, data must (1) be available on the Web under an open license, (2) be in the form of structured data, (3) be in a non-proprietary file format, (4) use URIs as its identifiers, (5) include links to other data sources.
 
-<center>![5 stars Open Data](../images/ld-5stars.png)</center>
+<div style="text-align: center;">![5 stars Open Data](../images/ld-5stars.png)</div>
 <center>Figure 1. 5-Star Deployment Scheme for Open Data (source: [5stardata.info](http://5stardata.info))</center>
 
 To give a better understanding of the benefits and costs for each star, we regroup the explanations in the following table:
@@ -62,8 +62,8 @@ To give a better understanding of the benefits and costs for each star, we regro
     <td colspan="2" align="center">Costs and Benefits</td>
   </tr>
   <tr>
-    <td width="10%"></td>
-    <td width="20%"></td>
+    <td width="5%"></td>
+    <td width="25%"></td>
     <td width="35%" align="center">As a consumer</td>
     <td width="35%" align="center">As a publisher</td>
   </tr>
@@ -80,7 +80,7 @@ To give a better understanding of the benefits and costs for each star, we regro
 ✔ You do not have to explain repeatedly to others that they can use your data.</td>
   </tr>
   <tr>
-    <td align="center"><img src="../images/ld-star.png" alt="star" height="22" width="22"><img src="../images/ld-star.png" alt="star" height="22" width="22"></td>
+    <td align="center"><img src="../images/ld-star.png" alt="star" height="22" width="22"><br><img src="../images/ld-star.png" alt="star" height="22" width="22"></td>
     <td>make it available as structured data (e.g., Excel instead of image scan of a table)</td>
     <td>You can do all what you can do with ★ Web data and additionally:<br>
 ✔ You can directly process it with proprietary software to aggregate it, perform calculations, visualise it, etc.<br>
@@ -88,7 +88,7 @@ To give a better understanding of the benefits and costs for each star, we regro
     <td>✔ It’s still simple to publish.</td>
   </tr>
   <tr>
-    <td align="center"><img src="../images/ld-star.png" alt="star" height="22" width="22"><img src="../images/ld-star.png" alt="star" height="22" width="22"><img src="../images/ld-star.png" alt="star" height="22" width="22"></td>
+    <td align="center"><img src="../images/ld-star.png" alt="star" height="22" width="22"><br><img src="../images/ld-star.png" alt="star" height="22" width="22"><br><img src="../images/ld-star.png" alt="star" height="22" width="22"></td>
     <td>make it available in a non-proprietary open format (e.g., CSV as well as of Excel)</td>
     <td>You can do all what you can do with ★★ Web data and additionally:<br>
 ✔ You can manipulate the data in any way you like, without the need to own any proprietary software package.</td>
@@ -96,7 +96,7 @@ To give a better understanding of the benefits and costs for each star, we regro
 ✔ It’s still rather simple to publish.</td>
   </tr>
   <tr>
-    <td align="center"><img src="../images/ld-star.png" alt="star" height="22" width="22"><br><img src="../images/ld-star.png" alt="star" height="22" width="22"><img src="../images/ld-star.png" alt="star" height="22" width="22"><img src="../images/ld-star.png" alt="star" height="22" width="22"></td>
+    <td align="center"><img src="../images/ld-star.png" alt="star" height="22" width="22"><br><img src="../images/ld-star.png" alt="star" height="22" width="22"><br><img src="../images/ld-star.png" alt="star" height="22" width="22"><br><img src="../images/ld-star.png" alt="star" height="22" width="22"></td>
     <td>use URIs to denote things,
 so that people can point at your stuff</td>
     <td>You can do all what you can do with ★★★ Web data and additionally:<br>	
@@ -113,7 +113,7 @@ so that people can point at your stuff</td>
 <img src="../images/ld-warning.png" alt="warning" height="22" width="22" style=" vertical-align: text-bottom;"> You need to either find existing patterns to reuse or create your own.</td>
   </tr>
   <tr>
-    <td align="center"><img src="../images/ld-star.png" alt="star" height="22" width="22"><img src="../images/ld-star.png" alt="star" height="22" width="22"><br><img src="../images/ld-star.png" alt="star" height="22" width="22"><img src="../images/ld-star.png" alt="star" height="22" width="22"><img src="../images/ld-star.png" alt="star" height="22" width="22"></td>
+    <td align="center"><img src="../images/ld-star.png" alt="star" height="22" width="22"><br><img src="../images/ld-star.png" alt="star" height="22" width="22"><br><img src="../images/ld-star.png" alt="star" height="22" width="22"><br><img src="../images/ld-star.png" alt="star" height="22" width="22"><br><img src="../images/ld-star.png" alt="star" height="22" width="22"></td>
     <td>link your data to other data to provide context</td>
     <td>You can do all what you can do with ★★★★ Web data and additionally:<br>	
 ✔ You can discover more (related) data while consuming the data.<br>
@@ -407,14 +407,14 @@ As described in the W3C’s "Best Practices for Publishing Linked Data", there a
 We will conclude with our example by showing how an end-user can access or query that data which comes from the DBPedia site.
 
 * Direct URI resolution:
-Any of the mentioned resource can be dereferenced, by simply clicking on one of the following URLs:
+Any of the mentioned resource can be dereferenced, by simply clicking on one of the following URLs:<br>
 [http://dbpedia.org/resource/Albert_Einstein
-](http://dbpedia.org/resource/Albert_Einstein)[http://dbpedia.org/resource/Eduard_Einstein
-](http://dbpedia.org/resource/Eduard_Einstein)[http://dbpedia.org/ontology/parent
-](http://dbpedia.org/ontology/parent)[http://dbpedia.org/ontology/spouse](http://dbpedia.org/ontology/spouse)
+](http://dbpedia.org/resource/Albert_Einstein)<br>[http://dbpedia.org/resource/Eduard_Einstein
+](http://dbpedia.org/resource/Eduard_Einstein)<br>[http://dbpedia.org/ontology/parent
+](http://dbpedia.org/ontology/parent)<br>[http://dbpedia.org/ontology/spouse](http://dbpedia.org/ontology/spouse)
 
 * File download:
-DBPedia datasets are available for download from the page[ http://wiki.dbpedia.org/datasets](http://wiki.dbpedia.org/datasets)
+DBPedia datasets are available for download from [this page](http://wiki.dbpedia.org/datasets)
 
 * SPARQL endpoint:
 The databases for RDF  are called Triple Stores, a specific kind of Graph Databases. RDF data in a triple store can be exposed for direct querying through a SPARQL endpoint.
