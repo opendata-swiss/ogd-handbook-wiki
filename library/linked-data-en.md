@@ -3,7 +3,7 @@ Title: Linked Open Data
 Category: Library
 Template: document
 Tags: publish
-Authors: Data Semantics Lab, HES-SO Valais/Wallis
+Authors: Data Semantics Lab (HES-SO Valais/Wallis) and Open Government Data Switzerland 
 Date: 2017-02-09
 Slug: linked-open-data
 Summary: Introduction to the concepts of Linked Open Data, the benefits, how to implement this approach and technical information
@@ -420,7 +420,7 @@ The SPARQL endpoint for DBPedia can be accessed [here](https://dbpedia.org/sparq
 To give it a try, please copy/paste the following SPARQL query to ask for the spouse(s) of Albert Einstein (note that the SPARQL syntax is similar to the Turtle format), and hit the "run query" button to see the results:<br><br>
     `SELECT * {dbr:Albert_Einstein dbo:spouse ?spouse}`<br><br>
 Or just click[ here](https://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=select+*+%7Bdbr%3AAlbert_Einstein+dbo%3Aspouse+%3Fspouse%7D&format=text%2Fhtml&CXML_redir_for_subjs=121&CXML_redir_for_hrefs=&timeout=30000&debug=on).<br><br>
-You can find [here](http://sparqles.ai.wu.ac.at/) a list of SPARQL endpoints and their status published by the Open Knowledge Foundation.<br><br>
+See [a list of SPARQL endpoints](http://sparqles.ai.wu.ac.at/) and their status published by the Open Knowledge Foundation.<br><br>
 
 
 ## **Some more resources**
