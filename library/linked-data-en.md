@@ -51,6 +51,13 @@ Linked Data is shareable, extensible, and easily re-usable. It supports multilin
 
 When talking more specifically about Open Data, Linked Open Data is given a 5 stars rating. Tim Berners-Lee proposed a rating system for Open Data as shown in Figure 1. To get the maximum five stars, data must (1) be available on the Web under an open license, (2) be in the form of structured data, (3) be in a non-proprietary file format, (4) use URIs as its identifiers, (5) include links to other data sources.
 
+style="vertical-align: text-bottom;"
+<img src="../images/ld-5stars.png" alt="5star open data">
+before div
+<div style="text-align: center;"><span> your centered stuff </span></div>
+after div
+<div style="text-align: center;"><img src="../images/ld-5stars.png" alt="5star open data"></div>
+after image 1
 <div style="text-align: center;">![5 stars Open Data](../images/ld-5stars.png)</div>
 <center>Figure 1. 5-Star Deployment Scheme for Open Data (source: [5stardata.info](http://5stardata.info))</center>
 
@@ -92,7 +99,7 @@ To give a better understanding of the benefits and costs for each star, we regro
     <td>make it available in a non-proprietary open format (e.g., CSV as well as of Excel)</td>
     <td>You can do all what you can do with ★★ Web data and additionally:<br>
 ✔ You can manipulate the data in any way you like, without the need to own any proprietary software package.</td>
-    <td><img src="../images/ld-warning.png" alt="warning" height="22" width="22" ertical-align: text-bottom;"> You might need converters or plug-ins to export the data from the proprietary format.<br>
+    <td><img src="../images/ld-warning.png" alt="warning" height="22" width="22" style="vertical-align: text-bottom;"> You might need converters or plug-ins to export the data from the proprietary format.<br>
 ✔ It’s still rather simple to publish.</td>
   </tr>
   <tr>
