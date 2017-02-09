@@ -26,17 +26,17 @@ In summary, *Linked Data *is about publishing data *in* the Web and promoting li
 
 Tim Berners-Lee, inventor of the Web, laid down the four [design principles of Linked Data](https://www.w3.org/DesignIssues/LinkedData.html), providing a basic recipe for publishing and connecting data using the infrastructure of the Web while adhering to its architecture and standards:
 
-* Use URIs (Uniform Resource Identifier) to name (identify) things.
+* Use URIs (Uniform Resource Identifier) to name (identify) things.<br>
 For instance "http://dbpedia.org/resource/Switzerland" was chosen to identify the country Switzerland in a data source called DBPedia. The well established Domain Names System (DNS) ensures that this key is unique worldwide.
 
-* Use HTTP URIs so that these things can be looked up (interpreted, "dereferenced").
-Retrieving a representation of a resource identified by a URI is known as *dereferencing *that URI. By choosing an URL as the key for the resource (a URL is an HTTP URI), we can follow the link to get information about that resource. For a user, it means that by clicking on the URL[ http://dbpedia.org/resource/Switzerland](http://dbpedia.org/resource/Switzerland), he will directly access the information rendered by a Web browser. Using the same underlying technology, a computer program could access the information and manipulate it, *the Web does become a Data Base.*
+* Use HTTP URIs so that these things can be looked up (interpreted, "dereferenced").<br>
+Retrieving a representation of a resource identified by a URI is known as *dereferencing* that URI. By choosing an URL as the key for the resource (a URL is an HTTP URI), we can follow the link to get information about that resource. For a user, it means that by clicking on the URL[ http://dbpedia.org/resource/Switzerland](http://dbpedia.org/resource/Switzerland), he will directly access the information rendered by a Web browser. Using the same underlying technology, a computer program could access the information and manipulate it, *the Web does become a Data Base.*
 
-* Provide useful information about what a name identifies when it's looked up, using open standards (as the [RDF W3C standard](https://www.w3.org/TR/2014/NOTE-rdf11-primer-20140624/))
+* Provide useful information about what a name identifies when it's looked up, using open standards (as the [RDF W3C standard](https://www.w3.org/TR/2014/NOTE-rdf11-primer-20140624/))<br>
 When you open that page in a browser (by dereferencing the URI), all the data presented to you comes from the underlying RDF data that is rendered here as standard HTML.
 If you want to have a closer look at that RDF data, you can access it through[ http://dbpedia.org/data/Switzerland](http://dbpedia.org/data/Switzerland).
 
-* Refer to other things using their HTTP URI-based names when publishing data on the Web.
+* Refer to other things using their HTTP URI-based names when publishing data on the Web.<br>
 On Switzerland page of the DBPedia web site, you will find some related data from other data sources. For instance, look for the[ geodata:Suisse](http://sws.geonames.org/2658434/) string, and click on it. You will be directed to the page of the same entity, Switzerland, on another well known Linked Data source: geoNames. Thanks to the use of universal identifiers, those two different data sources were able to link their data, and the end-user can now find a broad range of information about Switzerland in either of those sources.
 
 
@@ -51,14 +51,7 @@ Linked Data is shareable, extensible, and easily re-usable. It supports multilin
 
 When talking more specifically about Open Data, Linked Open Data is given a 5 stars rating. Tim Berners-Lee proposed a rating system for Open Data as shown in Figure 1. To get the maximum five stars, data must (1) be available on the Web under an open license, (2) be in the form of structured data, (3) be in a non-proprietary file format, (4) use URIs as its identifiers, (5) include links to other data sources.
 
-style="vertical-align: text-bottom;"
-<img src="../images/ld-5stars.png" alt="5star open data">
-before div
-<div style="text-align: center;"><span> your centered stuff </span></div>
-after div
-<div style="text-align: center;"><img src="../images/ld-5stars.png" alt="5star open data"></div>
-after image 1
-<div style="text-align: center;">![5 stars Open Data](../images/ld-5stars.png)</div>
+<center>![5 stars Open Data](../images/ld-5stars.png)</center>
 <center>Figure 1. 5-Star Deployment Scheme for Open Data (source: [5stardata.info](http://5stardata.info))</center>
 
 To give a better understanding of the benefits and costs for each star, we regroup the explanations in the following table:
@@ -140,25 +133,25 @@ so that people can point at your stuff</td>
 
 As an example use-case, the [final report of the W3C sample applications of Linked Data in library environment](https://www.w3.org/2005/Incubator/lld/wiki/Benefits) explains the advantages of Linked Open Data which is by nature sharable, extensible, and easily re-usable.
 
-<span style="text-decoration: underline;">Richer data, better data integration and reuse</span>.
+1. Richer data, better data integration and reuse
 
 Libraries assets will benefit from descriptions of a higher level of granularity, without requiring more investment. Linked Data enables different kinds of data about the same asset to be produced in a decentralized way by different actors. This is an alternative from the traditional approach where libraries have to produce stand-alone descriptions (as MARC records for instance). As a result data quality will be improved and this will help in the reduction of redundancy of metadata.
 
 This is made possible by the use of Web-based identifiers which will also help in different areas, as facilitating navigation across library and non-library information resources, making up-to-date resource descriptions directly citable by catalogers, or enhance citation management software for instance.
 
-<span style="text-decoration: underline;">Improved search possibilities and SEO</span>
+2. Improved search possibilities and SEO
 
 Information seekers benefit from improved federated search in new search applications, but also in existing search engines. Searching services will be richer, and libraries will improve their visibility through search engine optimization (SEO).
 
-<span style="text-decoration: underline;">Long-lived meta-data</span>
+3. Long-lived meta-data
 
 The history of information technology shows that specific data formats are ephemeral. Linked Data do not rely on a particular data structure and is thus more durable and robust than other metadata formats bound to a specific format.
 
-<span style="text-decoration: underline;">Easier data access</span>
+4. Easier data access
 
 Linked Data being published in the Web, accessing Linked Data is done in a uniform and trivial way consisting of HTTP requests. Data consumers do not need to learn different APIs or library-centric protocols.
 
-<span style="text-decoration: underline;">Beneficiaries</span>
+5. Beneficiaries
 
 Those benefits are presented for different actors of the library environment regrouped in four categories:
 
