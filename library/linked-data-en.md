@@ -251,7 +251,7 @@ Existing vocabularies can be found using search tools ([Falcons](http://ws.nju.e
 Once all the former preparation steps have been carried out, it is possible to perform the data conversion from the original format to Linked Data (RDF triples). There are many ways to do this using existing tools available for that mapping operation, see the [W3C list](https://www.w3.org/wiki/ConverterToRdf) for instance. The Linked Data expert will know which tool to use for the purpose and, if needed, will create a new one.
 
 
-This step should include the generation of metadata for that datasets (see the official documentation about [DCAT-AP for Switzerland](/en/library/ch-dcat-ap)), and also the links to other datasets, as for instance DBPedia (the Linked Data version of Wikipedia), to make the new dataset part of the [Linked Data Cloud](http://lod-cloud.net/).
+This step should include the generation of metadata for that datasets (see the official documentation about [DCAT-AP for Switzerland](ch-dcat-ap.html)), and also the links to other datasets, as for instance DBPedia (the Linked Data version of Wikipedia), to make the new dataset part of the [Linked Data Cloud](http://lod-cloud.net/).
 
 
 <span style="text-decoration: underline;">8.	Provide Machine Access to Data</span>
