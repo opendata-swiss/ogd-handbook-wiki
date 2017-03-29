@@ -3,56 +3,60 @@ Title: Linked Open Data
 Category: Library
 Template: document
 Tags: publish
-Authors: Data Semantics Lab (HES-SO Valais/Wallis) and Open Government Data Switzerland 
-Date: 2017-02-09
+Authors: Data Semantics Lab (HES-SO Valais/Wallis) and Open Government Data Switzerland
+Date: 2017-03-30
 Slug: linked-open-data
-Summary: Introduction to the concepts of Linked Open Data, the benefits, how to implement this approach and technical information
+Summary: Introduction to the concepts and benefits of Linked Open Data, with implementation notes and other technical information.
 Lang: en
 toc_run: true
 ---
-# **What is Linked Data ?**
 
-Nowadays, we are surrounded by vast quantities of data. This data is playing an increasingly central role in our lives and driving the emergence of a data economy [^1]. However, the more data we have, the more we know the limitations of the traditional data organization methodologies. In fact, the traditional methods when it comes to publishing machine-friendly data (i.e. structured data, not text documents in natural language) is to generate raw data in files (e.g. CSV or spreadsheets), or provide data access through APIs. Even though those ways to make data available and accessible is already a huge step forward for data and knowledge sharing, there is still space for improvement to facilitate the reuse, such as:
+Today we are surrounded by vast quantities of data, playing an increasingly central role in our lives and driving the emergence of a data economy<sup>[[^1]](#footnote-1)</sup>. The more data we have, the more we face limitations in traditional methods of organising data. Usually, to publish machine-friendly data - i.e. structured data, not text documents in natural language - is to generate raw data in files (e.g. spreadsheets as CSV files and other [data formats](/en/library/empfehlungen-formate)), or to provide access to this data through programming interfaces ([APIs](/support/api)). While these go a long way to help make data available and accessible for knowledge sharing, there is space for improvement in facilitating data reuse, such as:
 
-* *comprehensibility*: provide better descriptions of the data and its underlying model (or schema)
+* *Comprehensibility*: provide better descriptions of data and underlying models or schema
+* *Accessibility and share-ability*:  simplify access, therefore also facilitate distribution of up-to-date data
+* *Integration*: facilitate the combination of data from different sources into a common point of access
 
-* *accessibility and shareability*:  simplify the access to the data, and thus also facilitate the distribution of up-to-date data
+## Linking the Web of Data
 
-* *integration*: facilitate the combination of data from different sources
+The World Wide Web has radically altered the way we share knowledge, by lowering barriers to publishing and accessing linked documents inside of a global information space[[^2]](#footnote-2)</sup>. Linked Data provides a publishing paradigm in which not only documents, but data itself is a "first class citizen" of the Web (Scott, 2006), extending the Web with a global data space based on open standards - also known as the *Web of Data*.
 
-The World Wide Web has enabled the creation of a global information space comprising linked documents. It has radically altered the way we share knowledge by lowering the barrier to publish and access documents as part of a global information space [^2]. Linked Data provides a publishing paradigm in which not only documents, but data itself can be a first class citizen of the Web (Scott, 2006), thereby enabling the extension of the Web with a global data space based on open standards - the Web of Data.
+In summary, Linked Data is about publishing data on top of the Web, and promoting links between data from different sources, through production of human- and machine-readable documents. Linked Data is a term used to describe a set of recommended best practices for exposing, sharing, and connecting pieces of data, information, and knowledge on the Web's HyperText Transfer Protocol (HTTP), using Universal Resource Identifier (URIs) to identify things and describe them using a data model called the Resource Description Framework (RDF).
 
-In summary, *Linked Data *is about publishing data *in* the Web and promoting links between data from different sources. It marks a shift in thinking from publishing data in human readable HTML documents to machine readable documents. Linked Data is a term used to describe a recommended best practice for exposing, sharing, and connecting pieces of data, information, and knowledge on the Web using URIs to identify things and describe them using a data model called the Resource Description Framework (RDF).
+Tim Berners-Lee, inventor of the Web, laid down four [design principles of Linked Data](https://www.w3.org/DesignIssues/LinkedData.html), providing a recipe for publishing and connecting data using Web infrastructure, while adhering to its fundamental architecture and standards:
 
-Tim Berners-Lee, inventor of the Web, laid down the four [design principles of Linked Data](https://www.w3.org/DesignIssues/LinkedData.html), providing a basic recipe for publishing and connecting data using the infrastructure of the Web while adhering to its architecture and standards:
-
-* Use URIs (Uniform Resource Identifier) to name (identify) things.<br>
+1. __Use URIs to name (identify) things.__<br>
 For instance "http://dbpedia.org/resource/Switzerland" was chosen to identify the country Switzerland in a data source called DBPedia. The well established Domain Names System (DNS) ensures that this key is unique worldwide.
 
-* Use HTTP URIs so that these things can be looked up (interpreted, "dereferenced").<br>
-Retrieving a representation of a resource identified by a URI is known as *dereferencing* that URI. By choosing an URL as the key for the resource (a URL is an HTTP URI), we can follow the link to get information about that resource. For a user, it means that by clicking on the URL[ http://dbpedia.org/resource/Switzerland](http://dbpedia.org/resource/Switzerland), he will directly access the information rendered by a Web browser. Using the same underlying technology, a computer program could access the information and manipulate it, *the Web does become a Data Base.*
+2. __Use HTTP URIs so that things can be looked up (interpreted, "dereferenced").__<br>
+Retrieving a representation of a resource identified by a URI is known as *dereferencing* that URI. By choosing an URL as the key for the resource (a URL is an HTTP URI), we can follow the link to get information about that resource. For a user, it means that by clicking on a URL - e.g. http://dbpedia.org/resource/Switzerland - she will directly access the information rendered by a Web browser. Using the same underlying technology, a computer program could access structured information, so that the Web works as one database.
 
-* Provide useful information about what a name identifies when it's looked up, using open standards (as the [RDF W3C standard](https://www.w3.org/TR/2014/NOTE-rdf11-primer-20140624/))<br>
+3. __Provide useful information about what a name identifies when it is looked up using [open standards](https://www.w3.org/TR/2014/NOTE-rdf11-primer-20140624/)__<br>
 When you open that page in a browser (by dereferencing the URI), all the data presented to you comes from the underlying RDF data that is rendered here as standard HTML.
 If you want to have a closer look at that RDF data, you can access it through[ http://dbpedia.org/data/Switzerland](http://dbpedia.org/data/Switzerland).
 
-* Refer to other things using their HTTP URI-based names when publishing data on the Web.<br>
-On Switzerland page of the DBPedia web site, you will find some related data from other data sources. For instance, look for the[ geodata:Suisse](http://sws.geonames.org/2658434/) string, and click on it. You will be directed to the page of the same entity, Switzerland, on another well known Linked Data source: geoNames. Thanks to the use of universal identifiers, those two different data sources were able to link their data, and the end-user can now find a broad range of information about Switzerland in either of those sources.
+4. __Refer to other things using their HTTP URI-based names when publishing data on the Web.__<br>
+On Switzerland page of the DBPedia web site, you will find some related data from other data sources. For instance, look for the [ geodata:Suisse](http://sws.geonames.org/2658434/) string, and click on it. You will be directed to the page of the same entity, Switzerland, on another well known Linked Data source: *GeoNames*. Thanks to the use of universal identifiers, these two different data sources were able to link their data. An end-user can now find a broad range of information about Switzerland in either of those sources.
 
+### Explanation
 
-Be aware that those Web resources identified by a dereferenceable URIs are not meant to be directly viewed by end-users, but really serve as a distributed data base from which software developers will create richer applications and functionalities, with user-friendly interfaces.
+Be aware that those Web resources identified by dereferenceable URIs are not meant to be directly viewed by end-users, but really serve as a distributed data base from which software developers may create richer applications and functions, with user-friendly interfaces.
 
+RDF is a data model where each piece of information is a simple sentence made of three parts: a subject, a relation (or predicate), and an object, hence the name of *triple*. The relation is what allows the creation of connections amongst data (subjects and objects), in other words to *link the data*.
 
-A little word about the structure of the data and some basic terms related to Linked Data: RDF is a data model where each piece of information is a simple sentence made of three parts: a subject, a relation (or predicate), and an object, hence the name of *triple*. The relation is what allows the creation of connections amongst data (subjects and objects), in other words to *link the data*. With RDF a new kind of data base was created to store RDF triples, it is commonly called a *triple store*. To query the triples stored in a triple store, a query language was developed: *SPARQL*.  All of those new technologies are defined by W3C standards and will be described in little more details here under.
+With RDF a new kind of data base was created to store RDF triples, commonly called a *triple store*. To query the triples stored in a triple store, a query language was developed: *SPARQL*.  All of those new technologies are defined by W3C standards and will be described in more details further on.
 
 # **What are the benefits ?**
 
-Linked Data is shareable, extensible, and easily re-usable. It supports multilingual functionality for data and user services, such as the labeling of concepts identified by URIs. By using globally unique identifiers to designate works, places, people, events, subjects, and other objects or concepts of interest, resources can be referenced across a broad range of sources and thus make integration of different information much more feasible. Linked Data breaks the information silos from various data formats and makes data integration and data mining over complex data easier. Moreover, those technologies also allow for easy updates and extensions of the data models as well as inferring new knowledge out of existing facts.
+Linked Data is shareable, extensible, and easily re-usable. It supports multilingual functionality for data and user services, such as the labeling of concepts identified by URIs. By using globally unique identifiers to designate works, places, people, events, subjects, and other objects or concepts of interest, resources can be referenced across a broad range of sources and thus make integration of different information much more feasible.
 
-When talking more specifically about Open Data, Linked Open Data is given a 5 stars rating. Tim Berners-Lee proposed a rating system for Open Data as shown in Figure 1. To get the maximum five stars, data must (1) be available on the Web under an open license, (2) be in the form of structured data, (3) be in a non-proprietary file format, (4) use URIs as its identifiers, (5) include links to other data sources.
+Linked Data aims to break information out of silos where they are locked to specific data collections and formats, and makes data integration and data mining over complex data easier. Such technologies allow for easier updates and extensions to data models - as well as potential to infer new knowledge out of collections of facts.
 
-<center>![5 stars Open Data](../images/ld-5stars.png)</center>
-<center>Figure 1. 5-Star Deployment Scheme for Open Data (source: [5stardata.info](http://5stardata.info))</center>
+Tim Berners-Lee proposed a rating system for Open Data as shown in Figure 1. To get the maximum five stars, data must (1) be available on the Web under an open license, (2) be in the form of structured data, (3) be in a non-proprietary file format, (4) use URIs as its identifiers, (5) include links to other data sources. In the specific context of open data, *Linked Open Data* is given a 5 stars rating.
+
+> ![5 stars of Open Data](../images/ld-5stars.png)
+
+> Figure 1. 5-Star Deployment Scheme for Open Data (source: [5stardata.info](http://5stardata.info))
 
 To give a better understanding of the benefits and costs for each star, we regroup the explanations in the following table:
 
@@ -99,7 +103,7 @@ To give a better understanding of the benefits and costs for each star, we regro
     <td align="center"><img src="../images/ld-star.png" alt="star" height="22" width="22"><br><img src="../images/ld-star.png" alt="star" height="22" width="22"><br><img src="../images/ld-star.png" alt="star" height="22" width="22"><br><img src="../images/ld-star.png" alt="star" height="22" width="22"></td>
     <td>use URIs to denote things,
 so that people can point at your stuff</td>
-    <td>You can do all what you can do with ★★★ Web data and additionally:<br>	
+    <td>You can do all what you can do with ★★★ Web data and additionally:<br>
 ✔ You can link to it from any other place (on the Web or locally).<br>
 ✔ You can bookmark it.<br>
 ✔ You can reuse parts of the data.<br>
@@ -115,7 +119,7 @@ so that people can point at your stuff</td>
   <tr>
     <td align="center"><img src="../images/ld-star.png" alt="star" height="22" width="22"><br><img src="../images/ld-star.png" alt="star" height="22" width="22"><br><img src="../images/ld-star.png" alt="star" height="22" width="22"><br><img src="../images/ld-star.png" alt="star" height="22" width="22"><br><img src="../images/ld-star.png" alt="star" height="22" width="22"></td>
     <td>link your data to other data to provide context</td>
-    <td>You can do all what you can do with ★★★★ Web data and additionally:<br>	
+    <td>You can do all what you can do with ★★★★ Web data and additionally:<br>
 ✔ You can discover more (related) data while consuming the data.<br>
 ✔ You can directly learn about the data schema.<br>
 <img src="../images/ld-warning.png" alt="warning" height="22" width="22" style=" vertical-align: text-bottom;"> You now have to deal with broken data links, just like 404 errors in web pages.<br>
@@ -491,4 +495,3 @@ W3C maintains a pretty complete [glossary for Linked Data](https://www.w3.org/TR
 
 <a name="footnote-2"></a>
 [^2] Tom Heath and Christian Bizer (2011) Linked Data: Evolving the Web into a Global Data Space (1st edition). Synthesis Lectures on the Semantic Web: Theory and Technology, 1:1, 1-136. Morgan & Claypool.
-
