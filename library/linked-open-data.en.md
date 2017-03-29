@@ -58,8 +58,6 @@ Tim Berners-Lee proposed a rating system for Open Data as shown in Figure 1. To 
 
 > Figure 1. 5-Star Deployment Scheme for Open Data (source: [5stardata.info](http://5stardata.info))
 
-To give a better understanding of the benefits and costs for each star, we regroup the explanations in the following table:
-
 <table>
   <tr>
     <td colspan="2" align="center">5-star Deployment System for Open Data</td>
@@ -72,8 +70,8 @@ To give a better understanding of the benefits and costs for each star, we regro
     <td width="35%" align="center">As a publisher</td>
   </tr>
   <tr>
-    <td align="center"><img src="../images/ld-star.png" alt="star" height="22" width="22"></td>
-    <td>make your stuff available on the Web (whatever format) under an open license</td>
+    <td align="center">★</td>
+    <td>make your content available on the Web (whatever format) under an open license</td>
     <td>✔ You can look at it.<br>
 ✔ You can print it.<br>
 ✔ You can store it locally (on your hard disk or on an USB stick).<br>
@@ -84,7 +82,7 @@ To give a better understanding of the benefits and costs for each star, we regro
 ✔ You do not have to explain repeatedly to others that they can use your data.</td>
   </tr>
   <tr>
-    <td align="center"><img src="../images/ld-star.png" alt="star" height="22" width="22"><br><img src="../images/ld-star.png" alt="star" height="22" width="22"></td>
+    <td align="center">★<br>★</td>
     <td>make it available as structured data (e.g., Excel instead of image scan of a table)</td>
     <td>You can do all what you can do with ★ Web data and additionally:<br>
 ✔ You can directly process it with proprietary software to aggregate it, perform calculations, visualise it, etc.<br>
@@ -92,7 +90,7 @@ To give a better understanding of the benefits and costs for each star, we regro
     <td>✔ It’s still simple to publish.</td>
   </tr>
   <tr>
-    <td align="center"><img src="../images/ld-star.png" alt="star" height="22" width="22"><br><img src="../images/ld-star.png" alt="star" height="22" width="22"><br><img src="../images/ld-star.png" alt="star" height="22" width="22"></td>
+    <td align="center">★<br>★<br>★</td>
     <td>make it available in a non-proprietary open format (e.g., CSV as well as of Excel)</td>
     <td>You can do all what you can do with ★★ Web data and additionally:<br>
 ✔ You can manipulate the data in any way you like, without the need to own any proprietary software package.</td>
@@ -100,7 +98,7 @@ To give a better understanding of the benefits and costs for each star, we regro
 ✔ It’s still rather simple to publish.</td>
   </tr>
   <tr>
-    <td align="center"><img src="../images/ld-star.png" alt="star" height="22" width="22"><br><img src="../images/ld-star.png" alt="star" height="22" width="22"><br><img src="../images/ld-star.png" alt="star" height="22" width="22"><br><img src="../images/ld-star.png" alt="star" height="22" width="22"></td>
+    <td align="center">★<br>★<br>★<br>★</td>
     <td>use URIs to denote things,
 so that people can point at your stuff</td>
     <td>You can do all what you can do with ★★★ Web data and additionally:<br>
@@ -117,7 +115,7 @@ so that people can point at your stuff</td>
 <img src="../images/ld-warning.png" alt="warning" height="22" width="22" style=" vertical-align: text-bottom;"> You need to either find existing patterns to reuse or create your own.</td>
   </tr>
   <tr>
-    <td align="center"><img src="../images/ld-star.png" alt="star" height="22" width="22"><br><img src="../images/ld-star.png" alt="star" height="22" width="22"><br><img src="../images/ld-star.png" alt="star" height="22" width="22"><br><img src="../images/ld-star.png" alt="star" height="22" width="22"><br><img src="../images/ld-star.png" alt="star" height="22" width="22"></td>
+    <td align="center">★<br>★<br>★<br>★<br>★</td>
     <td>link your data to other data to provide context</td>
     <td>You can do all what you can do with ★★★★ Web data and additionally:<br>
 ✔ You can discover more (related) data while consuming the data.<br>
@@ -133,9 +131,9 @@ so that people can point at your stuff</td>
 </table>
 
 
-## **Benefits of Linked Data in Library Environment**
+## Benefits of Linked Data in library environment
 
-As an example use-case, the [final report of the W3C sample applications of Linked Data in library environment](https://www.w3.org/2005/Incubator/lld/wiki/Benefits) explains the advantages of Linked Open Data which is by nature sharable, extensible, and easily re-usable.
+As an example use-case, the [final report of the W3C sample applications of Linked Data in library environment](https://www.w3.org/2005/Incubator/lld/wiki/Benefits) explains the advantages of Linked Open Data in a more specific context:
 
 <span>1. Richer data, better data integration and reuse</span>
 
@@ -160,19 +158,15 @@ Linked Data being published in the Web, accessing Linked Data is done in a unifo
 Those benefits are presented for different actors of the library environment regrouped in four categories:
 
 * researchers, students, and patrons
-
 * organizations
-
 * librarians, archivists, and curators
-
 * developers and vendors
 
-# **How to implement this approach?**
+# How to implement this approach?
 
 This section describes how the Linked Data approach could be implemented in the domain of Swiss Open Government Data. The proposed 10 steps are based on the W3C [Best Practices for Publishing Linked Data](https://www.w3.org/TR/ld-bp) document, adapted to the opendata.swiss context. Only the methodological guidelines of each step are presented here. For further details, please refer to the original document.
 
 <span style="text-decoration: underline;">1. Prepare Stakeholders</span>
-
 
 The first step to successfully create a Linked Open Data publishing process starts by explaining to stakeholders the conceptual Linked Data approach and the main technical differences compared to other Open Data publication solutions (the 5 stars Open Data is a good resource here). Then a data modeling life cycle can be designed based on the following steps presented here or adapting existing workflows.
 
@@ -182,19 +176,14 @@ The first step to successfully create a Linked Open Data publishing process star
 In the public administration context, the first barrier to publish data as "open data" is to have a legal basis allowing it. We thus propose to start with an already published dataset for which the legal basis question is already solved. It could be either:
 
 * An Excel document that is already made available on one of the web pages of your organisation
-
 * A database whose content is already available through a website, meaning that its content can be searched by a user but not by a machine (lack of API)
-
 * Data sets published in reports (tables) that could have an added value to be published as row data on the web.
-
 * Open Data not yet published: this would be a rare but very valuable case, where a newly open dataset is not published in any form yet
 
 Moreover, preference can be given to:
 
 * Data based on international or national standards (eCH standards for instance)
-
 * Popular data or data with a high re-use potential
-
 * Data that can be easily combined with other open data, and thus provide greater value
 
 <span style="text-decoration: underline;">3.	Model the Data</span>
@@ -202,7 +191,6 @@ Moreover, preference can be given to:
 The particularity of Linked Data modeling is that it consists of a transformation: from the original data (relational database, CSV files, etc.) to the RDF model. Defining this target data model is the objective of this step. This can be only achieved by bringing together domain-specific competencies hold by the data owner and linked data competencies that must usually be hired somewhere else.
 
 The domain expert will explain the objects and their relationship (local relationship but also relationships to other data sources) as well as the standard vocabularies of the domain. The linked data expert will then look for existing RDF versions of those vocabularies (aka ontologies), and eventually define a new RDF vocabulary if needed.
-
 
 <span style="text-decoration: underline;">4.	Specify appropriate terms of use and legal basis</span>
 
@@ -228,8 +216,8 @@ If necessary, the use of Unicode characters (non-ASCII characters) is possible a
 
 To clarify the notion of URL, URI and IRI:
 
-<center>![URL-URI-IRI](../images/ld-iri-uri.png)</center>
-<center>Figure 2. A URL is a specific kind of URI, a URI is a specific kind of IRI</center>
+![URL-URI-IRI](../images/ld-iri-uri.png)
+Figure 2. A URL is a specific kind of URI, a URI is a specific kind of IRI
 
 A URL is a specific kind of URI that is also a location as it is an HTTP URI and can be looked-up on the Web. In comparison, a URN is a Uniform Resource Name as an ISBN code for example.
 
@@ -243,9 +231,7 @@ To facilitate the reuse of the data, reuse of standard vocabularies is a key fac
 Standard vocabularies for Linked Data have been developed, validated and made available, as for instance:
 
 * [data catalogs](http://www.w3.org/TR/vocab-dcat/)
-
 * [organizations](http://www.w3.org/TR/vocab-org/)
-
 * [multidimensional data](http://www.w3.org/TR/vocab-data-cube/)
 
 Existing vocabularies can be found using search tools ([Falcons](http://ws.nju.edu.cn/falcons/),[ Watson](http://watson.kmi.open.ac.uk/WatsonWUI/),[ Swoogle](http://swoogle.umbc.edu/)) or directories ([LOV](http://lov.okfn.org/), the European Commission's[ Joinup platform](https://joinup.ec.europa.eu/catalogue/repository), or domain specific portals as the  [Bioportal](http://bioportal.bioontology.org/)  for the biological domain as an example). To evaluate a vocabulary, take into account if that vocabulary is published by a trusted group, is well documented and self-descriptive, is used by other datasets,  has persistent URIs and is accessible for a long period, and if its provides a versioning policy. If there is a need for a new vocabulary we recommend to contact an ontology expert to fulfill this task properly.
@@ -254,18 +240,14 @@ Existing vocabularies can be found using search tools ([Falcons](http://ws.nju.e
 
 Once all the former preparation steps have been carried out, it is possible to perform the data conversion from the original format to Linked Data (RDF triples). There are many ways to do this using existing tools available for that mapping operation, see the [W3C list](https://www.w3.org/wiki/ConverterToRdf) for instance. The Linked Data expert will know which tool to use for the purpose and, if needed, will create a new one.
 
-
 This step should include the generation of metadata for that datasets (see the official documentation about [DCAT-AP for Switzerland](ch-dcat-ap.html)), and also the links to other datasets, as for instance DBPedia (the Linked Data version of Wikipedia), to make the new dataset part of the [Linked Data Cloud](http://lod-cloud.net/).
-
 
 <span style="text-decoration: underline;">8.	Provide Machine Access to Data</span>
 
 Different methods can be used to provide data access for machines, as:
 
 * Direct URI resolution
-
 * a[ RESTful API](http://www.w3.org/TR/ld-glossary/#rest-api), a[ SPARQL endpoint](http://www.w3.org/TR/ld-glossary/#sparql-endpoint)
-
 * via file download
 
 The SPARQL Protocol and RDF Query Language (SPARQL) is the standard query language for RDF. The current version, SPARQL 1.1, is defined by a [W3C recommandation](https://www.w3.org/TR/sparql11-overview/).
@@ -284,26 +266,22 @@ Linked Data publishers implicitly promise to guarantee the published datasets av
 
 This should be done in order to prevent third party applications to break when encountering an HTTP 404 "Not Found" error while accessing the data.
 
-# **Technical information about Linked Data**
+# Technical information about Linked Data
 
 The technical structure underlying the principles of Linked Data was defined in the following  well-known layercake:
 
-<center>![RDF layer cake](../images/ld-stack.png)</center>
-<center>Figure 3. The layer cake for RDF technologies ([source](https://www.w3.org/Consortium/Offices/Presentations/Overview/#(40)))</center>
+![RDF layer cake](../images/ld-stack.png)
+Figure 3. The layer cake for RDF technologies ([source](https://www.w3.org/Consortium/Offices/Presentations/Overview/#(40)))
 
 This layercake has evolved through time, while the standards and tools were developed and tested. Here is an introduction to the main technical bricks (highlighted in red here above):
 
 * unambiguous names for resources (for everything) : IRIs (URIs, URLs)
-
 * a common data model to describe the resources: RDF
-
 * schema for the data based on RDF (common vocabularies, ontologies) : RDFS, OWL, SKOS
-
 * a query language for RDF: SPARQL
-
 * reasoning logics: OWL, Rules (RIF)
 
-## **Resource Description Framework (RDF)**
+## Resource Description Framework (RDF)
 
 Linked Data is based on the Resource Description Framework (RDF, [a W3C standard](https://www.w3.org/TR/rdf-primer/)), a framework to represent information in the Web,  expressing information about any resource (people, things, anything).
 
@@ -321,20 +299,20 @@ Example of triples:
 
 Each triple can be represented visually as for instance:
 
-<center>![RDF triple](../images/ld-triple.png)</center>
-<center>Figure 4. RDF triple</center>
+> ![RDF triple](../images/ld-triple.png)
+Figure 4. RDF triple
 
 As we can see, an RDF triple forms a graph where the subjects and objects make up the nodes and the predicates form the arcs.
 
 Here is a visual representation of the few triples here above:
 
-<center>![RDF Graph](../images/ld-graph.png)</center>
-<center>Figure 5. RDF Graph</center>
+> ![RDF Graph](../images/ld-graph.png)
+> Figure 5. RDF Graph
 
 RDF data, and thus Linked Data, form a Graph Database, which is different from the more common Relational or Hierarchical Databases:
 
-<center>![structured data formats](../images/ld-struct-data-formats.png)</center>
-<center>Figure 6. Three different types of databases ([source](http://www.linkeddatatools.com/introducing-rdf))</center>
+![structured data formats](../images/ld-struct-data-formats.png)
+Figure 6. Three different types of databases ([source](http://www.linkeddatatools.com/introducing-rdf))
 
 So where do IRIs, the foundation of the layercake, come into play ? Everywhere! Everything is identified by a URL (a specific form of IRI), except literal values, as "1910-07-28" in our running example. We did not mention any URL in the former presentations to make things simple and more readable.
 
@@ -350,10 +328,10 @@ Each property is also a resource, and so:
 
 Here is the real RDF graph, with fully qualified URIs:
 
-<center>![RDF graph with URIs](../images/ld-graph-uri.png)</center>
-<center>Figure 7. RDF graph with fully qualified URIs</center>
+> ![RDF graph with URIs](../images/ld-graph-uri.png)
+> Figure 7. RDF graph with fully qualified URIs
 
-RDF documents
+### RDF documents
 
 There exist different specifications to write a RDF Graph (i.e. RDF Triples) to a file. This process is called "serialization" and the RDF 1.1 Primer gives the following list:
 
@@ -370,9 +348,7 @@ There exist different specifications to write a RDF Graph (i.e. RDF Triples) to 
 The most common ones in 2016 are:
 
 * Turtle to write down RDF Triples in a text file that will have a ".ttl" extension (a format that is easily readable by a human and thus prefered to the RDF/XML version)
-
 * JSON-LD to store RDF data in java objects, which is a popular and practical format for computer programmers
-
 * RDFa to add RDF inside HTML pages, the RDF data being not visible to end-users but at disposal for crawlers.
 
 Turtle is a pretty simple format where each triple is written down. Our running example can be serialized in Turtle as follow:
@@ -392,7 +368,7 @@ In practice, some syntaxe shortcuts will be used and the final document will rat
     dbp:birthDate "1910-07-28"^^xsd:date .
     dbr:Albert_Einstein dbo:spouse dbr:Mileva_Mari%C4%87 .
 
-## **Ontologies, RDFs and OWL**
+## Ontologies, RDFs and OWL
 
 RDF was designed to represent data in a machine-friendly way, but we are still missing an important part of Information Modeling: a Data Model or Schema. In term of Linked Data and RDF, the data model is called a "vocabulary" or “ontology”. For that purpose, RDF has been extended by [RDFSchema (RDFs)](https://www.w3.org/TR/rdf-schema/) and the [Ontology Web Language (OWL)](https://www.w3.org/TR/owl2-overview/). This is also where semantics is added to RDF.
 
@@ -402,7 +378,7 @@ OWL goes one step further to define logical axioms and rules that can be further
 
 The RDF data model is thus a common language for the schema and the data as well.
 
-## **Data Access - Triple store and SPARQL**
+## Data Access - Triple store and SPARQL
 
 As described in the W3C’s "Best Practices for Publishing Linked Data", there are different ways to provide machine access to data, and thus different ways for a end-user to access the data.
 
@@ -426,8 +402,7 @@ To give it a try, please copy/paste the following SPARQL query to ask for the sp
 Or just click[ here](https://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=select+*+%7Bdbr%3AAlbert_Einstein+dbo%3Aspouse+%3Fspouse%7D&format=text%2Fhtml&CXML_redir_for_subjs=121&CXML_redir_for_hrefs=&timeout=30000&debug=on).<br><br>
 See [a list of SPARQL endpoints](http://sparqles.ai.wu.ac.at/) and their status published by the Open Knowledge Foundation.<br><br>
 
-
-## **Some more resources**
+## Additional resources
 
 Here are some more resources helpful to work with Linked Data.
 
@@ -485,11 +460,12 @@ Triple Stores
 
 * A [W3C list of large triple stores](https://www.w3.org/wiki/LargeTripleStores)
 
-# **Glossary**
+# Glossary
 
-W3C maintains a pretty complete [glossary for Linked Data](https://www.w3.org/TR/ld-glossary/)
+W3C maintains a [glossary for Linked Data](https://www.w3.org/TR/ld-glossary/).
 
-# **References**
+# References
+
 <a name="footnote-1"></a>
 [^1] Jim Ericson. Net expectations - what a web data service economy implies for business. Information Management Magazine, Jan/Feb, 2010.
 
