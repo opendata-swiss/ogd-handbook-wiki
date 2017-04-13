@@ -11,11 +11,15 @@ Lang: en
 toc_run: true
 ---
 
-Today we are surrounded by vast quantities of data, playing an increasingly central role in our lives and driving the emergence of a data economy<sup>[[^1]](#footnote-1)</sup>. The more data we have, the more we face limitations in traditional methods of organising data. Usually, to publish machine-friendly data - i.e. structured data, not text documents in natural language - is to generate raw data in files (e.g. spreadsheets as CSV files and other [data formats](/en/library/empfehlungen-formate)), or to provide access to this data through programming interfaces ([APIs](/support/api)). While these go a long way to help make data available and accessible for knowledge sharing, there is space for improvement in facilitating data reuse, such as:
+Today we are surrounded by vast quantities of data playing an increasingly central role in our lives, and driving the emergence of a data economy<sup>[[^1]](#footnote-1)</sup>. At greater quantities, we are faced with limitations in traditional methods of organizing data. To publish machine-friendly data - i.e. in structured form, not as text documents in natural language - the usual approach is to generate raw data in standardized files (e.g. spreadsheets as CSV and other [data formats](/en/library/empfehlungen-formate)), or to provide access to this data through programming interfaces ([APIs](/support/api)).
+
+While these go a long way to help make data available and accessible for knowledge sharing, there is space for improvement in facilitating data reuse, such as:
 
 * *Comprehensibility*: provide better descriptions of data and underlying models or schema
 * *Accessibility and share-ability*:  simplify access, therefore also facilitate distribution of up-to-date data
 * *Integration*: facilitate the combination of data from different sources into a common point of access
+
+This document describes an approach known as *Linked Data*, which responds to these needs.
 
 ## Linking the Web of Data
 
@@ -46,7 +50,7 @@ RDF is a data model where each piece of information is a simple sentence made of
 
 With RDF a new kind of data base was created to store RDF triples, commonly called a *triple store*. To query the triples stored in a triple store, a query language was developed: *SPARQL*.  All of those new technologies are defined by W3C standards and will be described in more details further on.
 
-# **What are the benefits ?**
+### Advantages
 
 Linked Data is shareable, extensible, and easily re-usable. It supports multilingual functionality for data and user services, such as the labeling of concepts identified by URIs. By using globally unique identifiers to designate works, places, people, events, subjects, and other objects or concepts of interest, resources can be referenced across a broad range of sources and thus make integration of different information much more feasible.
 
@@ -162,31 +166,32 @@ Those benefits are presented for different actors of the library environment reg
 * librarians, archivists, and curators
 * developers and vendors
 
-# How to implement this approach?
+# Implementation
 
 This section describes how the Linked Data approach could be implemented in the domain of Swiss Open Government Data. The proposed 10 steps are based on the W3C [Best Practices for Publishing Linked Data](https://www.w3.org/TR/ld-bp) document, adapted to the opendata.swiss context. Only the methodological guidelines of each step are presented here. For further details, please refer to the original document.
 
-<span style="text-decoration: underline;">1. Prepare Stakeholders</span>
+## First steps
+
+#### 1. Prepare Stakeholders
 
 The first step to successfully create a Linked Open Data publishing process starts by explaining to stakeholders the conceptual Linked Data approach and the main technical differences compared to other Open Data publication solutions (the 5 stars Open Data is a good resource here). Then a data modeling life cycle can be designed based on the following steps presented here or adapting existing workflows.
 
-
-<span style="text-decoration: underline;">2.	Select a Dataset</span>
+#### 2.	Select a Dataset
 
 In the public administration context, the first barrier to publish data as "open data" is to have a legal basis allowing it. We thus propose to start with an already published dataset for which the legal basis question is already solved. It could be either:
 
-* An Excel document that is already made available on one of the web pages of your organisation
+* An Excel document that is already made available on one of the web pages of your organization
 * A database whose content is already available through a website, meaning that its content can be searched by a user but not by a machine (lack of API)
 * Data sets published in reports (tables) that could have an added value to be published as row data on the web.
 * Open Data not yet published: this would be a rare but very valuable case, where a newly open dataset is not published in any form yet
 
 Moreover, preference can be given to:
 
-* Data based on international or national standards (eCH standards for instance)
+* Data based on international or national standards ([eCH standards](/en/library/empfehlungen-formate), for instance)
 * Popular data or data with a high re-use potential
 * Data that can be easily combined with other open data, and thus provide greater value
 
-<span style="text-decoration: underline;">3.	Model the Data</span>
+#### 3.	Model the Data
 
 The particularity of Linked Data modeling is that it consists of a transformation: from the original data (relational database, CSV files, etc.) to the RDF model. Defining this target data model is the objective of this step. This can be only achieved by bringing together domain-specific competencies hold by the data owner and linked data competencies that must usually be hired somewhere else.
 
