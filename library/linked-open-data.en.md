@@ -60,7 +60,7 @@ Linked Data aims to break information out of silos where they are locked to spec
 
 Tim Berners-Lee proposed a rating system for Open Data as shown in Figure 1. To get the maximum five stars, data must (1) be available on the Web under an open license, (2) be in the form of structured data, (3) be in a non-proprietary file format, (4) use URIs as its identifiers, (5) include links to other data sources. In the specific context of open data, *Linked Open Data* is given a 5 stars rating.
 
-> ![5 stars of Open Data](../images/ld-5stars.png)
+> ![5 stars of Open Data](../../images/linked-open-data/ld-5stars.png)
 
 > Figure 1. 5-Star Deployment Scheme for Open Data (source: [5stardata.info](http://5stardata.info))
 
@@ -100,7 +100,7 @@ Tim Berners-Lee proposed a rating system for Open Data as shown in Figure 1. To 
     <td>make it available in a non-proprietary open format (e.g., CSV as well as of Excel)</td>
     <td>All you can do with ★★ Web data and additionally:<br>
 ✔ You can manipulate the data in any way you like, without the need to own any proprietary software package.</td>
-    <td><img src="../images/ld-warning.png" alt="warning" height="22" width="22" style="vertical-align: text-bottom;"> You might need converters or plug-ins to export the data from the proprietary format.<br>
+    <td><img src="../../images/linked-open-data/ld-warning.png" alt="warning" height="22" width="22" style="vertical-align: text-bottom;"> You might need converters or plug-ins to export the data from the proprietary format.<br>
 ✔ It’s still rather simple to publish.</td>
   </tr>
   <tr>
@@ -112,13 +112,13 @@ so that people can point at your stuff</td>
 ✔ You can bookmark it.<br>
 ✔ You can reuse parts of the data.<br>
 ✔ You may be able to reuse existing tools and libraries, even if they only understand parts of the pattern the publisher used.<br>
-<img src="../images/ld-warning.png" alt="warning" height="22" width="22" style=" vertical-align: text-bottom;"> Understanding the structure of an RDF "Graph" of data can require more effort than tabular (Excel/CSV) or tree (XML/JSON) data.<br>
+<img src="../../images/linked-open-data/ld-warning.png" alt="warning" height="22" width="22" style=" vertical-align: text-bottom;"> Understanding the structure of an RDF "Graph" of data can require more effort than tabular (Excel/CSV) or tree (XML/JSON) data.<br>
 ✔ You can combine the data safely with other data. URIs are a global scheme so if two things have the same URI then it’s intentional, and if so that’s well on it’s way to being 5-star data!</td>
     <td>✔ You have fine-granular control over the data items and can optimise their access (load balancing, caching, etc.)<br>
 ✔ Other data publishers can now link into your data, promoting it to 5 star!<br>
-<img src="../images/ld-warning.png" alt="warning" height="22" width="22" style=" vertical-align: text-bottom;"> You typically invest some time slicing and dicing your data.<br>
-<img src="../images/ld-warning.png" alt="warning" height="22" width="22" style=" vertical-align: text-bottom;"> You’ll need to assign URIs to data items and think about how to represent the data.<br>
-<img src="../images/ld-warning.png" alt="warning" height="22" width="22" style=" vertical-align: text-bottom;"> You need to either find existing patterns to reuse or create your own.</td>
+<img src="../../images/linked-open-data/ld-warning.png" alt="warning" height="22" width="22" style=" vertical-align: text-bottom;"> You typically invest some time slicing and dicing your data.<br>
+<img src="../../images/linked-open-data/ld-warning.png" alt="warning" height="22" width="22" style=" vertical-align: text-bottom;"> You’ll need to assign URIs to data items and think about how to represent the data.<br>
+<img src="../../images/linked-open-data/ld-warning.png" alt="warning" height="22" width="22" style=" vertical-align: text-bottom;"> You need to either find existing patterns to reuse or create your own.</td>
   </tr>
   <tr>
     <td align="center">★<br>★<br>★<br>★<br>★</td>
@@ -126,13 +126,13 @@ so that people can point at your stuff</td>
     <td>All you can do with ★★★★ Web data and additionally:<br>
 ✔ You can discover more (related) data while consuming the data.<br>
 ✔ You can directly learn about the data schema.<br>
-<img src="../images/ld-warning.png" alt="warning" height="22" width="22" style=" vertical-align: text-bottom;"> You now have to deal with broken data links, just like 404 errors in web pages.<br>
-<img src="../images/ld-warning.png" alt="warning" height="22" width="22" style=" vertical-align: text-bottom;"> Presenting data from an arbitrary link as fact is as risky as letting people include content from any website in your pages. Caution, trust and common sense are all still necessary.</td>
+<img src="../../images/linked-open-data/ld-warning.png" alt="warning" height="22" width="22" style=" vertical-align: text-bottom;"> You now have to deal with broken data links, just like 404 errors in web pages.<br>
+<img src="../../images/linked-open-data/ld-warning.png" alt="warning" height="22" width="22" style=" vertical-align: text-bottom;"> Presenting data from an arbitrary link as fact is as risky as letting people include content from any website in your pages. Caution, trust and common sense are all still necessary.</td>
     <td>✔ You make your data discoverable.<br>
 ✔ You increase the value of your data.<br>
 ✔ Your own organisation will gain the same benefits from the links as the consumers.<br>
-<img src="../images/ld-warning.png" alt="warning" height="22" width="22" style=" vertical-align: text-bottom;"> You’ll need to invest resources to link your data to other data on the Web.<br>
-<img src="../images/ld-warning.png" alt="warning" height="22" width="22" style=" vertical-align: text-bottom;"> You may need to repair broken or incorrect links.</td>
+<img src="../../images/linked-open-data/ld-warning.png" alt="warning" height="22" width="22" style=" vertical-align: text-bottom;"> You’ll need to invest resources to link your data to other data on the Web.<br>
+<img src="../../images/linked-open-data/ld-warning.png" alt="warning" height="22" width="22" style=" vertical-align: text-bottom;"> You may need to repair broken or incorrect links.</td>
   </tr>
 </table>
 
@@ -222,7 +222,7 @@ If necessary, the use of Unicode characters (non-ASCII characters) is possible a
 
 To clarify the notion of URL, URI and IRI:
 
-> ![URL-URI-IRI](../images/ld-iri-uri.png)
+> ![URL-URI-IRI](../../images/linked-open-data/ld-iri-uri.png)
 
 > Figure 2. A URL is a specific kind of URI, a URI is a specific kind of IRI
 
@@ -277,7 +277,7 @@ This should be done in order to prevent third party applications to break when e
 
 The technical structure underlying the principles of Linked Data are often illustrated in the form of this "layercake":
 
-> ![RDF layer cake](../images/ld-stack.png)
+> ![RDF layer cake](../../images/linked-open-data/ld-stack.png)
 
 > Figure 3. The layer cake for RDF technologies (Source: [w3.org](https://www.w3.org/Consortium/Offices/Presentations/Overview/#(40)))
 
@@ -307,7 +307,7 @@ Example of triples:
 
 Each triple can be represented visually as for instance:
 
-> ![RDF triple](../images/ld-triple.png)
+> ![RDF triple](../../images/linked-open-data/ld-triple.png)
 
 > Figure 4. RDF triple
 
@@ -315,13 +315,13 @@ As we can see, an RDF triple forms a graph where the subjects and objects make u
 
 Here is a visual representation of the few triples here above:
 
-> ![RDF Graph](../images/ld-graph.png)
+> ![RDF Graph](../../images/linked-open-data/ld-graph.png)
 
 > Figure 5. RDF Graph
 
 RDF data, and thus Linked Data, form a Graph Database, which is different from the more common Relational or Hierarchical Databases:
 
-> ![structured data formats](../images/ld-struct-data-formats.png)
+> ![structured data formats](../../images/linked-open-data/ld-struct-data-formats.png)
 
 > Figure 6. Three different types of databases (Source: [linkeddatatools.com](http://www.linkeddatatools.com/introducing-rdf))
 
@@ -339,7 +339,7 @@ Each property is also a resource, and so:
 
 Here is the real RDF graph, with fully qualified URIs:
 
-> ![RDF graph with URIs](../images/ld-graph-uri.png)
+> ![RDF graph with URIs](../../images/linked-open-data/ld-graph-uri.png)
 
 > Figure 7. RDF graph with fully qualified URIs
 
