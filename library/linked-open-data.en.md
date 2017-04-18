@@ -65,75 +65,75 @@ Tim Berners-Lee proposed a rating system for Open Data as shown in Figure 1. To 
 > Figure 1. 5-Star Deployment Scheme for Open Data (source: [5stardata.info](http://5stardata.info))
 
 <table>
-  <tr>
-    <td colspan="2" align="center"></td>
-    <td colspan="2" align="center">Costs and Benefits</td>
-  </tr>
-  <tr>
-    <td width="5%"></td>
-    <td width="25%"></td>
-    <td width="35%" align="center">As a consumer</td>
-    <td width="35%" align="center">As a publisher</td>
-  </tr>
-  <tr>
-    <td align="center">★</td>
-    <td>make your content available on the Web (whatever format) under an open license</td>
-    <td>✔ You can look at it.<br>
+<tr>
+<td colspan="2" align="center"></td>
+<td colspan="2" align="center">Costs and Benefits</td>
+</tr>
+<tr>
+<td width="5%"></td>
+<td width="25%"></td>
+<td width="35%" align="center">As a consumer</td>
+<td width="35%" align="center">As a publisher</td>
+</tr>
+<tr>
+<td align="center">★</td>
+<td>make your content available on the Web (whatever format) under an open license</td>
+<td>✔ You can look at it.<br>
 ✔ You can print it.<br>
 ✔ You can store it locally (on your hard disk or on an USB stick).<br>
 ✔ You can enter the data into any other system.<br>
 ✔ You can change the data as you wish.<br>
 ✔ You can share the data with anyone you like</td>
-    <td>✔ It’s simple to publish.<br>
+<td>✔ It’s simple to publish.<br>
 ✔ You do not have to explain repeatedly to others that they can use your data.</td>
-  </tr>
-  <tr>
-    <td align="center">★<br>★</td>
-    <td>make it available as structured data (e.g., Excel instead of image scan of a table)</td>
-    <td>All you can do with ★ Web data and additionally:<br>
+</tr>
+<tr>
+<td align="center">★<br>★</td>
+<td>make it available as structured data (e.g., Excel instead of image scan of a table)</td>
+<td>All you can do with ★ Web data and additionally:<br>
 ✔ You can directly process it with proprietary software to aggregate it, perform calculations, visualise it, etc.<br>
 ✔ You can export it into another (structured) format.</td>
-    <td>✔ It’s still simple to publish.</td>
-  </tr>
-  <tr>
-    <td align="center">★<br>★<br>★</td>
-    <td>make it available in a non-proprietary open format (e.g., CSV as well as of Excel)</td>
-    <td>All you can do with ★★ Web data and additionally:<br>
+<td>✔ It’s still simple to publish.</td>
+</tr>
+<tr>
+<td align="center">★<br>★<br>★</td>
+<td>make it available in a non-proprietary open format (e.g., CSV as well as of Excel)</td>
+<td>All you can do with ★★ Web data and additionally:<br>
 ✔ You can manipulate the data in any way you like, without the need to own any proprietary software package.</td>
-    <td><img src="../../images/linked-open-data/ld-warning.png" alt="warning" height="22" width="22" style="vertical-align: text-bottom;"> You might need converters or plug-ins to export the data from the proprietary format.<br>
+<td><img src="../../images/linked-open-data/ld-warning.png" alt="warning" height="22" width="22" style="vertical-align: text-bottom;"> You might need converters or plug-ins to export the data from the proprietary format.<br>
 ✔ It’s still rather simple to publish.</td>
-  </tr>
-  <tr>
-    <td align="center">★<br>★<br>★<br>★</td>
-    <td>use URIs to denote things,
+</tr>
+<tr>
+<td align="center">★<br>★<br>★<br>★</td>
+<td>use URIs to denote things,
 so that people can point at your stuff</td>
-    <td>All you can do with ★★★ Web data and additionally:<br>
+<td>All you can do with ★★★ Web data and additionally:<br>
 ✔ You can link to it from any other place (on the Web or locally).<br>
 ✔ You can bookmark it.<br>
 ✔ You can reuse parts of the data.<br>
 ✔ You may be able to reuse existing tools and libraries, even if they only understand parts of the pattern the publisher used.<br>
 <img src="../../images/linked-open-data/ld-warning.png" alt="warning" height="22" width="22" style=" vertical-align: text-bottom;"> Understanding the structure of an RDF "Graph" of data can require more effort than tabular (Excel/CSV) or tree (XML/JSON) data.<br>
 ✔ You can combine the data safely with other data. URIs are a global scheme so if two things have the same URI then it’s intentional, and if so that’s well on it’s way to being 5-star data!</td>
-    <td>✔ You have fine-granular control over the data items and can optimise their access (load balancing, caching, etc.)<br>
+<td>✔ You have fine-granular control over the data items and can optimise their access (load balancing, caching, etc.)<br>
 ✔ Other data publishers can now link into your data, promoting it to 5 star!<br>
 <img src="../../images/linked-open-data/ld-warning.png" alt="warning" height="22" width="22" style=" vertical-align: text-bottom;"> You typically invest some time slicing and dicing your data.<br>
 <img src="../../images/linked-open-data/ld-warning.png" alt="warning" height="22" width="22" style=" vertical-align: text-bottom;"> You’ll need to assign URIs to data items and think about how to represent the data.<br>
 <img src="../../images/linked-open-data/ld-warning.png" alt="warning" height="22" width="22" style=" vertical-align: text-bottom;"> You need to either find existing patterns to reuse or create your own.</td>
-  </tr>
-  <tr>
-    <td align="center">★<br>★<br>★<br>★<br>★</td>
-    <td>link your data to other data to provide context</td>
-    <td>All you can do with ★★★★ Web data and additionally:<br>
+</tr>
+<tr>
+<td align="center">★<br>★<br>★<br>★<br>★</td>
+<td>link your data to other data to provide context</td>
+<td>All you can do with ★★★★ Web data and additionally:<br>
 ✔ You can discover more (related) data while consuming the data.<br>
 ✔ You can directly learn about the data schema.<br>
 <img src="../../images/linked-open-data/ld-warning.png" alt="warning" height="22" width="22" style=" vertical-align: text-bottom;"> You now have to deal with broken data links, just like 404 errors in web pages.<br>
 <img src="../../images/linked-open-data/ld-warning.png" alt="warning" height="22" width="22" style=" vertical-align: text-bottom;"> Presenting data from an arbitrary link as fact is as risky as letting people include content from any website in your pages. Caution, trust and common sense are all still necessary.</td>
-    <td>✔ You make your data discoverable.<br>
+<td>✔ You make your data discoverable.<br>
 ✔ You increase the value of your data.<br>
 ✔ Your own organisation will gain the same benefits from the links as the consumers.<br>
 <img src="../../images/linked-open-data/ld-warning.png" alt="warning" height="22" width="22" style=" vertical-align: text-bottom;"> You’ll need to invest resources to link your data to other data on the Web.<br>
 <img src="../../images/linked-open-data/ld-warning.png" alt="warning" height="22" width="22" style=" vertical-align: text-bottom;"> You may need to repair broken or incorrect links.</td>
-  </tr>
+</tr>
 </table>
 
 ## Use case: libraries
