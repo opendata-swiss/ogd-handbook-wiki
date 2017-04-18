@@ -1,23 +1,23 @@
 ---
 Title: Harvester
-Category: Publish
+Category: Support
 Handbook: yes
 Tags:
 Date: 2016-08-03
 Slug: harvester
 Authors:
-Lang: en
+Lang: de
 Draft: yes
 toc_run: true
-Summary: Harvesters are an easy way to publish large numbers of datasets. The only requirement is to have metadata available in the DCAT-AP Switzerland format via a URL.
+Summary: Mit einem Harvester lassen sich grössere Datenmengen einfach und schnell publizieren. Voraussetzung dafür sind Metadaten im Format DCAT-AP Switzerland, welche über eine URL verfügbar sind.
 ---
 
 <a name="harvester"></a>
 # Harvester
 
-If you have a rather large amount of datasets (>= 100), you can use our harvesters to automatically update them at regular intervals.
+Bei grösseren Mengen an Datensätzen (>= 100), können Harvester verwendet werden um die Datensätze regelmässig zu aktualisieren.
 
-All metadata must be available in the [DCAT-AP Switzerland format](/en/library/ch-dcat-ap). You must provide a catalog as an RDF file ([see the example](/samples/ogdch_dcatap_import.rdf) for reference).
+Die Metadatan müssen dazu im [DCAT-AP Switzerland format](/de/library/ch-dcat-ap) vorliegen. Sie müssen einen Katalog als RDF-Datei zur Verfügung stellen ([Beispiel RDF](/samples/ogdch_dcatap_import.rdf)).
 
 ```xml
   <rdf:RDF>
@@ -42,10 +42,10 @@ All metadata must be available in the [DCAT-AP Switzerland format](/en/library/c
   </rdf:RDF>
 ```
 
-The RDF XML harvester is [based on ckanext-dcat](https://github.com/ckan/ckanext-dcat#rdf-dcat-harvester). As a publisher you must provide a valid catalog endpoint to fetch all datasets.
-If the amount of datasets exeeds best practices to be fetched in one request (e.g. more than 1'000 datasets), it is recommend to implement pagination using the [Hydra vocabulary](http://www.w3.org/ns/hydra/spec/latest/core/).
+Der RDF XML Harvester [basiert auf der CKAN-Extension ckanext-dcat](https://github.com/ckan/ckanext-dcat#rdf-dcat-harvester). Als Datenlieferant müssen Sie einen gültigen "catalog endpoint" für alle Datensätze zur Verfügung stellen.
+Falls Sie so viele Datensätze anbieten, dass sich diese nicht mehr mit einer einzigen Anfrage holen lassen (z.B. mehr als 1'000 Datensätze), ist die Empfehlung Pagination mit dem [Hydra Vocabulary](http://www.w3.org/ns/hydra/spec/latest/core/) zu implementieren.
 
-Example:
+Beispiel:
 
 ```xml
   <hydra:PagedCollection rdf:about="http://opendata.swiss/catalog.xml?page=3">
@@ -56,4 +56,3 @@ Example:
     <hydra:previousPage>http://opendata.swiss/catalog.xml?page=2</hydra:previousPage>
   </hydra:PagedCollection>
 ```
-
