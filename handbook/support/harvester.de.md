@@ -8,12 +8,9 @@ Slug: harvester
 Authors:
 Lang: de
 Draft: yes
-toc_run: true
+toc_run: false
 Summary: Mit einem Harvester lassen sich grössere Datenmengen einfach und schnell publizieren. Voraussetzung dafür sind Metadaten im Format DCAT-AP Switzerland, welche über eine URL verfügbar sind.
 ---
-
-<a name="harvester"></a>
-# Harvester
 
 Bei grösseren Mengen an Datensätzen (>= 100), können Harvester verwendet werden um die Datensätze regelmässig zu aktualisieren.
 
