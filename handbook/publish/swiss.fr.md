@@ -62,4 +62,4 @@ Une fois que vous avez donné le feu vert, les Archives fédérales mettent vos 
 <a name="geoadmin"></a>
 # Publication à travers geo.admin.ch
 
-Cet article est [disponible en allemand](/de/publish/swiss#geoadmin).
+Cet article est [disponible dans notre librarie](/fr/library/geodaten-publikation).

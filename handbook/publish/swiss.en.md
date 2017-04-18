@@ -93,4 +93,4 @@ Once you have given your consent, the Federal Archives will make the data availa
 <a name="geoadmin"></a>
 # Publication via geo.admin.ch
 
-This chapter is [available in German](/de/publish/swiss#geoadmin).
+This chapter is [available in our library](/en/library/geodaten-publikation).

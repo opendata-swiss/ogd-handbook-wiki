@@ -59,4 +59,4 @@ Una volta ottenuto il consenso, l’Archivio federale attiva i dati, che da quel
 <a name="geoadmin"></a>
 # Pubblicazione tramite geo.admin.ch
 
-Questo articolo è [disponibile in tedesco](/de/publish/swiss#geoadmin).
+Questo articolo è [disponibile nella nostra libreria](/it/library/geodaten-publikation).
