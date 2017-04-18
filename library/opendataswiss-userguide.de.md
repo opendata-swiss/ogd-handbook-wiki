@@ -1,10 +1,10 @@
 ---
 Title: Benutzerhandbuch opendata.swiss
-Category: Publish
-Handbook: yes
+Category: Library
+Template: document
 Tags:
 Date: 2016-06-20
-Slug: userguide
+Slug: opendataswiss-userguide
 Authors:
 Lang: de
 Draft: yes

@@ -21,7 +21,7 @@ Dafür sind drei Schritte nötig:
 2. Upload in den Katalog von opendata.swiss.
 3. Live-Schaltung des aktualisierten Katalogs auf opendata.swiss.
 
-[Im Benutzerhandbuch](/de/publish/userguide) ist das System von opendata.swiss ausführlich dokumentiert.
+[Im Benutzerhandbuch](/de/library/opendataswiss-userguide) ist das System von opendata.swiss ausführlich dokumentiert.
 
 ## Vorbereitung
 
@@ -48,7 +48,7 @@ Daten und Metadaten vorbereiten:
 
 Damit Sie die Metadaten auf opendata.swiss erfassen können, muss das Bundesarchiv Ihre Organisation im System erstellen. [Melden Sie sich](mailto:opendata@bar.admin.ch), falls ihre Organisation bisher noch keine Daten auf dem Portal publiziert. Anschliessend sind insbesondere folgende Punkte zu beachten:
 
-- Machen Sie sich mit der Benutzeroberfläche bzw. den DCAT-AP Felder vertraut. Ausführliche Informationen zum System liefert [das Benutzerhandbuch von opendata.swiss](/de/publish/userguide).
+- Machen Sie sich mit der Benutzeroberfläche bzw. den DCAT-AP Felder vertraut. Ausführliche Informationen zum System liefert [das Benutzerhandbuch von opendata.swiss](/de/library/opendataswiss-userguide).
 - Erfassen Sie die Metadaten. Dafür sind die im [DCAT-AP Standard](/de/library/ch-dcat-ap) definierte Felder auszufüllen (hier ist die ausgewählte [Publikationsvariante](/de/publish/options) massgebend).
 - Schicken Sie uns ein Bild und eine Beschreibung Ihrer Organisation, wenn möglich bereits 4-sprachig (DE, FR, IT, EN). Beides wird auf Ihrer Organisationsseite aufgeschaltet ([zum Beispiel](https://opendata.swiss/de/organization/schweizerisches-bundesarchiv-bar)).
 

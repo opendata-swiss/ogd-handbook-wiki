@@ -15,8 +15,8 @@ Wenn Sie Ihre Daten auf opendata.swiss publizieren, können Sie zwischen vier te
 
 | Anzahl Datensätze und Aktualisierungsintervall | Option für die Publikation |
 |------------------------------------------------|----------------------------|
-| wenig Datensätze, seltene Aktualisierung | [Option 1 – Metadaten manuell via Webformular erfassen](/de/publish/userguide.html#metadaten-via-formular-xml-import-verwalten_1) |
-| mehr als 10 Datensätze, regelmässige Aktualisierung | [Option 2 – Metadaten via XML-Datei manuell hochladen](/de/publish/userguide.html#metadaten-via-formular-xml-import-verwalten_1) (siehe auch [DCAT-AP for Switzerland format](/de/library/ch-dcat-ap)) |
+| wenig Datensätze, seltene Aktualisierung | [Option 1 – Metadaten manuell via Webformular erfassen](/de/library/opendataswiss-userguide#metadaten-via-formular-xml-import-verwalten_1) |
+| mehr als 10 Datensätze, regelmässige Aktualisierung | [Option 2 – Metadaten via XML-Datei manuell hochladen](/de/library/opendataswiss-userguide#metadaten-via-formular-xml-import-verwalten_1) (siehe auch [DCAT-AP for Switzerland format](/de/library/ch-dcat-ap)) |
 | grosse Anzahl Datensätze, häufige Aktualisierung | [Option 3 – Metadaten mit einem „Harvester“ automatisch hochladen](/de/support/harvester) |
 | Geodaten, die bereits oder bald auf [geo.admin.ch / Bundes Geodaten-Infrastruktur](http://www.geo.admin.ch/internet/geoportal/de/home/geoadmin/mission/bgdi.html) (BGDI) publiziert werden. | [Option 4 – Metadaten via Geocat publizieren](/de/publish/swiss.html#publikation-via-geoadminch_1) |
 
