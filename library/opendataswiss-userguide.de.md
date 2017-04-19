@@ -2,7 +2,7 @@
 Title: Benutzerhandbuch opendata.swiss
 Category: Library
 Template: document
-Tags:
+Tags: support
 Date: 2016-06-20
 Slug: opendataswiss-userguide
 Authors:
