@@ -10,7 +10,7 @@ Summary: Par Open Government Data, on entend les données des autorités mises �
 Lang: fr
 Draft: yes
 ---
-
+**petit changement**
 Le portail OGD suisse, opendata.swiss, regroupe des informations aussi diverses que les limites territoriales des communes suisses, des statistiques démographiques, les données météorologiques du jour, des documents historiques ou encore un répertoire de la littérature suisse.
 
 Les données sont souvent mises à disposition sous forme de jeux de données complets pouvant par la suite être réutilisées ou combinées par les utilisateurs pour créer des applications ou des présentations qui mettent en lumière de nouvelles corrélations sur la base de données existantes.
