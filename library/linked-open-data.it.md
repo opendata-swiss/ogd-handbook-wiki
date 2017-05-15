@@ -10,6 +10,7 @@ Summary:
 Lang: it
 toc_run: false
 Untranslated: yes
+Draft: yes
 ---
 
 Questo articolo è [disponibile in inglese](/en/library/linked-open-data).

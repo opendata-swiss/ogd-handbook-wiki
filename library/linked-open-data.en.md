@@ -9,6 +9,7 @@ Slug: linked-open-data
 Summary: Introduction to the concepts and benefits of Linked Open Data, with implementation notes and other technical information.
 Lang: en
 toc_run: true
+Draft: yes
 ---
 
 Today we are surrounded by vast quantities of data playing an increasingly central role in our lives, and driving the emergence of a data economy<sup>[[^1]](#footnote-1)</sup>. At greater quantities, we are faced with limitations in traditional methods of organizing data. To publish machine-friendly data - i.e. in structured form, not as text documents in natural language - the usual approach is to generate raw data in standardized files (e.g. spreadsheets as CSV and other [data formats](/en/library/empfehlungen-formate)), or to provide access to this data through programming interfaces ([APIs](/support/api)).
