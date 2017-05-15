@@ -22,7 +22,7 @@ Goals of embedding content from the portal could include:
 
 We describe several options here - from linking to resources from the catalog, to embedding parts of the functionality from the portal on other websites. Our current recommendation at this time is to use the first option (Widget), as illustrated here:
 
-![](../../images/embed-architecture.png)
+![Embed architecture](../../images/embed-architecture.png)
 
 ## Widget
 
@@ -36,7 +36,7 @@ Note that due to lack of CORS support, we provided an option to use JSONP to mit
 
 Here is an example of how a search result from *opendata.swiss* appears in this widget:
 
-![](../../images/embed-widget.png)
+![Widget screenshot](../../images/embed-widget.png)
 
 This is made by adding the following code to the page, for example to query the portal for "statistik" as a search term:
 
@@ -82,7 +82,7 @@ Standards like the [Open Graph protocol](http://ogp.me) and [oEmbed](http://oemb
 
 Here is an example of how a dataset renders through Open Graph support from two CKAN portals when the links are posted in a Discourse forum:
 
-![](../../images/embed-opengraph.png)
+![OpenGraph screenshot](../../images/embed-opengraph.png)
 
 This option would not allow search and other interactivity, but could provide a basis for it (further discussion in the next option). Initially, it would make it easy for content owners to use their own existing platforms to present the datasets in a nice way just by linking to the individual datasets.
 
