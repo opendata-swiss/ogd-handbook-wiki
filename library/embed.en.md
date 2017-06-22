@@ -14,21 +14,23 @@ toc_run: true
 
 This document discusses a range of technical options for embedding content from the CKAN open data platform on third party websites. Some data publishers may like to present datasets they have published at *opendata.swiss* on their own website. Several of the publishing institutions even have data portals on which they may like to feature any datasets which they maintain on the central catalog, even integrating this with other information on the website.
 
-Goals of embedding content from the portal could include:
+Why embed data from the portal instead of copy-pasting or just linking?
 
-- That datasets should be well presented, the information accurate and up-to-date - in other words, where a copy-and-paste of the information is insufficient.
-- Ability to show on their own website a dynamic selection from the central catalog. For instance, filtered to only include datasets owned by the organization.
-- Options covered here should cater to all platforms and a range of technical skills required.
+- That datasets are well presented, their descriptions accurate and up-to-date.
+- Show a dynamic selection from the catalog, based on a tag or search query, or even to show all datasets belonging to an organization.
 
-We describe several options here - from linking to resources from the catalog, to embedding parts of the functionality from the portal on other websites. Our current recommendation at this time is to use the first option (Widget), as illustrated here:
+We describe several options here - from linking to resources from the catalog, to embedding parts of the functionality from the portal on other websites. Our current recommendation at this time is to use the [Widget](#widget), which can be configured here:
 
-![](../../images/embed-architecture.png)
+<iframe src="/theme/examples/embed.html" width="100%" height="300" style="border:0px"></iframe>
 
+<a name="widget"></a>
 ## Widget
 
 Similar to the rich media widgets from Twitter and other websites, a script can be added to pages which loads remote content using JavaScript. It is possible to provide users with a code snippet that could be configured according to their needs. This provides a richer experience for users, but requires some technical knowledge of HTML, CSS and JavaScript.
 
 The [ckan.js](https://github.com/okfn/ckan.js) project from Open Knowledge is a JavaScript library that can be used to connect to CKAN from within the browser. In order to overcome Cross-origin resource sharing (CORS) restrictions, a backend service would ideally be hosted on the same machine as the scripts. This could just be a proxy to the data portal.
+
+> ![](../../images/embed-architecture.png)
 
 We have developed a [JavaScript widget](https://github.com/opendata-swiss/ckan-embed) based on `ckan.js` which displays the same information about datasets as the standard search. It uses the [CKAN API](http://docs.ckan.org/en/latest/api/) to run search queries, and renders the result into the Web page. Our solution is similar to the [CKAN Data Viewer](http://docs.ckan.org/en/latest/maintaining/data-viewer.html), a feature that already has resource embedding built in, and the ability to white-list sites where this may be deployed using a `resource proxy` configuration option.
 
