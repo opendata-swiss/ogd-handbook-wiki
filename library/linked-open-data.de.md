@@ -10,6 +10,7 @@ Summary:
 Lang: de
 toc_run: false
 Untranslated: yes
+Draft: yes
 ---
 
 Dieses Dokument ist derzeit nur in [englischer Sprache verfügbar](/en/library/linked-open-data).
