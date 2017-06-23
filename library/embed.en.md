@@ -30,7 +30,7 @@ Similar to the rich media widgets from Twitter and other websites, a script can 
 
 The [ckan.js](https://github.com/okfn/ckan.js) project from Open Knowledge is a JavaScript library that can be used to connect to CKAN from within the browser. In order to overcome Cross-origin resource sharing (CORS) restrictions, a backend service would ideally be hosted on the same machine as the scripts. This could just be a proxy to the data portal.
 
-> ![](../../images/embed-architecture.png)
+> ![Architecture diagram](../../images/embed-architecture.png)
 
 We have developed a [JavaScript widget](https://github.com/opendata-swiss/ckan-embed) based on `ckan.js` which displays the same information about datasets as the standard search. It uses the [CKAN API](http://docs.ckan.org/en/latest/api/) to run search queries, and renders the result into the Web page. Our solution is similar to the [CKAN Data Viewer](http://docs.ckan.org/en/latest/maintaining/data-viewer.html), a feature that already has resource embedding built in, and the ability to white-list sites where this may be deployed using a `resource proxy` configuration option.
 
@@ -38,7 +38,7 @@ Note that due to lack of CORS support, we provided an option to use JSONP to mit
 
 Here is an example of how a search result from *opendata.swiss* appears in this widget:
 
-![](../../images/embed-widget.png)
+![Example search result](../../images/embed-widget.png)
 
 This is made by adding the following code to the page, for example to query the portal for "statistik" as a search term:
 
@@ -84,7 +84,7 @@ Standards like the [Open Graph protocol](http://ogp.me) and [oEmbed](http://oemb
 
 Here is an example of how a dataset renders through Open Graph support from two CKAN portals when the links are posted in a Discourse forum:
 
-![](../../images/embed-opengraph.png)
+![Example from OpenGraph](../../images/embed-opengraph.png)
 
 This option would not allow search and other interactivity, but could provide a basis for it (further discussion in the next option). Initially, it would make it easy for content owners to use their own existing platforms to present the datasets in a nice way just by linking to the individual datasets.
 
