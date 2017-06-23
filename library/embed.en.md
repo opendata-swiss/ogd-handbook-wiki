@@ -19,9 +19,9 @@ Why embed data from the portal instead of copy-pasting or just linking?
 - That datasets are well presented, their descriptions accurate and up-to-date.
 - Show a dynamic selection from the catalog, based on a tag or search query, or even to show all datasets belonging to an organization.
 
-We describe several options here - from linking to resources from the catalog, to embedding parts of the functionality from the portal on other websites. Our current recommendation at this time is to use the [Widget](#widget), which can be configured here:
+We describe several options here - from linking to resources from the catalog, to embedding parts of the functionality from the portal on other websites. Our current recommendation at this time is to use the [ckan-embed widget](#widget), which can be configured here.
 
-<iframe src="/theme/examples/embed.html" width="100%" height="300" style="border:0px"></iframe>
+<iframe src="/theme/examples/embed.html" width="100%" height="420" style="border:0px;overflow:hidden" scrolling="no"></iframe>
 
 <a name="widget"></a>
 ## Widget
