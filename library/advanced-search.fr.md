@@ -6,7 +6,7 @@ Tags: support
 Date: 2017-07-20
 Slug: advanced-search
 Summary:
-Lang: it
+Lang: fr
 Untranslated: yes
 ---
 
