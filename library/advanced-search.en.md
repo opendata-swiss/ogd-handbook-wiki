@@ -17,13 +17,13 @@ Untranslated: yes
 <a name="technical-background"></a>
 ## Technical background
 
-opendata.swiss has a very powerful search engine behind, that can help you to find exactly the datasets you want.
-The search is provided by the open source compontent [Apache Lucene/Solr](http://lucene.apache.org/solr/).
+opendata.swiss has a very powerful search engine, that can help you to find exactly the datasets you want.
+The search is provided by the open source component [Apache Lucene/Solr](http://lucene.apache.org/solr/).
 Every dataset is indexed by Solr when it gets updated, and if you perform a search on the portal, this index is queried to efficiently deliver results.
 
 The search index is basically the "database" where all the information for the search is saved.
 It uses a custom schema with all the dataset fields that should be indexed.
-The schema is flat, i.e. nested elemente like ressources must be saved differently, in order for Solr to index them.
+The schema is flat, i.e. nested elements like resources must be saved differently, in order for Solr to index them.
 The same applies to the multilingual fields, which are all stored with the language suffix, e.g. `keywords_en` contains the English keywords.
 
 By default, all the fields that belong to a dataset are copied in one field (called _"text"_), so that the search process only has to check one field to find a match.
@@ -32,7 +32,7 @@ So if a user submits a search with the query "weather", Solr runs this query aga
 <a name="query-syntax"></a>
 ## Query syntax
 
-Solr has it's own [query syntax](http://lucene.apache.org/core/3_6_0/queryparsersyntax.html) to write complex queries.
+Solr has its own [query syntax](http://lucene.apache.org/core/3_6_0/queryparsersyntax.html) to write complex queries.
 Depending on the query, Solr uses a different query parser to determine what to do.
 
 <a name="query-syntax"></a>
