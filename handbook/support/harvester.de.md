@@ -1,6 +1,6 @@
 ---
 Title: Harvester
-Category: Publish
+Category: Support
 Handbook: yes
 Tags:
 Date: 2016-08-03
@@ -8,12 +8,9 @@ Slug: harvester
 Authors:
 Lang: de
 Draft: yes
-toc_run: true
+toc_run: false
 Summary: Mit einem Harvester lassen sich grössere Datenmengen einfach und schnell publizieren. Voraussetzung dafür sind Metadaten im Format DCAT-AP Switzerland, welche über eine URL verfügbar sind.
 ---
-
-<a name="harvester"></a>
-# Harvester
 
 Bei grösseren Mengen an Datensätzen (>= 100), können Harvester verwendet werden um die Datensätze regelmässig zu aktualisieren.
 
@@ -43,7 +40,7 @@ Die Metadatan müssen dazu im [DCAT-AP Switzerland format](/de/library/ch-dcat-a
 ```
 
 Der RDF XML Harvester [basiert auf der CKAN-Extension ckanext-dcat](https://github.com/ckan/ckanext-dcat#rdf-dcat-harvester). Als Datenlieferant müssen Sie einen gültigen "catalog endpoint" für alle Datensätze zur Verfügung stellen.
-Falls Sie so viele Datensätze anbieten, dass sich diese nicht mehr mit einer einzigen Anfrage holen lassen (z.B. mehr als 1'000 Datensätze), ist die Empfehlung Pagination mit dem [Hydra Vocabulary](http://www.w3.org/ns/hydra/spec/latest/core/) zu implementieren. 
+Falls Sie so viele Datensätze anbieten, dass sich diese nicht mehr mit einer einzigen Anfrage holen lassen (z.B. mehr als 1'000 Datensätze), ist die Empfehlung Pagination mit dem [Hydra Vocabulary](http://www.w3.org/ns/hydra/spec/latest/core/) zu implementieren.
 
 Beispiel:
 
@@ -56,4 +53,3 @@ Beispiel:
     <hydra:previousPage>http://opendata.swiss/catalog.xml?page=2</hydra:previousPage>
   </hydra:PagedCollection>
 ```
-

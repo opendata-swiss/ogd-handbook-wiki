@@ -23,7 +23,7 @@ Ce processus compte trois étapes:
 2. Versement dans le catalogue opendata.swiss
 3. Mise en ligne du catalogue mis à jour sur opendata.swiss
 
-Le fonctionnement d’opendata.swiss est décrit en détail dans [le manuel de l’utilisateur](/fr/publish/userguide).
+Le fonctionnement d’opendata.swiss est décrit en détail dans [le manuel de l’utilisateur](/fr/library/opendataswiss-userguide).
 
 ## Préparatifs
 
@@ -49,7 +49,7 @@ Le choix du format dans lequel vous mettrez à disposition vos données sur open
 
 Avant que vous puissiez saisir les métadonnées sur opendata.swiss, les Archives fédérales doivent créer votre organisation dans le système. [Contactez nous](mailto:opendata@bar.admin.ch), si votre organisation n’a pas encore publié de données sur le portail. Mettez ensuite l’accent sur les points suivants:
 
-- Familiarisez-vous avec l’interface utilisateur et les champs DCAT-AP. Le fonctionnement d’opendata.swiss est décrit en détail dans le [manuel de l’utilisateur](/fr/publish/userguide).
+- Familiarisez-vous avec l’interface utilisateur et les champs DCAT-AP. Le fonctionnement d’opendata.swiss est décrit en détail dans le [manuel de l’utilisateur](/fr/library/opendataswiss-userguide).
 - Saisissez les métadonnées en complétant les champs définis selon le [standard DCAT-AP](/fr/library/ch-dcat-ap) (les champs à compléter dépendent du [mode de publication](/fr/publish/options) choisi).
 - Envoyez-nous une image et une description de votre organisation, si possible en quatre langues (DE, FR, IT, EN). Nous publierons la photo et le texte sur la page de votre organisation ([par exemple ici](https://opendata.swiss/fr/organization/schweizerisches-bundesarchiv-bar)).  
 
@@ -62,4 +62,4 @@ Une fois que vous avez donné le feu vert, les Archives fédérales mettent vos 
 <a name="geoadmin"></a>
 # Publication à travers geo.admin.ch
 
-Cet article est [disponible en allemand](/de/publish/swiss#geoadmin).
+Cet article est [disponible dans notre librarie](/fr/library/geodaten-publikation).

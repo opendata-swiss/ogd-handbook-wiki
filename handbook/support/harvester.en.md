@@ -1,6 +1,6 @@
 ---
 Title: Harvester
-Category: Publish
+Category: Support
 Handbook: yes
 Tags:
 Date: 2016-08-03
@@ -8,12 +8,9 @@ Slug: harvester
 Authors:
 Lang: en
 Draft: yes
-toc_run: true
+toc_run: false
 Summary: Harvesters are an easy way to publish large numbers of datasets. The only requirement is to have metadata available in the DCAT-AP Switzerland format via a URL.
 ---
-
-<a name="harvester"></a>
-# Harvester
 
 If you have a rather large amount of datasets (>= 100), you can use our harvesters to automatically update them at regular intervals.
 
@@ -56,4 +53,3 @@ Example:
     <hydra:previousPage>http://opendata.swiss/catalog.xml?page=2</hydra:previousPage>
   </hydra:PagedCollection>
 ```
-
