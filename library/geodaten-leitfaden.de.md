@@ -34,25 +34,24 @@ Umsetzung. Daher können die OGD-Ziele nicht vollständig umgesetzt werd
 bührenverordnungen und Restriktionen bei der kommerziellen Nutzung.   
    
 Stand Mai 2017 gilt für die Publikation von Geodaten auf opendata.swiss:   
-•  Die Veröffentlichung von gebührenfreien Geobasisdaten der Zugangsberechtigungsstufe „A“   
-kann sehr gut abgedeckt werden.   
-•  Ebenso können gebührenfreie Geodaten veröffentlicht werden, deren:   
-o  Nicht-kommerziel e Nutzung bedingungslos erlaubt ist und   
-o  Deren kommerziel e Nutzung an Bedingungen geknüpft ist.   
-•  Publikation von Daten, bei denen auch der nicht-kommerziel e Gebrauch an Bedingungen ge-  
-knüpft ist, ist mit Open Data unvereinbar und auf opendata.swiss nicht möglich.   
-•  Gebührenpflichtige Geodaten können auf opendata.swiss nicht publiziert werden.   
+
+- Die Veröffentlichung von gebührenfreien Geobasisdaten der Zugangsberechtigungsstufe „A“   kann sehr gut abgedeckt werden.   
+- Ebenso können gebührenfreie Geodaten veröffentlicht werden, deren:   
+  - Nicht-kommerziel e Nutzung bedingungslos erlaubt ist und   
+  - Deren kommerziel e Nutzung an Bedingungen geknüpft ist.   
+- Publikation von Daten, bei denen auch der nicht-kommerziel e Gebrauch an Bedingungen geknüpft ist, ist mit Open Data unvereinbar und auf opendata.swiss nicht möglich.   
+- Gebührenpflichtige Geodaten können auf opendata.swiss nicht publiziert werden.   
    
-Bei den Nutzungsbedingungen kann auf opendata.swiss differenziert werden, ob:   
-•  Die Quellenangabe Pflicht oder optional ist.   
-•  Für kommerziel e Nutzung die Bewilligung des Datenlieferanten erforderlich ist.   
+Bei den Nutzungsbedingungen kann auf opendata.swiss differenziert werden, ob: 
+
+- Die Quellenangabe Pflicht oder optional ist.   
+- Für kommerziel e Nutzung die Bewilligung des Datenlieferanten erforderlich ist.   
    
-Darüber hinaus sind bei der Publikation von OGD Prüfungen erforderlich hinsichtlich:   
-•  Datenqualität: die Haftung im Disclaimer kann rechtlich nicht halten, weil die hoheitliche Haf-  
-tung nicht wegbedungen werden kann.   
-•  Datenschutz; gerade durch neue BigData-Methoden können Rückschlüsse auf Personen leich-  
-ter ohne übermässigem Aufwand erfolgen.   
-•  Urheberrechtsverletzungen, die zwar sehr selten, aber nicht ausgeschlossen sind.   
+Darüber hinaus sind bei der Publikation von OGD Prüfungen erforderlich hinsichtlich: 
+
+- Datenqualität: die Haftung im Disclaimer kann rechtlich nicht halten, weil die hoheitliche Haftung nicht wegbedungen werden kann.   
+- Datenschutz; gerade durch neue BigData-Methoden können Rückschlüsse auf Personen leichter ohne übermässigem Aufwand erfolgen.   
+- Urheberrechtsverletzungen, die zwar sehr selten, aber nicht ausgeschlossen sind.   
    
 Chancen aus OGD gibt es auf politischer Ebene (Partizipation, Vertrauensbildung etc.), organisatorisch   
 (Effizienz der Verwaltung) und ökonomisch (Marktpotential). Risiken bestehen vor allem bei unsorgfäl-  
@@ -63,247 +62,161 @@ Die Frage nach der Notwendigkeit eines OGD-Gesetzes wird kontrovers ges
 die OGD-Ziele auch durch Fachgesetze erreicht werden, jedoch herrscht unter den befragten Experten   
 tendenziel  die Meinung vor, dass dies zu wenig der Fal  ist.   
    
-**Die operative Anleitung für die Publikation auf opendata.swiss findet sich in Kap. 6.**   
+*Die operative Anleitung für die Publikation auf opendata.swiss findet sich in Kap. 6.*
    
+# Glossar
+   
+- **BR**: Bundesrat   
+- **BV**: Bundesverfassung der Schweizerischen Eidgenossenschaft; SR 101   
+- **csv**: Comma Separated Value (Datenformat)   
+- **docx**: Microsoft Word Datenformat Textdatei   
+- **DSG**: Bundesgesetz über den Datenschutz (Datenschutzgesetz); SR 235.1   
+- **dxf**: Drawing Interchange File Format   
+- **dwg**: (Von „Drawing“) proprietäres, binäres Datenformat   
+- **EDÖB**: Eidgenössischer Datenschutz- und Öffentlichkeitsbeauftragter   
+- **eCH**: E-Government Standards   
+- **ecw**: Enhanced Compression Wavelet (Rasterdatenformat)   
+- **FLAC**: Free Lossless Audio Codec (Audiodatenformat)   
+- **GeoIG**: Bundesgesetz über Geoinformation (Geoinformationsgesetz); SR 510.62   
+- **GeoIV**: Verordnung über Geoinformation (Geoinformationsverordnung); SR 510.620   
+- **GeoJSON**: Geo-Dialekt des Text-Formats JSON (siehe dort)   
+- **GeoPackage**: Offener, nicht proprietärer Standard für Geodaten   
+- **GeoTIFF**: Georeferenzierte TIFF-Datei (Rasterdatenformat)   
+- **gml**: Geography Markup Language (XML-basierte Auszeichnungssprache für Geodaten)   
+- **gpx**: GPS Exchange Format (XML-Basiertes Datenformat für Geodaten)   
+- **INTERLIS**: Datenbeschreibungssprache für Geodaten (Standard)   
+- **http**: Hypertext Transfer Protocol (Protokol  zur Übertragung von Daten in Rechnernetz)   
+- **JPEG2000**: Bilddatenformat der Joint Photographic Experts Group   
+- **JSON**: JavaScript Object Notation (textbasiertes Datenformat)   
+- **KML**: Keyhole Markup Language (XML-basierte Auszeichnungssprache für Geodaten)   
+- **LOD**: Linked Open data   
+- **MGDM**: Minimales Geodatenmodel    
+- **MPEG**: Videodatenformat der Moving Picture Experts Group   
+- **OData**: Open Data Protocol   
+- **ods**: Open Document Spreadshet (Tabellenformat)   
+- **odt**: Open Document Text (Textdatenformat)     
+- **ogg**: Container Dateiformat für Multimediadateien   
+- **png**: Portable Network Graphics (Grafikdatenformat)   
+- **RDF**: Ressource Description Framework (Sprache zur Wissensabbildung im Web)   
+- **RVOG**: Regierungs- und Verwaltungsorganisationsverordnung; SR 172.010   
+- **Shapefile**: Geodatenformat von ESRI   
+- **SPARQL**: Grafenbasierte Abfragesprache für RDF   
+- **SR**: Systematische Rechtesammlung   
+- **svg**: Scalable Vector Graphics (XML-basierte Spez. zur Beschreibung von Vektoren)   
+- **tiff**: Tagged Image File Format (Rasterdatenformat)   
+- **URI**: Unique Ressource Identifier zur eindeutigen Adressierung von Ressourcen im Internet   
+- **VG**: Bundesgesetz über die Verantwortlichkeit des Bundes sowie seiner Behördenmitglieder  und Beamten (Verantwortlichkeitsgesetz); SR 170.32   
+- **vorbis**: Container Dateiformat für Mulitmediadateien   
+- **wave**: Audio Dateienformat von Microsoft und IBM   
+- **WebM**: Containerformat für Audio und Videodateien   
+- **wld**: ArcGIS World Data   
+- **WMS**: Web Map Service (Geodienst zur Kartendarstel ung)   
+- **WMTS**: Web Map Tile Service (Geodienst zur performanten Kartendarstel ung mit Kacheln)   
+- **WFS**: Web Feature Service (Geodienst zum Zugriff auf Vektordaten im Web)   
+- **xlsx**: Microsoft Excel-Datenformat für Tabelle   
+- **xml**: Extensible Markup Language (erweiterbare Auszeichnungssprache in Textform)   
+   
+*Quellen: Wikipedia, giswiki.hsr.ch und filedesc.com (zuletzt aufgerufen am 3.5.17)*
 
-* * *
+<a name="1"></a>
+# 1. Einleitung und Zweck 
 
-   
-4    
-   
-**Glossar[1 ](OGD-Leitfaden-V1.07des.html#5)**  
-   
-BR   
-Bundesrat   
-BV   
-Bundesverfassung der Schweizerischen Eidgenossenschaft; SR 101   
-csv   
-Comma Separated Value (Datenformat)   
-docx   
-Microsoft Word Datenformat Textdatei   
-DSG   
-Bundesgesetz über den Datenschutz (Datenschutzgesetz); SR 235.1   
-dxf   
-Drawing Interchange File Format   
-dwg   
-(Von „Drawing“) proprietäres, binäres Datenformat   
-EDÖB   
-Eidgenössischer Datenschutz- und Öffentlichkeitsbeauftragter   
-eCH   
-E-Government Standards   
-ecw   
-Enhanced Compression Wavelet (Rasterdatenformat)   
-FLAC   
-Free Lossless Audio Codec (Audiodatenformat)   
-GeoIG   
-Bundesgesetz über Geoinformation (Geoinformationsgesetz); SR 510.62   
-GeoIV   
-Verordnung über Geoinformation (Geoinformationsverordnung); SR 510.620   
-GeoJSON   
-Geo-Dialekt des Text-Formats JSON (siehe dort)   
-GeoPackage   
-Offener, nicht proprietärer Standard für Geodaten   
-GeoTIFF   
-Georeferenzierte TIFF-Datei (Rasterdatenformat)   
-gml   
-Geography Markup Language (XML-basierte Auszeichnungssprache für Geodaten)   
-gpx   
-GPS Exchange Format (XML-Basiertes Datenformat für Geodaten)   
-INTERLIS   
-Datenbeschreibungssprache für Geodaten (Standard)   
-http   
-Hypertext Transfer Protocol (Protokol  zur Übertragung von Daten in Rechnernetz)   
-JPEG2000   
-Bilddatenformat der Joint Photographic Experts Group   
-JSON   
-JavaScript Object Notation (textbasiertes Datenformat)   
-KML   
-Keyhole Markup Language (XML-basierte Auszeichnungssprache für Geodaten)   
-LOD   
-Linked Open data   
-MGDM   
-Minimales Geodatenmodel    
-MPEG   
-Videodatenformat der Moving Picture Experts Group   
-OData   
-Open Data Protocol   
-ods   
-Open Document Spreadshet (Tabellenformat)   
-odt   
-Open Document Text (Textdatenformat)     
-ogg   
-Container Dateiformat für Multimediadateien   
-png   
-Portable Network Graphics (Grafikdatenformat)   
-RDF   
-Ressource Description Framework (Sprache zur Wissensabbildung im Web)   
-   
-1 Quel en: Wikipedia, giswiki.hsr.ch und filedesc.com (zuletzt aufgerufen am 3.5.17)   
-   
+## 1.1 Ausgangslage 
 
-* * *
-
-   
-5    
-   
-RVOG   
-Regierungs- und Verwaltungsorganisationsverordnung; SR 172.010   
-Shape file   
-Geodatenformat von ESRI   
-SPARQL   
-Grafenbasierte Abfragesprache für RDF   
-SR   
-Systematische Rechtesammlung   
-svg   
-Scalable Vector Graphics (XML-basierte Spez. zur Beschreibung von Vektoren)   
-tiff   
-Tagged Image File Format (Rasterdatenformat)   
-URI   
-Unique Ressource Identifier zur eindeutigen Adressierung von Ressourcen im Internet   
-VG   
-Bundesgesetz über die Verantwortlichkeit des Bundes sowie seiner Behördenmitglieder   
-und Beamten (Verantwortlichkeitsgesetz); SR 170.32   
-vorbis   
-Container Dateiformat für Mulitmediadateien   
-wave   
-Audio Dateienformat von Microsoft und IBM   
-WebM   
-Containerformat für Audio und Videodateien   
-wld   
-ArcGIS World Data   
-WMS   
-Web Map Service (Geodienst zur Kartendarstel ung)   
-WMTS   
-Web Map Tile Service (Geodienst zur performanten Kartendarstel ung mit Kacheln)   
-WFS   
-Web Feature Service (Geodienst zum Zugriff auf Vektordaten im Web)   
-xlsx   
-Microsoft Excel-Datenformat für Tabelle   
-xml   
-Extensible Markup Language (erweiterbare Auszeichnungssprache in Textform)   
-   
-   
-   
-
-* * *
-
-   
-6    
-   
-**1. Einleitung und Zweck **  
-**1.1 **  
-**Ausgangslage **  
 Sowohl international als auch in der Schweiz werden vermehrt Daten als „Open Data“ zugänglich ge-  
 macht. Der Bundesrat hat 2014 die Open Government Data (OGD) Strategie Schweiz beschlossen, ein   
 OGD-Gesetz gibt es aber nicht. Das Schweizerische Bundesarchiv betreibt seit Anfang 2016 das natio-  
 nale OGD-Portal opendata.swiss.   
    
 OGD bedeutet dabei nicht nur einen rein technischen Prozess, sondern:   
-•  Bedingt ein verändertes Verständnis seitens der Politik: mehr Transparenz und Mitsprache der   
+- Bedingt ein verändertes Verständnis seitens der Politik: mehr Transparenz und Mitsprache der   
 Bürger, Verzicht auf Einnahmen aus Datenverkauf etc.   
-•  Erfordert Bereitschaft, Aufgeschlossenheit und Anpassungen bei der Verwaltung.   
+- Erfordert Bereitschaft, Aufgeschlossenheit und Anpassungen bei der Verwaltung.   
    
 OGD ist in der Schweiz unterschiedlich weit fortgeschritten – primär abhängig von der Politik. Argu-  
 mente für OGD finden sich in verschiedenen Bereichen:   
-•  **Politischer Prozess:** z.B. höhere Transparenz der politischen Entscheide, höheres Vertrauen   
+- **Politischer Prozess:** z.B. höhere Transparenz der politischen Entscheide, höheres Vertrauen   
 der Bürger, ihre stärkere Beteiligung sowie generell ein Imagegewinn   
-•  **Organisatorische Effekte**: z.B. eine effiziente Verwaltung, die besser mit anderen Institutionen   
+- **Organisatorische Effekte**: z.B. eine effiziente Verwaltung, die besser mit anderen Institutionen   
 und der Wirtschaft zusammenarbeitet   
-•  **Ökonomische Aspekte**: z.B. Wertschöpfung aus neuen Dienstleistungen oder die grössere   
+- **Ökonomische Aspekte**: z.B. Wertschöpfung aus neuen Dienstleistungen oder die grössere   
 Kundennähe der publizierenden Ämter   
-**1.2 **  
-**Zielsetzung und Adressaten **  
+
+## 1.2 Zielsetzung und Adressaten 
+
 Der Leitfaden richtet sich an Behörden, die Geodaten als Open Government Data publizieren wollen   
 respektive müssen. Er sol  den Weg zur Publikation und die Konsequenzen der erforderlichen Ent-  
 scheide aufzeigen. Als primäre Publikationsplattform wird opendata.swiss angenommen.   
    
 Der Leitfaden soll darüber hinaus:   
-•  Ein gemeinsames Verständnis der verwendeten Begriffe schaffen   
-•  Auf Konflikte hinweisen zwischen dem Open Data Idealfall, der OGD-Strategie Bund/open-  
+- Ein gemeinsames Verständnis der verwendeten Begriffe schaffen   
+- Auf Konflikte hinweisen zwischen dem Open Data Idealfall, der OGD-Strategie Bund/open-  
 data.swiss sowie der Geodatenverarbeitung in Theorie und Praxis;   
-•  Konkrete Hilfestellung bieten bei der Bereitstellung von Geoinformationen als OGD. Insbeson-  
+- Konkrete Hilfestellung bieten bei der Bereitstellung von Geoinformationen als OGD. Insbeson-  
 dere werden Hinweise zu folgenden Schritten gegeben:   
-o  Kriterien, welche Daten als OGD bereitgestellt werden können.   
-o  Welche Tarifierung und Nutzungsbedingungen mit OGD kompatibel sind.   
-o  Welche Besonderheiten gelten (Haftung, Nachführung etc.).   
-•  Auf gängige Portale in der Schweiz verweisen.   
+  - Kriterien, welche Daten als OGD bereitgestellt werden können.   
+  - Welche Tarifierung und Nutzungsbedingungen mit OGD kompatibel sind.   
+  - Welche Besonderheiten gelten (Haftung, Nachführung etc.).   
+- Auf gängige Portale in der Schweiz verweisen.   
    
 Nicht Ziel der Arbeit ist es:   
-•  Lösungen für die Konflikte zwischen Open Data Idealfall, OGD-Strategie Bund/opendata.swiss   
+- Lösungen für die Konflikte zwischen Open Data Idealfall, OGD-Strategie Bund/opendata.swiss   
 und Geoinformationsrecht zu erarbeiten.   
-•  Linked Open Data ausführlicher zu beschreiben.   
-•  Zu definieren, welche Geodaten als OGD wie publiziert werden sollen.   
-   
+- Linked Open Data ausführlicher zu beschreiben.   
+- Zu definieren, welche Geodaten als OGD wie publiziert werden sollen.   
 
-* * *
+## 1.3 Inhalt und Struktur 
 
-   
-7    
-   
-**1.3 **  
-**Inhalt und Struktur **  
-Kapitel[ 2 ](OGD-Leitfaden-V1.07des.html#9)und[ 3 ](OGD-Leitfaden-V1.07des.html#11)enthalten wesentliche Grundlageninformationen, welche zum Verständnis des gesam-  
-ten Dokuments wichtig sind. Kapitel[ 4 ](OGD-Leitfaden-V1.07des.html#13)un[d 5 ](OGD-Leitfaden-V1.07des.html#21)beschreiben die Vorgaben zur Publikation von Geodaten   
-als OGD und nennen Pro- sowie Contra-Argumente. Der Publikationsprozess, welcher in Kapitel[ 6 ](OGD-Leitfaden-V1.07des.html#23)de-  
+Kapitel[2](#2)und[3](#3)enthalten wesentliche Grundlageninformationen, welche zum Verständnis des gesam-  
+ten Dokuments wichtig sind. Kapitel[4](#4) und [5](#5) beschreiben die Vorgaben zur Publikation von Geodaten   
+als OGD und nennen Pro- sowie Contra-Argumente. Der Publikationsprozess, welcher in Kapitel[6](#6)de-  
 tail iert wird, stellt den Kern dieses Dokuments dar. Die weiteren Kapitel ergänzen und vertiefen aus-  
 gewählte Themenbereiche.   
    
 Der Aufbau sieht detailliert folgendermassen aus:   
-•  Kap.[ 2 ](OGD-Leitfaden-V1.07des.html#9)definiert wesentliche Begriffe und zeigt Abhängigkeiten auf.   
-•  Kap.[ 3 ](OGD-Leitfaden-V1.07des.html#11)bringt Definitionen von Begriffen des Geoinformationsrechts, welche für OGD relevant   
-sind.   
-•  Kap.[ 4 ](OGD-Leitfaden-V1.07des.html#13)beschreibt Unterschiede zwischen Open Data Idealfall, OGD-Strategie Bund / open-  
-data.swiss und Geoinformationsrecht sowie rechtliche und technische Voraussetzungen.   
-•  Kap.[ 5 ](OGD-Leitfaden-V1.07des.html#21)nennt Chancen und Risiken, welche OGD mit sich bringen.   
-•  Kap.[ 6 ](OGD-Leitfaden-V1.07des.html#23)beschreibt praktische Aspekte zur OGD-Publikation, beginnend mit einer Grafik des Pro-  
-zesses der Veröffentlichung von Geodaten auf opendata.swiss.   
-•  Kap.[ 7 b](OGD-Leitfaden-V1.07des.html#31)ringt eine grobe Übersicht wichtiger OGD-Portale.   
-•  Kap.[ 8 z](OGD-Leitfaden-V1.07des.html#31)eigt Beispiele von LOD.   
-•  Kap.[ 9 en](OGD-Leitfaden-V1.07des.html#32)thält die verwendete Literatur.   
+- Kap.[2](#2)definiert wesentliche Begriffe und zeigt Abhängigkeiten auf.   
+- Kap.[3](#3)bringt Definitionen von Begriffen des Geoinformationsrechts, welche für OGD relevant sind.   
+- Kap.[4](#4)beschreibt Unterschiede zwischen Open Data Idealfall, OGD-Strategie Bund / opendata.swiss und Geoinformationsrecht sowie rechtliche und technische Voraussetzungen.   
+- Kap.[5](#5)nennt Chancen und Risiken, welche OGD mit sich bringen.   
+- Kap.[6](#6)beschreibt praktische Aspekte zur OGD-Publikation, beginnend mit einer Grafik des Prozesses der Veröffentlichung von Geodaten auf opendata.swiss.   
+- Kap.[7](#7) ringt eine grobe Übersicht wichtiger OGD-Portale.   
+- Kap.[8](#8) zeigt Beispiele von LOD.   
+- Kap.[9](#9) enthält die verwendete Literatur.   
    
-**Quintessenz für Publikation von Geodaten auf opendata.swiss** ist in derartigen Kästchen darge-  
-stellt.   
+**Quintessenz für Publikation von Geodaten auf opendata.swiss** ist in derartigen Kästchen dargestellt.   
    
-**1.4 **  
-**Document Life Cycle Management **  
+## 1.4 Document Life Cycle Management
+
 Bei der Erarbeitung zeigte sich, dass es noch einige offene Fragen und laufende Arbeiten gibt. Daher   
 muss der Leitfaden „leben“, d.h. es muss in regelmässigen Abständen geprüft werden, ob die Inhalte   
 noch aktuel  sind. Dies kann einerseits die operative Umsetzung (Implementierung opendata.swiss,   
 technische Neuerungen, .. ) und andererseits Änderungen der Vorgaben der Politik und Verwaltung   
 oder aus der Rechtsprechung betreffen.    
    
-   
-   
+<a name="2"></a>
+# 2. Begriffsbestimmungen Open Data 
 
-* * *
+## 2.1 Open Data 
 
+Open Data[2](#glossary) ist definiert als **Daten, die von jedermann ohne jegliche Einschränkungen genutzt, weiterverbreitet und weiterverwendet werden dürfen**.  Für Open Data braucht es:   
+
+1. eine offene Lizenz (definiert in Tabelle 2, Spalte „Open Data Idealfall“),   
+2. Zugang zu volständigen Daten zu nicht mehr als angemessenen, einmaligen Reproduktionskosten sowie   
+3. ein offenes Format in zweckdienlicher und modifizierbarer Form (insbesondere keine unnötigen technischen Hindernisse) sowie Maschinenlesbarkeit.   
    
-8    
+Für offene Lizenzen gibt es: 
+
+- Muss-Anforderungen (z.B. Anwendung für jeden Zweck) bzw.   
+- Kann-Bestimmungen, die vom Datenlieferanten formuliert werden können, dann aber verpflichtend sind (z.B. Quel enangaben, Namensänderung bei Modifikation)   
+
+Weitere Informationen finden sich auf (opendefinition.org, 2017) und in Kap.[4](#4) in der Tabelle zum Vergleich mit OGD-Strategie Bund/opendata.swiss sowie Geoinformationsrecht.
    
-**2. Begriffsbestimmungen Open Data **  
-**2.1 **  
-**Open Data **  
-Open Data[2](OGD-Leitfaden-V1.07des.html#9) ist definiert als** Daten, die von jedermann ohne jegliche Einschränkungen genutzt, wei-**  
-**terverbreitet und weiterverwendet werden dürfen**. Für Open Data braucht es:   
-1.  eine offene Lizenz (definiert in Tabelle 2, Spalte „Open Data Idealfall“),   
-2.  Zugang zu vol ständigen Daten zu nicht mehr als angemessenen, einmaligen Reproduktions-  
-kosten sowie   
-3.  ein offenes Format in zweckdienlicher und modifizierbarer Form (insbesondere keine unnöti-  
-gen technischen Hindernisse) sowie Maschinenlesbarkeit.   
-   
-Für offene Lizenzen gibt es:   
-•  Muss-Anforderungen (z.B. Anwendung für jeden Zweck) bzw.   
-•  Kann-Bestimmungen, die vom Datenlieferanten formuliert werden können, dann aber ver-  
-pflichtend sind (z.B. Quel enangaben, Namensänderung bei Modifikation)   
-Weitere Informationen finden sich auf (opendefinition.org, 2017) und in Kap.[ 4 ](OGD-Leitfaden-V1.07des.html#13)in der Tabel e zum Ver-  
-gleich mit OGD-Strategie Bund/opendata.swiss sowie Geoinformationsrecht.   
-**2.2 **  
-**Open Government Data (OGD) **  
+## 2.2 Open Government Data (OGD) 
+
 **OGD** sind „jene **Datenbestände des öffentlichen Sektors, die von Staat und Verwaltung im Interesse **  
-**der Al gemeinheit zur freien Nutzung, zur Weiterverbreitung und zur freien Weiterverwendung zu-**  
-**gänglich gemacht werden**[“2.](OGD-Leitfaden-V1.07des.html#9)   
+**der Algemeinheit zur freien Nutzung, zur Weiterverbreitung und zur freien Weiterverwendung zugänglich gemacht werden**  
    
-Gemäss mehreren Quellen[3 ](OGD-Leitfaden-V1.07des.html#9)gelten 10 Prinzipien für OGD:   
+Gemäss mehreren Quellen[3](#3) gelten 10 Prinzipien für OGD:   
 1.  Vollständigkeit: Primärdaten, Metadaten und eventuel  Formeln zur Berechnung   
 2.  Primärdaten zur Nachprüfbarkeit; dazu Art der Datenerfassung    
 3.  Zeitliche Nähe: idealerweise Echtzeit   
@@ -313,13 +226,13 @@ Gemäss mehreren Quellen[3 ](OGD-Leitfaden-V1.07des.html#9)gelten 10 Prinzi
 6.  Diskriminierungsfreiheit: Jede Person sol  zu jeder Zeit auf die Daten zugreifen, ohne Auskunft   
 über ihre Identität oder sonstige Rechtfertigungen geben zu müssen.   
 7.  Verwendung offener Standards, um eine Unabhängigkeit von Herstellern zu gewährleisten.   
-8.  Lizenzierung[4](OGD-Leitfaden-V1.07des.html#9): Die öffentlichen Daten sol ten ohne Nutzungsbeschränkungen al gemein und   
+8.  Lizenzierung[4](#4): Die öffentlichen Daten sol ten ohne Nutzungsbeschränkungen al gemein und   
 frei zur Verfügung stehen.   
 9.  Nachhaltige Verfügbarkeit der Daten sicherstellen. Aktualisierungen oder Änderungen müssen   
 nachvollziehbar sein.   
 10. Nutzungskosten: Auch kommerziel e Nutzung sol te gebührenfrei sein.   
    
-Gemäss OGD-Strategie Bund[5](OGD-Leitfaden-V1.07des.html#9) können Behördendaten als offen bezeichnet werden, wenn sie offen zu-  
+Gemäss OGD-Strategie Bund[5](#9) können Behördendaten als offen bezeichnet werden, wenn sie offen zu-  
 gänglich sind und ihre Nutzung nicht aus datenschutz-, urheber- oder informationsschutzrechtlichen   
 Gründen eingeschränkt ist und Dritte sie frei wiederverwenden können.   
    
@@ -327,29 +240,24 @@ Gründen eingeschränkt ist und Dritte sie frei wiederverwenden können.�
 3 (Sunlight Foundation, 2014) (Geiger & Von Lucke, 2012) (Paderta, 2012) (Seuß, 2015) (Tauberer, 2017)   
 4 Der Begriff „Lizenzierung“ aus den Quel en stel t einen Widerspruch mindestens zu Schweizer Recht dar.   
 5 (Schweizerischer Bundesrat, 2014, S.3494)[: https://www.admin.ch/opc/de/federal-gazette/2014/3493.pdf ](https://www.admin.ch/opc/de/federal-gazette/2014/3493.pdf)  
-   
 
-* * *
+## 2.3 Linked Open Data 
 
-   
-9    
-   
-**2.3 **  
-**Linked Open Data **  
 Linked Open Data (LOD) bezeichnet: „im **World Wide Web frei verfügbare Daten, die per Uniform Re-**  
 **source Identifier (URI) identifiziert **sind und darüber** direkt per HTTP abgerufen werden können **und  
 ebenfalls** per URI auf andere Daten verweisen**. Idealerweise werden zur Kodierung und Verlinkung   
 der Daten das Resource Description Framework (RDF) und darauf aufbauende Standards wie SPARQL   
 und die Web Ontology Language (OWL) verwendet, so dass Linked Open Data gleichzeitig Teil des Se-  
-mantic Web ist.“[6](OGD-Leitfaden-V1.07des.html#10)   
+mantic Web ist.“[6](#9)   
    
 Grundbausteine sind RDF Triple, welche Daten als Subjekt-Prädikat-Objekt abbilden und so die grafen-  
 artige Vernetzung ermöglichen. LOD verknüpft Daten oder Teile davon und generiert so neues Wissen.   
 LOD ist auf die ausschliessliche Maschinenverarbeitung ausgerichtet und erfordert hohe technische   
-Exaktheit (siehe Kap.[ 4.2.1, 4.2.2,](OGD-Leitfaden-V1.07des.html#19)[ 4.3,](OGD-Leitfaden-V1.07des.html#20)[ 6.7)](OGD-Leitfaden-V1.07des.html#29). Beispiele für RDF, LOD-Portale bzw. Endpoints finden sich   
-in Kap.[ 8.](OGD-Leitfaden-V1.07des.html#31)   
-**2.4 **  
-**Konsequenzen und Fazit **  
+Exaktheit (siehe Kap.[ 4.2.1, 4.2.2,](#9)[ 4.3,](#9)[ 6.7)](#9). Beispiele für RDF, LOD-Portale bzw. Endpoints finden sich   
+in Kap.[ 8.](#9)   
+
+## 2.4 Konsequenzen und Fazit 
+
 Open Data Prinzipien bilden die Grundlage für OGD und können in unterschiedlichem Ausmass berück-  
 sichtigt sein. Im einfachsten Fall kann dies jeder, von einer Behörde öffentlich zugänglich gemachter   
 Datensatz sein, z.B. das Organigramm des Amtes. Aber erst durch die Formulierung von Anforderun-  
@@ -358,23 +266,24 @@ letztlich eine Nutzbarkeit der Daten gewährleistet. 
    
 Im Vergleich des Open Data Idealfalls mit OGD-Strategie Bund / opendata.swiss zeigen sich:   
 a)  Übereinstimmungen:   
-•  Kostenfreiheit ist angestrebt, Ausnahmen sind nicht ausgeschlossen (z.B. Grenzkosten-  
+- Kostenfreiheit ist angestrebt, Ausnahmen sind nicht ausgeschlossen (z.B. Grenzkosten-  
 ansatz d.h. Verrechnung des Aufwands der Datenbereitstellung)   
-•  Maschinenlesbarkeit und offene Formate   
-•  Prinzip der Diskriminierungsfreiheit   
-•  Vermerken der Urheberschaft   
+- Maschinenlesbarkeit und offene Formate   
+- Prinzip der Diskriminierungsfreiheit   
+- Vermerken der Urheberschaft   
 b)  Unterschiede gibt es bei der Offenheit der Lizenzen, wo Bundesrat / opendata.swiss Ein-  
 schränkungen erlauben (z.B. Nutzungsbedingung „ASK?“ auf opendata.swiss für kommerzielle   
-Nutzung; siehe Kap.[ 4.1.1),](OGD-Leitfaden-V1.07des.html#15) was jedoch nicht Open Data entspricht.   
+Nutzung; siehe Kap.[ 4.1.1),](#9) was jedoch nicht Open Data entspricht.   
 c)  Open Data Definition fordert (in OGD-Strategie Bund / opendata.swiss so nicht umgesetzt):   
-•  Die Kennzeichnung von Modifikationen kann verlangt werden.   
-•  Daten müssen sowohl als Gesamtwerk als auch nur in Teilen nutzbar sein.   
-•  Es ist zulässig für die Weitergabe der Daten, technische Einschränkungen zu verbieten;   
+- Die Kennzeichnung von Modifikationen kann verlangt werden.   
+- Daten müssen sowohl als Gesamtwerk als auch nur in Teilen nutzbar sein.   
+- Es ist zulässig für die Weitergabe der Daten, technische Einschränkungen zu verbieten;   
 z.B. keine Weitergabe in einem proprietären Datenformat.   
-  **Quintessenz für Publikation von Geodaten auf opendata.swiss: **  
-•  Open Data Ideale sind in der OGD-Strategie Bund und opendata.swiss nicht vol ständig um-  
+
+**Quintessenz für Publikation von Geodaten auf opendata.swiss: **  
+- Open Data Ideale sind in der OGD-Strategie Bund und opendata.swiss nicht vol ständig um-  
 gesetzt.   
-•  Open Data Erwartungen und Ziele erfordern in der Realität Kompromisse, Abstriche und   
+- Open Data Erwartungen und Ziele erfordern in der Realität Kompromisse, Abstriche und   
 Einschränkungen – sollten aber im Fokus bleiben.   
 
    
@@ -389,11 +298,11 @@ Einschränkungen – sollten aber im Fokus bleiben. 
 **3. Begriffsbestimmungen aus dem Geoinformationsrecht **  
 **(GeoIG, GeoIV) **  
 Die Erfassung der Begriffe aus dem Geoinformationsrecht beschränkt sich auf die schweizerische Ge-  
-setzgebung (Tab.1)[7.](OGD-Leitfaden-V1.07des.html#11)   
+setzgebung (Tab.1)[7.](#9)   
    
 **Begriff **  
 **Definition / Erklärung  **  
-**Quelle**[8](OGD-Leitfaden-V1.07des.html#11)  
+**Quelle**[8](#9)  
 Geodaten   
 Raumbezogene Daten, die mit einem bestimmten Zeitbezug die Aus-  
 Art. 3a   
@@ -435,7 +344,7 @@ Abs.1 
 Download-  
 Internetdienst, der das Herunterladen von Kopien vol ständiger Geoda-  
 Art. 2j   
-Dienst[9 ](OGD-Leitfaden-V1.07des.html#11)  
+Dienst[9 ](#9)  
 tensätze oder von Teilen davon und, wenn durchführbar, den direkten   
 Zugriff darauf ermöglicht;   
 Zugangsberech-  
@@ -484,7 +393,7 @@ können. 
    
 **Begriff **  
 **Definition / Erklärung  **  
-**Quelle**[8](OGD-Leitfaden-V1.07des.html#11)  
+**Quelle**[8](#9)  
 Zugang zu Geo-  
 . . Zugangsberechtigungsstufe B wird kein Zugang gewährt.   
 Art.23   
@@ -492,26 +401,26 @@ basisdaten der 
 Der Zugang wird im Einzelfall oder generell ganz oder für Teile des Da-  
 Stufe B   
 tensatzes gewährt, wenn:   
-•  er den Geheimhaltungsinteressen nicht widerspricht; oder   
-•  die Geheimhaltungsinteressen durch rechtliche, organisatori-  
+- er den Geheimhaltungsinteressen nicht widerspricht; oder   
+- die Geheimhaltungsinteressen durch rechtliche, organisatori-  
 sche oder technische Massnahmen gewahrt werden können.   
 Einwilligung zur   
 Einwil igung zur gewerblichen Nutzung wird erteilt, wenn:   
 Art.25   
 Nutzung   
-•  der Zugang gewährt werden kann;   
+- der Zugang gewährt werden kann;   
 Abs. 2   
-•  die Nutzerin oder der Nutzer registriert ist;   
+- die Nutzerin oder der Nutzer registriert ist;   
    
-•  die Nutzerin oder der Nutzer Zweck, Intensität und Dauer der   
+- die Nutzerin oder der Nutzer Zweck, Intensität und Dauer der   
    
 gewerblichen Nutzung deklariert hat;   
    
-•  die Gebühr durch Verfügung oder Vertrag festgelegt oder   
+- die Gebühr durch Verfügung oder Vertrag festgelegt oder   
    
 vorab bezogen wird;   
    
-•  Daten der Zugangsberechtigungsstufe B auch den Dritten zu-  
+- Daten der Zugangsberechtigungsstufe B auch den Dritten zu-  
    
 gänglich gemacht werden dürfen, an welche die Weitergabe   
    
@@ -559,11 +468,11 @@ Behörde kann für Geobasisdaten Zugang gewähren und die Nutzung er-
 Art. 40   
 Dritte   
 lauben, wenn sie:   
-•  für die Regelung von Zugang und Nutzung die gleichen Vor-  
+- für die Regelung von Zugang und Nutzung die gleichen Vor-  
 schriften anwendet, wie die nach Artikel 8 Absatz 1 GeoIG zu-  
 ständige Stel e;   
-•  auf den Stand der Aktualität hinweist;   
-•  die vorgeschriebenen Gebühren erhebt und an die Stel e nach   
+- auf den Stand der Aktualität hinweist;   
+- die vorgeschriebenen Gebühren erhebt und an die Stel e nach   
 Artikel 8 Absatz 1 GeoIG weiterleitet.   
 Tab. 1: OGD-relevante Begriffe des Geoinformationsrechts   
    
@@ -581,9 +490,9 @@ che Aktivitäten zu unterstützen und der Bevölkerung wertvol es Wisse
 renzen gibt es in der Umsetzung bzgl. Umfang und Detailierungsgrad.   
 Diese zeigt die folgende Tabelle. In der Spalte Geoinformationsrecht werden Konflikte in roter Schrift   
 angezeigt:   
-•  _Kursiv: _Konflikte zum Open Data Idealfall (vollständige Erfüllung der Open Data Ziele)   
-•  Unterstrichen: Konflikte zu OGD-Strategie Bund/opendata.swiss   
-  **Nr.**[10](OGD-Leitfaden-V1.07des.html#13)**  _Open Data Idealfall _**  
+- _Kursiv: _Konflikte zum Open Data Idealfall (vollständige Erfüllung der Open Data Ziele)   
+- Unterstrichen: Konflikte zu OGD-Strategie Bund/opendata.swiss   
+  **Nr.**[10](#9)**  _Open Data Idealfall _**  
 **OGD-Strategie Bund               **  
 **Geoinformationsrecht **  
 **opendata.swiss **  
@@ -603,9 +512,9 @@ chen oder privaten Inte-
 zenz (open licence) charak- Staatsbereich, weil dem Privatrecht  ressen entgegenstehen.   
 terisiert.   
 zugeordnet (daher „Nutzungsbe-  
-_Restriktionen existiere[n11 ](OGD-Leitfaden-V1.07des.html#13)_  
+_Restriktionen existiere[n11 ](#9)_  
 dingungen“).   
-[_12 15_](OGD-Leitfaden-V1.07des.html#13)[_._](OGD-Leitfaden-V1.07des.html#14)   
+[_12 15_](#9)[_._](#9)   
 1.2    
 Grundsätzlich kostenfrei;   
 Grundsätzliche Gebührenbefreiung,  Bund und Kantone kön-  
@@ -615,7 +524,7 @@ nen _Gebühren für Zugang _
 opendata.swiss unterstützt keine   
 _und Nutzung von Geoba-_  
 de-facto-Zugangsbeschrän- Publikation kostenpflichtiger Da-  
-_sisdaten_ erheben[11 ](OGD-Leitfaden-V1.07des.html#13)  
+_sisdaten_ erheben[11 ](#9)  
 kung bedeutet   
 ten.   
 1.3   
@@ -635,8 +544,8 @@ zur kommerziel en Nut-
 („sale“) erlauben   
 nicht. Für letztere ist Restriktion   
 zung; _Restriktion ist dabei _  
-auf opendata.swiss möglich.[12 ](OGD-Leitfaden-V1.07des.html#13)  
-_zulässi[g12](OGD-Leitfaden-V1.07des.html#13)_[ ](OGD-Leitfaden-V1.07des.html#13)  
+auf opendata.swiss möglich.[12 ](#9)  
+_zulässi[g12](#9)_[ ](#9)  
 2.1.3  Lizenz muss Veränderung   
 nicht gefordert   
 nicht gefordert   
@@ -645,9 +554,9 @@ der Daten erlauben 
 nicht gefordert   
 „Teile“ genannt z.B. für   
 wohl Gesamtwerk als auch   
-Download-Dienste[13](OGD-Leitfaden-V1.07des.html#13) u.   
+Download-Dienste[13](#9) u.   
 Teile zu nutzen   
-Zugangsberechtigung[14](OGD-Leitfaden-V1.07des.html#13)   
+Zugangsberechtigung[14](#9)   
 2.1.5  Lizenz muss Zusammen-  
 nicht gefordert   
 nicht gefordert   
@@ -656,7 +565,7 @@ ken erlauben 
    
 10 gemäss (opendefinition.org, 2017)   
 11 GeoIG Art. 15, Abs. 1   
-12 Nutzungsbedingung „ASK?“ erfordert die Bewil igung vom Datenlieferanten für kommerziel e Nutzung (siehe[ 2.4) ](OGD-Leitfaden-V1.07des.html#10)   
+12 Nutzungsbedingung „ASK?“ erfordert die Bewil igung vom Datenlieferanten für kommerziel e Nutzung (siehe[ 2.4) ](#9)   
 13 GeoIV Art. 2j,   
 14 GeoIV Art. 22, Abs.2   
    
@@ -666,46 +575,46 @@ ken erlauben 
    
 13    
    
-**Nr.**[10](OGD-Leitfaden-V1.07des.html#13)**  _Open Data Idealfall _**  
+**Nr.**[10](#9)**  _Open Data Idealfall _**  
 **OGD-Strategie Bund               **  
 **Geoinformationsrecht **  
 **opendata.swiss **  
 2.1.6  Keine Diskriminierung von   
-Implizit gegeben, weil der Datenbe- _Zugangsberechtigung[15 ](OGD-Leitfaden-V1.07des.html#14)_  
+Implizit gegeben, weil der Datenbe- _Zugangsberechtigung[15 ](#9)_  
 2.1.7  Personen / Gruppen,   
 zug auf opendata.swiss ohne Re-  
 Pflichtübertragung auf   
 Rechte gelten für alle   
 gistrierung möglich ist   
-Nutzer existiert[16](OGD-Leitfaden-V1.07des.html#14)  
+Nutzer existiert[16](#9)  
 2.1.8  Lizenz muss Nutzung für je- opendata.swiss: Restriktion für   
 Geobasisdaten: Breite   
 den Zweck erlauben   
 kommerziel e Nutzung möglich   
 Nutzung, explizit auch für   
 (Nutzungsbedingung „ASK?“)   
-Wirtschaft[17](OGD-Leitfaden-V1.07des.html#14);  _Restriktio-_  
-_nen existiere[n12](OGD-Leitfaden-V1.07des.html#13)_[ ](OGD-Leitfaden-V1.07des.html#13)  
+Wirtschaft[17](#9);  _Restriktio-_  
+_nen existiere[n12](#9)_[ ](#9)  
 2.2.1  Fordern von Zuschreibun-  
 opendata.swiss: Nutzungsbedin-  
 Quel enangaben sind   
 2.2.4  gen, Urheberschutzvermer- gung „BY“   
 Pflicht bei Geobasisda-  
 ken und Kennzeichnungen   
-ten[18](OGD-Leitfaden-V1.07des.html#14). Für Landeskarten   
+ten[18](#9). Für Landeskarten   
 der Lizenz sind zulässig   
 sind Urheberrechte zuge-  
-ordnet, also zulässig[19](OGD-Leitfaden-V1.07des.html#14).   
+ordnet, also zulässig[19](#9).   
 2.2.3  Pflicht zur Weitergabe un-  
 opendata.swiss: nicht abbildbar   
 GeoIV Art. 31 entspricht   
 ter gleichen Bedingungen   
 der Weitergabe unter   
 ist zulässig   
-gleichen Bedingungen[20 ](OGD-Leitfaden-V1.07des.html#14)  
+gleichen Bedingungen[20 ](#9)  
 2.2.2  Forderung der Quel enan-  
 opendata.swiss: nicht abbildbar   
-Nicht explizit geregelt[21. ](OGD-Leitfaden-V1.07des.html#14)   
+Nicht explizit geregelt[21. ](#9)   
 2.2.5  gabe für Modifikationen ist   
 zulässig   
 2.2.6  Es ist zulässig, technische   
@@ -718,20 +627,20 @@ verbieten 
 Tab. 2: Vergleich Open Data, OGD-Strategie Bund/opendata.swiss und Geoinformationsrecht   
    
 **Quintessenz für Publikation von Geodaten auf opendata.swiss: **  
-•  Die Veröffentlichung von gebührenfreien Geobasisdaten der Zugangsberechtigungsstufe   
+- Die Veröffentlichung von gebührenfreien Geobasisdaten der Zugangsberechtigungsstufe   
 „A“ kann durch opendata.swiss sehr gut abgedeckt werden.   
-•  Ebenso können gebührenfreie Geodaten veröffentlicht werden, deren:   
-o  Nicht-kommerziel e Nutzung bedingungslos erlaubt sind UND   
-o  Deren kommerzielle Nutzung an Bedingungen geknüpft sind.   
-•  Die Nutzungsbedingung „ASK?“ hat weitreichende Wirkung, denn sie setzt bei kommerziel-  
+- Ebenso können gebührenfreie Geodaten veröffentlicht werden, deren:   
+  - Nicht-kommerziel e Nutzung bedingungslos erlaubt sind UND   
+  - Deren kommerzielle Nutzung an Bedingungen geknüpft sind.   
+- Die Nutzungsbedingung „ASK?“ hat weitreichende Wirkung, denn sie setzt bei kommerziel-  
 ler Nutzung die Rechte und Pflichten gemäss OGD-Prinzipien ausser Kraft.   
-•  Die Veröffentlichung von Geodaten, welche auch den nicht-kommerziellen Gebrauch an   
+- Die Veröffentlichung von Geodaten, welche auch den nicht-kommerziellen Gebrauch an   
 weitergehende Bedingungen knüpft, ist mit OGD nicht vereinbar und kann nicht auf open-  
 data.swiss erfolgen.   
-•  Publikation von gebührenpflichtigen Geodaten ist auf opendata.swiss nicht möglich.   
-•  Konflikte mit der OGD-Strategie Bund aus Sicht Geoinformationsrecht ergeben sich bei den   
+- Publikation von gebührenpflichtigen Geodaten ist auf opendata.swiss nicht möglich.   
+- Konflikte mit der OGD-Strategie Bund aus Sicht Geoinformationsrecht ergeben sich bei den   
 Kosten/Gebühren sowie beim Punkt "uneingeschränkte Nutzung".   
-•  Darüber hinaus ergeben sich aus dem Geoinformationsrecht Konflikte zum Open Data Ideal-  
+- Darüber hinaus ergeben sich aus dem Geoinformationsrecht Konflikte zum Open Data Ideal-  
 fall aufgrund von Zugangsberechtigungsstufen (z.B. „B“), von Einschränkungen bei der kom-  
 merziellen Nutzung und von nicht offene Formaten, die verwendet werden.   
    
@@ -755,40 +664,40 @@ merziellen Nutzung und von nicht offene Formaten, die verwendet werden. 
 **4.1 **  
 **Rechtliche Voraussetzungen **  
 Die rechtlichen Voraussetzungen basieren primär auf den im Projekt opendata.swiss erstellten Stu-  
-dien, welche auf der Projektseite von eGovernment Schweiz[22 ](OGD-Leitfaden-V1.07des.html#15)zu finden und nachzulesen sind. Um   
+dien, welche auf der Projektseite von eGovernment Schweiz[22 ](#9)zu finden und nachzulesen sind. Um   
 eine höhere Sichtbarkeit und intensivere Konsultation zu erreichen, wäre die Aufbereitung der we-  
 sentlichen Inhalte direkt auf opendata.swiss hilfreich.    
 **4.1.1 **  
 **Nutzungsbedingungen  **  
 Die wichtigsten Elemente zur Verwendung von OGD sind in den Nutzungsbedingungen festgelegt.   
-Diese sind zwar optisch den Creative Common Lizenzen genähert, sind aber keine Lizenzen[23](OGD-Leitfaden-V1.07des.html#15), sondern   
-„Übersetzungen“ jener Gesetzesgrundlagen, die für die Daten gelten[24.](OGD-Leitfaden-V1.07des.html#15)   
+Diese sind zwar optisch den Creative Common Lizenzen genähert, sind aber keine Lizenzen[23](#9), sondern   
+„Übersetzungen“ jener Gesetzesgrundlagen, die für die Daten gelten[24.](#9)   
    
-Bei den aktuel  in opendata.swiss verfügbaren Nutzungsbedingungen gilt[25 ](OGD-Leitfaden-V1.07des.html#15)(siehe Kap.[ 6):](OGD-Leitfaden-V1.07des.html#23)   
-•  Nicht kommerziel e Nutzung ist immer erlaubt.   
-•  Bei Bedingung „BY“ muss die Quel e (Autor, Titel und Link zum Datensatz) genannt werden,   
+Bei den aktuel  in opendata.swiss verfügbaren Nutzungsbedingungen gilt[25 ](#9)(siehe Kap.[ 6):](#9)   
+- Nicht kommerziel e Nutzung ist immer erlaubt.   
+- Bei Bedingung „BY“ muss die Quel e (Autor, Titel und Link zum Datensatz) genannt werden,   
 sonst ist die Nennung der Quelle empfohlen.   
-•  Bei Bedingung „ASK?“ muss für die kommerziel e Nutzung eine Bewilligung vom Datenliefe-  
+- Bei Bedingung „ASK?“ muss für die kommerziel e Nutzung eine Bewilligung vom Datenliefe-  
 rant eingeholt werden, was nicht den Open Data Idealen entspricht.   
 Sollten in Zukunft bei der Geodatenpublikation Konflikte zwischen dem Geoinformationsrecht und die-  
 sen Nutzungsbedingungen oder Lücken festgestellt werden, könnte die Erweiterung der Nutzungsbe-  
-dingungen beim Projektausschuss OGD beantragt werden[26](OGD-Leitfaden-V1.07des.html#15).   
+dingungen beim Projektausschuss OGD beantragt werden[26](#9).   
 **4.1.2 **  
 **Haftung **  
 Ein Haftungsausschluss im Disclaimer auf OGD-Portalen scheint die Frage der Haftung eindeutig zu klä-  
 ren. Jedoch weisen (Wiedmer & Seiberth, 2015) vom Bundesarchiv darauf hin, dass die Haftung nicht   
-wegbedungen werden kann[27](OGD-Leitfaden-V1.07des.html#15).    
+wegbedungen werden kann[27](#9).    
    
 Die Interviews mit weiteren Experten bestätigt dies. Das bedeutet für die Datenpublikation:   
-•  Trotz Disclaimer kann unter Umständen eine Haftung gegeben sein. Diese Haftung gilt unab-  
+- Trotz Disclaimer kann unter Umständen eine Haftung gegeben sein. Diese Haftung gilt unab-  
 hängig davon, wie die Daten vom Amt weitergegeben wurden.    
-•  Mindestens Bundesinstitutionen können nicht a priori ausschliessen zu haften[28](OGD-Leitfaden-V1.07des.html#15).    
-•  Die Frage der Haftung ist kein OGD-spezifischer Aspekt, sondern z.B. der Kanton Zürich kann   
-bei falscher Auskunft haften, wenn Vorsatz oder Fahrlässigkeit vorliegt[29.](OGD-Leitfaden-V1.07des.html#15)   
+- Mindestens Bundesinstitutionen können nicht a priori ausschliessen zu haften[28](#9).    
+- Die Frage der Haftung ist kein OGD-spezifischer Aspekt, sondern z.B. der Kanton Zürich kann   
+bei falscher Auskunft haften, wenn Vorsatz oder Fahrlässigkeit vorliegt[29.](#9)   
 Jedoch liegt nach juristischer Meinung die Latte für eine tatsächliche Haftung sehr hoch:   
-•  Es muss ein belegbarer Schaden vorliegen und die Kausalität muss gegeben sein.   
-•  Der Datensatz muss spezifisch für diesen Zweck publiziert worden sein – es muss klar und be-  
-kannt sein, dass er in diesem Kontext genutzt wird[30](OGD-Leitfaden-V1.07des.html#15).   
+- Es muss ein belegbarer Schaden vorliegen und die Kausalität muss gegeben sein.   
+- Der Datensatz muss spezifisch für diesen Zweck publiziert worden sein – es muss klar und be-  
+kannt sein, dass er in diesem Kontext genutzt wird[30](#9).   
    
 [22 https://www.egovernment.ch/de/umsetzung/e-government-schweiz-2008-2015/open-government-data-schweiz/ ](https://www.egovernment.ch/de/umsetzung/e-government-schweiz-2008-2015/open-government-data-schweiz/)  
 23 Lizenzen sind ein Mittel aus dem Privatrecht.   
@@ -811,38 +720,38 @@ nach Art. 3 Abs. 1 VG lässt sich nicht wegbedingen“ (Wiedmer & Seib
    
 15    
    
-•  Es muss eine gewisse Geschwindigkeit im Ablauf vorgelegen haben.   
-•  Haften muss grundsätzlich jene Stelle, welche das Risiko am besten einschätzen und am leich-  
+- Es muss eine gewisse Geschwindigkeit im Ablauf vorgelegen haben.   
+- Haften muss grundsätzlich jene Stelle, welche das Risiko am besten einschätzen und am leich-  
 testen vermeiden kann.   
-•  Der Datennutzer muss das hochwertigste Angebot genutzt haben; d.h. nutzt er kostenfreie Da-  
+- Der Datennutzer muss das hochwertigste Angebot genutzt haben; d.h. nutzt er kostenfreie Da-  
 ten statt eines kostenpflichtigen Dienstes mit Qualitätssicherung, kann er keinen Haftungsan-  
 spruch stel en (cheaper cost avoidance).   
 Die genannten Aufzählungen sind ohne Gewähr auf korrekte Interpretation und Vol ständigkeit. Im   
-Zweifel sind weitere Publikationen[31 ](OGD-Leitfaden-V1.07des.html#16)zu studieren und juristische Prüfungen durchzuführen. Eine Siche-  
+Zweifel sind weitere Publikationen[31 ](#9)zu studieren und juristische Prüfungen durchzuführen. Eine Siche-  
 rung der Datenqualität (inklusive Datenbeschreibung, Erfassungsprozess etc.) durch technische oder   
 organisatorische Massnahmen ist ohnedies empfohlen.    
   **Quintessenz für Publikation von Geodaten auf opendata.swiss: **  
-•  Der Haftungsausschluss im Disclaimer kann rechtlich nicht halten.   
-•  Die Wahrscheinlichkeit für eine tatsächliche Haftung ist sehr gering und unabhängig von   
+- Der Haftungsausschluss im Disclaimer kann rechtlich nicht halten.   
+- Die Wahrscheinlichkeit für eine tatsächliche Haftung ist sehr gering und unabhängig von   
 OGD-Publikationen zu sehen.   
-•  Eine entsprechende Qualitätssicherung von Geodaten ist in jedem Fal  empfohlen.   
+- Eine entsprechende Qualitätssicherung von Geodaten ist in jedem Fal  empfohlen.   
    
 **4.1.3 **  
 **Datenschutz **  
-Die OGD-Strategie Bund[32 ](OGD-Leitfaden-V1.07des.html#16)verlangt die Berücksichtigung des Datenschutzes, verpflichtet die Behörden   
+Die OGD-Strategie Bund[32 ](#9)verlangt die Berücksichtigung des Datenschutzes, verpflichtet die Behörden   
 zur diesbezüglichen Prüfung der Daten vor Publikation und zu Massnahmen, damit bei aggregierten   
 und anonymisierten Daten eine Rückidentifizierung natürlicher oder juristischer Personen unmöglich   
-ist (siehe Kap[.6).](OGD-Leitfaden-V1.07des.html#23)   
+ist (siehe Kap[.6).](#9)   
    
 Gemäss (Wiedmer & Seiberth, 2015), S.12-15, sind Personendaten nach Art. 3 lit. a DSG alle Angaben,   
 die sich auf eine bestimmte oder bestimmbare Person beziehen:   
-•  „Angaben“ sind al e Arten von Informationen: objektive Informationen (z.B. Beruf) und subjek-  
+- „Angaben“ sind al e Arten von Informationen: objektive Informationen (z.B. Beruf) und subjek-  
 tive (z.B. Kreditwürdigkeit). Dies umfasst nicht nur Privatleben, sondern auch zu Wirken in Be-  
 ruf oder Amt. Die Art der Datenerfassung und -übertragung ist irrelevant.   
-•  „Personenbezug“ bedeutet, dass sich die Daten einer oder mehreren Personen zuordnen las-  
+- „Personenbezug“ bedeutet, dass sich die Daten einer oder mehreren Personen zuordnen las-  
 sen. Dies umfasst auch den Fal , dass auf die Person geschlossen werden kann aufgrund des   
 Kontextes oder von Zusatzinformationen.   
-•  „Bestimmtheit“ / „Bestimmbarkeit“: umfasst direkte Identifikation und indirekte Identifika-  
+- „Bestimmtheit“ / „Bestimmbarkeit“: umfasst direkte Identifikation und indirekte Identifika-  
 tion, z.B. auf Basis einer Liegenschaft. Der Gesetzgeber sieht die Grenze dort, wo zur Identifi-  
 zierung ein übermässiger Aufwand erforderlich ist.   
    
@@ -868,7 +777,7 @@ unternehmen nicht zwei getrennte Vorgänge sind, die getrennt zu bewert
 von Daten bedingt nicht den zweiten Schritt, sodass allfällige Verstösse gegen den Datenschutz nicht   
 der Behörde, sondern den Privatunternehmen anzulasten wären.   
 Der Datenschutz muss für alle Geodaten geprüft werden, auch für Geobasisdaten der Zugangsberech-  
-tigungsstufe „A“ (siehe Kap.[ 6)](OGD-Leitfaden-V1.07des.html#23). Denn die Klassifikation der Daten kann erfolgt sein, bevor die minima-  
+tigungsstufe „A“ (siehe Kap.[ 6)](#9). Denn die Klassifikation der Daten kann erfolgt sein, bevor die minima-  
 len Geodatenmodelle erarbeitet wurden. D.h. die Schutzwürdigkeit wurde festgelegt vor der Defini-  
 tion der Inhalte im Modell. Daher sollte in jedem Fall geprüft werden, ob der tatsächliche Inhalt der   
 Daten gemäss MGDM der Zugangsberechtigung entspricht und den Datenschutz nicht verletzt.   
@@ -876,26 +785,26 @@ Daten gemäss MGDM der Zugangsberechtigung entspricht und den Datenschutz
 **Konflikt beim Datenschutz zwischen Recht des Bundes und eines Kantons? **  
 Theoretisch kann es diesen Konflikt nicht geben, da sich kantonale Datenschutzgesetze nur an die Kan-  
 tons- und Gemeindebehörden richten, das Datenschutzgesetz des Bundes sich jedoch an private Per-  
-sonen und Bundesorgane richtet[33.](OGD-Leitfaden-V1.07des.html#17)   
+sonen und Bundesorgane richtet[33.](#9)   
    
 In der Praxis wurden jedoch Überlappungen festgestel t:   
-•  Wo der Kanton Vol zugsbehörde des Bundes ist, z.B. Umweltschutz, Vermessung   
-•  Wo kantonale Behörden Bundesrecht anwenden, z.B. beim GeoIG   
+- Wo der Kanton Vol zugsbehörde des Bundes ist, z.B. Umweltschutz, Vermessung   
+- Wo kantonale Behörden Bundesrecht anwenden, z.B. beim GeoIG   
 Zu beiden Punkten scheint es Widersprüche und keine klare Vorgabe für die kantonale Seite zu geben,   
 welches Recht anzuwenden ist. Eine ausführliche Diskussion würde den Rahmen dieses Leitfadens   
 sprengen und ist auch nicht im Fokus der OGD-Publikation von Geodaten.   
   **Quintessenz für Publikation von Geodaten auf opendata.swiss: **  
-•  Geodaten können Rückschlüsse auf Personen zulassen. Daher kann der Datenschutz nicht   
+- Geodaten können Rückschlüsse auf Personen zulassen. Daher kann der Datenschutz nicht   
 ignoriert werden und ist im Geoinformationsrecht verankert.   
-•  Vor Publikation von Geodaten (Open Government Data oder nicht) ist in jedem Fall zu prü-  
+- Vor Publikation von Geodaten (Open Government Data oder nicht) ist in jedem Fall zu prü-  
 fen, ob der Datenschutz verletzt wird.   
-•  Trotz im Gesetz definierter Zugangsberechtigungsstufe sol te geprüft werden, ob Daten-  
+- Trotz im Gesetz definierter Zugangsberechtigungsstufe sol te geprüft werden, ob Daten-  
 schutz verletzt sein könnte, Es kann nämlich sein, dass Kat. A dennoch kritische Daten ent-  
 hält, da die Einteilung der Zugangsberechtigungen vorgenommen worden sein kann, bevor   
 die MGDM erarbeitet wurden.   
-•  Der Fortschritt bei BigData ist im Auge zu behalten und bei allen Formen der Aggregation   
+- Der Fortschritt bei BigData ist im Auge zu behalten und bei allen Formen der Aggregation   
 oder Anonymisierung zu berücksichtigen.   
-•  Überlappungen zwischen Bundes- und Kantonsdatenschutzgesetzen sol te es theoretisch   
+- Überlappungen zwischen Bundes- und Kantonsdatenschutzgesetzen sol te es theoretisch   
 nicht geben, wurden aber in der Praxis festgestellt.   
    
 **4.1.4 **  
@@ -925,34 +834,34 @@ chen Interesse sein kann. (Jörg, 2014) 
    
 Zentral ist die Frage der Abgrenzung zu kundenspezifischen, individuel en Leistungen: Wann liegt eine   
 solche vor und die Daten sind gebührenpflichtig? (Bürgi-Schmelz, 2014) stellt fest:   
-•  Für die OGD ist eine Gratisabgabe vorzusehen   
-•  Für Zusatzleistungen sol  hingegen eine Grenzkostenverrechnung vorgesehen sein.    
+- Für die OGD ist eine Gratisabgabe vorzusehen   
+- Für Zusatzleistungen sol  hingegen eine Grenzkostenverrechnung vorgesehen sein.    
 Die Abgrenzung zwischen „OGD“ und „kundenspezifischen, individuel en Leistungen“ ist nicht in al en   
 Bereichen gut definiert. Abb. 1 sol  dabei Anleitung sein.   
    
 Abb.1: Frage der Gebührenrelevanz gemäss (Bürgi-Schmelz, 2014), S.23   
   **Quintessenz für Publikation von Geodaten auf opendata.swiss: **  
-•  Kostenfrei ist das Ziel, die (politische) Realität verhindert das mitunter.   
-•  Speziel  Kantone sol ten durchrechnen, ob sich die gebührenpflichtige Abgabe von Geoda-  
+- Kostenfrei ist das Ziel, die (politische) Realität verhindert das mitunter.   
+- Speziel  Kantone sol ten durchrechnen, ob sich die gebührenpflichtige Abgabe von Geoda-  
 ten rechnet, wenn man eine Vol kostenrechnung durchführt.   
-•  Kostenfrei entspricht OGD, aber kostenfrei heisst noch nicht OGD – dazu müssen weitere   
+- Kostenfrei entspricht OGD, aber kostenfrei heisst noch nicht OGD – dazu müssen weitere   
 Festlegungen getroffen werden (z.B. Nutzungsbedingungen).   
 **4.1.5 **  
 **Urheberrecht **  
 Gemäss (Wiedmer & Seiberth, 2015) S.9-12, sind nur Werke urheberrechtlich geschützt. Werke zeich-  
 nen sich durch folgende Eigenschaften aus:   
-•  „Geistige Schöpfung“ d.h. nur menschliche Werke[34](OGD-Leitfaden-V1.07des.html#18)   
-•  „Literatur und Kunst“, die jedoch im Gesetz nicht definiert sind. Werke mit wissenschaftlichem   
+- „Geistige Schöpfung“ d.h. nur menschliche Werke[34](#9)   
+- „Literatur und Kunst“, die jedoch im Gesetz nicht definiert sind. Werke mit wissenschaftlichem   
 Inhalt wie Pläne oder Karten können darunterfallen.   
-•  „Individueller Charakter“, d.h. unterscheidbar von anderen Werken; existiert nicht in dersel-  
-ben Form und wird auch nicht geschaffen werden.[35](OGD-Leitfaden-V1.07des.html#18)   
+- „Individueller Charakter“, d.h. unterscheidbar von anderen Werken; existiert nicht in dersel-  
+ben Form und wird auch nicht geschaffen werden.[35](#9)   
 Der Werkscharakter der ODG-Inhalte nach (Wiedmer & Seiberth, 2015) S.10 ist jeweils im Einzelfall zu   
 prüfen: ob es sich dabei um urheberrechtlich geschützte Werke handelt oder nicht. Oftmals ist es   
 schwierig, dies zu beurteilen. Verallgemeinert kann man festhalten:   
-•  Daten: Wissenschaftliche Daten sind nur selten urheberrechtlich geschützt, da ihnen in der   
+- Daten: Wissenschaftliche Daten sind nur selten urheberrechtlich geschützt, da ihnen in der   
 Regel der notwendige individuelle Charakter fehlt.     
-•  Datenbank/-sammlungen können urheberrechtlich geschützt sein   
-•  Texte, Bilder und Filme können urheberrechtlich geschützt sein.   
+- Datenbank/-sammlungen können urheberrechtlich geschützt sein   
+- Texte, Bilder und Filme können urheberrechtlich geschützt sein.   
 (Rolf H. Weber, 2000) S.32 weist darauf hin, dass Karten im Gesetz als Unterart der Werke mit wissen-  
 schaftlichem oder technischem Inhalt aufgeführt sind. Auch auf Basis von Daten erstellte individuali-  
 sierte Karten können darunterfal en, auch wenn die Datengrundlage keinen Urheberrechtsschutz ge-  
@@ -974,8 +883,8 @@ noch kein Urheberrecht. 
 **Urheberrechtsfragen sind bei Geodaten in den allermeisten Fällen nicht relevant, speziell wenn es   
 definierte Vorschriften der Erfassung oder Darstellung gibt, wie dies bei Geobasisdaten der Fall ist.   
 In Einzelfällen kann das Thema jedoch Relevanz erlangen, speziel  bei extern im Auftrag erstellte   
-erstellten Daten[36](OGD-Leitfaden-V1.07des.html#19), bei Bildmaterial oder individuell gestalteten Bildern (z.B. stilisierte Abbildun-  
-gen)[37.](OGD-Leitfaden-V1.07des.html#19) Daher sollte im Rahmen der OGD-Publikation von Geodaten eine Verletzung von Urheber-  
+erstellten Daten[36](#9), bei Bildmaterial oder individuell gestalteten Bildern (z.B. stilisierte Abbildun-  
+gen)[37.](#9) Daher sollte im Rahmen der OGD-Publikation von Geodaten eine Verletzung von Urheber-  
 recht geprüft werden, auch wenn diese in den meisten Fäl en ergebnislos verläuft.   
    
 **4.2 **  
@@ -987,9 +896,9 @@ dokumentierte Datenquel e, deren Daten klar strukturiert sind (Durrer, 
 Format (Tauberer, 2017) zur Verfügung stehen.   
    
 (Paderta, 2012) S.23-28 nennt folgende Punkte als essentiell:   
-•  Repräsentationsform der Datenressourcen (Datenformat, Schnittstelle)     
-•  Auffindbarkeit und Beschreibung der Datenressourcen (Adressierung, Metadaten)     
-•  Die semantische Verknüpfung (Linked Data)     
+- Repräsentationsform der Datenressourcen (Datenformat, Schnittstelle)     
+- Auffindbarkeit und Beschreibung der Datenressourcen (Adressierung, Metadaten)     
+- Die semantische Verknüpfung (Linked Data)     
    
 Maschinenlesbarkeit ist nicht nur eine Frage des Formats, sondern auch der Datenqualität. Einige zu-  
 sätzliche Leerzeichen im weit verbreiteten csv-Format stel en den Menschen nicht vor grosse Prob-  
@@ -997,7 +906,7 @@ leme bei der Interpretation der Daten, Systeme scheitern jedoch und erze
 Daten.   
 **4.2.2 **  
 **Formate und Zugriffsprotokolle **  
-Die folgende Tabelle listet wichtige Formate auf Basis der konsultierten Quel en auf[38](OGD-Leitfaden-V1.07des.html#19).   
+Die folgende Tabelle listet wichtige Formate auf Basis der konsultierten Quel en auf[38](#9).   
    
 **Strukturierte Daten**   
 CSV, JSON, XML, RDF, XLSX, ODS   
@@ -1013,7 +922,7 @@ TIFF, JPEG2000, PNG, SVG 
 FLAC, WebM, Ogg Vorbis, MPEG4, Wave   
 **Sonstige**   
 SPARQL, ODATA (Open Data Protocol);   
-Tab. 3: Übliche und häufig genannte Formate bei OGD-Publikationen[39 ](OGD-Leitfaden-V1.07des.html#19)  
+Tab. 3: Übliche und häufig genannte Formate bei OGD-Publikationen[39 ](#9)  
    
 Weiter wäre noch GeoSPARQL als Standard des Open GeoSpatial Consortium zu nennen.   
    
@@ -1031,39 +940,39 @@ Autoren dar 
 19    
    
 Generelle Anforderungen an Datenformate sind (Sunlight Foundation, 2014, S.5f)   
-•  Leicht und effizient wiederzuverwenden   
-•  Offene Formate oder Standards   
-•  Mindestens maschinenlesbare Formate, besser strukturiert.   
+- Leicht und effizient wiederzuverwenden   
+- Offene Formate oder Standards   
+- Mindestens maschinenlesbare Formate, besser strukturiert.   
   **Quintessenz für Publikation von Geodaten auf opendata.swiss: **  
-•  Strukturierte und stabile Formate sind empfohlen, proprietäre Formate nicht.   
-•  Bei Geodaten sind die erwarteten Formate bzw. Protokolle genannt.   
+- Strukturierte und stabile Formate sind empfohlen, proprietäre Formate nicht.   
+- Bei Geodaten sind die erwarteten Formate bzw. Protokolle genannt.   
    
 **4.3 **  
 **BigData – und die Konsequenzen **  
 Getrieben von grossen IT-Unternehmen (Google, Facebook, . .) und innovativen Datenverarbeitungs-  
-prozessen haben in den letzten Jahren Methoden und Technologien aus BigData[40](OGD-Leitfaden-V1.07des.html#20) deutlich an Einfluss   
+prozessen haben in den letzten Jahren Methoden und Technologien aus BigData[40](#9) deutlich an Einfluss   
 und Verwendung gewonnen. Gekennzeichnet ist BigData durch:   
-•  High Volume   
-•  High Velocity   
-•  High Variety   
+- High Volume   
+- High Velocity   
+- High Variety   
    
 Letzteres gewinnt an Relevanz für die Frage des Urheberrechts, da vermehrt auch Bilder oder Filme   
 integriert werden.   
    
 Neben der hohen Performanz sind weitere BigData-Besonderheiten relevant, primär für den Daten-  
 schutz und die De-Anonymisierung aggregierter Daten:   
-•  Machine-Learning macht die Systeme so lernfähig, dass sie laufend besser werden:   
-o  Aus grössten Datenmengen die relevanten und spezifisch zutreffenden filtern   
-o  Fehler erkennen, aus ihnen lernen und so in Zukunft vermeiden   
-•  Auch nicht-strukturierte Informationen wie Texte auszuwerten   
-•  BigData-Technologien haben spezifische Methoden für die Geodatenverarbeitung entwickelt   
+- Machine-Learning macht die Systeme so lernfähig, dass sie laufend besser werden:   
+  - Aus grössten Datenmengen die relevanten und spezifisch zutreffenden filtern   
+  - Fehler erkennen, aus ihnen lernen und so in Zukunft vermeiden   
+- Auch nicht-strukturierte Informationen wie Texte auszuwerten   
+- BigData-Technologien haben spezifische Methoden für die Geodatenverarbeitung entwickelt   
 (z.B. eigene Geokoordinaten, hoch performante Suchalgorithmen) und nutzen diese in der Da-  
 tenanalyse (no SQL db Redis, Cassandra, Al egroGraph).   
   **Quintessenz für Publikation von Geodaten auf opendata.swiss: **  
 Konsequenzen von BigData:   
-•  Neue Möglichkeiten zur Vernetzung und Verbreitung der Daten (Semantic Web).   
-•  LOD ist verlangt, um BigData-fähig zu sein.   
-•  Neuen Möglichkeiten sind kritisch bzgl. Datenschutz und eventuel  Urheberrecht.   
+- Neue Möglichkeiten zur Vernetzung und Verbreitung der Daten (Semantic Web).   
+- LOD ist verlangt, um BigData-fähig zu sein.   
+- Neuen Möglichkeiten sind kritisch bzgl. Datenschutz und eventuel  Urheberrecht.   
    
 
    
@@ -1078,32 +987,32 @@ Konsequenzen von BigData: 
 **5. Chancen und Risiken von OGD **  
 **5.1 **  
 **Chancen und Möglichkeiten **  
-Wie in Kap.[ 1.1 ](OGD-Leitfaden-V1.07des.html#7)zur Argumentation und Motivation pro OGD sol  auch bei den Chancen die 3-Teilung in   
-politische, organisatorische und ökonomische Vorteile eingehalten werden[41](OGD-Leitfaden-V1.07des.html#21).   
+Wie in Kap.[ 1.1 ](#9)zur Argumentation und Motivation pro OGD sol  auch bei den Chancen die 3-Teilung in   
+politische, organisatorische und ökonomische Vorteile eingehalten werden[41](#9).   
    
-**a) Politische Ebene[42:](OGD-Leitfaden-V1.07des.html#21)**  
-•  Beleg des Werts und der Notwendigkeit der Arbeiten v.a. gegenüber der Politik   
-•  Vermeiden der Gefahr, dass schlechtere Daten verwendet und verbreitet werden, weil Bereit-  
-schaft gering ist, für Geodaten zu bezahlen[43](OGD-Leitfaden-V1.07des.html#21)   
-•  Unterstützung von Wissenschaft, Forschung und Innovation[44](OGD-Leitfaden-V1.07des.html#21)   
-•  Bessere Nachvol ziehbarkeit von Handlungen der Politik und der Verwaltung[45   
-](OGD-Leitfaden-V1.07des.html#21)•  Generell stärkt eine höhere Transparenz das Vertrauen der Bevölkerung[46.](OGD-Leitfaden-V1.07des.html#21)     
-•  Stärkere Bürgergesellschaft und -beteiligung[47](OGD-Leitfaden-V1.07des.html#21) und Erreichen breiterer Zielgruppen[48](OGD-Leitfaden-V1.07des.html#21)   
-•  Höheres Raumbewusstsein[49   
-](OGD-Leitfaden-V1.07des.html#21)•  Imagegewinn für die Politik[50;](OGD-Leitfaden-V1.07des.html#21) aktuelle Entwicklungen wie LOD nicht verpassen.   
-•  Nutzungsbedingungen schaffen Klarheit und Rechtssicherheit.   
-•  Erstel ung und Nachführung der Daten sind ohnehin durch Steuergelder finanziert[51.](OGD-Leitfaden-V1.07des.html#21)   
+**a) Politische Ebene[42:](#9)**  
+- Beleg des Werts und der Notwendigkeit der Arbeiten v.a. gegenüber der Politik   
+- Vermeiden der Gefahr, dass schlechtere Daten verwendet und verbreitet werden, weil Bereit-  
+schaft gering ist, für Geodaten zu bezahlen[43](#9)   
+- Unterstützung von Wissenschaft, Forschung und Innovation[44](#9)   
+- Bessere Nachvol ziehbarkeit von Handlungen der Politik und der Verwaltung[45   
+](#9)- Generell stärkt eine höhere Transparenz das Vertrauen der Bevölkerung[46.](#9)     
+- Stärkere Bürgergesellschaft und -beteiligung[47](#9) und Erreichen breiterer Zielgruppen[48](#9)   
+- Höheres Raumbewusstsein[49   
+](#9)- Imagegewinn für die Politik[50;](#9) aktuelle Entwicklungen wie LOD nicht verpassen.   
+- Nutzungsbedingungen schaffen Klarheit und Rechtssicherheit.   
+- Erstel ung und Nachführung der Daten sind ohnehin durch Steuergelder finanziert[51.](#9)   
    
 **b) Organisatorisch-formale Vorteile: **  
-•  Erhöht die Effizienz und Qualität der Verwaltung[52](OGD-Leitfaden-V1.07des.html#21).   
-•  Verbesserte Kooperation innerhalb der Verwaltung und mit anderen Ämtern[53   
-](OGD-Leitfaden-V1.07des.html#21)•  Engerer Kontakt von Datenproduzent und Nutzer vereinfacht die Zusammenarbeit[54](OGD-Leitfaden-V1.07des.html#21).   
-•  Raschere Entdeckung von Fehlern durch breitere Nutzung[55](OGD-Leitfaden-V1.07des.html#21)   
-•  Generel  Prüfen und Optimieren der Prozesse durch neue Publikationsform   
+- Erhöht die Effizienz und Qualität der Verwaltung[52](#9).   
+- Verbesserte Kooperation innerhalb der Verwaltung und mit anderen Ämtern[53   
+](#9)- Engerer Kontakt von Datenproduzent und Nutzer vereinfacht die Zusammenarbeit[54](#9).   
+- Raschere Entdeckung von Fehlern durch breitere Nutzung[55](#9)   
+- Generel  Prüfen und Optimieren der Prozesse durch neue Publikationsform   
    
-**c) Ökonomische Aspekte[56](OGD-Leitfaden-V1.07des.html#21)****: **  
-•  Möglichkeit, neue Kunden zu erreichen und Geschäftsmodelle zu unterstützen[57](OGD-Leitfaden-V1.07des.html#21)   
-•  Besserer Kontakt zwischen Verwaltung und Wirtschaft durch intensiven Austausch[58](OGD-Leitfaden-V1.07des.html#21)   
+**c) Ökonomische Aspekte[56](#9)****: **  
+- Möglichkeit, neue Kunden zu erreichen und Geschäftsmodelle zu unterstützen[57](#9)   
+- Besserer Kontakt zwischen Verwaltung und Wirtschaft durch intensiven Austausch[58](#9)   
    
 41 vgl. (Neuroni, Riedl, & Brugger, 2013) S.1913f.     
 42 (Neuroni, Riedl, & Brugger, 2013, S.1911-1916) stellen fest, dass der politische Vorteil in der Schweiz wegen der direkten Demokratie und   
@@ -1131,37 +1040,37 @@ der Nähe der Bevölkerung zu Politik bzw. Verwaltung weniger relevant�
    
 21    
    
-•  Neue Dienstleistungen und Wertschöpfungsketten in Nischen könnten entstehen, die heute   
-von den Ämtern mangels Ressourcen nicht abgedeckt werden können[59 ](OGD-Leitfaden-V1.07des.html#22)  
-•  Geodaten müssen ohnehin für die Aufgaben der Ämter erstel t und aktualisiert werden.   
+- Neue Dienstleistungen und Wertschöpfungsketten in Nischen könnten entstehen, die heute   
+von den Ämtern mangels Ressourcen nicht abgedeckt werden können[59 ](#9)  
+- Geodaten müssen ohnehin für die Aufgaben der Ämter erstel t und aktualisiert werden.   
 **5.2 **  
 **Risiken **  
 Übergeordnet:   
-•  Es bedeutet und braucht Paradigmenwechsel in der Verwaltung.   
-•  Gemeinsame Sprache und Standards zu finden, ist notwendig.   
-•  Wenig fachkompetente Personen könnten Daten falsch interpretieren.   
-•  Keine Kosten könnten den Eindruck erwecken, Daten hätten keinen Wert.   
-•  Abhängig von der politischen Grosswetterlage: aktuell ist das Pendel pro OGD, aber instabil.   
-•  Gefahren durch Internetkriminalität   
+- Es bedeutet und braucht Paradigmenwechsel in der Verwaltung.   
+- Gemeinsame Sprache und Standards zu finden, ist notwendig.   
+- Wenig fachkompetente Personen könnten Daten falsch interpretieren.   
+- Keine Kosten könnten den Eindruck erwecken, Daten hätten keinen Wert.   
+- Abhängig von der politischen Grosswetterlage: aktuell ist das Pendel pro OGD, aber instabil.   
+- Gefahren durch Internetkriminalität   
    
 Für Politik bzw. Gesellschaft:   
-•  Einnahmeverlust bei eventuell sogar etwas steigenden Aufwänden[60   
-](OGD-Leitfaden-V1.07des.html#22)•  Wettbewerbsverzerrung: Durch Steuergelder finanzierte Konkurrenz zu Unternehmen, die   
-eventuell grosse Summen in Datenbestand investiert haben (z.B. Befliegung)[61](OGD-Leitfaden-V1.07des.html#22).   
+- Einnahmeverlust bei eventuell sogar etwas steigenden Aufwänden[60   
+](#9)- Wettbewerbsverzerrung: Durch Steuergelder finanzierte Konkurrenz zu Unternehmen, die   
+eventuell grosse Summen in Datenbestand investiert haben (z.B. Befliegung)[61](#9).   
    
 Für Verwaltung / publizierende Stelle:   
-•  Risiken bei Datenschutz, Restrisiken bei Haftungsfrage und Urheberrecht[62   
-](OGD-Leitfaden-V1.07des.html#22)•  Fehler bei Auswahl der veröffentlichten Daten[63   
-](OGD-Leitfaden-V1.07des.html#22)•  Absichtliche oder fahrlässige Verfälschung von Daten durch Dritte   
-•  Aufwand für Datenerfassung (Metadaten: Produktionsprozess), Datenbereitstel ung und -qua-  
-litätssicherung[64;](OGD-Leitfaden-V1.07des.html#22) letzteres eventuell verstärkt durch Angst vor Haftung[65 ](OGD-Leitfaden-V1.07des.html#22)  
-•  Wenn Mehraufwand auf der einen Seite entsteht und nicht politisch akzeptiert ist, könnte die   
-Angst vor Personal- oder Leistungsabbau im Amt hemmend wirken[66.](OGD-Leitfaden-V1.07des.html#22)   
-•  Asymmetrie: Mehreinnahmen aus OGD treten im Finanzamt auf, Aufwände im Fachamt[67.](OGD-Leitfaden-V1.07des.html#22)   
-•  Automatisierte Web- und Benutzeranalyse könnte Vertraulichkeits- und Datenschutzbestim-  
+- Risiken bei Datenschutz, Restrisiken bei Haftungsfrage und Urheberrecht[62   
+](#9)- Fehler bei Auswahl der veröffentlichten Daten[63   
+](#9)- Absichtliche oder fahrlässige Verfälschung von Daten durch Dritte   
+- Aufwand für Datenerfassung (Metadaten: Produktionsprozess), Datenbereitstel ung und -qua-  
+litätssicherung[64;](#9) letzteres eventuell verstärkt durch Angst vor Haftung[65 ](#9)  
+- Wenn Mehraufwand auf der einen Seite entsteht und nicht politisch akzeptiert ist, könnte die   
+Angst vor Personal- oder Leistungsabbau im Amt hemmend wirken[66.](#9)   
+- Asymmetrie: Mehreinnahmen aus OGD treten im Finanzamt auf, Aufwände im Fachamt[67.](#9)   
+- Automatisierte Web- und Benutzeranalyse könnte Vertraulichkeits- und Datenschutzbestim-  
 mungen verletzen. Die OGD-Arbeitsgruppe Recht und das EDÖB äussern zu im Betrieb befind-  
-lichen Lösungen mit Servern im Ausland Bedenken[68;](OGD-Leitfaden-V1.07des.html#22) Stand und Auswirkungen siehe OGD In-  
-halte von E-Government Schweiz[69.](OGD-Leitfaden-V1.07des.html#22)   
+lichen Lösungen mit Servern im Ausland Bedenken[68;](#9) Stand und Auswirkungen siehe OGD In-  
+halte von E-Government Schweiz[69.](#9)   
    
 59 (Paderta, 2012)   
 60 (Bürgi-Schmelz, 2013)   
@@ -1187,13 +1096,13 @@ Grundsätzlich kann es zwei Anlassfälle für die OGD-Publikation von Ge
 1.  Intern, d.h. aus der Verwaltungseinheit oder der übergeordneten politischen Ebene kommt   
 der Auftrag zur Publikation bzw. zur Prüfung der Publikation als OGD.   
 2.  Eine externe Anfrage, Daten als OGD zu publizieren. Dabei empfiehlt (Bürgi-Schmelz, 2014) ein   
-Vorgehen[70,](OGD-Leitfaden-V1.07des.html#23) wie es in der Abb. 2  skizziert ist.   
+Vorgehen[70,](#9) wie es in der Abb. 2  skizziert ist.   
    
 Abb. 2: Ablauf bei externer Anfrage nach (Bürgi-Schmelz, 2014), S.25f (gekürzt)   
    
 Die folgende Abbildung (Abb.3; „Big Picture“) beschreibt den Prozess der Geodatenpublikation gemäss   
-opendata.swiss-Handbook[71.](OGD-Leitfaden-V1.07des.html#23) Die Abbildung sol te entsprechend dem Document Life Cycle Manage-  
-ment bei Aktualisierungen angepasst werden, wie für 2017 geplant[72. ](OGD-Leitfaden-V1.07des.html#23)   
+opendata.swiss-Handbook[71.](#9) Die Abbildung sol te entsprechend dem Document Life Cycle Manage-  
+ment bei Aktualisierungen angepasst werden, wie für 2017 geplant[72. ](#9)   
    
    
 70 Bestätigt in der Umfrage von CadastreSuisse, dass Spezialwünsche (andere Formate, kein Selbstbezug) kosten   
@@ -1229,7 +1138,7 @@ Abb. 3. Prozess der Publikation von Geodaten auf opendata.swiss 
 Der beschriebene Weg erfordert eine eigene Datenhaltung, denn opendata.swiss erfasst “nur“ die Me-  
 tadaten (harvesting) und hat keine eigene Datenhaltung.   
    
-**Nutzungsbedingungen im Überblick (Details in Kap.[ 4.1.1)](OGD-Leitfaden-V1.07des.html#15)**   
+**Nutzungsbedingungen im Überblick (Details in Kap.[ 4.1.1)](#9)**   
 **Nutzungsbedin-**  
 **Freie Nutzung (nicht **  
 **Quel enangabe (Autor, Titel **  
@@ -1262,88 +1171,76 @@ Welche Nutzungsbedingung zu wählen ist, ist unterschiedlich und breit g
 tionen. Eindeutig ist es, wenn in einer GeoIV im Anhang der Geobasisdaten eine eigene Spalte „Freie   
 Nutzung und Weitergabe“ enthalten ist, wie das z.B. der Kanton Zürich plant.   
    
-**Haftung im Überblick (Details in Kap.[ 4.1.2)](OGD-Leitfaden-V1.07des.html#15)**  
-•  Der Haftungsausschluss im Disclaimer kann rechtlich nicht halten.   
-•  Die Wahrscheinlichkeit für eine tatsächliche Haftung ist sehr gering und unabhängig von OGD-  
+**Haftung im Überblick (Details in Kap.[ 4.1.2)](#9)**  
+- Der Haftungsausschluss im Disclaimer kann rechtlich nicht halten.   
+- Die Wahrscheinlichkeit für eine tatsächliche Haftung ist sehr gering und unabhängig von OGD-  
 Publikation zu sehen.   
-•  Eine entsprechende Qualitätssicherung von Geodaten ist in jedem Fal  empfohlen.   
+- Eine entsprechende Qualitätssicherung von Geodaten ist in jedem Fal  empfohlen.   
 **   
-Datenschutz im Überblick (Details in Kap.[ 4.1.3)](OGD-Leitfaden-V1.07des.html#16)**  
-•  Geodaten können Rückschlüsse auf Personen zulassen. Daher kann der Datenschutz nicht ig-  
+Datenschutz im Überblick (Details in Kap.[ 4.1.3)](#4)**  
+- Geodaten können Rückschlüsse auf Personen zulassen. Daher kann der Datenschutz nicht ig-  
 noriert werden und ist im Geoinformationsrecht verankert.   
-•  Vor der Publikation von Geodaten (OGD oder nicht) ist in jedem Fal  zu prüfen, ob der Daten-  
+- Vor der Publikation von Geodaten (OGD oder nicht) ist in jedem Fal  zu prüfen, ob der Daten-  
 schutz verletzt wird.   
-•  Trotz im Gesetz definierter Zugangsberechtigungsstufe sol te geprüft werden, ob der Daten-  
+- Trotz im Gesetz definierter Zugangsberechtigungsstufe sol te geprüft werden, ob der Daten-  
 schutz verletzt sein könnte. Es kann nämlich sein, dass Kat. A dennoch kritische Daten enthält,   
 da die Einteilung der Zugangsberechtigungen vorgenommen worden sein kann, bevor die   
 MGDM erarbeitet wurden.   
-•  Der Fortschritt bei BigData ist im Auge zu behalten und bei allen Formen der Aggregation oder   
+- Der Fortschritt bei BigData ist im Auge zu behalten und bei allen Formen der Aggregation oder   
 Anonymisierung zu berücksichtigen.   
    
-**Kosten/Tarifierung im Überblick (Details in Kap.[ 4.1.4)](OGD-Leitfaden-V1.07des.html#17)**  
-•  Kostenfrei ist das Ziel, die (politische) Realität verhindert das mitunter.   
-•  Speziel  Kantone sol ten durchrechnen, ob sich die kostenpflichtige Abgabe von Geodaten   
+**Kosten/Tarifierung im Überblick (Details in Kap.[4.1.4)](#4)**  
+- Kostenfrei ist das Ziel, die (politische) Realität verhindert das mitunter.   
+- Speziel  Kantone sol ten durchrechnen, ob sich die kostenpflichtige Abgabe von Geodaten   
 rechnet, wenn man eine Vol kostenrechnung durchführt.   
    
-   
-
-* * *
-
-   
-25    
-   
-   
-**Urheberrecht im Überblick (Details in Kap.[ 4.1.5)](OGD-Leitfaden-V1.07des.html#18)**  
-•  Urheberrechtsfragen sind bei Geodaten in den allermeisten Fäl en nicht relevant, speziell   
+**Urheberrecht im Überblick (Details in Kap.[4.1.5)](#4)**  
+- Urheberrechtsfragen sind bei Geodaten in den allermeisten Fäl en nicht relevant, speziell   
 wenn es definierte Vorschriften der Erfassung oder Darstellung gibt.   
-•  In Einzelfällen kann es jedoch Relevanz erlangen, speziell wenn es extern im Auftrag erstellte   
+- In Einzelfällen kann es jedoch Relevanz erlangen, speziell wenn es extern im Auftrag erstellte   
 Daten sind, Bildmaterial umfasst oder individuell gestaltet ist.   
-•  Daher sollte im Rahmen der OGD-Publikation von Geodaten eine Verletzung von Urheberrecht   
+- Daher sollte im Rahmen der OGD-Publikation von Geodaten eine Verletzung von Urheberrecht   
 geprüft werden, auch wenn diese in den meisten Fällen ergebnislos verläuft.   
    
-**Datenformate/Protokolle im Überblick (Details in Kap[. 4.2.2)](OGD-Leitfaden-V1.07des.html#19)**In den OGD-Portalen und Publikationen sind in der Regel genannt:   
-•  Geodatenformate: GeoJSON, KML, GML, INTERLIS, ESRI shape file, GeoPackage, GeoTIFF, gpx,   
+**Datenformate/Protokolle im Überblick (Details in Kap.[4.2.2)](#4)**
+
+In den OGD-Portalen und Publikationen sind in der Regel genannt:   
+- Geodatenformate: GeoJSON, KML, GML, INTERLIS, ESRI shape file, GeoPackage, GeoTIFF, gpx,   
 dxf, dwg, ecw, wld;   
-•  Zugriffsprotokol e: WMS, WMTS, WFS   
-**6.1 **  
-**Auswahl der Geodaten für OGD **  
+- Zugriffsprotokol e: WMS, WMTS, WFS   
+
+## 6.1 Auswahl der Geodaten für OGD 
+
 Geodaten, die in einer Geoinformationsverordnung mit Download-Dienst genannt sind, müssen publi-  
 ziert werden, jedoch nicht zwingend gemäss OGD. Für die Auswahl weiterer Geodaten sollten die   
-Chancen und Risiken (Kap[. 5)](OGD-Leitfaden-V1.07des.html#21) berücksichtigt und gewichtet werden.   
+Chancen und Risiken (Kap.[5)](#5) berücksichtigt und gewichtet werden.   
    
 Welche Geodaten publiziert werden sol en, ist grundsätzlich ein Entscheid, der auf übergeordneter   
 Ebene (z.B. die jeweils politisch Verantwortlichen, Behördenleitung, Datenverantwortliche) getroffen   
 werden muss, abhängig unter anderem von:   
-•  Wie stark ist das Bekenntnis zu OGD generell?   
-•  Wie gross ist die Bereitschaft der politisch Verantwortlichen, gegebenenfalls auf Einnahmen   
+- Wie stark ist das Bekenntnis zu OGD generell?   
+- Wie gross ist die Bereitschaft der politisch Verantwortlichen, gegebenenfalls auf Einnahmen   
 aus Datenverkauf zu verzichten bei gleichbleibenden Aufwänden?   
-•  Wie gross ist der Aufwand, die Daten gemäss OGD zu publizieren?   
-•  Wo ist der Aufwand am geringsten, um rasch Erfolge aufzeigen zu können?   
-•  Welche Daten werden am meisten nachgefragt? Daten zu Links auf das Bundesportal oder   
+- Wie gross ist der Aufwand, die Daten gemäss OGD zu publizieren?   
+- Wo ist der Aufwand am geringsten, um rasch Erfolge aufzeigen zu können?   
+- Welche Daten werden am meisten nachgefragt? Daten zu Links auf das Bundesportal oder   
 Kantonsportale können Hinweise dazu geben.   
-•  Welche Daten sollten aus Effizienzgründen publiziert werden (einmalige Publikation, statt wie-  
+- Welche Daten sollten aus Effizienzgründen publiziert werden (einmalige Publikation, statt wie-  
 derholte, individuelle Zustellung)?   
-•  Existiert eine Gesamtübersicht über die Datenbestände (=Inventar)?   
+- Existiert eine Gesamtübersicht über die Datenbestände (=Inventar)?   
    
 Die Auswahl der Daten für OGD-Publikation steht in Spannungsfeldern (Paderta, 2012) S.5:   
-•  Informationsfreiheit versus Datenschutz   
-•  neue Formen der Partizipation und Kollaboration versus traditionelle Verwaltungskultur im   
+- Informationsfreiheit versus Datenschutz   
+- neue Formen der Partizipation und Kollaboration versus traditionelle Verwaltungskultur im   
 öffentlichen Sektor   
-•  Kommerziel e Weiterverwendung versus Refinanzierung von Open Government Geo Data.   
+- Kommerziel e Weiterverwendung versus Refinanzierung von Open Government Geo Data.   
    
 Erfahrungen zeigen, dass weniger eine thematische Priorisierung gewählt wird, sondern praktisch prio-  
 risiert wurde: zunächst Geodaten mit Zugangsberechtigungsstufe „A“, wenig Aufwand für die Bereit-  
 stel ung, geringem Einnahmenverlust und breiter Nutzung.    
    
+## 6.2 Handhabung von "älteren Daten", Umgang mit Nachführung und Zeitständen 
 
-* * *
-
-   
-26    
-   
-**6.2 **  
-**Handhabung von "älteren Daten", Umgang mit Nachführung und Zeit-**  
-**ständen **  
 Zu dieser Thematik sind primär die gesetzlichen Vorgaben (GeoIG) zur nachhaltigen Verfügbarkeit, His-  
 torisierung und Archivierung bzw. die entsprechende SIK-GIS-Studie (Konzeptstudie Nachhaltige Ver-  
 fügbarkeit und Archivierung von Geodaten) relevant.    
@@ -1351,7 +1248,7 @@ fügbarkeit und Archivierung von Geodaten) relevant.  
 Die Interviews zu dieser Anleitung zeigten, dass grundsätzlich auch frühere Zeitpunkte verfügbar ge-  
 halten werden sol ten, jedoch ohne eine diesbezügliche Verpflichtung einzugehen (Disclaimer). In den   
 Interviews zeigte sich zudem, dass die OGD-Publikation über die Bereitstellung der Metadaten für das   
-harvesting von opendata.swiss gut funktioniert[73.](OGD-Leitfaden-V1.07des.html#27)   
+harvesting von opendata.swiss gut funktioniert[73.](#9)   
    
 Sol ten die Zeitinformationen in den Daten selbst enthalten sein, z.B. Statistik von Wahlen, werden die   
 neuesten Daten in die bestehende Datei eingetragen und diese dann publiziert.   
@@ -1360,7 +1257,7 @@ Behörde ist, wann welche Daten zu welchem Stand publiziert werden. 
 **6.3 **  
 **Sternesystem betreffend Qualitätslabel von OGD **  
 Üblicherweise wird zur Illustration in der Diskussion um Gütekriterien bei Open Data und Linked Data   
-auf das 5-Sterne-Modell von Tim Berners-Lee verwiesen. Open Data werden in fünf Stufen unterteilt[74: ](OGD-Leitfaden-V1.07des.html#27)   
+auf das 5-Sterne-Modell von Tim Berners-Lee verwiesen. Open Data werden in fünf Stufen unterteilt[74: ](#9)   
    
 ★   
 Datenpublikation mit offener Lizenz in irgendeinem Format   
@@ -1379,10 +1276,10 @@ Qualität von Daten. 
 **6.4 **  
 **Was muss erfüllt sein damit OGD eingeführt werden kann **  
 In der Vorbereitung:   
-•  Gesetzesgrundlage gegeben (Geoinformationsrecht, Fachgesetze etc.)?   
-•  Zugangsberechtigung geklärt?   
-•  Zuständige Stelle festgelegt?   
-•  Aktualisierungszyklus der Daten und der Publikation festgelegt?   
+- Gesetzesgrundlage gegeben (Geoinformationsrecht, Fachgesetze etc.)?   
+- Zugangsberechtigung geklärt?   
+- Zuständige Stelle festgelegt?   
+- Aktualisierungszyklus der Daten und der Publikation festgelegt?   
    
 73 Die GM03/ISO19139-Klasse „AggregateInformation“ (in geocat implementiert), könnte die Beziehungen zwischen Geodaten – und somit   
 auch Zeitständen – besser abbilden, muss dafür aber auch im Model  von opendata.swiss enthalten sein; der Aufwand, um „AggregateInfor-  
@@ -1395,18 +1292,18 @@ mation“ nutzen zu können, sol te geprüft werden. 
    
 27    
    
-•  Datenschutzrecht geprüft?   
-•  Urheberrechtsfrage geprüft?   
-•  Kosten-/Gebührenfrage geklärt?   
-•  Kommerziel e Nutzung zulässig?   
-•  Pflicht zur Quel enangabe gegeben?   
+- Datenschutzrecht geprüft?   
+- Urheberrechtsfrage geprüft?   
+- Kosten-/Gebührenfrage geklärt?   
+- Kommerziel e Nutzung zulässig?   
+- Pflicht zur Quel enangabe gegeben?   
    
 In der Durchführung:   
-•  Organisationseinheit und Datensatz in geocat.ch erfasst (oder einem sonstigen Geometada-  
+- Organisationseinheit und Datensatz in geocat.ch erfasst (oder einem sonstigen Geometada-  
 tenkatalog, der von opendata.swiss harvested ist, eventuell via geocat.ch)?   
-•  Metadaten für OGD-Publikation ergänzt?   
-•  CSW-Endpoint bei geocat.ch angefragt?   
-•  Harvesting des CSW-Endpoint bei opendata.swiss angefragt?   
+- Metadaten für OGD-Publikation ergänzt?   
+- CSW-Endpoint bei geocat.ch angefragt?   
+- Harvesting des CSW-Endpoint bei opendata.swiss angefragt?   
 **6.5 **  
 **Wird ein OGD-Gesetz benötigt? **  
 Die Interviews brachten dazu kein einheitliches Bild und zeigten eine sehr breite Streuung der Antwor-  
@@ -1421,18 +1318,18 @@ mehrheitlich als zu schwach angesehen, um: 
 2.  andererseits daraus resultierende Einnahmenverluste politisch zu rechtfertigen.   
    
 Argumente pro OGD-Gesetz:   
-•  Es braucht eine verbindliche Rechtsgrundlage für OGD-Publikation (Legalitätsprinzip).   
-•  Die OGD-Strategie Bund reicht dafür nicht aus. Sie ist nicht bindend und verpflichtet nieman-  
+- Es braucht eine verbindliche Rechtsgrundlage für OGD-Publikation (Legalitätsprinzip).   
+- Die OGD-Strategie Bund reicht dafür nicht aus. Sie ist nicht bindend und verpflichtet nieman-  
 den mitzumachen.   
-•  Einnahmenverluste und Ressourcen, die durch ein OGD-Gesetz bedingt sind, müssten auf der   
+- Einnahmenverluste und Ressourcen, die durch ein OGD-Gesetz bedingt sind, müssten auf der   
 politischen Ebene nicht wiederholt verteidigt oder gerechtfertigt werden.   
-•  Digitalisierung passiert und darf nicht verpasst werden.   
-•  Fachgesetze könnten und sol ten einfliessen (z.B. GeoIG).   
-•  Hoffnung auf schweizweit koordinierte Nutzungsbedingungen   
+- Digitalisierung passiert und darf nicht verpasst werden.   
+- Fachgesetze könnten und sol ten einfliessen (z.B. GeoIG).   
+- Hoffnung auf schweizweit koordinierte Nutzungsbedingungen   
    
 Argumente contra OGD-Gesetz:   
-•  Befürchtung von Widersprüchen zu Geoinformationsrecht   
-•  Nicht als notwendig angesehen (speziel  bei jenen Verantwortlichen, deren politische Führung   
+- Befürchtung von Widersprüchen zu Geoinformationsrecht   
+- Nicht als notwendig angesehen (speziel  bei jenen Verantwortlichen, deren politische Führung   
 ohnehin stark hinter OGD steht)   
    
    
@@ -1445,9 +1342,9 @@ ohnehin stark hinter OGD steht) 
 28    
    
 Geodaten ausserhalb der Fachgesetzgebung könnten gemäss (Wiedmer & Seiberth, 2015) auf Basis   
-der folgenden Gesetzesgrundlagen publiziert werden[75](OGD-Leitfaden-V1.07des.html#29):   
-•  Informationsauftrag aus der Bundesverfassung[76](OGD-Leitfaden-V1.07des.html#29)   
-•  Regierungs- und Verwaltungsorganisationsgesetz[77 ](OGD-Leitfaden-V1.07des.html#29)Art.10 bzw. Art.40   
+der folgenden Gesetzesgrundlagen publiziert werden[75](#9):   
+- Informationsauftrag aus der Bundesverfassung[76](#9)   
+- Regierungs- und Verwaltungsorganisationsgesetz[77 ](#9)Art.10 bzw. Art.40   
 **6.6 **  
 **Wie steht es um die Beglaubigung? **  
 Eine Zertifizierung von amtlicher Stelle wie z.B. ein Katasterauszug für ein Baugesuch wurde von allen   
@@ -1458,29 +1355,30 @@ offenbar keine Relevanz für OGD und findet ausserhalb statt. 
 **Erfahrungswerte / Best Practices **  
 In den Interviews sowie bei der Umfrage von CadastreSuisse zeigten sich generell für die OGD-Publika-  
 tion von Geodaten:   
-•  Frage der Rolle des Staates muss geklärt sein: Stellt die Verwaltung die Daten als Basis für die   
+- Frage der Rolle des Staates muss geklärt sein: Stellt die Verwaltung die Daten als Basis für die   
 Privatwirtschaft bereit oder will sie selbst Mehrwertdienste anbieten?   
-•  Ist man von Seiten der Verwaltung bereit „loszulassen“ – also die Kontrol e über die „eigenen“   
+- Ist man von Seiten der Verwaltung bereit „loszulassen“ – also die Kontrol e über die „eigenen“   
 Daten zu verlieren?   
-•  Die Wichtigkeit von aktiver Ansprache der betroffenen Ämter sowie der Koordination   
-•  Dienste sind eine Möglichkeit, rasch amtliche Geodaten auf opendata.swiss zu publizieren. Die   
+- Die Wichtigkeit von aktiver Ansprache der betroffenen Ämter sowie der Koordination   
+- Dienste sind eine Möglichkeit, rasch amtliche Geodaten auf opendata.swiss zu publizieren. Die   
 Bereitstellung als Dienste kommt bei den Nutzern allerdings weniger an.   
-•  Eigenes Portal hat zwar Vorteile durch Autonomie, aber einen beträchtlichen Aufwand.   
-•  Der Wert der Kommunikation von Success Stories zur Motivation   
-•  Gewisser Einfluss der Nachbarkantone auf politische Handlungsbereitschaft   
-•  Insgesamt weniger Aufwand bei Administration, etwas mehr Aufwand bei technischen Aufga-  
+- Eigenes Portal hat zwar Vorteile durch Autonomie, aber einen beträchtlichen Aufwand.   
+- Der Wert der Kommunikation von Success Stories zur Motivation   
+- Gewisser Einfluss der Nachbarkantone auf politische Handlungsbereitschaft   
+- Insgesamt weniger Aufwand bei Administration, etwas mehr Aufwand bei technischen Aufga-  
 ben und Dokumentation   
-•  Geometer fürchten um wegfal ende Aufgaben und könnten skeptisch sein.   
-•  Speziel  wenn es grössere, zahlungskräftige Kunden gibt (v.a. staatsnahe Firmen) ist die Sorge   
+- Geometer fürchten um wegfal ende Aufgaben und könnten skeptisch sein.   
+- Speziel  wenn es grössere, zahlungskräftige Kunden gibt (v.a. staatsnahe Firmen) ist die Sorge   
 vor Einnahmenverlust besonders gross.   
    
-Die Open Knowledge Foundation gibt einige generelle Ratschläge und Erfahrungswerte[78](OGD-Leitfaden-V1.07des.html#29):    
-•  Klein anfangen, schrittweise vorgehen und aus ersten Erfahrungen lernen   
-•  User Community einbinden: Datenproduzenten und -konsumenten früh einbeziehen   
-•  Offene Fragen und Ängste frühzeitig ansehen und angehen (z.B. Kosten)   
-•  Gut überlegen, welche Nutzungsbedingung die richtige und akzeptierte ist.   
-•  Die richtige Seite zur Publikation festlegen: die eigene, ein OGD-Portal etc.   
-•  Einfach Daten zum Download oder bessere, aufwändigere Lösungen?   
+Die Open Knowledge Foundation gibt einige generelle Ratschläge und Erfahrungswerte[78](#9): 
+   
+- Klein anfangen, schrittweise vorgehen und aus ersten Erfahrungen lernen   
+- User Community einbinden: Datenproduzenten und -konsumenten früh einbeziehen   
+- Offene Fragen und Ängste frühzeitig ansehen und angehen (z.B. Kosten)   
+- Gut überlegen, welche Nutzungsbedingung die richtige und akzeptierte ist.   
+- Die richtige Seite zur Publikation festlegen: die eigene, ein OGD-Portal etc.   
+- Einfach Daten zum Download oder bessere, aufwändigere Lösungen?   
    
 75 Öffentlichkeitsgesetz und Öffentlichkeitsverordnung sind nach Meinung der Autorinnen nur bedingt geeignet als Rechtsgrundlage.   
 76 Art. 180 Abs. 2 BV: „\[Der Bundesrat\] informiert die Öffentlichkeit rechtzeitig und umfassend über seine Tätigkeit, soweit nicht überwiegende   
@@ -1489,56 +1387,43 @@ Die Open Knowledge Foundation gibt einige generelle Ratschläge und Erf
 mentsvorsteher oder die Departementsvorsteherin trifft in Absprache mit der Bundeskanzlei die geeigneten Vorkehren für die Information   
 über die Tätigkeit des Departements und bestimmt, wer für die Information verantwortlich ist.   
 78 (Open Knowledge International, o. J.)   
-   
-
-* * *
-
-   
-29    
-   
-•  Keinen Einzelveröffentlichungsanspruch erheben – Daten verbreiten lassen   
-•  Einen gleichberechtigten Zugang sicherstellen: keine exklusiven Zugangsrechte    
+ 
+- Keinen Einzelveröffentlichungsanspruch erheben – Daten verbreiten lassen   
+- Einen gleichberechtigten Zugang sicherstellen: keine exklusiven Zugangsrechte    
    
 (Neuroni, Riedl, & Brugger, 2013) am Beispiel der Stadt Zürich (S.1917):   
-•  Die organisatorische Reife muss gegeben sein sowohl in der Verwaltung insgesamt als auch in   
+- Die organisatorische Reife muss gegeben sein sowohl in der Verwaltung insgesamt als auch in   
 den Fachbereichen.   
-•  Breite Einbindung verlangsamt zwar den Prozess, erhöht aber die Wahrscheinlichkeit für er-  
+- Breite Einbindung verlangsamt zwar den Prozess, erhöht aber die Wahrscheinlichkeit für er-  
 folgreiche Durchführung und Abschluss.   
-•  Aktives Risiko-Management ist wichtig: Risiken frühzeitig identifizieren und konkrete Mass-  
+- Aktives Risiko-Management ist wichtig: Risiken frühzeitig identifizieren und konkrete Mass-  
 nahmen umsetzen, um diese zu minimieren   
-•  Aktive Kommunikation über das Vorhaben, Ziele, Mehrwert und Herausforderungen   
-•  Gemeinsame Standards erhöhen die Akzeptanz insgesamt.   
-•  Ein klares politisches Commitment (Leitbild), denn neben internen Barrieren wurde v.a. Wider-  
+- Aktive Kommunikation über das Vorhaben, Ziele, Mehrwert und Herausforderungen   
+- Gemeinsame Standards erhöhen die Akzeptanz insgesamt.   
+- Ein klares politisches Commitment (Leitbild), denn neben internen Barrieren wurde v.a. Wider-  
 stand durch politische Parteien als Hindernisse festgestellt.   
    
 (Durrer, 2017) für eine korrekte Datenverarbeitung:   
-•  Bei regelmässig wiederkehrenden Datenbeschaffungen muss ein Automatismus möglich sein.   
-•  Daten sol en über ein API oder andere einfache Mechanismen angeboten werden.   
-•  Die Links sollten stabil sein (und daher in der Konzeption gut überlegt sein).   
-•  Ausser den Werten und dem Header (Spaltennamen) sollten keine Informationen in der Datei   
+- Bei regelmässig wiederkehrenden Datenbeschaffungen muss ein Automatismus möglich sein.   
+- Daten sol en über ein API oder andere einfache Mechanismen angeboten werden.   
+- Die Links sollten stabil sein (und daher in der Konzeption gut überlegt sein).   
+- Ausser den Werten und dem Header (Spaltennamen) sollten keine Informationen in der Datei   
 integriert sein, da sie sonst nicht ohne weiteres maschinenlesbar sind.   
-•  Dateiformats-Definitionen, wie z.B. verwendete Zeichensätze (UTF-8), sind wichtige Informati-  
+- Dateiformats-Definitionen, wie z.B. verwendete Zeichensätze (UTF-8), sind wichtige Informati-  
 onen, damit auch Sonderzeichen korrekt eingelesen werden können.   
-•  Fehlende Werte müssen klar dokumentiert sein. „n.a.“ oder ähnliches könnten ein Problem   
+- Fehlende Werte müssen klar dokumentiert sein. „n.a.“ oder ähnliches könnten ein Problem   
 sein bei nummerischen Spaltenformaten. „-1“ ginge, wenn sicher ist, dass es keine negativen   
 Werte gibt.   
-•  Für eine dauerhafte Nutzbarkeit der Daten ist wichtig, dass sich weder das Format noch die   
+- Für eine dauerhafte Nutzbarkeit der Daten ist wichtig, dass sich weder das Format noch die   
 Struktur ändert.   
    
+# 7. Übersicht über die OGD-Portale 
 
-   
-
-* * *
-
-   
-30    
-   
-**7. Übersicht über die OGD-Portale **  
 Öffentlich zugängliche Informationen von Ämtern gibt es viele – man denke nur an die Geoportale.   
-OGD stellt allerdings höhere Anforderungen (siehe Kap.[ 2.2)](OGD-Leitfaden-V1.07des.html#9).    
+OGD stellt allerdings höhere Anforderungen (siehe Kap.[ 2.2)](#9).    
    
 Unter den OGD-Portalen ist opendata.swiss, das Gemeinschaftsprojekt von Bund und Kantonen, die   
-grösste Publikationsplattform: Aktuell[79](OGD-Leitfaden-V1.07des.html#31) gibt es über 2000 Datensätze von 35 Organisationen. Darüber   
+grösste Publikationsplattform: Aktuell[79](#9) gibt es über 2000 Datensätze von 35 Organisationen. Darüber   
 hinaus zeigen 30 Anwendungen, was mit den Daten gemacht werden kann.   
    
 Daneben gibt es das OGD-Portal der Stadt Zürich[ (https://data.stadt-zuerich.ch),](https://data.stadt-zuerich.ch/) das einige Jahre vor   
@@ -1548,7 +1433,9 @@ naler Ebene, wie z.B. lustat.ch (Statistik LU) oder im Kanton BS. 
    
 International gibt es darüber hinaus diverse übernationale, nationale und sonstige Portale – wichtig ist   
 dabei die zunehmende Vernetzung über LOD.   
-**8. Übersicht über den Einsatz von LOD **  
+
+# 8. Übersicht über den Einsatz von LOD
+
 LOD besteht aus verknüpften RDF (Subjekt-Prädikat-Objekt). So „lernt“ das Web aus ‚Bern-ist_in-  
 Liste\_der\_Hauptstädte’ und ,Bern-ist_in-Schweiz’, dass Bern die Schweizer Hauptstadt ist. Integriert   
 man die Regel, dass jedes Land nur eine Hauptstadt hat, „lernt“ das Web, dass die anderen Schweizer   
@@ -1557,40 +1444,38 @@ Städte nicht die Hauptstadt sein können. 
 Das Bundesportal bietet einen Linked Data Endpoint[ (www.geo.admin.ch/linkeddata)](http://www.geo.admin.ch/linkeddata). Dieser ermög-  
 licht mit SPARQL Abfragen, stellt aber Anforderungen an die bereitgestellten Daten. Obwohl erst seit   
 März 2017 in Betrieb, wurden einen Monat später bereits 1500 pageviews/day registriert – Interesse   
-an einer hochgradigen Vernetzung besteht demnach[80.](OGD-Leitfaden-V1.07des.html#31)   
+an einer hochgradigen Vernetzung besteht demnach[80.](#9)   
    
 Das Bundesarchiv arbeitet an einer „LOD-Version“ von opendata.swiss im Projekt LINDAS. Interes-  
 sierte können sich auf lindas-data.ch ein erstes Bild dieses Pilotportals machen.   
    
 (Von Lucke & Geiger, 2010) bringen als Beispiele für LOD:   
-•  DBpedia, Wikipedia in RDF-Version   
-•  GeoNames, welches über 11 Mio. Ortsnamen erfasst hat   
-•  EuroStat, welche die EU-Statistikdaten laufend aktualisiert und ergänzt sowie diese über einen   
+- DBpedia, Wikipedia in RDF-Version   
+- GeoNames, welches über 11 Mio. Ortsnamen erfasst hat   
+- EuroStat, welche die EU-Statistikdaten laufend aktualisiert und ergänzt sowie diese über einen   
 SPARQL Endpoint zur Verfügung stellt   
-•  Linked GeoData: Open Street Daten als RDF publiziert, welche ebenfal s über einen SPARQL   
+- Linked GeoData: Open Street Daten als RDF publiziert, welche ebenfal s über einen SPARQL   
 Endpoint zu nutzen sind.   
    
 Weitere LOD-Angebote zeigen die wachsende Bedeutung dieser Technologie zum Aufbau des Seman-  
 tic Web:   
-•  Neben der europäischen Statistikbehörde Eurostat bietet auch das EU-Datenportal LOD und   
+
+- Neben der europäischen Statistikbehörde Eurostat bietet auch das EU-Datenportal LOD und   
 einen SPARQL Endpoint[ (https://data.europa.eu/euodp/en/linked-data) ](https://data.europa.eu/euodp/en/linked-data))  
-•  Die deutsche Nationalbibliothek erstellt einen Linked Data Service, um ihr gesamtes bibliogra-  
+- Die deutsche Nationalbibliothek erstellt einen Linked Data Service, um ihr gesamtes bibliogra-  
 fisches Wissen im Semantic Web einzubringen.   
-•  In Österreich wird das öffentliche LOD Portal ausgebaut[ (https://www.data.gv.at/linked-](https://www.data.gv.at/linked-data/))  
+- In Österreich wird das öffentliche LOD Portal ausgebaut[ (https://www.data.gv.at/linked-](https://www.data.gv.at/linked-data/))  
 [data/). ](https://www.data.gv.at/linked-data/))Auch dieses basiert auf RDF und stel t einen SPARQL Endpoint zur Verfügung.   
-•  In Italien treibt eine Non-Profit-Organisation den Aufbau eines LOD-Portals voran   
+- In Italien treibt eine Non-Profit-Organisation den Aufbau eines LOD-Portals voran   
 [(http://www.linkedopendata.it/en-home),](http://www.linkedopendata.it/en-home)) zum Teil auch mit regionalen Geoportalen.     
    
 79 Stand 4. Mai 2017   
+
 80 2018 sol en z.B. auch beim Kanton BS Linked Open Data Business Cases produktiv verfügbar sein (Rol i, 2017)   
    
+<a name="9"></a>
+# 9. Bibliografie
 
-* * *
-
-   
-31    
-   
-**9. Bibliografie, weiterführende Links **  
 **Bürgi-Schmelz, A. (2013)**. _Wirtschaftliche Auswirkungen von Open Government Data_. Bern: Schweize-  
 risches Bundesarchiv.   
 **Bürgi-Schmelz, A. (2014).** OGD Schweiz Abgrenzung zwischen OGD und kundenspezifischen, individu-  
@@ -1635,47 +1520,3 @@ _Sektors_ (Gutachten für die Deutsche Telekom AG zur T-City Friedrichs
 University.   
 **Wiedmer, A., & Seiberth, C. (2015).** OGD Schweiz Konzept: Rechtliche Rahmenbedingungen zur Publi-  
 kation von Daten als Open Government Data (OGD).   
-   
-   
-
-* * *
-
-Document Outline
-================
-
-*   [1\. Einleitung und Zweck](OGD-Leitfaden-V1.07des.html#7)
-    *   [1.1 Ausgangslage](OGD-Leitfaden-V1.07des.html#7)
-    *   [1.2 Zielsetzung und Adressaten](OGD-Leitfaden-V1.07des.html#7)
-    *   [1.3 Inhalt und Struktur](OGD-Leitfaden-V1.07des.html#8)
-    *   [1.4 Document Life Cycle Management](OGD-Leitfaden-V1.07des.html#8)
-*   [2\. Begriffsbestimmungen Open Data](OGD-Leitfaden-V1.07des.html#9)
-    *   [2.1 Open Data](OGD-Leitfaden-V1.07des.html#9)
-    *   [2.2 Open Government Data (OGD)](OGD-Leitfaden-V1.07des.html#9)
-    *   [2.3 Linked Open Data](OGD-Leitfaden-V1.07des.html#10)
-    *   [2.4 Konsequenzen und Fazit](OGD-Leitfaden-V1.07des.html#10)
-*   [3\. Begriffsbestimmungen aus dem Geoinformationsrecht (GeoIG, GeoIV)](OGD-Leitfaden-V1.07des.html#11)
-*   [4\. Konkordanz zwischen OGD und Geoinformationsrecht, Anwendbarkeit von OGD bei Geodaten](OGD-Leitfaden-V1.07des.html#13)
-    *   [4.1 Rechtliche Voraussetzungen](OGD-Leitfaden-V1.07des.html#15)
-        *   [4.1.1 Nutzungsbedingungen](OGD-Leitfaden-V1.07des.html#15)
-        *   [4.1.2 Haftung](OGD-Leitfaden-V1.07des.html#15)
-        *   [4.1.3 Datenschutz](OGD-Leitfaden-V1.07des.html#16)
-        *   [4.1.4 Kosten / Tarifgestaltung](OGD-Leitfaden-V1.07des.html#17)
-        *   [4.1.5 Urheberrecht](OGD-Leitfaden-V1.07des.html#18)
-    *   [4.2 Technische Voraussetzungen](OGD-Leitfaden-V1.07des.html#19)
-        *   [4.2.1 Maschinenlesbarkeit](OGD-Leitfaden-V1.07des.html#19)
-        *   [4.2.2 Formate und Zugriffsprotokolle](OGD-Leitfaden-V1.07des.html#19)
-    *   [4.3 BigData – und die Konsequenzen](OGD-Leitfaden-V1.07des.html#20)
-*   [5\. Chancen und Risiken von OGD](OGD-Leitfaden-V1.07des.html#21)
-    *   [5.1 Chancen und Möglichkeiten](OGD-Leitfaden-V1.07des.html#21)
-    *   [5.2 Risiken](OGD-Leitfaden-V1.07des.html#22)
-*   [6\. Die praktische Einführung von OGD](OGD-Leitfaden-V1.07des.html#23)
-    *   [6.1 Auswahl der Geodaten für OGD](OGD-Leitfaden-V1.07des.html#26)
-    *   [6.2 Handhabung von "älteren Daten", Umgang mit Nachführung und Zeitständen](OGD-Leitfaden-V1.07des.html#27)
-    *   [6.3 Sternesystem betreffend Qualitätslabel von OGD](OGD-Leitfaden-V1.07des.html#27)
-    *   [6.4 Was muss erfüllt sein damit OGD eingeführt werden kann](OGD-Leitfaden-V1.07des.html#27)
-    *   [6.5 Wird ein OGD-Gesetz benötigt?](OGD-Leitfaden-V1.07des.html#28)
-    *   [6.6 Wie steht es um die Beglaubigung?](OGD-Leitfaden-V1.07des.html#29)
-    *   [6.7 Erfahrungswerte / Best Practices](OGD-Leitfaden-V1.07des.html#29)
-*   [7\. Übersicht über die OGD-Portale](OGD-Leitfaden-V1.07des.html#31)
-*   [8\. Übersicht über den Einsatz von LOD](OGD-Leitfaden-V1.07des.html#31)
-*   [9\. Bibliografie, weiterführende Links](OGD-Leitfaden-V1.07des.html#32)
