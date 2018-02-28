@@ -1,6 +1,6 @@
 ---
 Title: Nutzung des APIs (Schnittstelle)
-Category: Support
+Category: Publish
 Handbook: yes
 Tags:
 Date: 2016-01-01

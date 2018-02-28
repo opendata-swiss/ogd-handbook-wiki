@@ -1,6 +1,6 @@
 ---
 Title: Usage of the API
-Category: Support
+Category: Publish
 Handbook: yes
 Tags:
 Date: 2016-01-01

@@ -1,6 +1,6 @@
 ---
 Title: Harvester
-Category: Support
+Category: Prepare
 Handbook: yes
 Tags:
 Date: 2016-08-03
