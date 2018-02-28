@@ -9,8 +9,7 @@ Authors: Manfred Loidold, Thomas Strösslin 
 Summary: Conférence suisse sur l’informatique – Groupe de travail sur les systèmes d’information géographique (CSI-SIG)   
 Lang: fr
 toc_run: false
-Link_DOC_hidden: https://bar-files.opendata.swiss/owncloud/index.php/s/JLpvuvqQWGTtN3C
-Link_PDF: https://bar-files.opendata.swiss/owncloud/index.php/s/ZOY5XzyB0OO2rMf
+Link_PDF: https://bar-files.opendata.swiss/owncloud/index.php/s/AGDBOI45EJGwxEU
 ---
    
 Les données des institutions publiques sont de plus en plus souvent rendues accessibles sous la forme d’Open Go-  

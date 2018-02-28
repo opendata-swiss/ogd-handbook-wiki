@@ -9,8 +9,7 @@ Authors: Manfred Loidold, Thomas Strösslin 
 Summary: Arbeitsgruppe Geografische Informationssysteme der Schweizerischen Informatikkonferenz (SIK-GIS)
 Lang: de
 toc_run: false
-Link_DOC_hidden: https://bar-files.opendata.swiss/owncloud/index.php/s/JLpvuvqQWGTtN3C
-Link_PDF: https://bar-files.opendata.swiss/owncloud/index.php/s/ZOY5XzyB0OO2rMf
+Link_PDF: https://bar-files.opendata.swiss/owncloud/index.php/s/pjli4sXmFshYyLd
 ---
 
 Vermehrt werden Daten öffentlicher Institutionen als Open Government Data (OGD) zugänglich ge-  
