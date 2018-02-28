@@ -13,4 +13,4 @@ Hidden: no
 Untranslated: yes
 ---
 
-Diese Seite ist in [englischer Sprache verfügbar](/en/support/api).
+Diese Seite ist in [englischer Sprache verfügbar](/en/publish/api).

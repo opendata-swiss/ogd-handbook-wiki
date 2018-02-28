@@ -17,7 +17,7 @@ When you publish your data on opendata.swiss, you can choose between four techni
 |-----------------------------------------|------------------------|
 | small number of datasets, rarely updated | [Option 1 – Enter metadata manually using a web form](/de/library/opendataswiss-userguide#metadaten-via-formular-xml-import-verwalten_1) (German) |
 | more than 10 datasets, updated regularly | [Option 2 – Upload metadata manually using an XML file](/de/library/opendataswiss-userguide#metadaten-via-formular-xml-import-verwalten_1) (German), see also [DCAT-AP for Switzerland format](/en/library/ch-dcat-ap) |
-| large number of datasets, updated frequently | [Option 3 – Upload metadata automatically using a harvester](/en/support/harvester) |
+| large number of datasets, updated frequently | [Option 3 – Upload metadata automatically using a harvester](/en/prepare/harvester) |
 | spatial data already published or soon to be published on [geo.admin.ch / Federal Spatial Data Infrastructure](http://www.geo.admin.ch/internet/geoportal/en/home/geoadmin/mission/bgdi.html) | [Option 4 – Publish metadata via geocat](/en/publish/swiss.html#publication-via-geoadminch_1) |
 
 The data publication process will depend on the option chosen. Please discuss your choice with the Federal Archives, who will be happy to [advise you](mailto:opendata@bar.admin.ch) on selecting the right option.

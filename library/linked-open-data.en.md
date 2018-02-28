@@ -12,7 +12,7 @@ toc_run: true
 Draft: yes
 ---
 
-Today we are surrounded by vast quantities of data playing an increasingly central role in our lives, and driving the emergence of a data economy<sup>[[^1]](#footnote-1)</sup>. At greater quantities, we are faced with limitations in traditional methods of organizing data. To publish machine-friendly data - i.e. in structured form, not as text documents in natural language - the usual approach is to generate raw data in standardized files (e.g. spreadsheets as CSV and other [data formats](/en/library/empfehlungen-formate)), or to provide access to this data through programming interfaces ([APIs](/support/api)).
+Today we are surrounded by vast quantities of data playing an increasingly central role in our lives, and driving the emergence of a data economy<sup>[[^1]](#footnote-1)</sup>. At greater quantities, we are faced with limitations in traditional methods of organizing data. To publish machine-friendly data - i.e. in structured form, not as text documents in natural language - the usual approach is to generate raw data in standardized files (e.g. spreadsheets as CSV and other [data formats](/en/library/empfehlungen-formate)), or to provide access to this data through programming interfaces ([APIs](/publish/api)).
 
 While these go a long way to help make data available and accessible for knowledge sharing, there is space for improvement in facilitating data reuse, such as:
 

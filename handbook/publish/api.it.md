@@ -13,4 +13,4 @@ Hidden: no
 Untranslated: yes
 ---
 
-Questo articolo è [disponibile in inglese](/en/support/api).
+Questo articolo è [disponibile in inglese](/en/publish/api).

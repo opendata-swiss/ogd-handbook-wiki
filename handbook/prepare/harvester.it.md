@@ -11,4 +11,4 @@ Untranslated: yes
 Summary:
 ---
 
-Questo articolo è [disponibile in tedesco](/de/support/harvester).
+Questo articolo è [disponibile in tedesco](/de/prepare/harvester).
