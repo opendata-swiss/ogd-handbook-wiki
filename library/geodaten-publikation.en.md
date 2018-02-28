@@ -2,7 +2,7 @@
 Title: Publication of Geodata
 Category: Library
 Template: document
-Tags:
+Tags: publish
 Date: 2016-06-24
 Slug: geodaten-publikation
 Authors:

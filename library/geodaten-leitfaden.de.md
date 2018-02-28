@@ -2,7 +2,7 @@
 Title: Leitfaden: Open Government Data für Geodaten
 Category: Library
 Template: document
-Tags:
+Tags: publish
 Date: 2017-06-22
 Slug: geodaten-leitfaden
 Authors: Manfred Loidold, Thomas Strösslin 
