@@ -9,7 +9,6 @@ Authors:
 Summary: Eine Untersuchung der Nutzerlandschaft von Open Government Data und darüber, wie sie am besten unterstützt werden.
 Lang: de
 Draft: yes
-Hidden: yes
 Untranslated: yes
 ---
 
