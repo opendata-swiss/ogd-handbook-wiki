@@ -6,12 +6,13 @@ Tags:
 Date: 2016-01-02
 Slug: hosting
 Authors:
-Summary: In order for you to import data to the opendata.swiss catalogue, the data must be freely accessible somewhere. Only the metadata and a link to the data are published on opendata.swiss. Responsibility for actual data hosting lies with the data supplier.
+Summary: In order for you to import data to the opendata.swiss catalogue, the data must be freely accessible somewhere. Only the metadata and a link to the data are published on opendata.swiss. Responsibility for actual data hosting lies with the data supplier. Data hosting is now relatively cheap and simple to manage, even if you do not yet have a solution in place within your organization.
 Lang: en
 Draft: yes
 ---
 
-Data hosting is now relatively cheap and simple to manage, even if you do not yet have a solution in place within your organization. However, there are some issues you should consider before publication:
+
+Some issues you should consider before publication:
 
 **<checkbox> Cloud vs. data center?**
 

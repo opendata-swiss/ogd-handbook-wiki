@@ -6,12 +6,10 @@ Tags:
 Date: 2016-06-24
 Slug: inventory
 Authors:
-Summary: Depending on the size of your organization, compiling an inventory of your data is a recommended tool for publishing OGD but not a requirement.
+Summary: Depending on the size of your organization, compiling an inventory of your data is a recommended tool for publishing OGD but not a requirement. A data inventory gives you an overview of the available data and makes it easier to identify those that are suitable for OGD. However, there is no reason not to publish individual datasets on opendata.swiss.
 Lang: en
 Draft: yes
 ---
-
-A data inventory gives you an overview of the available data and makes it easier to identify those that are suitable for OGD. However, there is no reason not to publish individual datasets on opendata.swiss.
 
 #### Situation at the federal level
 

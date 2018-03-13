@@ -6,7 +6,7 @@ Tags:
 Date: 2016-01-01
 Slug: api
 Authors:
-Summary: A description of the CKAN API
+Summary: A description of the CKAN API, which supports developers who want to write code that interacts with opendata.swiss and the metadata published here.
 Lang: en
 Draft: no
 Hidden: no
