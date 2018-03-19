@@ -9,13 +9,11 @@ Authors:
 Lang: en
 Draft: yes
 toc_run: true
-Summary: Once you have decided a publication route, you can start publishing open data. This is done in most cases directly on opendata.swiss. If you wish to publish geographic data, this happens via geo.admin.ch.
+Summary: Once you have decided a publication route, you can start publishing open data. This is done in most cases directly on opendata.swiss. If you wish to publish geographic data, this happens via geo.admin.ch. Once you have selected your publication option, you need to upload the metadata to opendata.swiss.
 ---
 
 <a name="opendataswiss"></a>
 # Uploading metadata to opendata.swiss
-
-Once you have selected your publication option, you need to upload the metadata to opendata.swiss.
 
 This involves three steps:
 

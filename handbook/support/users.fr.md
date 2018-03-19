@@ -10,7 +10,6 @@ Summary: Exploration du paysage des utilisateurs des donnés ouvertes du gouvern
 Lang: fr
 Draft: yes
 Untranslated: yes
-Hidden: yes
 ---
 
 Cet article est [disponible en anglais](/en/support/users).

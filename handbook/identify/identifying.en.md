@@ -6,12 +6,11 @@ Tags:
 Date: 2016-06-25
 Slug: identifying
 Authors:
-Summary: In order to publish OGD, you need to know what data your organization holds. Ideally, you will have an inventory of all datasets in your organization. However, this is not absolutely necessary.
+Summary: In order to publish OGD, you need to know what data your organization holds. Ideally, you will have an inventory of all datasets in your organization. However, this is not absolutely necessary. Start by identifying just the datasets that are most often requested and may already have been published. If you wish to compile a complete inventory of your data collections afterwards, you can find further information here.
 Lang: en
 Draft: yes
 ---
 
-Start by identifying just the datasets that are most often requested and may already have been published. If you wish to compile a complete inventory of your data collections afterwards, you can find further [information here](/en/identify/inventory).
 
 #### Identifying OGD: list of questions
 

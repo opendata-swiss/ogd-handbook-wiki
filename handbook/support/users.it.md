@@ -10,7 +10,6 @@ Summary: Un'esplorazione del panorama degli utenti degli Open Government Data, e
 Lang: it
 Draft: yes
 Untranslated: yes
-Hidden: yes
 ---
 
 Questo articolo è [disponibile in inglese](/en/support/users).
