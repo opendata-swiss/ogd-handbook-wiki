@@ -1,5 +1,5 @@
 ---
-Title: "Guide: Open Government Data pour géodonnées"
+Title: Guide - Open Government Data pour géodonnées
 Category: Library
 Template: document
 Tags: publish
