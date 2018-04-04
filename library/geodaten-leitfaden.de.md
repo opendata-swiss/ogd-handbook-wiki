@@ -1,5 +1,5 @@
 ---
-Title: Leitfaden: Open Government Data für Geodaten
+Title: "Leitfaden: Open Government Data für Geodaten"
 Category: Library
 Template: document
 Tags: publish
