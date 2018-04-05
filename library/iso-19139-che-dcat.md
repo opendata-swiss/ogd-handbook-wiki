@@ -149,8 +149,7 @@ Example:
 
 
 Example:
-```xml
-<gmd:pointOfContact xlink:show="embed">
+```xml<gmd:pointOfContact xlink:show="embed">
 <che:CHE_CI_ResponsibleParty xmlns:geonet="http://www.fao.org/geonetwork" gco:isoType="gmd:CI_ResponsibleParty">
 <gmd:organisationName xsi:type="gmd:PT_FreeText_PropertyType">...</gmd:organisationName>
 <gmd:positionName xsi:type="gmd:PT_FreeText_PropertyType">...</gmd:positionName>
@@ -176,7 +175,8 @@ Example:
 |             |             |
 |-------------|-------------|
 |Display name on opendata.swiss| Contact points |
-|ISO-19139_che XPath|The first one in the following order:<ul><li>//gmd:identificationInfo//gmd:pointOfContact[.//gmd:CI_RoleCode/@codeListValue = "publisher"]//gmd:address//gmd:electronicMailAddress/gco:CharacterString</li><li>//gmd:identificationInfo//gmd:pointOfContact[.//gmd:CI_RoleCode/@codeListValue = "owner"]//gmd:address//gmd:electronicMailAddress/gco:CharacterString</li><li>//gmd:identificationInfo//gmd:pointOfContact[.//gmd:CI_RoleCode/@codeListValue = "pointOfContact"]//gmd:address//gmd:electronicMailAddress/gco:CharacterString</li><li>//gmd:identificationInfo//gmd:pointOfContact[.//gmd:CI_RoleCode/@codeListValue = "distributor"]//gmd:address//gmd:electronicMailAddress/gco:CharacterString</li><li>//gmd:identificationInfo//gmd:pointOfContact[.//gmd:CI_RoleCode/@codeListValue = "custodian"]//gmd:address//gmd:electronicMailAddress/gco:CharacterString</li><li>//gmd:contact//che:CHE_CI_ResponsibleParty//gmd:address//gmd:electronicMailAddress/gco:CharacterString</li></ul>|
+|ISO-19139_che XPath|The first one in the following order:<ul><li>//gmd:identificationInfo//gmd:pointOfContact[.//gmd:CI_RoleCode/@codeListValue = "pointOfContact"]//gmd:address//gmd:electronicMailAddress/gco:CharacterString</li><li>//gmd:identificationInfo//gmd:pointOfContact[.//gmd:CI_RoleCode/@codeListValue = "owner"]//gmd:address//gmd:electronicMailAddress/gco:CharacterString</li><li>//gmd:identificationInfo//gmd:pointOfContact
+[.//gmd:CI_RoleCode/@codeListValue = "publisher"]//gmd:address//gmd:electronicMailAddress/gco:CharacterString</li><li>//gmd:identificationInfo//gmd:pointOfContact[.//gmd:CI_RoleCode/@codeListValue = "distributor"]//gmd:address//gmd:electronicMailAddress/gco:CharacterString</li><li>//gmd:identificationInfo//gmd:pointOfContact[.//gmd:CI_RoleCode/@codeListValue = "custodian"]//gmd:address//gmd:electronicMailAddress/gco:CharacterString</li><li>//gmd:contact//che:CHE_CI_ResponsibleParty//gmd:address//gmd:electronicMailAddress/gco:CharacterString</li></ul>|
 |Description| |
 
 
@@ -202,8 +202,7 @@ Example:
       <gco:CharacterString>BAFU noise</gco:CharacterString>
     </che:individualLastName>
     <che:organisationAcronym xsi:type="gmd:PT_FreeText_PropertyType">
-      <gco:CharacterString>BAFU</gco:CharacterString>
-      <gmd:PT_FreeText>...</gmd:PT_FreeText>
+      <gco:CharacterString>BAFU</gco:CharacterString>      <gmd:PT_FreeText>...</gmd:PT_FreeText>
     </che:organisationAcronym>
   </che:CHE_CI_ResponsibleParty>
 </gmd:pointOfContact>
@@ -232,7 +231,7 @@ Example:
 |             |             |
 |-------------|-------------|
 |Display name on opendata.swiss| Languages|
-|ISO-19139_che XPath|//gmd:identificationInfo//gmd:language/gco:CharacterString|
+|ISO-19139_che XPath|//gmd:identificationInfo//gmd:language/gmd:LanguageCode|
 |Description| |
 
 TODO: Is this mapping still correct? could not find any CharacterString in gmd:language
@@ -393,8 +392,8 @@ Example:
 
 |             |             |
 |-------------|-------------|
-|Display name on opendata.swiss|- |
-|ISO-19139_che XPath|Currently not implemented|
+|Display name on opendata.swiss|Currently not implemented |
+|ISO-19139_che XPath| -|
 |Description| |
 
 
@@ -403,8 +402,8 @@ Example:
 
 |             |             |
 |-------------|-------------|
-|Display name on opendata.swiss| - |
-|ISO-19139_che XPath|Currently not implemented|
+|Display name on opendata.swiss|Currently not implemented|
+|ISO-19139_che XPath| -|
 |Description| |
 
 
@@ -636,8 +635,8 @@ Example:
 
 |             |             |
 |-------------|-------------|
-|Display name on opendata.swiss| - |
-|ISO-19139_che XPath|Currently not implemented|
+|Display name on opendata.swiss| Currently not implemented |
+|ISO-19139_che XPath| - |
 |Description| |
 
 
@@ -646,8 +645,8 @@ Example:
 
 |             |             |
 |-------------|-------------|
-|Display name on opendata.swiss| - |
-|ISO-19139_che XPath|Currently not implemented|
+|Display name on opendata.swiss| Currently not implemented |
+|ISO-19139_che XPath| - |
 |Description| |
 
 
@@ -684,8 +683,8 @@ Example:
 
 |             |             |
 |-------------|-------------|
-|Display name on opendata.swiss| - |
-|ISO-19139_che XPath|Currently not implemented|
+|Display name on opendata.swiss| Currently not implemented|
+|ISO-19139_che XPath| - |
 |Description| |
 
 
@@ -716,8 +715,8 @@ Example:
 
 |             |             |
 |-------------|-------------|
-|Display name on opendata.swiss| - |
-|ISO-19139_che XPath|Currently not implemented|
+|Display name on opendata.swiss| Currently not implemented |
+|ISO-19139_che XPath| - |
 |Description| |
 
 
@@ -726,8 +725,8 @@ Example:
 
 |             |             |
 |-------------|-------------|
-|Display name on opendata.swiss| - |
-|ISO-19139_che XPath|Currently not implemented|
+|Display name on opendata.swiss| Currently not implemented |
+|ISO-19139_che XPath| - |
 |Description| |
 
 
