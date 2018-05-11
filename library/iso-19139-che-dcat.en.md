@@ -149,7 +149,8 @@ Example:
 
 
 Example:
-```xml<gmd:pointOfContact xlink:show="embed">
+```xml
+<gmd:pointOfContact xlink:show="embed">
 <che:CHE_CI_ResponsibleParty xmlns:geonet="http://www.fao.org/geonetwork" gco:isoType="gmd:CI_ResponsibleParty">
 <gmd:organisationName xsi:type="gmd:PT_FreeText_PropertyType">...</gmd:organisationName>
 <gmd:positionName xsi:type="gmd:PT_FreeText_PropertyType">...</gmd:positionName>
@@ -728,5 +729,3 @@ Example:
 |Display name on opendata.swiss| Currently not implemented |
 |ISO-19139_che XPath| - |
 |Description| |
-
-
