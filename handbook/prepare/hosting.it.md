@@ -1,6 +1,6 @@
 ---
 Title: Hosting di dati
-Category: Publish
+Category: Prepare
 Handbook: yes
 Tags:
 Date: 2016-01-02

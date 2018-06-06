@@ -1,6 +1,6 @@
 ---
 Title: Hébergement des données
-Category: Publish
+Category: Prepare
 Handbook: yes
 Tags:
 Date: 2016-01-02
