@@ -1,19 +1,19 @@
 ---
 Title: Usage of the API
-Category: Publish
-Handbook: yes
+Category: Library
+Template: document
 Tags:
 Date: 2016-01-01
 Slug: api
 Authors:
-Summary: A description of the CKAN API, which supports developers who want to write code that interacts with opendata.swiss and the metadata published here.
+Summary: A description of the CKAN API
 Lang: en
 Draft: no
 Hidden: no
 Untranslated: yes
+toc_run: true
 ---
 
-<a name="introduction"></a>
 # Introduction
 
 The open data portal opendata.swiss is based on the [open source project CKAN](http://ckan.org).
@@ -26,12 +26,10 @@ Please use the [CKAN documentation for detailed information about the API](http:
 
 Important note about metadata: opendata.swiss uses the [metadata standard DCAT-AP Switzerland](/en/library/ch-dcat-ap). Therefore all metadata is returned using this standard. Where possible, a mapping to CKAN standard fields is provided by the API.
 
-<a name="concepts"></a>
 # Concepts
 
 CKAN uses internally a number of concepts, that are important to understand in order to use the API properly.
 
-<a name="entities"></a>
 ## Entities
 
 First of all, the following entities are used:
@@ -41,7 +39,6 @@ First of all, the following entities are used:
 * **Group** (aslo known as categories or themes): a categorization of the datasets. A dataset may have multiple groups
 * **Organization**: is a special kind of group, one dataset has exactly one owning organization
 
-<a name="action-api"></a>
 ## Action API
 
 All API requests use the so called [Action API](http://docs.ckan.org/en/latest/api/#action-api-reference).
@@ -53,15 +50,12 @@ The currently used API version is 3, and a list of actions is [available in the 
 
 Example: https://opendata.swiss/api/3/action/group_list
 
-<a name="authentication"></a>
 ## Authentication
 
 Most GET-able API function do not need authentication (i.e. everybody is allowed to read metadata).
 For all other actions POST requests are used (e.g. create new packages, update groups or delete resources), that require authentication.
 Please [contact us](mailto:opendata@bar.admin.ch) if you have further questions regarding the advanced usage of the API.
 
-
-<a name="examples"></a>
 # Examples
 
 Here are a couple of examples, how to use the API.

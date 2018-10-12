@@ -20,6 +20,8 @@ Prima di iniziare, occorre verificare nella [lista delle domande pendenti](https
 
 ![Starting a pull request](../../images/newpullrequest.png)
 
+<iframe src="/theme/examples/github.html?username=opendata-swiss&repo=ogd-handbook-wiki&limit=5" allowtransparency="true" frameborder="0" width="100%" height="210" style="border:0px;overflow:hidden" scrolling="no"></iframe>
+
 ## Supporto
 
 - Per maggiori informazioni su GitHub consultare la [pagina di aiuto](https://help.github.com/).
