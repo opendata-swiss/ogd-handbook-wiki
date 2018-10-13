@@ -4,7 +4,7 @@ Category: Library
 Template: document
 Tags:
 Date: 2016-01-01
-Slug: ckan-api
+Slug: api
 Authors:
 Summary: Eine Anleitung für das CKAN API
 Lang: de
