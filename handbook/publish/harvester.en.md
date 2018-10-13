@@ -1,6 +1,6 @@
 ---
 Title: Harvester
-Category: Prepare
+Category: Publish
 Handbook: yes
 Tags:
 Date: 2016-08-03
