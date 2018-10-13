@@ -11,4 +11,4 @@ Untranslated: yes
 Summary:
 ---
 
-Cet article est [disponible en allemand](/de/prepare/harvester).
+Cet article est [disponible en allemand](/de/publish/harvester).
