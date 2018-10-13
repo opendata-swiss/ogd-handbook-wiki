@@ -22,10 +22,14 @@ Ist das nicht der Fall, gehen Sie wie folgt vor:
 
 ![Pull Request starten](../../images/newpullrequest.png)
 
-<iframe src="/theme/examples/github.html?username=opendata-swiss&repo=ogd-handbook-wiki&limit=5" allowtransparency="true" frameborder="0" width="100%" height="210" style="border:0px;overflow:hidden" scrolling="no"></iframe>
-
 ## Unterstützung
 
 - Weitere Informationen zu GitHub finden Sie in der [GitHub-Hilfe](https://help.github.com/).
 - Die Programmiersprache Markdown ist [hier erklärt](http://en.support.wordpress.com/markdown-quick-reference/).
 - [Kontaktieren Sie uns](mailto:opendata@bar.admin.ch), wenn Sie weitere Unterstützung benötigen.
+
+## Letzte Updates
+
+Unten sehen Sie eine Live-Feed der Neuerungen und Änderungen aus GitHub:
+
+<iframe src="/theme/examples/github.html?username=opendata-swiss&repo=ogd-handbook-wiki&limit=5" allowtransparency="true" frameborder="0" width="100%" height="210" style="border:0px;overflow:hidden" scrolling="no"></iframe>

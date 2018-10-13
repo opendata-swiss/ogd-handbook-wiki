@@ -20,10 +20,14 @@ Before you begin editing, please check the [list of open issues](https://github.
 
 ![Starting a pull request](../../images/newpullrequest.png)
 
-<iframe src="/theme/examples/github.html?username=opendata-swiss&repo=ogd-handbook-wiki&limit=5" allowtransparency="true" frameborder="0" width="100%" height="210" style="border:0px;overflow:hidden" scrolling="no"></iframe>
-
 ## Support
 
 - Further information on GitHub can be found on the [GitHub Help](https://help.github.com/) page.
 - An explanation of the Markdown programming language can be found [here](http://en.support.wordpress.com/markdown-quick-reference/).
 - [Contact us](mailto:opendata@bar.admin.ch) if you require further assistance.
+
+## Latest updates
+
+Below you can see a live record of additions and changes from GitHub:
+
+<iframe src="/theme/examples/github.html?username=opendata-swiss&repo=ogd-handbook-wiki&limit=5" allowtransparency="true" frameborder="0" width="100%" height="210" style="border:0px;overflow:hidden" scrolling="no"></iframe>
