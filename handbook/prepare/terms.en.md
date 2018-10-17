@@ -8,10 +8,9 @@ Slug: terms
 Authors:
 Lang: en
 Draft: yes
-Summary: As explained in the “Preliminary legal checks” section, there is normally a legal framework setting out the conditions under which a dataset from the public administration can be used.
+Summary: As explained in the “Preliminary legal checks” section, there is normally a legal framework setting out the conditions under which a dataset from the public administration can be used. Laws and ordinances are often difficult for users of the data to understand. The large number of laws also means it is far from simple to maintain an overview.
 ---
 
-Laws and ordinances are often difficult for users of the data to understand. The large number of laws also means it is far from simple to maintain an overview.
 
 For this reason, “[terms of use](https://opendata.swiss/en/terms-of-use/)” are displayed for every dataset on opendata.swiss. Using a small number of symbols and sentences, these explain what a dataset can be used for. They translate the applicable legal framework into a standardized language that users can understand. As an authority publishing data, you must therefore select a set of terms of use that correctly reflects your legal framework before publishing your data on opendata.swiss.
 

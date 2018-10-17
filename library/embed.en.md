@@ -1,34 +1,36 @@
 ---
-Title: Analysis of options for embedding datasets from opendata.swiss
+Title: Embedding datasets from opendata.swiss
 Category: Library
 Template: document
 Tags: support
 Date: 2016-12-19
 Slug: embed
 Authors: Oleg Lavrovsky
-Summary: This working document analyses the embedding capabilities of CKAN portals such as opendata.swiss, in order to present and discuss options for sharing rich content on third-party sites.
+Summary: This document describes some of the embedding capabilities of CKAN portals such as opendata.swiss, in order to present and discuss options for sharing rich content on third-party sites.
 Lang: en
 Draft: yes
 toc_run: true
 ---
 
-This document discusses a range of technical options for embedding content from the CKAN open data platform on third party websites. Some data publishers may like to present datasets they have published at *opendata.swiss* on their own website. Several of the publishing institutions even have data portals on which they may like to feature any datasets which they maintain on the central catalog, even integrating this with other information on the website.
+A range of technical options are described here for embedding content from the CKAN open data platform on third party websites. Some data publishers may like to present datasets they have published at *opendata.swiss* on their own website. Several of the publishing institutions even have data portals on which they may like to feature any datasets which they maintain on the central catalog, even integrating this with other information on the website.
 
-Goals of embedding content from the portal could include:
+Why embed data from the portal instead of copy-pasting or just linking?
 
-- That datasets should be well presented, the information accurate and up-to-date - in other words, where a copy-and-paste of the information is insufficient.
-- Ability to show on their own website a dynamic selection from the central catalog. For instance, filtered to only include datasets owned by the organization.
-- Options covered here should cater to all platforms and a range of technical skills required.
+- In order that datasets are well presented, their descriptions accurate and up-to-date.
+- To show a dynamic selection from the catalog, based on a tag or search query, or even to show all datasets belonging to an organization.
 
-We describe several options here - from linking to resources from the catalog, to embedding parts of the functionality from the portal on other websites. Our current recommendation at this time is to use the first option (Widget), as illustrated here:
+We describe several options here - from linking to resources from the catalog, to embedding parts of the functionality from the portal on other websites. Our current recommendation at this time is to use the [ckan-embed widget](#widget), which can be configured here.
 
-![](../../images/embed-architecture.png)
+<iframe src="/theme/examples/embed.html" width="100%" height="420" style="border:0px;overflow:hidden" scrolling="no"></iframe>
 
+<a name="widget"></a>
 ## Widget
 
 Similar to the rich media widgets from Twitter and other websites, a script can be added to pages which loads remote content using JavaScript. It is possible to provide users with a code snippet that could be configured according to their needs. This provides a richer experience for users, but requires some technical knowledge of HTML, CSS and JavaScript.
 
 The [ckan.js](https://github.com/okfn/ckan.js) project from Open Knowledge is a JavaScript library that can be used to connect to CKAN from within the browser. In order to overcome Cross-origin resource sharing (CORS) restrictions, a backend service would ideally be hosted on the same machine as the scripts. This could just be a proxy to the data portal.
+
+> ![Architecture diagram](../../images/embed-architecture.png)
 
 We have developed a [JavaScript widget](https://github.com/opendata-swiss/ckan-embed) based on `ckan.js` which displays the same information about datasets as the standard search. It uses the [CKAN API](http://docs.ckan.org/en/latest/api/) to run search queries, and renders the result into the Web page. Our solution is similar to the [CKAN Data Viewer](http://docs.ckan.org/en/latest/maintaining/data-viewer.html), a feature that already has resource embedding built in, and the ability to white-list sites where this may be deployed using a `resource proxy` configuration option.
 
@@ -36,11 +38,11 @@ Note that due to lack of CORS support, we provided an option to use JSONP to mit
 
 Here is an example of how a search result from *opendata.swiss* appears in this widget:
 
-![](../../images/embed-widget.png)
+![Example search result](../../images/embed-widget.png)
 
 This is made by adding the following code to the page, for example to query the portal for "statistik" as a search term:
 
-```
+```html
 <div id="opendata-swiss">
   Loading datasets ...
 </div>
@@ -53,11 +55,27 @@ You may wish to link to the portal itself in the loading message, in case there 
 
 It is also possible to use filter queries to limit results to a specific facets - such as group (`groups:energy`, for example), tags (`tags:energie`) or organization (`organization:schweizerische-nationalbibliothek-nb`). For example, this code fetches the top 3 datasets published by the National Library, linking to the german-language portal (`lang:'de'`):
 
-```
+```javascript
 ck.datasets('#opendata-swiss', 'https://opendata.swiss/', {
   fq:       'organization:schweizerische-nationalbibliothek-nb',
   lang:     'de',
   rows:     3
+});
+```
+
+In order to customize the presentation of the widget, you can use a custom template, for example like this code which fetches the most recently updated datasets:
+
+```javascript
+ck.datasets('#ckanEmbed', 'https://opendata.swiss/de/', {
+  fq:       '    ',
+  template: _.template(
+      '<div class="ckan-dataset">' +
+      '<a href="<%= ds.url %>"><h4 style="display:inline"><%= ds.title %></h4></a>' +
+      '<small class="ckan-fmt"> (<%= ds.formats.toUpperCase() %>)</small>' +
+      '<p><%= dso.publishers[0].label %></p>' +
+      '</div>'
+    ),
+  rows: 5
 });
 ```
 
@@ -82,7 +100,7 @@ Standards like the [Open Graph protocol](http://ogp.me) and [oEmbed](http://oemb
 
 Here is an example of how a dataset renders through Open Graph support from two CKAN portals when the links are posted in a Discourse forum:
 
-![](../../images/embed-opengraph.png)
+![Example from OpenGraph](../../images/embed-opengraph.png)
 
 This option would not allow search and other interactivity, but could provide a basis for it (further discussion in the next option). Initially, it would make it easy for content owners to use their own existing platforms to present the datasets in a nice way just by linking to the individual datasets.
 

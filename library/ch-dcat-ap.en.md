@@ -358,6 +358,8 @@ Example:
 </dct.spatial>
 ```
 
+See also: [How should dct:spatial and dct:Location be used?](https://joinup.ec.europa.eu/release/how-should-dctspatial-and-dctlocation-be-used)
+
 ##### `dcat:coverage`
 
 |             |             |

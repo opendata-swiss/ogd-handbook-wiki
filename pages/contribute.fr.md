@@ -27,3 +27,9 @@ Si ce n’est pas le cas, procédez comme suit:
 - Pour de plus amples informations concernant GitHub, [consultez l’aide](https://help.github.com/).
 - Le langage de programmation Markdown est [présenté ici](http://en.support.wordpress.com/markdown-quick-reference/).
 - N’hésitez pas de [nous contacter](mailto:opendata@bar.admin.ch) si vous avez besoin d’aide.
+
+## Dernières mises à jour
+
+Ci-dessous vous pouvez voir les dernières ajouts et changements dans GitHub:
+
+<iframe src="/theme/examples/github.html?username=opendata-swiss&repo=ogd-handbook-wiki&limit=5" allowtransparency="true" frameborder="0" width="100%" height="210" style="border:0px;overflow:hidden" scrolling="no"></iframe>

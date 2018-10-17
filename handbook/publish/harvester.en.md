@@ -8,14 +8,10 @@ Slug: harvester
 Authors:
 Lang: en
 Draft: yes
-toc_run: true
-Summary: Harvesters are an easy way to publish large numbers of datasets. The only requirement is to have metadata available in the DCAT-AP Switzerland format via a URL.
+toc_run: false
+Summary: Harvesters are an easy way to publish large numbers of datasets. The only requirement is to have metadata available in the DCAT-AP Switzerland format via a URL. If you have a rather large amount of datasets (>= 100), you can use our harvesters to automatically update them at regular intervals.
 ---
 
-<a name="harvester"></a>
-# Harvester
-
-If you have a rather large amount of datasets (>= 100), you can use our harvesters to automatically update them at regular intervals.
 
 All metadata must be available in the [DCAT-AP Switzerland format](/en/library/ch-dcat-ap). You must provide a catalog as an RDF file ([see the example](/samples/ogdch_dcatap_import.rdf) for reference).
 
@@ -56,4 +52,3 @@ Example:
     <hydra:previousPage>http://opendata.swiss/catalog.xml?page=2</hydra:previousPage>
   </hydra:PagedCollection>
 ```
-

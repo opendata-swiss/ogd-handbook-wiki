@@ -1,7 +1,7 @@
 ---
 Title: Nutzung des APIs (Schnittstelle)
-Category: Support
-Handbook: yes
+Category: Library
+Template: document
 Tags:
 Date: 2016-01-01
 Slug: api
