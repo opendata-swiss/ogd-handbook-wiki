@@ -47,7 +47,7 @@ All of these options can be further combined together, e.g. [`organization:(kant
 
 <a name="searchterm-suggestions"></a>
 ## Searchterm suggestions
-The search-field of opendata.swiss provides searchterm-suggestions when a user types into it. For each language a self-contained Solr index is built multiple times throughout the day. That means that changes to datasets or new data won't be reflected in the search immediately. 
+The search-field of opendata.swiss provides searchterm-suggestions when a user types into it. For each language a self-contained Solr index is built multiple times throughout the day. That means that changes to datasets or new data won't be reflected in the suggestions immediately. 
 
 The index is based on the following fields:
 
