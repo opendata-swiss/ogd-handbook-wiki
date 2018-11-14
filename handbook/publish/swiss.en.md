@@ -46,6 +46,7 @@ Prepare the data and metadata:
 
 #### MIME-Type Mapping
 To retrieve the format that is displayed on the portal, following values will be checked in following order:
+
 1. File Extension of `dcat:downloadURL`
 2. Value of `dct:mediaType`
 3. Value of `dct:format`
