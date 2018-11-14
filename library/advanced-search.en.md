@@ -35,7 +35,7 @@ So if a user submits a search with the query "weather", Solr runs this query aga
 Solr has its own [query syntax](http://lucene.apache.org/core/3_6_0/queryparsersyntax.html) to write complex queries.
 Depending on the query, Solr uses a different query parser to determine what to do.
 
-<a name="query-syntax"></a>
+<a name="search-operators"></a>
 ## Search operators
 
 * Use +_{field}_:_{value}_ to include a search term, e.g. [`+title_en:power`](https://opendata.swiss/en/dataset?q=title_en%3Apower) to find all datasets, whose English title contains the word "power"
