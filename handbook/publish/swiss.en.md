@@ -85,7 +85,7 @@ If a preview is not possible, an error message appears after 5 seconds.
 
 * **Tabular Data**: see below
 * **Text**: HTML, XML, JSON
-* **Sonstige**: PDF
+* **Other**: PDF
 
 ### Restrictions
 
