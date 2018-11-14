@@ -106,7 +106,7 @@ The Xloader will always try to load tabular data into the DataStore. Ressources 
 	* ods
 	* application/vnd.oasis.opendocument.spreadsheet
 * Supported Delimiters: `,`
-* The size of the file has to be smaller than 20mb
+* The size of the file has to be smaller than 20MB
 * Duplicate column-names are not supported
 * Empty headers are not supported
 * Invalid data is not supported, e.g. a numeric value that is out of range or that is inserted into a text field
