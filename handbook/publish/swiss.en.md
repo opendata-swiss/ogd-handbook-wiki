@@ -116,7 +116,7 @@ If the Xloader fails, a second attempt via MessyTables will be started:
 
 ### Triggers for preview creation
 * **Automatic**: when a dataset is updated (= updated via Harvester or Wordpress), all its resources are checked for changes. If all requirements are met (supported formats, file is available, etc.), the system tries to create views for all its resources 
-* **Manual**: Liip developers can submit all datasets to the system to try to create views
+* **Manual**: it's possible to submit all or some datasets to the system to try to create views, contact the support for help.
 
 ## Importing the metadata
 
