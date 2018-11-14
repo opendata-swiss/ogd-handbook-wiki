@@ -74,6 +74,49 @@ The value retrieved will be mapped as follows:
 | png         | PNG       |
 | other values| N/A       |
 
+## Resource Previews
+Whenever possible, a preview of the data is displayed on each resource pages. This helps users to evaluate whether the dataset fits their need without having to download it first. 
+
+If a preview is not possible, an error message appears after 5 seconds. 
+
+![Example of a CSV-Preview](../../images/example-csv-preview.png)
+
+### Supported Formats
+
+* **Tabular Data**: see below
+* **Text**: HTML, XML, JSON
+* **Sonstige**: PDF
+
+### Restrictions
+
+* File needs to be available
+* The size of the file has to be smaller than 20mb
+
+### Tabular data
+The Xloader will always try to load tabular data into the DataStore. Ressources will be queued and then uploaded into DataStore asynchronously. Following requirements and restrictions apply:
+
+* The format of the resource has to be one of:
+	* csv
+	* application/csv
+	* xls
+	* xlsx
+	* tsv
+	* application/vnd.ms-excel
+	* application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+	* ods
+	* application/vnd.oasis.opendocument.spreadsheet
+* Supported Delimiters: `,`
+* The size of the file has to be smaller than 20mb
+* Duplicate column-names are not supported
+* Empty headers are not supported
+* Invalid data is not supported, e.g. a numeric value that is out of range or that is inserted into a text field
+
+If the Xloader fails, a second attempt via MessyTables will be started:
+* messytables is more accepting and tries to guess types and can sometimes also import files with missing headers or empty columns
+
+### Triggers for preview creation
+* **Automatic**: when a dataset is updated (= updated via Harvester or Wordpress), all its resources are checked for changes. If all requirements are met (supported formats, file is available, etc.), the system tries to create views for all its resources 
+* **Manual**: Liip developers can submit all datasets to the system to try to create views
 
 ## Importing the metadata
 
