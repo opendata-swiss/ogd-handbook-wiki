@@ -90,7 +90,7 @@ If a preview is not possible, an error message appears after 5 seconds.
 ### Restrictions
 
 * File needs to be available
-* The size of the file has to be smaller than 20mb
+* The size of the file has to be smaller than 20MB
 
 ### Tabular data
 The Xloader will always try to load tabular data into the DataStore. Ressources will be queued and then uploaded into DataStore asynchronously. Following requirements and restrictions apply:
