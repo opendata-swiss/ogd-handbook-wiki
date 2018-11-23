@@ -4,12 +4,10 @@ Category: Library
 Template: document
 Tags:
 Date: 2016-01-01
-Slug: api
+Slug: ckan-api
 Authors:
 Summary: A description of the CKAN API
 Lang: en
-Draft: no
-Hidden: no
 Untranslated: yes
 toc_run: true
 ---
