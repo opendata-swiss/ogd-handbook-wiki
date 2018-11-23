@@ -116,7 +116,7 @@ Example:
 | Type        | `rdfs:Literal` http://www.w3.org/TR/rdf-schema/#ch_literal |
 | Mandatory   | yes         |
 | Cardinality | 1..1        |
-| Description | Unique identifier of the dataset across all publishers. A good way to make sure this identifier is unique is to link the source system ID with the ID of the publisher: `[Source-Dataset-ID]@[Source-Organisation-ID]` |
+| Description | Unique identifier of the dataset across all publishers. A good way to make sure this identifier is unique is to link the source system ID with the ID of the publisher: `[Source-Dataset-ID]@[Source-Organisation-ID]`. It is recommended that the identifier consists out of the following characters: `A-Za-z`, `0-9` without special characters, except `-` and `_` |
 
 Example:
 ```xml
