@@ -35,7 +35,7 @@ So if a user submits a search with the query "weather", Solr runs this query aga
 Solr has its own [query syntax](http://lucene.apache.org/core/3_6_0/queryparsersyntax.html) to write complex queries.
 Depending on the query, Solr uses a different query parser to determine what to do.
 
-<a name="query-syntax"></a>
+<a name="search-operators"></a>
 ## Search operators
 
 * Use +_{field}_:_{value}_ to include a search term, e.g. [`+title_en:power`](https://opendata.swiss/en/dataset?q=title_en%3Apower) to find all datasets, whose English title contains the word "power"
@@ -44,3 +44,21 @@ Depending on the query, Solr uses a different query parser to determine what to 
 * Use `OR` to combine several search terms, where one of them must match, e.g. [`organization:(kanton-thurgau OR stadt-zurich)`](https://opendata.swiss/en/dataset?q=organization%3A%28kanton-thurgau+OR+stadt-zurich%29)
 
 All of these options can be further combined together, e.g. [`organization:(kanton-thurgau OR stadt-zurich) karte`](https://opendata.swiss/en/dataset?q=organization%3A%28kanton-thurgau+OR+stadt-zurich%29+karte)
+
+<a name="searchterm-suggestions"></a>
+## Searchterm suggestions
+The search-field of opendata.swiss provides searchterm-suggestions when a user types into it. For each language a self-contained Solr index is built multiple times throughout the day. That means that changes to datasets or new data won't be reflected in the suggestions immediately. 
+
+The index is based on the following fields:
+
+* `dataset-title` (translated)
+* `keywords` (translated)
+* `groups` (translated)
+* `organization` (translated)
+* `distribution-name` (translated)
+* `author`
+* `maintainer`
+* `contact_points`
+* `publishers`
+* `identifier`
+* `distribution-format`
