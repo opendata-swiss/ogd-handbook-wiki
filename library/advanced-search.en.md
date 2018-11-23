@@ -29,6 +29,52 @@ The same applies to the multilingual fields, which are all stored with the langu
 By default, all the fields that belong to a dataset are copied in one field (called _"text"_), so that the search process only has to check one field to find a match.
 So if a user submits a search with the query "weather", Solr runs this query against the _"text"_ field of all datasets.
 
+<a name="search-index"></a>
+## Search Index
+To build the search index, various fields will be queried. On those fields, depending on the recommendation of the language, a set of filters and rules will be applied on how the search-terms will be saved.
+In general, following fields will be indexed:
+
+URLs:
+* `url`
+* `ckan_url`
+* `download_url`
+* `res_url`
+
+Text-fields:
+* `extras_*`
+* `res_extras_*`
+* `urls`
+* `name`
+* `title`
+* `title_string`
+* `text`
+* `license`
+* `notes`
+* `tags`
+* `groups`
+* `organization`
+* `res_name`
+* `res_format`
+* `res_description`
+* `identifier`
+* `see_alsos`
+* `maintainer`
+* `author`
+* `publishers`
+* `contact_points`
+
+Translated fields:
+* `title`
+* `keywords`
+* `groups`
+* `organization`
+* `res_name`
+* `res_description`
+
+More detailed information can be found in the config-fields for SOLR which can be found here:
+* [solrconfig.xml](https://github.com/opendata-swiss/ckanext-switzerland/blob/master/solr/solrconfig.xml)
+* [schema.xml](https://github.com/opendata-swiss/ckanext-switzerland/blob/master/solr/schema.xml)
+
 <a name="query-syntax"></a>
 ## Query syntax
 
