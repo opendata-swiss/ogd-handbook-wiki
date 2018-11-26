@@ -70,7 +70,7 @@ Translated fields:
 * `res_name`
 * `res_description`
 
-More detailed information can be found in the config-fields for Solr which can be found here and in the [official Solr documentation](https://lucene.apache.org/solr/guide/6_6/index.html):
+Find more detailed information about the Solr configuration in the [official Solr documentation](https://lucene.apache.org/solr/guide/6_6/index.html). The config and schema of opendata.swiss is available on GitHub:
 * [solrconfig.xml](https://github.com/opendata-swiss/ckanext-switzerland/blob/master/solr/solrconfig.xml)
 * [schema.xml](https://github.com/opendata-swiss/ckanext-switzerland/blob/master/solr/schema.xml)
 
