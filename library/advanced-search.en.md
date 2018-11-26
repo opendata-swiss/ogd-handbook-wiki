@@ -74,7 +74,7 @@ Find more detailed information about the Solr configuration in the [official Sol
 * [solrconfig.xml](https://github.com/opendata-swiss/ckanext-switzerland/blob/master/solr/solrconfig.xml)
 * [schema.xml](https://github.com/opendata-swiss/ckanext-switzerland/blob/master/solr/schema.xml)
 
-The source of the referenced files in the `solr.xml` (e.g. `italian_stop.txt`, `fr_elision.txt`, etc.) can be found in the official CKAN-Repository of the current CKAN-Version on Github [Solr-Folder in CKAN-Repository](https://github.com/ckan/ckan/tree/master/ckanext/multilingual/solr). All files that can not be found in this folder (e.g. `stopwords.txt`) are the default-files provided by Solr.
+The source of the referenced files in the `solr.xml` (e.g. `italian_stop.txt`, `fr_elision.txt`, etc.) can be found in the official CKAN-Repository of the current [CKAN-Version on Github](https://github.com/ckan/ckan/tree/master/ckanext/multilingual/solr). All other files (e.g. `stopwords.txt`) are provided by Solr.
 
 <a name="query-syntax"></a>
 ## Query syntax
