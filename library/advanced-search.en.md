@@ -31,8 +31,7 @@ So if a user submits a search with the query "weather", Solr runs this query aga
 
 <a name="search-index"></a>
 ## Search Index
-To build the search index, various fields will be queried. On those fields, depending on the recommendation of the language, a set of filters and rules will be applied on how the search-terms will be saved.
-In general, following fields will be indexed:
+To build the search index, various fields will be queried. In general, following fields will be indexed:
 
 URLs:
 * `url`
@@ -71,9 +70,11 @@ Translated fields:
 * `res_name`
 * `res_description`
 
-More detailed information can be found in the config-fields for SOLR which can be found here:
+More detailed information can be found in the config-fields for Solr which can be found here and in the [official Solr documentation](https://lucene.apache.org/solr/guide/6_6/index.html):
 * [solrconfig.xml](https://github.com/opendata-swiss/ckanext-switzerland/blob/master/solr/solrconfig.xml)
 * [schema.xml](https://github.com/opendata-swiss/ckanext-switzerland/blob/master/solr/schema.xml)
+
+The source of the referenced files in the `solr.xml` (e.g. `italian_stop.txt`, `fr_elision.txt`, etc.) can be found in the official CKAN-Repository of the current CKAN-Version on Github [Solr-Folder in CKAN-Repository](https://github.com/ckan/ckan/tree/master/ckanext/multilingual/solr). All files that can not be found in this folder (e.g. `stopwords.txt`) are the default-files provided by Solr.
 
 <a name="query-syntax"></a>
 ## Query syntax
