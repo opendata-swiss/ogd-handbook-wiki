@@ -31,7 +31,7 @@ So if a user submits a search with the query "weather", Solr runs this query aga
 
 <a name="search-index"></a>
 ## Search Index
-To build the search index, various fields will be queried. In general, following fields will be indexed:
+The search index contains the following fields:
 
 URLs:
 * `url`
