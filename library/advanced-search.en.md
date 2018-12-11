@@ -29,6 +29,53 @@ The same applies to the multilingual fields, which are all stored with the langu
 By default, all the fields that belong to a dataset are copied in one field (called _"text"_), so that the search process only has to check one field to find a match.
 So if a user submits a search with the query "weather", Solr runs this query against the _"text"_ field of all datasets.
 
+<a name="search-index"></a>
+## Search Index
+The search index contains the following fields:
+
+URLs:
+* `url`
+* `ckan_url`
+* `download_url`
+* `res_url`
+
+Text-fields:
+* `extras_*`
+* `res_extras_*`
+* `urls`
+* `name`
+* `title`
+* `title_string`
+* `text`
+* `license`
+* `notes`
+* `tags`
+* `groups`
+* `organization`
+* `res_name`
+* `res_format`
+* `res_description`
+* `identifier`
+* `see_alsos`
+* `maintainer`
+* `author`
+* `publishers`
+* `contact_points`
+
+Translated fields:
+* `title`
+* `keywords`
+* `groups`
+* `organization`
+* `res_name`
+* `res_description`
+
+Find more detailed information about the Solr configuration in the [official Solr documentation](https://lucene.apache.org/solr/guide/6_6/index.html). The config and schema of opendata.swiss is available on GitHub:
+* [solrconfig.xml](https://github.com/opendata-swiss/ckanext-switzerland/blob/master/solr/solrconfig.xml)
+* [schema.xml](https://github.com/opendata-swiss/ckanext-switzerland/blob/master/solr/schema.xml)
+
+The source of the referenced files in the `solr.xml` (e.g. `italian_stop.txt`, `fr_elision.txt`, etc.) can be found in the official CKAN-Repository of the current [CKAN-Version on Github](https://github.com/ckan/ckan/tree/master/ckanext/multilingual/solr). All other files (e.g. `stopwords.txt`) are provided by Solr.
+
 <a name="query-syntax"></a>
 ## Query syntax
 
