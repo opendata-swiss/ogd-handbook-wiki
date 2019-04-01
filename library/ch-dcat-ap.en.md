@@ -208,7 +208,7 @@ Example:
 Example:
 ```xml
 <dct:publisher>
-    <rdf:Description rdf:about="Reference of publisher">
+    <rdf:Description rdf:about="https://www.bafu.admin.ch/">
         <rdfs:label>Bundesamt für Landestopografie swisstopo</rdfs:label>
     </rdf:Description>
 </dct:publisher>
