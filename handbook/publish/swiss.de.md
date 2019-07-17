@@ -38,13 +38,13 @@ Daten und Metadaten vorbereiten:
 
 > ### Empfehlungen Dateiformate
 
-> _Grundsätzlich steht es Ihnen frei, in welchem Dateiformat Sie Ihre Daten auf opendata.swiss zur Verfügung stellen wollen. Das Bundesarchiv empfiehlt jedoch, sich an die im Dokument [Empfehlung Dateiformate](/de/library/empfehlungen-formate) angegebenen Formate zu halten._
+> _Grundsätzlich steht es Ihnen frei, in welchem Dateiformat Sie Ihre Daten auf opendata.swiss zur Verfügung stellen wollen. e ist jedoch empfohlen, sich an die im Dokument [Empfehlung Dateiformate](/de/library/empfehlungen-formate) angegebenen Formate zu halten._
 
 - Falls nötig, Qualitätssicherung der Daten durchführen
 
 ## Metadaten-Import durchführen
 
-Damit Sie die Metadaten auf opendata.swiss erfassen können, muss das Bundesarchiv Ihre Organisation im System erstellen. [Melden Sie sich](mailto:opendata@bar.admin.ch), falls ihre Organisation bisher noch keine Daten auf dem Portal publiziert. Anschliessend sind insbesondere folgende Punkte zu beachten:
+Damit Sie die Metadaten auf opendata.swiss erfassen können, muss das Portalteam Ihre Organisation im System erstellen. [Melden Sie sich](https://opendata.swiss/de/contact/), falls ihre Organisation bisher noch keine Daten auf dem Portal publiziert. Anschliessend sind insbesondere folgende Punkte zu beachten:
 
 - Machen Sie sich mit der Benutzeroberfläche bzw. den DCAT-AP Felder vertraut. Ausführliche Informationen zum System liefert [das Benutzerhandbuch von opendata.swiss](/de/library/opendataswiss-userguide).
 - Erfassen Sie die Metadaten. Dafür sind die im [DCAT-AP Standard](/de/library/ch-dcat-ap) definierte Felder auszufüllen (hier ist die ausgewählte [Publikationsvariante](/de/publish/options) massgebend).
@@ -52,9 +52,9 @@ Damit Sie die Metadaten auf opendata.swiss erfassen können, muss das Bundesarch
 
 ## Live-Schaltung
 
-Das Bundesarchiv und der Datenlieferant stellen gemeinsam sicher, dass alle Daten, Metadaten und Beschreibungen in der Test-Umgebung korrekt dargestellt werden.
+Das Portalteam und der Datenlieferant stellen gemeinsam sicher, dass alle Daten, Metadaten und Beschreibungen in der Test-Umgebung korrekt dargestellt werden.
 
-Nachdem Sie Ihr Einverständnis gegeben haben, schaltet das Bundesarchiv die Daten online.
+Nachdem Sie Ihr Einverständnis gegeben haben, werden die Daten online geschaltet.
 
 <a name="geoadmin"></a>
 # Publikation von Geodaten

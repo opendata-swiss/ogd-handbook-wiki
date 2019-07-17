@@ -16,7 +16,7 @@ Before you begin editing, please check the [list of open issues](https://github.
 2. Return to the [OGD Handbook](http://handbook.opendata.swiss/) and click on “Edit” on the page you wish to change.  
 3. Make your changes, using either the simple editor or the Markdown programming language. Please note the changes you have made in the form at the bottom of the page.  
 4. When you are satisfied with your changes, click on “new pull request”. Your changes will now be saved as a new version of the page – referred to in GitHub as a “fork”.
-5. The Federal Archives will now review your changes. You will be notified by e-mail as soon as your version is online. 
+5. We will now review your changes. You will be notified by e-mail as soon as your version is online. 
 
 ![Starting a pull request](../../images/newpullrequest.png)
 

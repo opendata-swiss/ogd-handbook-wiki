@@ -18,7 +18,7 @@ Ist das nicht der Fall, gehen Sie wie folgt vor:
 2. Gehen Sie zurück auf das [OGD-Handbuch](http://handbook.opendata.swiss/) und klicken Sie auf der Seite, die Sie verändern möchten, auf „Editieren“.  
 3. Nehmen Sie Ihre Änderungen vor. Ihnen stehen dafür ein einfacher Editor oder die Programmiersprache Markdown zur Verfügung. Schreiben Sie bitte in das Formular unten auf der Seite, was Sie geändert haben.  
 4. Wenn Sie mit Ihren Änderungen zufrieden sind, klicken Sie auf «new pull request». Ihre Änderungen werden nun als neue Version der Seite – in GitHub «fork» genannt – gespeichert.
-5. Das Bundesarchiv prüft nun Ihre Änderungen. Sie werden via E-Mail benachrichtigt, sobald Ihre Version online ist. 
+5. Wir prüfen nun Ihre Änderungen. Sie werden via E-Mail benachrichtigt, sobald Ihre Version online ist. 
 
 ![Pull Request starten](../../images/newpullrequest.png)
 

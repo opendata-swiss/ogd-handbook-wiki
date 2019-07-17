@@ -9,7 +9,7 @@ Authors:
 Lang: en
 Draft: yes
 toc_run: true
-Summary: Once you have decided a publication route, you can start publishing open data. This is done in most cases directly on opendata.swiss. If you wish to publish geographic data, this happens via geo.admin.ch. Once you have selected your publication option, you need to upload the metadata to opendata.swiss.
+Summary: Once you have decided a publication route, you can start publishing open data. This is done in most cases directly on opendata.swiss. If you wish to publish geographic data, this happens via geo.admin.ch. Once you have selected your publication option, you need to upload the metadata.
 ---
 
 <a name="opendataswiss"></a>
@@ -40,9 +40,9 @@ Prepare the data and metadata:
 
 > ### Recommended data formats
 
-> Essentially, you can make your data available on opendata.swiss in any data format you choose. However, the Federal Archives recommend using one of the formats listed in [Recommendations for OGD Formats](/en/library/empfehlungen-formate).
+> Essentially, you can make your data available on opendata.swiss in any data format you choose. We encourage using one of the formats listed in [Recommendations for OGD Formats](/en/library/empfehlungen-formate).
 
-- If necessary, carry out a quality check of the data
+- If necessary, carry out a quality check of the data.
 
 #### MIME-Type Mapping
 To retrieve the format that is displayed on the portal, following values will be checked in following order:
@@ -75,9 +75,10 @@ The value retrieved will be mapped as follows:
 | other values| N/A       |
 
 ## Resource Previews
-Whenever possible, a preview of the data is displayed on each resource pages. This helps users to evaluate whether the dataset fits their need without having to download it first. 
 
-If a preview is not possible, an error message appears after 5 seconds. 
+Whenever possible, a preview of the data is displayed on each resource pages. This helps users to evaluate whether the dataset fits their need without having to download it first.
+
+If a preview is not possible, an error message appears after 5 seconds.
 
 ![Example of a CSV-Preview](../../images/example-csv-preview.png)
 
@@ -115,12 +116,12 @@ If the Xloader fails, a second attempt via MessyTables will be started:
 * messytables is more accepting and tries to guess types and can sometimes also import files with missing headers or empty columns
 
 ### Triggers for preview creation
-* **Automatic**: when a dataset is updated (= updated via Harvester or Wordpress), all its resources are checked for changes. If all requirements are met (supported formats, file is available, etc.), the system tries to create views for all its resources 
+* **Automatic**: when a dataset is updated (= updated via Harvester or Wordpress), all its resources are checked for changes. If all requirements are met (supported formats, file is available, etc.), the system tries to create views for all its resources
 * **Manual**: it's possible to submit all or some datasets to the system to try to create views, contact the support for help.
 
 ## Importing the metadata
 
-Before you can import your metadata to opendata.swiss, the Federal Archives must enter your organization in the system. If your organization has not previously published data on the portal, please register by [contacting us](mailto:opendata@bar.admin.ch). You should then do the following:
+Before you can import your metadata to opendata.swiss, the portal team must enter your organization in the system. If your organization has not previously published data on the portal, please register by [contacting us](https://opendata.swiss/en/contact/). You should then do the following:
 
 - Familiarize yourself with the user interface and the DCAT-AP fields. Detailed information on the system can be found in the [opendata.swiss user handbook](/en/library/opendataswiss-userguide).
 - Enter the metadata, completing the fields defined in the [DCAT-AP standard](/en/library/ch-dcat-ap) (this will depend on the [publication option](/en/publish/options) chosen).

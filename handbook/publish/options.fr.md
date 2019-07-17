@@ -8,7 +8,7 @@ Slug: options
 Authors:
 Lang: fr
 Draft: yes
-Summary: Le portail opendata.swiss référence et administre exclusivement les métadonnées. Les données primaires et leur publication relèvent de la responsabilité des fournisseurs de données. Les Archives fédérales, qui administrent le portail, apportent leur soutien dans le cadre de la publication des données et coordonnent la procédure.
+Summary: Le portail opendata.swiss référence et administre exclusivement les métadonnées. Les données primaires et leur publication relèvent de la responsabilité des fournisseurs de données.
 ---
 
 Vous avez le choix entre quatre options techniques pour publier vos données sur opendata.swiss. Le tableau suivant vous aidera à déterminer quelle option est la plus adaptée pour votre organisation.
@@ -20,6 +20,6 @@ Vous avez le choix entre quatre options techniques pour publier vos données sur
 | grand nombre de jeux de données, mise à jour fréquente | [Option 3 – téléverser automatiquement les métadonnées à l’aide d’un «harvester»](/fr/publish/harvester) |
 | géodonnées, publiées sur [geo.admin.ch / Bundes Geodaten-Infrastruktur](http://www.geo.admin.ch/internet/geoportal/fr/home/geoadmin/mission/bgdi.html) BGDI ou qui vont l’être sous peu. | [Option 4 – téléverser automatiquement les métadonnées à l’aide d’un «geocat harvester»](/fr/publish/swiss.html#publication-a-travers-geoadminch_1) |
 
-La procédure de publication des données dépend de l’option choisie. Veuillez [contacter les Archives](mailto:opendata@bar.admin.ch) afin de déterminer avec l’aide de nos spécialistes quelle option est la plus adaptée à vos besoins.
+La procédure de publication des données dépend de l’option choisie. Veuillez contacter [les responsables du portail](https://opendata.swiss/fr/contact/) afin de déterminer avec l’aide de nos spécialistes quelle option est la plus adaptée à vos besoins.
 
 Une fois l’option choisie, vous devrez préparer les métadonnées selon le standard DCAT-AP.

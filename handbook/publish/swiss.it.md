@@ -38,13 +38,13 @@ Preparazione di dati e metadati
 
 > ### Formato dei file: raccomandazioni
 
-> _In linea di principio vige la massima libertà in merito al formato in cui si desidera mettere a disposizione i dati su opendata.swiss. L’Archivio federale raccomanda tuttavia di attenersi ai formati riportati nel documento [Raccomandazioni per OGD Formati](/it/library/empfehlungen-formate)._
+> _In linea di principio vige la massima libertà in merito al formato in cui si desidera mettere a disposizione i dati su opendata.swiss. Si raccomanda tuttavia di attenersi ai formati riportati nel documento [Raccomandazioni per OGD Formati](/it/library/empfehlungen-formate)._
 
 - Se necessario, svolgimento di prove atte a garantire la qualità dei dati.
 
 ## Importazione dei metadati
 
-Per poter registrare metadati su opendata.swiss, è necessario avere uno spazio specifico nel sistema dell’Archivio federale. Chi non avesse ancora pubblicato dati sul portale, deve [annunciarsi all’indirizzo](opendata@bar.admin.ch). Dopo di che, occorrerà in particolare:
+Per poter registrare metadati su opendata.swiss, è necessario avere uno spazio specifico nel sistema. Chi non avesse ancora pubblicato dati sul portale, deve [annunciarsi all’indirizzo](http://opendata.swiss/it/contact/). Dopo di che, occorrerà in particolare:
 
 - acquisire dimestichezza con l’interfaccia grafica e i campi DCAT-AP. Per informazioni dettagliate sul sistema, consultare [il manuale di opendata.swiss](/it/library/opendataswiss-userguide);
 - registrare i metadati compilando i campi definiti nello [standard DCAT-AP](/it/library/ch-dcat-ap) (fa stato [l’opzione di pubblicazione](/it/publish/options) scelta);
@@ -52,9 +52,9 @@ Per poter registrare metadati su opendata.swiss, è necessario avere uno spazio 
 
 ## Attivazione
 
-L’Archivio federale e il fornitore dei dati provvedono insieme a che tutti i dati, i metadati e le descrizioni siano riportati correttamente nell’ambiente di test.
+I responsabili del portale e il fornitore dei dati provvedono insieme a che tutti i dati, i metadati e le descrizioni siano riportati correttamente nell’ambiente di test.
 
-Una volta ottenuto il consenso, l’Archivio federale attiva i dati, che da quel momento sono consultabili in linea.
+Una volta ottenuto il consenso, i dati saranno attivati, che da quel momento sono consultabili in linea.
 
 <a name="geoadmin"></a>
 # Pubblicazione tramite geo.admin.ch
