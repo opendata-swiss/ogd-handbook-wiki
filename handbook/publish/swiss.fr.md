@@ -41,13 +41,13 @@ Préparation des données et des métadonnées:
 - Contrôler dans quel format ces jeux de données doivent être publiés.
 
 > ### Recommandations relatives aux formats des données
-Le choix du format dans lequel vous mettrez à disposition vos données sur opendata.swiss vous appartient. Les Archives fédérales vous recommandent toutefois de vous en tenir aux formats figurant dans le document [Recommendations de formats OGD](/fr/library/empfehlungen-formate).
+Le choix du format dans lequel vous mettrez à disposition vos données sur opendata.swiss vous appartient. Nous vous recommandons toutefois de vous en tenir aux formats figurant dans le document [Recommendations de formats OGD](/fr/library/empfehlungen-formate).
 
 - Contrôler, si nécessaire, la qualité des données
 
 ## Importation des métadonnées
 
-Avant que vous puissiez saisir les métadonnées sur opendata.swiss, les Archives fédérales doivent créer votre organisation dans le système. [Contactez nous](mailto:opendata@bar.admin.ch), si votre organisation n’a pas encore publié de données sur le portail. Mettez ensuite l’accent sur les points suivants:
+Avant que vous puissiez saisir les métadonnées sur opendata.swiss, l'équipe résponsable du portail doivent créer votre organisation dans le système. [Contactez nous](https://opendata.swiss/fr/contact/), si votre organisation n’a pas encore publié de données sur le portail. Mettez ensuite l’accent sur les points suivants:
 
 - Familiarisez-vous avec l’interface utilisateur et les champs DCAT-AP. Le fonctionnement d’opendata.swiss est décrit en détail dans le [manuel de l’utilisateur](/fr/library/opendataswiss-userguide).
 - Saisissez les métadonnées en complétant les champs définis selon le [standard DCAT-AP](/fr/library/ch-dcat-ap) (les champs à compléter dépendent du [mode de publication](/fr/publish/options) choisi).
@@ -55,7 +55,7 @@ Avant que vous puissiez saisir les métadonnées sur opendata.swiss, les Archive
 
 ## Mise en ligne
 
-Les Archives fédérales et le fournisseur des données s’attachent à vérifier que toutes les données, métadonnées et descriptions soient présentées correctement dans l’environnement de test.
+L'équipe du portail et le fournisseur des données s’attachent à vérifier que toutes les données, métadonnées et descriptions soient présentées correctement dans l’environnement de test.
 
 Une fois que vous avez donné le feu vert, les Archives fédérales mettent vos données en ligne.
 

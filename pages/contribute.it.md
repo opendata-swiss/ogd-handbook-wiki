@@ -16,7 +16,7 @@ Prima di iniziare, occorre verificare nella [lista delle domande pendenti](https
 2. Tornare al [manuale OGD e](http://handbook.opendata.swiss/), sulla pagina che si desidera modificare, cliccare su «Modifica».
 3. Apportare le modifiche per mezzo di un semplice programma di elaborazione testi o del linguaggio di programmazione Markdown, segnalando i cambiamenti effettuati nel modulo in fondo alla pagina.
 4. Una volta soddisfatti del risultato, cliccare su «New pull request». Le modifiche vengono salvate come nuova versione della pagina, chiamata «fork» in GitHub.
-5. L’Archivio federale esamina le modifiche e invia una comunicazione via e-mail non appena la nuova versione è on-line.
+5. Ora esamineremo i vostri cambiamenti, e invia una comunicazione via e-mail non appena la nuova versione è on-line.
 
 ![Starting a pull request](../../images/newpullrequest.png)
 
