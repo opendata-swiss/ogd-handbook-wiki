@@ -59,4 +59,5 @@ Nachdem Sie Ihr Einverständnis gegeben haben, werden die Daten online geschalte
 <a name="geoadmin"></a>
 # Publikation von Geodaten
 
-Mehr Ressourcen dazu befinden sich [in unserem Bibliothek](/de/library/geodaten-publikation).
+Um Geodaten publizieren zu können, müssen die entsprechenden Metadaten im Schweizer Metadatenkatalog geocat.ch erfasst und publiziert werden.
+Informationen zum Ablauf und eine Anleitung zur Erfassung finden Sie unter https://www.geocat.admin.ch/de/dokumentation/opendata.html.
