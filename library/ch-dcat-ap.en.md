@@ -12,10 +12,6 @@ Link_RDF: /samples/ogdch_dcatap_import.rdf
 redirect_to: https://handbook.opendata.swiss/en/content/glossar/bibliothek/dcat-ap-ch.html
 ---
 
-<script type="text/javascript">
-  window.location.href = "https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html";
-</script>
-
 The ‹Open Government Data› project organisation have worked out a joint solution for metadata. The portal opendata.swiss implements these standards - see [Publish on opendata.swiss](/en/publish/opendata-swiss).
 
 Have a look at the following file for a quickstart: [full dataset example](/samples/ogdch_dcatap_import.rdf) (RDF)
