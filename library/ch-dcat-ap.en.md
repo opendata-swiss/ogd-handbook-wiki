@@ -9,6 +9,7 @@ Summary:
 Lang: en
 toc_run: true
 Link_RDF: /samples/ogdch_dcatap_import.rdf
+redirect_to: https://handbook.opendata.swiss/en/content/glossar/bibliothek/dcat-ap-ch.html
 ---
 
 <script type="text/javascript">
